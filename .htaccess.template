@@ -85,3 +85,8 @@
     ExpiresByType application/font-woff2 A31536000
     ExpiresByType application/zip A31536000
 </IfModule>
+
+# Disable Cache
+<IfModule mod_headers.c>
+  Header set Cache-Control "private"
+</IfModule>
