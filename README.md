@@ -1,6 +1,6 @@
 # Growmodo Hub (growmodo_hub)
 
-Growmodo, GmbH
+Client Portal for Growmodo, GmbH
 
 APP Live:
 https://hub.growmodo.com
