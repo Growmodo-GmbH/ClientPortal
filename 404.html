@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= productName %></title>
-
+    <title>Growmodo Hub</title>
     <meta charset="utf-8" />
-    <meta name="description" content="<%= productDescription %>" />
+    <meta name="description" content="Growmodo, GmbH" />
     <meta name="format-detection" content="telephone=no" />
     <meta name="msapplication-tap-highlight" content="no" />
     <meta
@@ -12,10 +11,24 @@
       content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width<% if (ctx.mode.cordova || ctx.mode.capacitor) { %>, viewport-fit=cover<% } %>"
     />
     <link rel="icon" type="image/ico" href="favicon.ico" />
-    <!-- 404 Single Page Apps for GitHub Pages -->
-    <!-- prettier-ignore -->
-    <script>var pathSegmentsToKeep = 0; var l = window.location; l.replace(l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') + l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' + l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') + (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') + l.hash);</script>
-    <!-- End 404 Single Page Apps for GitHub Pages -->
+    <script>
+      var pathSegmentsToKeep = 0
+      var l = window.location
+      l.replace(
+        l.protocol +
+          '//' +
+          l.hostname +
+          (l.port ? ':' + l.port : '') +
+          l.pathname
+            .split('/')
+            .slice(0, 1 + pathSegmentsToKeep)
+            .join('/') +
+          '/?/' +
+          l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+          (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+          l.hash
+      )
+    </script>
   </head>
   <body>
     <noscript>Javascript is required to run this app!</noscript>
