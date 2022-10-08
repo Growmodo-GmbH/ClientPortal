@@ -14,7 +14,7 @@
     <script>
       var pathSegmentsToKeep = 0
       var l = window.location
-      var n =
+      l.href =
         l.protocol +
         '//' +
         l.hostname +
@@ -27,8 +27,6 @@
         l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
         (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
         l.hash
-      console.log('Redirecting to:', n)
-      l.href = n
     </script>
   </head>
   <body>
