@@ -12,18 +12,22 @@
     />
     <link rel="icon" type="image/ico" href="favicon.ico" />
     <script>
-      var repo = window.projectPages ? '/' + l.pathname.split('/')[1] : ''
+      var pathSegmentsToKeep = 0
       var l = window.location
-      l.href =
+      l.replace(
         l.protocol +
-        '//' +
-        l.hostname +
-        (l.port ? ':' + l.port : '') +
-        repo +
-        '/#' +
-        (l.pathname ? l.pathname.replace(/&/g, '~and~').replace(repo, '') : '') +
-        (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-        l.hash
+          '//' +
+          l.hostname +
+          (l.port ? ':' + l.port : '') +
+          l.pathname
+            .split('/')
+            .slice(0, 1 + pathSegmentsToKeep)
+            .join('/') +
+          '/?/' +
+          l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+          (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+          l.hash
+      )
     </script>
   </head>
   <body>
