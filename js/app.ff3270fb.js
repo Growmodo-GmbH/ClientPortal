@@ -11509,7 +11509,9 @@ var fn_store = __webpack_require__(85487);
 
 
 async function loginWithPassword(payload) {
-  return await apis.api.post('/login', payload).then(res => {
+  return await apis.api.post('/login', payload, {
+    crossdomain: true
+  }).then(res => {
     if (true) console.log(res.data);
     let data = res.data;
 
@@ -29712,4 +29714,4 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.4.18-dev","desc
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.0c247d2e.js.map
+//# sourceMappingURL=app.ff3270fb.js.map
