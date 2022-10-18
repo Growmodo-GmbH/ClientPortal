@@ -1,7 +1,7 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 57517:
+/***/ 12974:
 /***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -13439,18 +13439,18 @@ function UpgradeYourPlanvue_type_template_id_92ecd4b4_render(_ctx, _cache, $prop
 
 // EXTERNAL MODULE: ./node_modules/quasar/src/utils/date.js
 var date = __webpack_require__(54170);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/Subscription/RemainingDays-Progress.vue?vue&type=template&id=9f9d9136
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/Subscription/RemainingDays-Progress.vue?vue&type=template&id=635ed590
 
-const RemainingDays_Progressvue_type_template_id_9f9d9136_hoisted_1 = {
-  class: "row items-center q-col-gutter-x-sm"
+const RemainingDays_Progressvue_type_template_id_635ed590_hoisted_1 = {
+  class: "row items-center q-gutter-x-sm"
 };
-const RemainingDays_Progressvue_type_template_id_9f9d9136_hoisted_2 = {
+const RemainingDays_Progressvue_type_template_id_635ed590_hoisted_2 = {
   class: "col-auto"
 };
-function RemainingDays_Progressvue_type_template_id_9f9d9136_render(_ctx, _cache, $props, $setup, $data, $options) {
+function RemainingDays_Progressvue_type_template_id_635ed590_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_q_linear_progress = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-linear-progress");
 
-  return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", RemainingDays_Progressvue_type_template_id_9f9d9136_hoisted_1, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_linear_progress, {
+  return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", RemainingDays_Progressvue_type_template_id_635ed590_hoisted_1, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_linear_progress, {
     rounded: "",
     size: "24px",
     value: _ctx.subscriptionPercentage,
@@ -13475,9 +13475,9 @@ function RemainingDays_Progressvue_type_template_id_9f9d9136_render(_ctx, _cache
       }
     }, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.remainingDays) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.remainingDays > 1 ? 'Days' : 'Day'), 3)], 4)]),
     _: 1
-  }, 8, ["value"]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", RemainingDays_Progressvue_type_template_id_9f9d9136_hoisted_2, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionDaysLength) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionDaysLength > 1 ? 'Days' : 'Day'), 1)]);
+  }, 8, ["value"]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", RemainingDays_Progressvue_type_template_id_635ed590_hoisted_2, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionDaysLength) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionDaysLength > 1 ? 'Days' : 'Day'), 1)]);
 }
-;// CONCATENATED MODULE: ./src/components/Helpers/Subscription/RemainingDays-Progress.vue?vue&type=template&id=9f9d9136
+;// CONCATENATED MODULE: ./src/components/Helpers/Subscription/RemainingDays-Progress.vue?vue&type=template&id=635ed590
 
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/Subscription/RemainingDays-Progress.vue?vue&type=script&lang=js
 
@@ -13518,7 +13518,7 @@ function RemainingDays_Progressvue_type_template_id_9f9d9136_render(_ctx, _cache
 
 
 ;
-const RemainingDays_Progress_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(RemainingDays_Progressvue_type_script_lang_js, [['render',RemainingDays_Progressvue_type_template_id_9f9d9136_render]])
+const RemainingDays_Progress_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(RemainingDays_Progressvue_type_script_lang_js, [['render',RemainingDays_Progressvue_type_template_id_635ed590_render]])
 
 /* harmony default export */ const RemainingDays_Progress = (RemainingDays_Progress_exports_);
 ;
@@ -29731,9 +29731,9 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.4.18-dev","desc
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [736], () => (__webpack_require__(57517)))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [736], () => (__webpack_require__(12974)))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.d6f5dc24.js.map
+//# sourceMappingURL=app.1717dd42.js.map
