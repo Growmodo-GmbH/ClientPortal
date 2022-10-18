@@ -1,7 +1,7 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 41419:
+/***/ 83245:
 /***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -5872,56 +5872,56 @@ function Drawer_Mainvue_type_template_id_43bfe14a_render(_ctx, _cache, $props, $
       1: {
         id: 1,
         label: 'All Inclusive Plan 1',
-        description: 'Includes design and development tasks for 1 user.',
+        description: 'Includes design and development talents for one user.',
         pricePerMonth: 1795,
         priceCurrency: 'usd'
       },
       2: {
         id: 2,
         label: 'All Inclusive Plan 2',
-        description: 'Includes design and development tasks for 2 user.',
+        description: 'Includes design and development talents for two user.',
         pricePerMonth: 3485,
         priceCurrency: 'usd'
       },
       3: {
         id: 3,
         label: 'All Inclusive Plan 3',
-        description: 'Includes design and development tasks for 2 user.',
+        description: 'Includes design and development talents for three user.',
         pricePerMonth: 5165,
         priceCurrency: 'usd'
       },
       4: {
         id: 4,
         label: 'All Inclusive Plan 4',
-        description: 'Includes design and development tasks for 2 user.',
+        description: 'Includes design and development talents for four user.',
         pricePerMonth: 3485,
         priceCurrency: 'usd'
       },
       5: {
         id: 5,
         label: 'All Inclusive Plan 5',
-        description: 'Includes design and development tasks for 2 user.',
+        description: 'Includes design and development talents for five user.',
         pricePerMonth: 3485,
         priceCurrency: 'usd'
       },
       6: {
         id: 6,
         label: 'All Inclusive Plan 6',
-        description: 'Includes design and development tasks for 2 user.',
+        description: 'Includes design and development talents for six user.',
         pricePerMonth: 3485,
         priceCurrency: 'usd'
       },
       7: {
         id: 7,
         label: 'All Inclusive Plan 7',
-        description: 'Includes design and development tasks for 2 user.',
+        description: 'Includes design and development talents for seven user.',
         pricePerMonth: 3485,
         priceCurrency: 'usd'
       },
       8: {
         id: 8,
         label: 'All Inclusive Plan 8',
-        description: 'Includes design and development tasks for 2 user.',
+        description: 'Includes design and development talents for eight user.',
         pricePerMonth: 3485,
         priceCurrency: 'usd'
       }
@@ -5933,7 +5933,7 @@ function Drawer_Mainvue_type_template_id_43bfe14a_render(_ctx, _cache, $props, $
         value: 1
       },
       2: {
-        id: 2,
+        id: 5,
         label: `2 Talent`,
         value: 2
       },
@@ -5948,7 +5948,7 @@ function Drawer_Mainvue_type_template_id_43bfe14a_render(_ctx, _cache, $props, $
         value: 4
       },
       5: {
-        id: 5,
+        id: 2,
         label: `5 Talent`,
         value: 5
       },
@@ -5971,7 +5971,7 @@ function Drawer_Mainvue_type_template_id_43bfe14a_render(_ctx, _cache, $props, $
         value: 3,
         billedLabel: 'Billed Every 3 Months',
         savings: 250,
-        savingsLabel: 'Save $250',
+        savingsLabel: 'Savings $250',
         savingsCurrency: 'USD'
       },
       3: {
@@ -5980,7 +5980,7 @@ function Drawer_Mainvue_type_template_id_43bfe14a_render(_ctx, _cache, $props, $
         value: 6,
         billedLabel: 'Billed Every 6 Months',
         savings: 1000,
-        savingsLabel: 'Save $1,000',
+        savingsLabel: 'Savings $1,000',
         savingsCurrency: 'USD'
       },
       4: {
@@ -5989,7 +5989,7 @@ function Drawer_Mainvue_type_template_id_43bfe14a_render(_ctx, _cache, $props, $
         value: 12,
         billedLabel: 'Billed Annually',
         savings: 2500,
-        savingsLabel: 'Save $2,500',
+        savingsLabel: 'Savings $2,500',
         savingsCurrency: 'USD'
       }
     },
@@ -10589,9 +10589,9 @@ const FilesUploader_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(File
 
 runtime_auto_import_default()(FilesUploadervue_type_script_lang_js, 'components', {QUploader: QUploader/* default */.Z,QBtn: QBtn/* default */.Z,QUploaderAddTrigger: QUploaderAddTrigger/* default */.Z});
 
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/ColorPickerCard.vue?vue&type=template&id=8910c986
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/ColorPickerCard.vue?vue&type=template&id=456fda28
 
-function ColorPickerCardvue_type_template_id_8910c986_render(_ctx, _cache, $props, $setup, $data, $options) {
+function ColorPickerCardvue_type_template_id_456fda28_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_q_space = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-space");
 
   const _component_q_btn = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-btn");
@@ -10607,8 +10607,8 @@ function ColorPickerCardvue_type_template_id_8910c986_render(_ctx, _cache, $prop
     bordered: "",
     class: (0,shared_esm_bundler/* normalizeClass */.C_)(["row items-center border-add rounded full-width cursor-pointer q-pa-md", `${_ctx.hoverEffect ? 'hover-border-secondary' : ''}`]),
     style: (0,shared_esm_bundler/* normalizeStyle */.j5)(`background-color: ${_ctx.colorModel || 'transparent'}; ${_ctx.small ? '' : 'min-height: 105px'}`),
-    onContextmenu: _cache[4] || (_cache[4] = (0,runtime_dom_esm_bundler/* withModifiers */.iM)($event => _ctx.colorPopup = true, ["prevent"])),
-    onDblclick: _cache[5] || (_cache[5] = $event => _ctx.colorModel ? _ctx.copyToClipboard(_ctx.colorModel) : _ctx.colorPopup = true)
+    onContextmenu: (0,runtime_dom_esm_bundler/* withModifiers */.iM)(_ctx.openColorPopup, ["prevent"]),
+    onDblclick: _cache[3] || (_cache[3] = $event => _ctx.colorModel ? _ctx.copyToClipboard(_ctx.colorModel) : _ctx.openColorPopup())
   }, {
     default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
       class: (0,shared_esm_bundler/* normalizeClass */.C_)(["font-medium", `${_ctx.isColorDark(_ctx.colorModel) ? 'text-white' : 'text-primary'} ${_ctx.small ? '' : 'self-end'}`])
@@ -10621,11 +10621,11 @@ function ColorPickerCardvue_type_template_id_8910c986_render(_ctx, _cache, $prop
       color: "primary",
       icon: "icon-dropper",
       class: (0,shared_esm_bundler/* normalizeClass */.C_)(["rounded ratio-1 q-pa-sm", `${_ctx.colorModel ? _ctx.isColorDark(_ctx.colorModel) ? 'bg-translucent-light text-white' : 'bg-translucent-dark text-primary' : 'bg-grey-3'} ${_ctx.small ? '' : 'absolute-top-right q-pa-sm q-ma-sm'}`]),
-      onClick: _cache[0] || (_cache[0] = $event => _ctx.colorPopup = true)
-    }, null, 8, ["class"])) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true), (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_dialog, {
+      onClick: _ctx.openColorPopup
+    }, null, 8, ["class", "onClick"])) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true), (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_dialog, {
       persistent: "",
       modelValue: _ctx.colorPopup,
-      "onUpdate:modelValue": _cache[3] || (_cache[3] = $event => _ctx.colorPopup = $event),
+      "onUpdate:modelValue": _cache[2] || (_cache[2] = $event => _ctx.colorPopup = $event),
       "transition-show": "scale",
       "transition-hide": "scale",
       class: "backdrop-light"
@@ -10636,13 +10636,13 @@ function ColorPickerCardvue_type_template_id_8910c986_render(_ctx, _cache, $prop
         },
         initColor: _ctx.colorModel,
         colorPalette: _ctx.colorPaletteSrc,
-        onSaved: _cache[1] || (_cache[1] = val => _ctx.colorModel = val === null || val === void 0 ? void 0 : val.color),
-        onClosed: _cache[2] || (_cache[2] = $event => _ctx.colorPopup = false)
+        onSaved: _cache[0] || (_cache[0] = val => _ctx.colorModel = val === null || val === void 0 ? void 0 : val.color),
+        onClosed: _cache[1] || (_cache[1] = $event => _ctx.colorPopup = false)
       }, null, 8, ["initColor", "colorPalette"])]),
       _: 1
     }, 8, ["modelValue"])]),
     _: 1
-  }, 8, ["class", "style"]);
+  }, 8, ["class", "style", "onContextmenu"]);
 }
 // EXTERNAL MODULE: ./node_modules/quasar/src/utils/colors.js
 var colors = __webpack_require__(75103);
@@ -10951,6 +10951,10 @@ runtime_auto_import_default()(ColorPickervue_type_script_lang_js, 'components', 
     ColorPicker: ColorPicker
   },
   props: {
+    allowEdit: {
+      type: Boolean,
+      default: true
+    },
     small: {
       type: Boolean,
       default: true
@@ -11032,6 +11036,10 @@ runtime_auto_import_default()(ColorPickervue_type_script_lang_js, 'components', 
       var _colors$brightness;
 
       return colorVal ? ((_colors$brightness = colors/* default.brightness */.ZP.brightness) === null || _colors$brightness === void 0 ? void 0 : _colors$brightness.call(colors/* default */.ZP, colorVal)) < 128 : false;
+    },
+
+    openColorPopup() {
+      if (this.allowEdit) this.colorPopup = true;
     }
 
   }
@@ -11046,7 +11054,7 @@ var QDialog = __webpack_require__(32074);
 
 
 ;
-const ColorPickerCard_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(ColorPickerCardvue_type_script_lang_js, [['render',ColorPickerCardvue_type_template_id_8910c986_render]])
+const ColorPickerCard_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(ColorPickerCardvue_type_script_lang_js, [['render',ColorPickerCardvue_type_template_id_456fda28_render]])
 
 /* harmony default export */ const ColorPickerCard = (ColorPickerCard_exports_);
 ;
@@ -13147,99 +13155,107 @@ const RedirectConfirmation_exports_ = /*#__PURE__*/(0,exportHelper/* default */.
 
 runtime_auto_import_default()(RedirectConfirmationvue_type_script_lang_js, 'components', {QCard: QCard/* default */.Z,QCardSection: QCardSection/* default */.Z,QToolbar: QToolbar/* default */.Z,QIcon: QIcon/* default */.Z,QCardActions: QCardActions/* default */.Z,QBtn: QBtn/* default */.Z});runtime_auto_import_default()(RedirectConfirmationvue_type_script_lang_js, 'directives', {ClosePopup: ClosePopup/* default */.Z});
 
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Dialogs/UpgradeYourPlan.vue?vue&type=template&id=612f73c0
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Dialogs/UpgradeYourPlan.vue?vue&type=template&id=92ecd4b4
 
 
-const UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_1 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_1 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h4 text-primary font-medium"
 }, "Change your plan", -1);
 
-const UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_2 = {
+const UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_2 = {
   class: "q-pb-md"
 };
 
-const UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_3 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_3 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-body2 font-medium color-primary2"
 }, " Your current plan ", -1);
 
-const UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_4 = {
+const UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_4 = {
   class: "row q-col-gutter-x-lg items-center"
 };
-const UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_5 = {
+const UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_5 = {
   class: "col-auto letter-space-normal"
 };
-const UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_6 = {
+const UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_6 = {
   class: "col-auto text-body2 text-primary letter-space-normal"
 };
-const UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_7 = {
+const UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_7 = {
   class: "q-pb-md"
 };
 
-const UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_8 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_8 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+  class: "text-body2 font-medium color-primary2"
+}, " Remaining days on your current plan ", -1);
+
+const UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_9 = {
+  class: "q-my-sm"
+};
+const UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_10 = {
+  class: "q-pb-md"
+};
+
+const UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_11 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-body2 font-medium color-primary2"
 }, "Your new plan", -1);
 
-const UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_9 = {
-  class: "q-my-sm"
-};
-const UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_10 = {
+const UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_12 = {
   class: "row q-col-gutter-md"
 };
-const UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_11 = {
+const UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_13 = {
   class: "q-pb-md"
 };
 
-const UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_12 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_14 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-body2 font-medium color-primary2"
 }, "Billing", -1);
 
-const UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_13 = {
+const UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_15 = {
   class: "q-my-sm"
 };
-const UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_14 = {
+const UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_16 = {
   class: "row q-col-gutter-md"
 };
-const UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_15 = {
+const UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_17 = {
   class: "q-pb-md"
 };
 
-const UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_16 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_18 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-body2 font-medium color-primary2"
 }, "Starts on", -1);
 
-const UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_17 = {
+const UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_19 = {
   class: "q-my-sm flex inline"
 };
-const UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_18 = {
+const UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_20 = {
   class: "q-pb-md"
 };
 
-const UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_19 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_21 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-body2 font-medium color-primary2"
 }, " Message (Optional) ", -1);
 
-const UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_20 = {
+const UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_22 = {
   class: "q-my-sm"
 };
-
-const UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_21 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_23 = {
   class: "text-h3 font-medium"
-}, "$1,795", -1);
-
-const UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_22 = {
+};
+const UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_24 = {
   class: "text-subtitle1 letter-space-normal"
 };
 
-const UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_23 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
+const UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_25 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
   class: "q-pl-sm"
 }, "Submit Change Request", -1);
 
-function UpgradeYourPlanvue_type_template_id_612f73c0_render(_ctx, _cache, $props, $setup, $data, $options) {
+function UpgradeYourPlanvue_type_template_id_92ecd4b4_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_close_button = (0,runtime_core_esm_bundler/* resolveComponent */.up)("close-button");
 
   const _component_q_card_section = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-card-section");
 
   const _component_card_item = (0,runtime_core_esm_bundler/* resolveComponent */.up)("card-item");
+
+  const _component_RemainingDaysProgress = (0,runtime_core_esm_bundler/* resolveComponent */.up)("RemainingDaysProgress");
 
   const _component_q_radio = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-radio");
 
@@ -13274,26 +13290,26 @@ function UpgradeYourPlanvue_type_template_id_612f73c0_render(_ctx, _cache, $prop
     })) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true), (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
       class: (0,shared_esm_bundler/* normalizeClass */.C_)(["text-center bg-transparent q-px-lg", _ctx.noclose ? 'q-pt-md' : 'q-py-none'])
     }, {
-      default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_1]),
+      default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_1]),
       _: 1
     }, 8, ["class"]), (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
       class: "q-px-lg q-pt-lg q-pb-none"
     }, {
-      default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_2, [UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_3, (0,runtime_core_esm_bundler/* withDirectives */.wy)(((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_card_item, {
+      default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_2, [UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_3, (0,runtime_core_esm_bundler/* withDirectives */.wy)(((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_card_item, {
         class: (0,shared_esm_bundler/* normalizeClass */.C_)([_ctx.checkIfPlanSelected(_ctx.plan.id, _ctx.selectedPlanType) ? 'badge-bg-active badge-border-active' : _ctx.plan.id === _ctx.selectedPlan ? 'border-secondary bg-accent hover-border-secondary hover-bg-accent' : 'hover-border-secondary hover-bg-accent', "q-my-sm q-py-md cursor-pointer border-add hover-border-secondary"]),
         onClick: _cache[0] || (_cache[0] = $event => _ctx.checkIfPlanSelected(_ctx.plan.id, _ctx.selectedPlanType) ? void 0 : _ctx.selectedPlan = _ctx.plan.id)
       }, {
-        title: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_4, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_5, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)((0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.plan.label) + " ", 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+        title: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_4, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_5, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)((0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.plan.label) + " ", 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
           class: (0,shared_esm_bundler/* normalizeClass */.C_)(["q-py-xs text-body2 font-medium", _ctx.checkIfPlanSelected(_ctx.plan.id, _ctx.selectedPlanType) ? 'badge-text-active' : _ctx.plan.id === _ctx.selectedPlan ? 'text-secondary' : 'text-primary'])
         }, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)((0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.plan.priceCurrency === 'usd' ? '$' : '$'), 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
           ref: `filteredPrice-${_ctx.plan.id}`
         }, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.formatMoney(_ctx.filteredPrice(_ctx.plan.pricePerMonth))), 513), _ctx.selectedPlanType === 1 ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, {
           key: 0
-        }, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)("/month")], 64)) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)], 2)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_6, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.plan.description), 1)])]),
+        }, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)("/month")], 64)) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)], 2)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_6, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.plan.description), 1)])]),
         _: 1
       }, 8, ["class"])), [[_directive_ripple, _ctx.checkIfPlanSelected(_ctx.plan.id, _ctx.selectedPlanType) ? false : {
         color: 'secondary'
-      }]])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_7, [UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_8, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_9, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_10, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)(_ctx.subscriptionPlan_Talents, item => {
+      }]])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_7, [UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_8, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_9, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_RemainingDaysProgress)])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_10, [UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_11, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_12, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)(_ctx.subscriptionPlan_Talents, item => {
         var _ctx$newPlan$talent;
 
         return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", {
@@ -13319,7 +13335,7 @@ function UpgradeYourPlanvue_type_template_id_612f73c0_render(_ctx, _cache, $prop
         }, 1032, ["class"])), [[_directive_ripple, {
           color: 'secondary'
         }]])]);
-      }), 128))])])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_11, [UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_12, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_13, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_14, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)(_ctx.subscriptionPlan_Types, item => {
+      }), 128))])])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_13, [UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_14, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_15, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_16, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)(_ctx.subscriptionPlan_Types, item => {
         var _ctx$newPlan$billing;
 
         return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", {
@@ -13349,7 +13365,7 @@ function UpgradeYourPlanvue_type_template_id_612f73c0_render(_ctx, _cache, $prop
           }]])]),
           _: 2
         }, 1032, ["class"])]);
-      }), 128))])])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_15, [UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_16, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_17, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_input, {
+      }), 128))])])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_17, [UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_18, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_19, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_input, {
         dense: "",
         outlined: "",
         unelevated: "",
@@ -13384,7 +13400,7 @@ function UpgradeYourPlanvue_type_template_id_612f73c0_render(_ctx, _cache, $prop
           _: 1
         })]),
         _: 1
-      }, 8, ["modelValue"])])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_18, [UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_19, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_20, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_input, {
+      }, 8, ["modelValue"])])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_20, [UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_21, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_22, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_input, {
         dense: "",
         outlined: "",
         type: "textarea",
@@ -13398,14 +13414,14 @@ function UpgradeYourPlanvue_type_template_id_612f73c0_render(_ctx, _cache, $prop
       default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => {
         var _ctx$newPlan$billing2;
 
-        return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_21, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_22, (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$newPlan$billing2 = _ctx.newPlan['billing']) === null || _ctx$newPlan$billing2 === void 0 ? void 0 : _ctx$newPlan$billing2.billedLabel), 1)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+        return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_23, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.totalPrice.label), 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_24, (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$newPlan$billing2 = _ctx.newPlan['billing']) === null || _ctx$newPlan$billing2 === void 0 ? void 0 : _ctx$newPlan$billing2.billedLabel), 1)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
           "no-caps": "",
           unelevated: "",
           color: "primary",
           class: "rounded slide-hover",
           onClick: _ctx.nextBtnClick
         }, {
-          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [UpgradeYourPlanvue_type_template_id_612f73c0_hoisted_23, (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [UpgradeYourPlanvue_type_template_id_92ecd4b4_hoisted_25, (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
             size: "sm",
             name: "icon-arrow-narrow-right",
             class: "slide-hover-left-md q-px-sm"
@@ -13418,11 +13434,98 @@ function UpgradeYourPlanvue_type_template_id_612f73c0_render(_ctx, _cache, $prop
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/components/Dialogs/UpgradeYourPlan.vue?vue&type=template&id=612f73c0
+;// CONCATENATED MODULE: ./src/components/Dialogs/UpgradeYourPlan.vue?vue&type=template&id=92ecd4b4
 
 // EXTERNAL MODULE: ./node_modules/quasar/src/utils/date.js
 var date = __webpack_require__(54170);
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/Subscription/RemainingDays-Progress.vue?vue&type=template&id=9f9d9136
+
+const RemainingDays_Progressvue_type_template_id_9f9d9136_hoisted_1 = {
+  class: "row items-center q-col-gutter-x-sm"
+};
+const RemainingDays_Progressvue_type_template_id_9f9d9136_hoisted_2 = {
+  class: "col-auto"
+};
+function RemainingDays_Progressvue_type_template_id_9f9d9136_render(_ctx, _cache, $props, $setup, $data, $options) {
+  const _component_q_linear_progress = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-linear-progress");
+
+  return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", RemainingDays_Progressvue_type_template_id_9f9d9136_hoisted_1, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_linear_progress, {
+    rounded: "",
+    size: "24px",
+    value: _ctx.subscriptionPercentage,
+    "track-color": "grey-4",
+    class: "col cursor-pointer",
+    color: "secondary",
+    style: {
+      "border-radius": "24px"
+    }
+  }, {
+    default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+      class: "absolute-full flex flex-center items-center",
+      style: (0,shared_esm_bundler/* normalizeStyle */.j5)(`max-width: ${_ctx.subscriptionPercentage * 100}%`)
+    }, [(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
+      class: (0,shared_esm_bundler/* normalizeClass */.C_)(["text-white text-body2 text-center", {
+        'q-px-sm': _ctx.$q.screen.gt.sm
+      }]),
+      style: {
+        "text-overflow": "ellipsis",
+        "overflow": "hidden",
+        "max-height": "20px"
+      }
+    }, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.remainingDays) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.remainingDays > 1 ? 'Days' : 'Day'), 3)], 4)]),
+    _: 1
+  }, 8, ["value"]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", RemainingDays_Progressvue_type_template_id_9f9d9136_hoisted_2, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionDaysLength) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionDaysLength > 1 ? 'Days' : 'Day'), 1)]);
+}
+;// CONCATENATED MODULE: ./src/components/Helpers/Subscription/RemainingDays-Progress.vue?vue&type=template&id=9f9d9136
+
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/Subscription/RemainingDays-Progress.vue?vue&type=script&lang=js
+
+
+
+/* harmony default export */ const RemainingDays_Progressvue_type_script_lang_js = ((0,runtime_core_esm_bundler/* defineComponent */.aZ)({
+  name: 'RemainingDays-Progress',
+  props: {
+    contdown: {
+      type: Boolean,
+      default: false
+    }
+  },
+  computed: { ...(0,dist_pinia/* mapState */.rn)(stores_user, ['subscriptionDaysLength']),
+
+    subscriptionPercentage() {
+      if (isNaN(this.remainingDays) || this.remainingDays < 0 || isNaN(this.subscriptionDaysLength)) return 0;
+      return this.remainingDays / this.subscriptionDaysLength;
+    },
+
+    remainingDays() {
+      var _this$$root;
+
+      let remainingDays = this.subscriptionRemaining((_this$$root = this.$root) === null || _this$$root === void 0 ? void 0 : _this$$root.realtimeDate, 'days');
+      if (!this.contdown) remainingDays = this.subscriptionDaysLength - remainingDays;
+      return remainingDays || 0;
+    }
+
+  },
+  methods: { ...(0,dist_pinia/* mapActions */.nv)(stores_user, ['subscriptionRemaining'])
+  }
+}));
+;// CONCATENATED MODULE: ./src/components/Helpers/Subscription/RemainingDays-Progress.vue?vue&type=script&lang=js
+ 
+;// CONCATENATED MODULE: ./src/components/Helpers/Subscription/RemainingDays-Progress.vue
+
+
+
+
+;
+const RemainingDays_Progress_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(RemainingDays_Progressvue_type_script_lang_js, [['render',RemainingDays_Progressvue_type_template_id_9f9d9136_render]])
+
+/* harmony default export */ const RemainingDays_Progress = (RemainingDays_Progress_exports_);
+;
+
+runtime_auto_import_default()(RemainingDays_Progressvue_type_script_lang_js, 'components', {QLinearProgress: QLinearProgress/* default */.Z});
+
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Dialogs/UpgradeYourPlan.vue?vue&type=script&lang=js
+
 
 
 
@@ -13433,6 +13536,9 @@ var date = __webpack_require__(54170);
 /* harmony default export */ const UpgradeYourPlanvue_type_script_lang_js = ((0,runtime_core_esm_bundler/* defineComponent */.aZ)({
   name: 'Dialog_UpgradeYourPlan',
   emits: ['nextBtnClick'],
+  components: {
+    RemainingDaysProgress: RemainingDays_Progress
+  },
   props: {
     noclose: {
       type: Boolean,
@@ -13486,6 +13592,20 @@ var date = __webpack_require__(54170);
 
     planInfo() {
       return this.subscriptionPlans[this.activeSubscriptionId];
+    },
+
+    totalPrice() {
+      var _this$newPlan$talent, _this$newPlan$billing, _this$subscriptionPla, _this$newPlan$billing2;
+
+      const talentCnt = ((_this$newPlan$talent = this.newPlan.talent) === null || _this$newPlan$talent === void 0 ? void 0 : _this$newPlan$talent.value) || 0;
+      const billingMonth = ((_this$newPlan$billing = this.newPlan.billing) === null || _this$newPlan$billing === void 0 ? void 0 : _this$newPlan$billing.value) || 0;
+      let lessDiscount = ((_this$subscriptionPla = this.subscriptionPlan_Types[(_this$newPlan$billing2 = this.newPlan.billing) === null || _this$newPlan$billing2 === void 0 ? void 0 : _this$newPlan$billing2.id]) === null || _this$subscriptionPla === void 0 ? void 0 : _this$subscriptionPla.savings) || 0;
+      let total = talentCnt === -1 || talentCnt === 6 ? -1 : 1795 * talentCnt * billingMonth - lessDiscount;
+      let label = total === -1 ? 'Custom' : '$' + (0,functions/* formatMoney */.lb)(total);
+      return {
+        value: total,
+        label: label
+      };
     }
 
   },
@@ -13544,7 +13664,7 @@ var QDate = __webpack_require__(67088);
 
 
 ;
-const UpgradeYourPlan_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(UpgradeYourPlanvue_type_script_lang_js, [['render',UpgradeYourPlanvue_type_template_id_612f73c0_render]])
+const UpgradeYourPlan_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(UpgradeYourPlanvue_type_script_lang_js, [['render',UpgradeYourPlanvue_type_template_id_92ecd4b4_render]])
 
 /* harmony default export */ const UpgradeYourPlan = (UpgradeYourPlan_exports_);
 ;
@@ -19777,33 +19897,33 @@ const Company_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(Companyvue
 
 runtime_auto_import_default()(Companyvue_type_script_lang_js, 'components', {QCard: QCard/* default */.Z,QCardSection: QCardSection/* default */.Z,QToolbar: QToolbar/* default */.Z,QToolbarTitle: QToolbarTitle/* default */.Z,QSeparator: QSeparator/* default */.Z,QInput: QInput/* default */.Z,QIcon: QIcon/* default */.Z,QDialog: QDialog/* default */.Z});
 
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Accounts/Subscription.vue?vue&type=template&id=2234c647
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Accounts/Subscription.vue?vue&type=template&id=34fcefb4
 
-const Subscriptionvue_type_template_id_2234c647_hoisted_1 = {
+const Subscriptionvue_type_template_id_34fcefb4_hoisted_1 = {
   class: "q-gutter-y-lg"
 };
-const Subscriptionvue_type_template_id_2234c647_hoisted_2 = {
+const Subscriptionvue_type_template_id_34fcefb4_hoisted_2 = {
   class: "q-gutter-sm"
 };
-const Subscriptionvue_type_template_id_2234c647_hoisted_3 = {
+const Subscriptionvue_type_template_id_34fcefb4_hoisted_3 = {
   class: "row items-center q-py-sm"
 };
-const Subscriptionvue_type_template_id_2234c647_hoisted_4 = {
+const Subscriptionvue_type_template_id_34fcefb4_hoisted_4 = {
   class: "col-12 col-md-4 text-secondary text-h6"
 };
-const Subscriptionvue_type_template_id_2234c647_hoisted_5 = {
+const Subscriptionvue_type_template_id_34fcefb4_hoisted_5 = {
   class: "col-12 col-md-8"
 };
-const Subscriptionvue_type_template_id_2234c647_hoisted_6 = {
+const Subscriptionvue_type_template_id_34fcefb4_hoisted_6 = {
   class: "q-pb-sm",
   style: {
     "max-width": "325px"
   }
 };
-const Subscriptionvue_type_template_id_2234c647_hoisted_7 = {
+const Subscriptionvue_type_template_id_34fcefb4_hoisted_7 = {
   class: "text-primary text-body2"
 };
-function Subscriptionvue_type_template_id_2234c647_render(_ctx, _cache, $props, $setup, $data, $options) {
+function Subscriptionvue_type_template_id_34fcefb4_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_q_toolbar_title = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-toolbar-title");
 
   const _component_DynamicButton = (0,runtime_core_esm_bundler/* resolveComponent */.up)("DynamicButton");
@@ -19814,17 +19934,13 @@ function Subscriptionvue_type_template_id_2234c647_render(_ctx, _cache, $props, 
 
   const _component_q_separator = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-separator");
 
-  const _component_q_slider = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-slider");
-
-  const _component_tooltip_pro = (0,runtime_core_esm_bundler/* resolveComponent */.up)("tooltip-pro");
-
-  const _component_q_linear_progress = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-linear-progress");
+  const _component_RemainingDaysProgress = (0,runtime_core_esm_bundler/* resolveComponent */.up)("RemainingDaysProgress");
 
   const _component_q_card = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-card");
 
   const _component_SubscriptionPlans = (0,runtime_core_esm_bundler/* resolveComponent */.up)("SubscriptionPlans");
 
-  return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", Subscriptionvue_type_template_id_2234c647_hoisted_1, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_card, {
+  return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", Subscriptionvue_type_template_id_34fcefb4_hoisted_1, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_card, {
     flat: "",
     bordered: "",
     class: "rounded"
@@ -19840,7 +19956,7 @@ function Subscriptionvue_type_template_id_2234c647_render(_ctx, _cache, $props, 
         }, {
           default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" Your Current Plan ")]),
           _: 1
-        }), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_2234c647_hoisted_2, [!_ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_DynamicButton, {
+        }), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_34fcefb4_hoisted_2, [!_ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_DynamicButton, {
           key: 0,
           label: "Edit Subscription",
           icon: "icon-pencil-02",
@@ -19860,36 +19976,9 @@ function Subscriptionvue_type_template_id_2234c647_render(_ctx, _cache, $props, 
       class: (0,shared_esm_bundler/* normalizeClass */.C_)(["q-gutter-y-md", _ctx.$q.screen.gt.sm ? 'q-pa-lg' : 'q-pa-md'])
     }, {
       default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => {
-        var _ctx$subscriptionPlan, _ctx$subscriptionPlan2, _ctx$$root, _ctx$subscriptionPlan3, _ctx$subscriptionPlan4;
+        var _ctx$subscriptionPlan, _ctx$subscriptionPlan2, _ctx$subscriptionPlan3, _ctx$subscriptionPlan4;
 
-        return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_2234c647_hoisted_3, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_2234c647_hoisted_4, (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$subscriptionPlan = _ctx.subscriptionPlans) === null || _ctx$subscriptionPlan === void 0 ? void 0 : (_ctx$subscriptionPlan2 = _ctx$subscriptionPlan[_ctx.orgSubscriptionPlan.subscriptionId]) === null || _ctx$subscriptionPlan2 === void 0 ? void 0 : _ctx$subscriptionPlan2.label), 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_2234c647_hoisted_5, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_2234c647_hoisted_6, [ false ? (0) : ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_q_linear_progress, {
-          key: 1,
-          rounded: "",
-          size: "8px",
-          value: _ctx.getSubsValue(_ctx.subscriptionRemaining(_ctx.orgSubscriptionPlan.subscriptionId, (_ctx$$root = _ctx.$root) === null || _ctx$$root === void 0 ? void 0 : _ctx$$root.realtimeDate, 'days'), _ctx.subscriptionDaysLength[_ctx.orgSubscriptionPlan.subscriptionId]),
-          "track-color": "grey-4",
-          class: "cursor-pointer",
-          color: "secondary\n                "
-        }, {
-          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [ true ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_tooltip_pro, {
-            key: 0,
-            shadow: "ui",
-            bgColor: "white",
-            color: "primary",
-            class: "border-add",
-            anchor: "top middle",
-            self: "bottom middle",
-            offset: [10, 10]
-          }, {
-            default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => {
-              var _ctx$$root2, _ctx$$root3, _ctx$$root4;
-
-              return [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)((0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionRemaining(_ctx.orgSubscriptionPlan.subscriptionId, (_ctx$$root2 = _ctx.$root) === null || _ctx$$root2 === void 0 ? void 0 : _ctx$$root2.realtimeDate, 'days')) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionRemaining(_ctx.orgSubscriptionPlan.subscriptionId, (_ctx$$root3 = _ctx.$root) === null || _ctx$$root3 === void 0 ? void 0 : _ctx$$root3.realtimeDate, 'days') > 0 ? _ctx.subscriptionRemaining(_ctx.orgSubscriptionPlan.subscriptionId, (_ctx$$root4 = _ctx.$root) === null || _ctx$$root4 === void 0 ? void 0 : _ctx$$root4.realtimeDate, 'days') : 0) + " days remaining ", 1)];
-            }),
-            _: 1
-          })) : (0)]),
-          _: 1
-        }, 8, ["value"]))]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_2234c647_hoisted_7, (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$subscriptionPlan3 = _ctx.subscriptionPlans) === null || _ctx$subscriptionPlan3 === void 0 ? void 0 : (_ctx$subscriptionPlan4 = _ctx$subscriptionPlan3[_ctx.orgSubscriptionPlan.subscriptionId]) === null || _ctx$subscriptionPlan4 === void 0 ? void 0 : _ctx$subscriptionPlan4.description), 1)])])];
+        return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_34fcefb4_hoisted_3, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_34fcefb4_hoisted_4, (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$subscriptionPlan = _ctx.subscriptionPlans) === null || _ctx$subscriptionPlan === void 0 ? void 0 : (_ctx$subscriptionPlan2 = _ctx$subscriptionPlan[_ctx.orgSubscriptionPlan.subscriptionId]) === null || _ctx$subscriptionPlan2 === void 0 ? void 0 : _ctx$subscriptionPlan2.label), 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_34fcefb4_hoisted_5, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_34fcefb4_hoisted_6, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_RemainingDaysProgress)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_34fcefb4_hoisted_7, (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$subscriptionPlan3 = _ctx.subscriptionPlans) === null || _ctx$subscriptionPlan3 === void 0 ? void 0 : (_ctx$subscriptionPlan4 = _ctx$subscriptionPlan3[_ctx.orgSubscriptionPlan.subscriptionId]) === null || _ctx$subscriptionPlan4 === void 0 ? void 0 : _ctx$subscriptionPlan4.description), 1)])])];
       }),
       _: 1
     }, 8, ["class"])]),
@@ -19913,7 +20002,7 @@ function Subscriptionvue_type_template_id_2234c647_render(_ctx, _cache, $props, 
     _: 1
   })) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)]);
 }
-;// CONCATENATED MODULE: ./src/components/Accounts/Subscription.vue?vue&type=template&id=2234c647
+;// CONCATENATED MODULE: ./src/components/Accounts/Subscription.vue?vue&type=template&id=34fcefb4
 
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/SubscriptionPlans.vue?vue&type=template&id=71097a96
 
@@ -20170,11 +20259,13 @@ runtime_auto_import_default()(SubscriptionPlansvue_type_script_lang_js, 'compone
 
 
 
+
 /* harmony default export */ const Subscriptionvue_type_script_lang_js = ((0,runtime_core_esm_bundler/* defineComponent */.aZ)({
   name: 'SubscriptionInformation',
   components: {
     DynamicButton: DynamicButton,
-    SubscriptionPlans: SubscriptionPlans
+    SubscriptionPlans: SubscriptionPlans,
+    RemainingDaysProgress: RemainingDays_Progress
   },
 
   setup() {
@@ -20190,8 +20281,8 @@ runtime_auto_import_default()(SubscriptionPlansvue_type_script_lang_js, 'compone
     };
   },
 
-  computed: { ...(0,dist_pinia/* mapState */.rn)(stores_user, ['selectedOrg', 'subscriptionDaysLength']),
-    ...(0,dist_pinia/* mapState */.rn)(growmodo, ['statuses', 'subscriptionPlans', 'subscriptionPlan_Types']),
+  computed: { ...(0,dist_pinia/* mapState */.rn)(stores_user, ['selectedOrg']),
+    ...(0,dist_pinia/* mapState */.rn)(growmodo, ['subscriptionPlans']),
 
     orgSubscriptionPlan() {
       var _this$selectedOrg;
@@ -20200,34 +20291,10 @@ runtime_auto_import_default()(SubscriptionPlansvue_type_script_lang_js, 'compone
     }
 
   },
-  methods: { ...(0,dist_pinia/* mapActions */.nv)(stores_user, ['subscriptionRemaining']),
-
-    dynamicRemainingTooltip(subsId, date_now = new Date()) {
-      let sr_days = this.subscriptionRemaining(subsId, date_now, 'days');
-      let message = `You have ${sr_days} day${sr_days > 1 ? 's' : ''} remaining.`;
-
-      if (sr_days <= 0) {
-        const sr_hours = this.subscriptionRemaining(subsId, date_now, 'hours');
-        const sr_mins = this.subscriptionRemaining(subsId, date_now, 'minutes');
-        const sr_sec = this.subscriptionRemaining(subsId, date_now, 'seconds');
-        if (sr_hours > 0) message = `You have ${sr_hours} hour${sr_hours > 1 ? 's' : ''} remaining.`;else if (sr_mins > 0) message = `You have ${sr_mins} minute${sr_mins > 1 ? 's' : ''} remaining.`;else if (sr_sec > 0) message = `You have ${sr_sec} second${sr_sec > 1 ? 's' : ''} remaining.`;else message = `Your subscription has expired!`;
-      }
-
-      return message;
-    },
-
-    planChanged(subsId) {
-      if (false) {}
-    },
-
+  methods: {
     nextBtnClick() {
       this.editing = false;
       this.$root.dialogRequestUpgrade = true;
-    },
-
-    getSubsValue(remainingDays, totalSubsDays) {
-      if (isNaN(remainingDays) || isNaN(totalSubsDays)) return 0;
-      return 1 - remainingDays / totalSubsDays;
     }
 
   }
@@ -20240,7 +20307,7 @@ runtime_auto_import_default()(SubscriptionPlansvue_type_script_lang_js, 'compone
 
 
 ;
-const Subscription_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(Subscriptionvue_type_script_lang_js, [['render',Subscriptionvue_type_template_id_2234c647_render]])
+const Subscription_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(Subscriptionvue_type_script_lang_js, [['render',Subscriptionvue_type_template_id_34fcefb4_render]])
 
 /* harmony default export */ const Subscription = (Subscription_exports_);
 ;
@@ -20249,9 +20316,7 @@ const Subscription_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(Subsc
 
 
 
-
-
-runtime_auto_import_default()(Subscriptionvue_type_script_lang_js, 'components', {QCard: QCard/* default */.Z,QCardSection: QCardSection/* default */.Z,QToolbar: QToolbar/* default */.Z,QToolbarTitle: QToolbarTitle/* default */.Z,QSeparator: QSeparator/* default */.Z,QSlider: QSlider/* default */.Z,QLinearProgress: QLinearProgress/* default */.Z});
+runtime_auto_import_default()(Subscriptionvue_type_script_lang_js, 'components', {QCard: QCard/* default */.Z,QCardSection: QCardSection/* default */.Z,QToolbar: QToolbar/* default */.Z,QToolbarTitle: QToolbarTitle/* default */.Z,QSeparator: QSeparator/* default */.Z});
 
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Users/UsersList.vue?vue&type=template&id=2d4eb18d
 
@@ -23378,204 +23443,204 @@ const CheckoutPage_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(Check
 
 runtime_auto_import_default()(CheckoutPagevue_type_script_lang_js, 'components', {QLayout: QLayout/* default */.Z,QDrawer: QDrawer/* default */.Z,QCard: QCard/* default */.Z,QPageContainer: QPageContainer/* default */.Z,QPage: QPage/* default */.Z,QCardSection: QCardSection/* default */.Z,QStepper: QStepper/* default */.Z,QStep: QStep/* default */.Z,QInput: QInput/* default */.Z,QBtn: QBtn/* default */.Z,QIcon: QIcon/* default */.Z,QCardActions: QCardActions/* default */.Z});
 
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Brands/BrandGuidelines.vue?vue&type=template&id=363ed902
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Brands/BrandGuidelines.vue?vue&type=template&id=0618defd
 
 
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_1 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_1 = {
   class: "row q-col-gutter-md items-center"
 };
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_2 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_2 = {
   class: "col-12 col-sm-auto",
   style: {
     "min-width": "170px"
   }
 };
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_3 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_3 = {
   class: "flex flex-start"
 };
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_4 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_4 = {
   class: "col-12 col-sm-auto"
 };
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_5 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_5 = {
   class: "q-py-sm text-h4 font-medium text-primary"
 };
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_6 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_6 = {
   class: "row items-center q-gutter-x-md"
 };
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_7 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_7 = {
   class: "q-col-gutter-md"
 };
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_8 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_8 = {
   class: "row items-center justify-start"
 };
 
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_9 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_9 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "col-12 col-sm-2 font-medium color-primary2"
 }, " Brand Name ", -1);
 
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_10 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_10 = {
   class: "col-12 col-sm-auto"
 };
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_11 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_11 = {
   class: "row items-center justify-start"
 };
 
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_12 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_12 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "col-12 col-sm-2 font-medium color-primary2"
 }, " Brand Type ", -1);
 
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_13 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_13 = {
   class: "col-12 col-sm-auto"
 };
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_14 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_14 = {
   class: "row items-center justify-start"
 };
 
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_15 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_15 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "col-12 col-sm-2 font-medium color-primary2"
 }, " Website ", -1);
 
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_16 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_16 = {
   class: "col-12 col-sm-auto"
 };
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_17 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_17 = {
   class: "row q-gutter-md"
 };
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_18 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_18 = {
   class: "row items-center justify-start q-col-gutter-md"
 };
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_19 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_19 = {
   key: 0,
   class: "row items-center justify-start q-col-gutter-y-md q-col-gutter-x-xl"
 };
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_20 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_20 = {
   class: "fit"
 };
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_21 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_21 = {
   class: "row items-center q-col-gutter-sm"
 };
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_22 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_22 = {
   class: "text-body2 font-medium"
 };
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_23 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_23 = {
   key: 1
 };
 
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_24 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_24 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
   class: "font-medium text-body1"
 }, "No fonts was added.", -1);
 
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_25 = [BrandGuidelinesvue_type_template_id_363ed902_hoisted_24];
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_26 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_25 = [BrandGuidelinesvue_type_template_id_0618defd_hoisted_24];
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_26 = {
   key: 0,
   class: "row items-center justify-start q-col-gutter-md"
 };
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_27 = ["src"];
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_28 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_27 = ["src"];
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_28 = {
   key: 1
 };
 
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_29 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_29 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
   class: "font-medium text-body1"
 }, "No images was added.", -1);
 
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_30 = [BrandGuidelinesvue_type_template_id_363ed902_hoisted_29];
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_31 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_30 = [BrandGuidelinesvue_type_template_id_0618defd_hoisted_29];
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_31 = {
   key: 0,
   class: "row items-center justify-start q-col-gutter-md"
 };
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_32 = ["src"];
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_33 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_32 = ["src"];
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_33 = {
   key: 1
 };
 
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_34 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_34 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
   class: "font-medium text-body1"
 }, "No graphic elements was added.", -1);
 
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_35 = [BrandGuidelinesvue_type_template_id_363ed902_hoisted_34];
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_36 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_35 = [BrandGuidelinesvue_type_template_id_0618defd_hoisted_34];
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_36 = {
   key: 0,
   class: "q-col-gutter-md"
 };
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_37 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_37 = {
   class: "col-12 col-sm-2 font-medium color-primary2"
 };
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_38 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_38 = {
   class: "col-12 col-sm-auto"
 };
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_39 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_39 = {
   key: 1
 };
 
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_40 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_40 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
   class: "font-medium text-body1"
 }, " No social media links added. ", -1);
 
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_41 = [BrandGuidelinesvue_type_template_id_363ed902_hoisted_40];
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_42 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_41 = [BrandGuidelinesvue_type_template_id_0618defd_hoisted_40];
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_42 = {
   class: "col-12 col-md-6"
 };
 
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_43 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_43 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
   class: "text-body2 font-medium"
 }, "All Tasks", -1);
 
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_44 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_44 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
   class: "text-body2 font-medium"
 }, "All Projects", -1);
 
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_45 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_45 = {
   class: "col-12 col-md-6"
 };
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_46 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_46 = {
   class: "row q-col-gutter-md items-center justify-end text-right"
 };
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_47 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_47 = {
   class: "col-12 col-sm-6 col-md-auto"
 };
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_48 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_48 = {
   class: "col-12 col-sm-6 col-md-auto"
 };
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_49 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_49 = {
   class: "text-body2 font-medium color-primary2"
 };
 
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_50 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_50 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
   class: "text-body2 font-medium text-transparent"
 }, " Options ", -1);
 
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_51 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_51 = {
   class: "q-gutter-sm text-right"
 };
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_52 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_52 = {
   key: 0,
   class: "q-py-md row full-width items-center justify-center q-col-gutter-sm q-virtual-scroll--skip"
 };
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_53 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_53 = {
   class: "q-py-md row full-width items-center justify-between q-col-gutter-sm q-virtual-scroll--skip"
 };
 
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_54 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_54 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
   class: "q-pl-sm"
 }, "Previous", -1);
 
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_55 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_55 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
   class: "q-pr-sm"
 }, "Next", -1);
 
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_56 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_56 = {
   class: "q-py-md full-width row flex-center color-primary2 q-gutter-sm"
 };
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_57 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_57 = {
   key: 0,
   class: "text-body2 color-primary2 font-medium"
 };
-const BrandGuidelinesvue_type_template_id_363ed902_hoisted_58 = {
+const BrandGuidelinesvue_type_template_id_0618defd_hoisted_58 = {
   key: 1,
   class: "text-body2 color-primary2 font-medium"
 };
-function BrandGuidelinesvue_type_template_id_363ed902_render(_ctx, _cache, $props, $setup, $data, $options) {
+function BrandGuidelinesvue_type_template_id_0618defd_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_q_icon = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-icon");
 
   const _component_q_avatar = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-avatar");
@@ -23643,7 +23708,7 @@ function BrandGuidelinesvue_type_template_id_363ed902_render(_ctx, _cache, $prop
       default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
         class: "q-pa-xl"
       }, {
-        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_1, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_2, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_3, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_avatar, {
+        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_1, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_2, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_3, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_avatar, {
           square: "",
           color: "accent",
           size: "136px",
@@ -23655,7 +23720,7 @@ function BrandGuidelinesvue_type_template_id_363ed902_render(_ctx, _cache, $prop
             size: "60px"
           })]),
           _: 1
-        })])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_4, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_breadcrumbs, {
+        })])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_4, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_breadcrumbs, {
           "active-color": "primary",
           class: "text-primary",
           gutter: "xs"
@@ -23678,12 +23743,12 @@ function BrandGuidelinesvue_type_template_id_363ed902_render(_ctx, _cache, $prop
             class: "text-body2 text-secondary bg-accent q-py-xs q-px-sm rounded font-medium"
           })]),
           _: 1
-        }), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_5, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.brandInfo.label), 1)])])]),
+        }), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_5, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.brandInfo.label), 1)])])]),
         _: 1
       }), (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
         class: (0,shared_esm_bundler/* normalizeClass */.C_)(_ctx.$q.screen.gt.sm ? 'q-px-lg q-pb-lg' : 'q-pa-md')
       }, {
-        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_6, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([{
+        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_6, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([{
           label: 'Brand Information',
           key: 'information'
         }, {
@@ -23736,7 +23801,7 @@ function BrandGuidelinesvue_type_template_id_363ed902_render(_ctx, _cache, $prop
             default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => {
               var _ctx$brandCategories$;
 
-              return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_7, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_8, [BrandGuidelinesvue_type_template_id_363ed902_hoisted_9, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_10, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.brandInfo.label), 1)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_11, [BrandGuidelinesvue_type_template_id_363ed902_hoisted_12, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_13, (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$brandCategories$ = _ctx.brandCategories[_ctx.brandInfo.category]) === null || _ctx$brandCategories$ === void 0 ? void 0 : _ctx$brandCategories$.label), 1)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_14, [BrandGuidelinesvue_type_template_id_363ed902_hoisted_15, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_16, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_external_link, {
+              return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_7, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_8, [BrandGuidelinesvue_type_template_id_0618defd_hoisted_9, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_10, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.brandInfo.label), 1)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_11, [BrandGuidelinesvue_type_template_id_0618defd_hoisted_12, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_13, (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$brandCategories$ = _ctx.brandCategories[_ctx.brandInfo.category]) === null || _ctx$brandCategories$ === void 0 ? void 0 : _ctx$brandCategories$.label), 1)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_14, [BrandGuidelinesvue_type_template_id_0618defd_hoisted_15, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_16, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_external_link, {
                 url: _ctx.brandInfo.website
               }, null, 8, ["url"])])])])];
             }),
@@ -23745,7 +23810,7 @@ function BrandGuidelinesvue_type_template_id_363ed902_render(_ctx, _cache, $prop
             name: "logo",
             class: "q-pa-none fit"
           }, {
-            default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_17, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)(3, i => {
+            default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_17, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)(3, i => {
               return (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_skeleton, {
                 key: i,
                 height: "100px",
@@ -23757,7 +23822,7 @@ function BrandGuidelinesvue_type_template_id_363ed902_render(_ctx, _cache, $prop
             name: "colors",
             class: "q-pa-none"
           }, {
-            default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_18, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)(_ctx.brandInfo.colors, (color, key) => {
+            default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_18, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)(_ctx.brandInfo.colors, (color, key) => {
               return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", {
                 key: key,
                 class: "col-6 col-md-3 col-lg-2"
@@ -23765,6 +23830,7 @@ function BrandGuidelinesvue_type_template_id_363ed902_render(_ctx, _cache, $prop
                 small: false,
                 colorPicker: false,
                 hoverEffect: false,
+                allowEdit: false,
                 initColor: color,
                 label: _ctx.capitalize(key)
               }, null, 8, ["initColor", "label"])]);
@@ -23777,14 +23843,14 @@ function BrandGuidelinesvue_type_template_id_363ed902_render(_ctx, _cache, $prop
             default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => {
               var _ctx$brandInfo$fonts, _ctx$brandInfo$fonts$, _ctx$brandInfo$fonts2;
 
-              return [(_ctx$brandInfo$fonts = _ctx.brandInfo.fonts) !== null && _ctx$brandInfo$fonts !== void 0 && (_ctx$brandInfo$fonts$ = _ctx$brandInfo$fonts.files) !== null && _ctx$brandInfo$fonts$ !== void 0 && _ctx$brandInfo$fonts$.length ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_19, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)((_ctx$brandInfo$fonts2 = _ctx.brandInfo.fonts) === null || _ctx$brandInfo$fonts2 === void 0 ? void 0 : _ctx$brandInfo$fonts2.files, file => {
+              return [(_ctx$brandInfo$fonts = _ctx.brandInfo.fonts) !== null && _ctx$brandInfo$fonts !== void 0 && (_ctx$brandInfo$fonts$ = _ctx$brandInfo$fonts.files) !== null && _ctx$brandInfo$fonts$ !== void 0 && _ctx$brandInfo$fonts$.length ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_19, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)((_ctx$brandInfo$fonts2 = _ctx.brandInfo.fonts) === null || _ctx$brandInfo$fonts2 === void 0 ? void 0 : _ctx$brandInfo$fonts2.files, file => {
                 return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", {
                   key: file.__key,
                   class: "col-auto"
-                }, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_20, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_21, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_CardIconBox, {
+                }, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_20, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_21, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_CardIconBox, {
                   icon: "icon-type-square"
-                })]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_22, (0,shared_esm_bundler/* toDisplayString */.zw)(file.name), 1)])])]);
-              }), 128))])) : ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_23, BrandGuidelinesvue_type_template_id_363ed902_hoisted_25))];
+                })]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_22, (0,shared_esm_bundler/* toDisplayString */.zw)(file.name), 1)])])]);
+              }), 128))])) : ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_23, BrandGuidelinesvue_type_template_id_0618defd_hoisted_25))];
             }),
             _: 1
           }), (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_tab_panel, {
@@ -23794,14 +23860,14 @@ function BrandGuidelinesvue_type_template_id_363ed902_render(_ctx, _cache, $prop
             default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => {
               var _ctx$brandInfo$images, _ctx$brandInfo$images2;
 
-              return [ true ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_26, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)(6, i => {
+              return [ true ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_26, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)(6, i => {
                 return (0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
                   key: i,
                   class: "col-12 col-sm-6 col-md-4 rounded overflow-hidden"
                 }, [(0,runtime_core_esm_bundler/* createElementVNode */._)("img", {
                   src: `/images/task-project/img/Img-${i}.png`,
                   class: "rounded fit"
-                }, null, 8, BrandGuidelinesvue_type_template_id_363ed902_hoisted_27)]);
+                }, null, 8, BrandGuidelinesvue_type_template_id_0618defd_hoisted_27)]);
               }), 64))])) : (0)];
             }),
             _: 1
@@ -23812,14 +23878,14 @@ function BrandGuidelinesvue_type_template_id_363ed902_render(_ctx, _cache, $prop
             default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => {
               var _ctx$brandInfo$graphi, _ctx$brandInfo$graphi2;
 
-              return [ true ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_31, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)(6, i => {
+              return [ true ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_31, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)(6, i => {
                 return (0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
                   key: i,
                   class: "col-12 col-sm-6 col-md-4 rounded overflow-hidden"
                 }, [(0,runtime_core_esm_bundler/* createElementVNode */._)("img", {
                   src: `/images/task-project/img/Img-${i}.png`,
                   class: "rounded fit"
-                }, null, 8, BrandGuidelinesvue_type_template_id_363ed902_hoisted_32)]);
+                }, null, 8, BrandGuidelinesvue_type_template_id_0618defd_hoisted_32)]);
               }), 64)), ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)(2, i => {
                 return (0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
                   key: i,
@@ -23838,17 +23904,17 @@ function BrandGuidelinesvue_type_template_id_363ed902_render(_ctx, _cache, $prop
             default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => {
               var _Object$values;
 
-              return [(_Object$values = Object.values(_ctx.brandInfo.social || {})) !== null && _Object$values !== void 0 && _Object$values.length ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_36, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)(_ctx.brandInfo.social, (link, type) => {
+              return [(_Object$values = Object.values(_ctx.brandInfo.social || {})) !== null && _Object$values !== void 0 && _Object$values.length ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_36, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)(_ctx.brandInfo.social, (link, type) => {
                 var _ctx$getSocialInfo;
 
                 return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", {
                   key: type,
                   class: "row items-center justify-start"
-                }, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_37, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.capitalize(type)), 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_38, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_external_link, {
+                }, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_37, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.capitalize(type)), 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_38, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_external_link, {
                   url: ((_ctx$getSocialInfo = _ctx.getSocialInfo(type)) === null || _ctx$getSocialInfo === void 0 ? void 0 : _ctx$getSocialInfo.baseurl) + '/' + link,
                   color: "text-secondary"
                 }, null, 8, ["url"])])]);
-              }), 128))])) : ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_39, BrandGuidelinesvue_type_template_id_363ed902_hoisted_41))];
+              }), 128))])) : ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_39, BrandGuidelinesvue_type_template_id_0618defd_hoisted_41))];
             }),
             _: 1
           })]),
@@ -23858,7 +23924,7 @@ function BrandGuidelinesvue_type_template_id_363ed902_render(_ctx, _cache, $prop
       }, 8, ["class"]), (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_separator), (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
         class: (0,shared_esm_bundler/* normalizeClass */.C_)([_ctx.$q.screen.gt.sm ? 'q-px-lg' : 'q-px-md', "row q-col-gutter-md items-center justify-between q-py-md"])
       }, {
-        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_42, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn_group, {
+        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_42, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn_group, {
           spread: _ctx.$q.screen.sm || _ctx.$q.screen.lt.md,
           class: "rounded no-shadow border-add"
         }, {
@@ -23871,7 +23937,7 @@ function BrandGuidelinesvue_type_template_id_363ed902_render(_ctx, _cache, $prop
             color: _ctx.tableTab === 'tasks' ? 'secondary' : 'primary',
             onClick: _cache[3] || (_cache[3] = $event => _ctx.tableTab = 'tasks')
           }, {
-            default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [BrandGuidelinesvue_type_template_id_363ed902_hoisted_43]),
+            default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [BrandGuidelinesvue_type_template_id_0618defd_hoisted_43]),
             _: 1
           }, 8, ["color", "class"]), (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_separator, {
             vertical: ""
@@ -23884,11 +23950,11 @@ function BrandGuidelinesvue_type_template_id_363ed902_render(_ctx, _cache, $prop
             color: _ctx.tableTab === 'projects' ? 'secondary' : 'primary',
             onClick: _cache[4] || (_cache[4] = $event => _ctx.tableTab = 'projects')
           }, {
-            default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [BrandGuidelinesvue_type_template_id_363ed902_hoisted_44]),
+            default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [BrandGuidelinesvue_type_template_id_0618defd_hoisted_44]),
             _: 1
           }, 8, ["color", "class"])]),
           _: 1
-        }, 8, ["spread"])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_45, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_46, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_47, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_input, {
+        }, 8, ["spread"])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_45, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_46, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_47, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_input, {
           modelValue: _ctx.searchQuery,
           "onUpdate:modelValue": _cache[5] || (_cache[5] = $event => _ctx.searchQuery = $event),
           dense: "",
@@ -23904,7 +23970,7 @@ function BrandGuidelinesvue_type_template_id_363ed902_render(_ctx, _cache, $prop
             class: "hover-text-secondary"
           })]),
           _: 1
-        }, 8, ["modelValue"])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_48, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_select, {
+        }, 8, ["modelValue"])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_48, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_select, {
           dense: "",
           multiple: "",
           outlined: "",
@@ -24018,7 +24084,7 @@ function BrandGuidelinesvue_type_template_id_363ed902_render(_ctx, _cache, $prop
                 "z-index": "2"
               }, i === 0 ? 'padding-left: 0' : ''])
             }, {
-              default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("span", BrandGuidelinesvue_type_template_id_363ed902_hoisted_49, (0,shared_esm_bundler/* toDisplayString */.zw)(col.label), 1)]),
+              default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("span", BrandGuidelinesvue_type_template_id_0618defd_hoisted_49, (0,shared_esm_bundler/* toDisplayString */.zw)(col.label), 1)]),
               _: 2
             }, 1032, ["props", "auto-width", "style"]);
           }), 128)), (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_th, {
@@ -24030,7 +24096,7 @@ function BrandGuidelinesvue_type_template_id_363ed902_render(_ctx, _cache, $prop
               "z-index": "1"
             }
           }, {
-            default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [BrandGuidelinesvue_type_template_id_363ed902_hoisted_50]),
+            default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [BrandGuidelinesvue_type_template_id_0618defd_hoisted_50]),
             _: 1
           })]),
           _: 2
@@ -24116,7 +24182,7 @@ function BrandGuidelinesvue_type_template_id_363ed902_render(_ctx, _cache, $prop
               "padding-bottom": "18px"
             }
           }, {
-            default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_51, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+            default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_51, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
               flat: "",
               round: "",
               size: "12px",
@@ -24129,7 +24195,7 @@ function BrandGuidelinesvue_type_template_id_363ed902_render(_ctx, _cache, $prop
           }, 1032, ["class"])]),
           _: 2
         }, 1032, ["props", "class"])]),
-        bottom: (0,runtime_core_esm_bundler/* withCtx */.w5)(scope => [_ctx.$q.screen.lt.xs || _ctx.$q.screen.xs ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_52, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_pagination, {
+        bottom: (0,runtime_core_esm_bundler/* withCtx */.w5)(scope => [_ctx.$q.screen.lt.xs || _ctx.$q.screen.xs ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_52, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_pagination, {
           unelevated: "",
           "boundary-numbers": "",
           modelValue: _ctx.pagination.page,
@@ -24141,7 +24207,7 @@ function BrandGuidelinesvue_type_template_id_363ed902_render(_ctx, _cache, $prop
           "active-text-color": "primary",
           max: scope.pagesNumber,
           "max-pages": 6
-        }, null, 8, ["modelValue", "disable", "max"])])) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_53, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+        }, null, 8, ["modelValue", "disable", "max"])])) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_53, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
           class: (0,shared_esm_bundler/* normalizeClass */.C_)(["text-left", _ctx.$q.screen.gt.xs ? 'col-2' : 'col-6'])
         }, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
           dense: "",
@@ -24155,7 +24221,7 @@ function BrandGuidelinesvue_type_template_id_363ed902_render(_ctx, _cache, $prop
             size: "xs",
             name: "icon-arrow-narrow-left",
             class: (0,shared_esm_bundler/* normalizeClass */.C_)(!scope.isFirstPage ? 'slide-hover-right-md' : '')
-          }, null, 8, ["class"]), BrandGuidelinesvue_type_template_id_363ed902_hoisted_54]),
+          }, null, 8, ["class"]), BrandGuidelinesvue_type_template_id_0618defd_hoisted_54]),
           _: 2
         }, 1032, ["disable", "onClick", "class"])], 2), _ctx.$q.screen.gt.xs ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_q_pagination, {
           key: 0,
@@ -24180,7 +24246,7 @@ function BrandGuidelinesvue_type_template_id_363ed902_render(_ctx, _cache, $prop
           onClick: scope.nextPage,
           class: (0,shared_esm_bundler/* normalizeClass */.C_)(["rounded q-px-md slide-hover", scope.isLastPage ? 'color-primary2' : 'text-primary hover-text-secondary'])
         }, {
-          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [BrandGuidelinesvue_type_template_id_363ed902_hoisted_55, (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [BrandGuidelinesvue_type_template_id_0618defd_hoisted_55, (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
             size: "xs",
             name: "icon-arrow-narrow-right",
             class: (0,shared_esm_bundler/* normalizeClass */.C_)(!scope.isLastPage ? 'slide-hover-left-md' : '')
@@ -24191,11 +24257,11 @@ function BrandGuidelinesvue_type_template_id_363ed902_render(_ctx, _cache, $prop
           icon,
           message,
           filter
-        }) => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_363ed902_hoisted_56, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+        }) => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", BrandGuidelinesvue_type_template_id_0618defd_hoisted_56, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
           size: "sm",
           color: _ctx.itemsLoading ? 'secondary' : 'negative',
           name: _ctx.itemsLoading ? 'icon-download-cloud-01' : filter ? 'icon-filter-funnel-01' : icon
-        }, null, 8, ["color", "name"]), _ctx.itemsLoading ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("span", BrandGuidelinesvue_type_template_id_363ed902_hoisted_57, (0,shared_esm_bundler/* toDisplayString */.zw)(message), 1)) : ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("span", BrandGuidelinesvue_type_template_id_363ed902_hoisted_58, " No " + (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.tableTab === 'tasks' ? 'Tasks' : 'Projects') + " found for this brand. ", 1))])]),
+        }, null, 8, ["color", "name"]), _ctx.itemsLoading ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("span", BrandGuidelinesvue_type_template_id_0618defd_hoisted_57, (0,shared_esm_bundler/* toDisplayString */.zw)(message), 1)) : ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("span", BrandGuidelinesvue_type_template_id_0618defd_hoisted_58, " No " + (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.tableTab === 'tasks' ? 'Tasks' : 'Projects') + " found for this brand. ", 1))])]),
         _: 1
       }, 8, ["rows", "columns", "loading", "dense", "pagination", "selected", "visible-columns", "onRequest"])]),
       _: 1
@@ -24203,7 +24269,7 @@ function BrandGuidelinesvue_type_template_id_363ed902_render(_ctx, _cache, $prop
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/Brands/BrandGuidelines.vue?vue&type=template&id=363ed902
+;// CONCATENATED MODULE: ./src/pages/Brands/BrandGuidelines.vue?vue&type=template&id=0618defd
 
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Brands/BrandGuidelines.vue?vue&type=script&lang=js
 
@@ -24489,7 +24555,7 @@ var QSkeleton = __webpack_require__(57133);
 
 
 ;
-const BrandGuidelines_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(BrandGuidelinesvue_type_script_lang_js, [['render',BrandGuidelinesvue_type_template_id_363ed902_render]])
+const BrandGuidelines_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(BrandGuidelinesvue_type_script_lang_js, [['render',BrandGuidelinesvue_type_template_id_0618defd_render]])
 
 /* harmony default export */ const BrandGuidelines = (BrandGuidelines_exports_);
 ;
@@ -25763,7 +25829,7 @@ var register_service_worker = __webpack_require__(70368);
 
     if ('periodicSync' in registration) {
       try {
-        await registration.periodicSync.register('content-sync', {
+        await registration.periodicSync.register('growmodo-hub-content-sync', {
           minInterval: 1000 * 60 * 60 // hourly sync
 
         });
@@ -29441,7 +29507,7 @@ var update = add("4cef59c8", content, true, {"sourceMap":true});
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.4.14-dev","description":"Growmodo, GmbH","productName":"Growmodo Hub","author":{"name":"Mike Saraus","url":"https://github.com/mikesaraus"},"private":true,"scripts":{"dev":"npm run icon-font:watch & quasar dev","lint":"eslint --ext .js,.vue ./","format":"prettier --write \\"**/*.{js,vue,scss,html,md,json}\\" --ignore-path .prettierignore","test":"echo \\"See package.json => scripts for available tests.\\" && exit 0","icon-font":"fantasticon -c .fantasticonrc.js --debug","icon-fixer":"oslllo-svg-fixer -s src/svg-tmp -d src/svg-all/custom --show-progress --strict-destination","icon-genie":"icongenie generate --skip-trim --svg-color 121212 -i ./public/favicon.png","icon-font:watch":"watch \'npm run icon-font\' src/svg-icons","test:unit:ui":"majestic","test:unit":"jest --updateSnapshot","test:unit:ci":"jest --ci","test:unit:coverage":"jest --coverage","test:unit:watch":"jest --watch","test:unit:watchAll":"jest --watchAll","serve:test:coverage":"quasar serve test/jest/coverage/lcov-report/ --port 8788","concurrently:dev:jest":"concurrently \\"quasar dev\\" \\"jest --watch\\"","test:e2e":"cross-env NODE_ENV=test start-test \\"quasar dev\\" http-get://localhost:8080 \\"cypress open\\"","test:e2e:ci":"cross-env NODE_ENV=test start-test \\"quasar dev\\" http-get://localhost:8080 \\"cypress run\\"","test:component":"cross-env NODE_ENV=test cypress open-ct","test:component:ci":"cross-env NODE_ENV=test cypress run-ct"},"dependencies":{"@quasar/extras":"^1.0.0","axios":"^0.21.1","core-js":"^3.6.5","date-fns":"^2.29.2","pinia":"^2.0.21","quasar":"^2.6.0","vue":"^3.0.0","vue-i18n":"^9.3.0-beta.3","vue-router":"^4.0.0"},"devDependencies":{"@babel/eslint-parser":"^7.13.14","@quasar/app-webpack":"^3.0.0","@quasar/quasar-app-extension-testing":"^2.0.4","@quasar/quasar-app-extension-testing-e2e-cypress":"^4.2.1","@quasar/quasar-app-extension-testing-unit-jest":"^3.0.0-alpha.10","@squoosh/lib":"^0.4.0","eslint":"^8.10.0","eslint-config-prettier":"^8.1.0","eslint-plugin-jest":"^25.2.2","eslint-plugin-vue":"^9.0.0","eslint-webpack-plugin":"^3.1.1","fantasticon":"^1.2.3","image-minimizer-webpack-plugin":"^3.6.1","javascript-obfuscator":"^4.0.0","majestic":"^1.7.0","oslllo-svg-fixer":"^2.1.2","prettier":"^2.5.1","watch":"^0.13.0","webpack-obfuscator":"^3.5.1","workbox-webpack-plugin":"^6.5.4","eslint-plugin-cypress":"^2.11.3"},"browserslist":["last 10 Chrome versions","last 10 Firefox versions","last 4 Edge versions","last 7 Safari versions","last 8 Android versions","last 8 ChromeAndroid versions","last 8 FirefoxAndroid versions","last 10 iOS versions","last 5 Opera versions"],"engines":{"node":"^18 || ^16 || ^14.19","npm":">= 6.0.0"}}');
+module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.4.18-dev","description":"Growmodo, GmbH","productName":"Growmodo Hub","author":{"name":"Mike Saraus","url":"https://github.com/mikesaraus"},"private":true,"scripts":{"dev":"npm run icon-font:watch & quasar dev","lint":"eslint --ext .js,.vue ./","format":"prettier --write \\"**/*.{js,vue,scss,html,md,json}\\" --ignore-path .prettierignore","test":"echo \\"See package.json => scripts for available tests.\\" && exit 0","icon-font":"fantasticon -c .fantasticonrc.js --debug","icon-fixer":"oslllo-svg-fixer -s src/svg-tmp -d src/svg-all/custom --show-progress --strict-destination","icon-genie":"icongenie generate --skip-trim --svg-color 121212 -i ./public/favicon.png","icon-font:watch":"watch \'npm run icon-font\' src/svg-icons","test:unit:ui":"majestic","test:unit":"jest --updateSnapshot","test:unit:ci":"jest --ci","test:unit:coverage":"jest --coverage","test:unit:watch":"jest --watch","test:unit:watchAll":"jest --watchAll","serve:test:coverage":"quasar serve test/jest/coverage/lcov-report/ --port 8788","concurrently:dev:jest":"concurrently \\"quasar dev\\" \\"jest --watch\\"","test:e2e":"cross-env NODE_ENV=test start-test \\"quasar dev\\" http-get://localhost:8080 \\"cypress open\\"","test:e2e:ci":"cross-env NODE_ENV=test start-test \\"quasar dev\\" http-get://localhost:8080 \\"cypress run\\"","test:component":"cross-env NODE_ENV=test cypress open-ct","test:component:ci":"cross-env NODE_ENV=test cypress run-ct"},"dependencies":{"@quasar/extras":"^1.0.0","axios":"^0.21.1","core-js":"^3.6.5","date-fns":"^2.29.2","pinia":"^2.0.21","quasar":"^2.6.0","vue":"^3.0.0","vue-i18n":"^9.3.0-beta.3","vue-router":"^4.0.0"},"devDependencies":{"@babel/eslint-parser":"^7.13.14","@quasar/app-webpack":"^3.0.0","@quasar/quasar-app-extension-testing":"^2.0.4","@quasar/quasar-app-extension-testing-e2e-cypress":"^4.2.1","@quasar/quasar-app-extension-testing-unit-jest":"^3.0.0-alpha.10","@squoosh/lib":"^0.4.0","eslint":"^8.25.0","eslint-config-prettier":"^8.1.0","eslint-plugin-cypress":"^2.11.3","eslint-plugin-jest":"^25.2.2","eslint-plugin-vue":"^9.0.0","eslint-webpack-plugin":"^3.1.1","fantasticon":"^1.2.2","image-minimizer-webpack-plugin":"^3.6.1","javascript-obfuscator":"^4.0.0","majestic":"^1.7.0","oslllo-svg-fixer":"^2.1.2","prettier":"^2.5.1","watch":"^0.13.0","webpack-obfuscator":"^3.5.1","workbox-webpack-plugin":"^6.5.4"},"browserslist":["last 10 Chrome versions","last 10 Firefox versions","last 4 Edge versions","last 7 Safari versions","last 8 Android versions","last 8 ChromeAndroid versions","last 8 FirefoxAndroid versions","last 10 iOS versions","last 5 Opera versions"],"engines":{"node":"^18 || ^16 || ^14.19","npm":">= 6.0.0"}}');
 
 /***/ })
 
@@ -29660,9 +29726,9 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.4.14-dev","desc
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [736], () => (__webpack_require__(41419)))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [736], () => (__webpack_require__(83245)))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.fc707cf3.js.map
+//# sourceMappingURL=app.794c2bc3.js.map
