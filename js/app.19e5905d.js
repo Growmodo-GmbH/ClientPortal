@@ -1,7 +1,7 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 76047:
+/***/ 15281:
 /***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -14862,101 +14862,101 @@ const OnBoarding_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(OnBoard
 
 runtime_auto_import_default()(OnBoardingvue_type_script_lang_js, 'components', {QCard: QCard/* default */.Z,QToolbar: QToolbar/* default */.Z,QLinearProgress: QLinearProgress/* default */.Z,QStepper: QStepper/* default */.Z,QStep: QStep/* default */.Z,QCardSection: QCardSection/* default */.Z,QVideo: QVideo/* default */.Z,QCardActions: QCardActions/* default */.Z,QBtn: QBtn/* default */.Z,QIcon: QIcon/* default */.Z,QSpace: QSpace/* default */.Z,QList: QList/* default */.Z,QCheckbox: QCheckbox/* default */.Z,QRadio: QRadio/* default */.Z,QDialog: QDialog/* default */.Z});runtime_auto_import_default()(OnBoardingvue_type_script_lang_js, 'directives', {Ripple: Ripple/* default */.Z,ClosePopup: ClosePopup/* default */.Z});
 
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Dialogs/OffBoarding.vue?vue&type=template&id=6370d406
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Dialogs/OffBoarding.vue?vue&type=template&id=8165b818
 
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_1 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_1 = {
   class: "row items-start q-pb-md q-col-gutter-xl"
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_2 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_2 = {
   class: "col-12 col-md-4"
 };
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_3 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("img", {
+const OffBoardingvue_type_template_id_8165b818_hoisted_3 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("img", {
   src: "/images/gif/goodbye.gif"
 }, null, -1);
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_4 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_4 = {
   class: "col-12 col-md-8"
 };
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_5 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const OffBoardingvue_type_template_id_8165b818_hoisted_5 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h4 letter-space-normal font-medium q-pb-md"
 }, " We're sad to see you go ", -1);
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_6 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_6 = {
   class: "text-body1 color-primary2 letter-space-normal"
 };
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_7 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("p", null, " At Growmodo we want to give growth-driven brands and agencies access to a flexible workforce of vetted talent. Our goal is to become an indispensable part of your team. ", -1);
+const OffBoardingvue_type_template_id_8165b818_hoisted_7 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("p", null, " At Growmodo we want to give growth-driven brands and agencies access to a flexible workforce of vetted talent. Our goal is to become an indispensable part of your team. ", -1);
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_8 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("p", null, " However, we know that business can be seasonal and there is just not enough work to delegate. In these situations, we allow you to pause your subscription and jump back in when you need us for a new project. ", -1);
+const OffBoardingvue_type_template_id_8165b818_hoisted_8 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("p", null, " However, we know that business can be seasonal and there is just not enough work to delegate. In these situations, we allow you to pause your subscription and jump back in when you need us for a new project. ", -1);
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_9 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("p", {
+const OffBoardingvue_type_template_id_8165b818_hoisted_9 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("p", {
   class: "font-medium"
 }, " Here are the advantages of pausing your account: ", -1);
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_10 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_10 = {
   class: "letter-space-normal"
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_11 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_11 = {
   class: "row q-col-gutter-md justify-center q-pt-lg"
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_12 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_12 = {
   class: "col-12 col-sm-6"
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_13 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_13 = {
   class: "col-12 col-sm-6"
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_14 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_14 = {
   class: "q-px-xl"
 };
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_15 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const OffBoardingvue_type_template_id_8165b818_hoisted_15 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h4 letter-space-normal font-medium q-pb-md"
 }, " We're sad to see you go ", -1);
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_16 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_16 = {
   class: "text-body1 color-primary2 letter-space-normal"
 };
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_17 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("p", {
+const OffBoardingvue_type_template_id_8165b818_hoisted_17 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("p", {
   class: "font-medium"
 }, " Mauris tortor est ultrices egestas phasellus ullamcorper. ", -1);
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_18 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("p", null, " We know that business can be seasonal and there is just not enough work to delegate. In these situations, we allow you to pause your subscription and jump back in when you need us for a new project. ", -1);
+const OffBoardingvue_type_template_id_8165b818_hoisted_18 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("p", null, " We know that business can be seasonal and there is just not enough work to delegate. In these situations, we allow you to pause your subscription and jump back in when you need us for a new project. ", -1);
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_19 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("p", {
+const OffBoardingvue_type_template_id_8165b818_hoisted_19 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("p", {
   class: "font-medium"
 }, " Here are the advantages of pausing your account: ", -1);
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_20 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_20 = {
   class: "letter-space-normal"
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_21 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_21 = {
   class: "full-width q-py-lg flex flex-center"
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_22 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_22 = {
   class: "row q-col-gutter-md justify-center",
   style: {
     "width": "720px"
   }
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_23 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_23 = {
   class: "col-12 col-sm-6"
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_24 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_24 = {
   class: "col-12 col-sm-6"
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_25 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_25 = {
   class: "q-px-xl"
 };
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_26 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const OffBoardingvue_type_template_id_8165b818_hoisted_26 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h3 text-center letter-space-normal font-medium q-pb-md"
 }, " Before you pause... ", -1);
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_27 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const OffBoardingvue_type_template_id_8165b818_hoisted_27 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-body1 color-primary2 letter-space-normal flex flex-center q-pb-md q-pt-sm"
 }, [/*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("p", {
   class: "text-center",
@@ -14967,11 +14967,11 @@ const OffBoardingvue_type_template_id_6370d406_hoisted_27 = /*#__PURE__*/(0,runt
   class: "font-demi-bold"
 }, "maintenance plan"), /*#__PURE__*/(0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" for businesses of all sizes that need a hands-on team to keep their websites safe and up-to-date without the headaches. ")])], -1);
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_28 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_28 = {
   class: "row text-body1 color-primary2 q-col-gutter-md"
 };
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_29 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [/*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const OffBoardingvue_type_template_id_8165b818_hoisted_29 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [/*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "letter-spacing-normal font-medium text-h6"
 }, " Maintenance Plan "), /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [/*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
   class: "text-h3 font-medium text-secondary"
@@ -14981,100 +14981,100 @@ const OffBoardingvue_type_template_id_6370d406_hoisted_29 = /*#__PURE__*/(0,runt
   }
 }, "/mo")])], -1);
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_30 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_30 = {
   class: "col-12 col-md-9"
 };
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_31 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const OffBoardingvue_type_template_id_8165b818_hoisted_31 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "font-demi-bold text-h6 q-pb-md"
 }, " What you will get... ", -1);
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_32 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_32 = {
   class: "row q-col-gutter-sm"
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_33 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_33 = {
   class: "col-12 col-sm-6"
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_34 = {
-  class: "row q-col-gutter-md"
+const OffBoardingvue_type_template_id_8165b818_hoisted_34 = {
+  class: "row q-col-gutter-sm"
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_35 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_35 = {
   class: "col-12 col-sm-6"
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_36 = {
-  class: "row q-col-gutter-md"
+const OffBoardingvue_type_template_id_8165b818_hoisted_36 = {
+  class: "row q-col-gutter-sm"
 };
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_37 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const OffBoardingvue_type_template_id_8165b818_hoisted_37 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "font-demi-bold text-left text-h6 color-primary2 q-pb-md"
 }, " Maintenance tasks includes... ", -1);
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_38 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_38 = {
   class: "row q-col-gutter-sm"
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_39 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_39 = {
   class: "col-12 col-sm-6 col-md-4"
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_40 = {
-  class: "row q-col-gutter-md"
+const OffBoardingvue_type_template_id_8165b818_hoisted_40 = {
+  class: "row q-col-gutter-sm"
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_41 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_41 = {
   class: "col-12 col-sm-6 col-md-4"
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_42 = {
-  class: "row q-col-gutter-md"
+const OffBoardingvue_type_template_id_8165b818_hoisted_42 = {
+  class: "row q-col-gutter-sm"
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_43 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_43 = {
   class: "col-12 col-sm-6 col-md-4"
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_44 = {
-  class: "row q-col-gutter-md"
+const OffBoardingvue_type_template_id_8165b818_hoisted_44 = {
+  class: "row q-col-gutter-sm"
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_45 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_45 = {
   class: "full-width q-py-lg flex flex-center"
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_46 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_46 = {
   class: "row q-col-gutter-md justify-center",
   style: {
     "width": "720px"
   }
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_47 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_47 = {
   class: "col-12 col-sm-6"
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_48 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_48 = {
   class: "col-12 col-sm-6"
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_49 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_49 = {
   class: "q-px-xl"
 };
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_50 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const OffBoardingvue_type_template_id_8165b818_hoisted_50 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h4 letter-space-normal font-medium text-center q-pb-xl"
 }, " How long would you like to pause your subscription? ", -1);
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_51 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_51 = {
   class: "row q-col-gutter-lg"
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_52 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_52 = {
   class: "q-pt-sm"
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_53 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_53 = {
   class: "full-width q-py-lg flex flex-center"
 };
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_54 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
+const OffBoardingvue_type_template_id_8165b818_hoisted_54 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
   class: "q-px-sm"
 }, "Pause subscription", -1);
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_55 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_55 = {
   class: "q-px-xl"
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_56 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_56 = {
   class: "text-center"
 };
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_57 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const OffBoardingvue_type_template_id_8165b818_hoisted_57 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "q-py-md"
 }, [/*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h5 font-medium text-center"
@@ -15082,22 +15082,22 @@ const OffBoardingvue_type_template_id_6370d406_hoisted_57 = /*#__PURE__*/(0,runt
   class: "text-body1 color-primary2 q-pt-md text-center"
 }, " Your Growmodo subscription is paused now, but reactivating is easy and possible anytime. ")], -1);
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_58 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_58 = {
   class: "full-width text-center q-py-lg"
 };
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_59 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
+const OffBoardingvue_type_template_id_8165b818_hoisted_59 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
   class: "q-pl-sm"
 }, "Back to home", -1);
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_60 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_60 = {
   class: "q-px-xl"
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_61 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_61 = {
   class: "text-center"
 };
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_62 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const OffBoardingvue_type_template_id_8165b818_hoisted_62 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "q-py-md"
 }, [/*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h5 font-medium text-center"
@@ -15105,60 +15105,60 @@ const OffBoardingvue_type_template_id_6370d406_hoisted_62 = /*#__PURE__*/(0,runt
   class: "text-body1 color-primary2 q-pt-md text-center"
 }, " Your maintenance plan is active, you are able to request maintanenance tasks. ")], -1);
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_63 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_63 = {
   class: "full-width q-py-lg flex flex-center"
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_64 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_64 = {
   class: "row q-col-gutter-md justify-center",
   style: {
     "width": "720px"
   }
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_65 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_65 = {
   class: "col-12 col-sm-auto"
 };
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_66 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
+const OffBoardingvue_type_template_id_8165b818_hoisted_66 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
   class: "q-pl-sm"
 }, "Back to home", -1);
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_67 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_67 = {
   class: "col-12 col-sm-auto"
 };
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_68 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
+const OffBoardingvue_type_template_id_8165b818_hoisted_68 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
   class: "q-px-md"
 }, "Request maintenance task", -1);
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_69 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_69 = {
   class: "q-px-xl"
 };
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_70 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const OffBoardingvue_type_template_id_8165b818_hoisted_70 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h4 letter-space-normal font-medium text-center q-pb-xl"
 }, " Please tell us why you'd like to cancel ", -1);
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_71 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_71 = {
   class: "row q-col-gutter-lg"
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_72 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_72 = {
   class: "q-pt-sm"
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_73 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_73 = {
   class: "full-width"
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_74 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_74 = {
   class: "full-width q-py-lg flex flex-center"
 };
-const OffBoardingvue_type_template_id_6370d406_hoisted_75 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_75 = {
   class: "q-px-xl"
 };
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_76 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const OffBoardingvue_type_template_id_8165b818_hoisted_76 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h4 letter-space-normal font-medium q-pb-xl"
 }, " Cancel & delete your account ", -1);
 
-const OffBoardingvue_type_template_id_6370d406_hoisted_77 = {
+const OffBoardingvue_type_template_id_8165b818_hoisted_77 = {
   class: "text-body1 color-primary2 letter-space-normal"
 };
 
@@ -15202,7 +15202,7 @@ const _hoisted_88 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNod
   class: "text-body1 color-primary2 q-pt-md text-center"
 }, " You have successfully deleted your account. ")], -1);
 
-function OffBoardingvue_type_template_id_6370d406_render(_ctx, _cache, $props, $setup, $data, $options) {
+function OffBoardingvue_type_template_id_8165b818_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_close_button = (0,runtime_core_esm_bundler/* resolveComponent */.up)("close-button");
 
   const _component_q_card_section = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-card-section");
@@ -15258,13 +15258,13 @@ function OffBoardingvue_type_template_id_6370d406_render(_ctx, _cache, $props, $
         name: "init",
         class: "q-pa-none flex-center q-px-xl"
       }, {
-        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_1, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_2, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_avatar, {
+        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_1, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_2, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_avatar, {
           rounded: "",
           class: "rounded full-width full-height"
         }, {
-          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [OffBoardingvue_type_template_id_6370d406_hoisted_3]),
+          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [OffBoardingvue_type_template_id_8165b818_hoisted_3]),
           _: 1
-        })]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_4, [OffBoardingvue_type_template_id_6370d406_hoisted_5, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_6, [OffBoardingvue_type_template_id_6370d406_hoisted_7, OffBoardingvue_type_template_id_6370d406_hoisted_8, OffBoardingvue_type_template_id_6370d406_hoisted_9, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([`Your account with all brand assets will stay secured on our server.`, `Potential price increases will not affect your subscription. You can start working with us at the same monthly rate.`, `You can end your paused period anytime and delegate new work within a day.`], item => {
+        })]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_4, [OffBoardingvue_type_template_id_8165b818_hoisted_5, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_6, [OffBoardingvue_type_template_id_8165b818_hoisted_7, OffBoardingvue_type_template_id_8165b818_hoisted_8, OffBoardingvue_type_template_id_8165b818_hoisted_9, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([`Your account with all brand assets will stay secured on our server.`, `Potential price increases will not affect your subscription. You can start working with us at the same monthly rate.`, `You can end your paused period anytime and delegate new work within a day.`], item => {
           return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_card_item, {
             class: "q-py-sm",
             itemPadding: "none",
@@ -15276,10 +15276,10 @@ function OffBoardingvue_type_template_id_6370d406_render(_ctx, _cache, $props, $
               class: "q-py-xs",
               size: "xs"
             })]),
-            description: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("span", OffBoardingvue_type_template_id_6370d406_hoisted_10, (0,shared_esm_bundler/* toDisplayString */.zw)(item), 1)]),
+            description: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("span", OffBoardingvue_type_template_id_8165b818_hoisted_10, (0,shared_esm_bundler/* toDisplayString */.zw)(item), 1)]),
             _: 2
           }, 1024);
-        }), 128))])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_11, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_12, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+        }), 128))])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_11, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_12, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
           "no-caps": "",
           outline: "",
           unelevated: "",
@@ -15289,7 +15289,7 @@ function OffBoardingvue_type_template_id_6370d406_render(_ctx, _cache, $props, $
         }, {
           default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" Continue to cancel ")]),
           _: 1
-        })]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_13, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+        })]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_13, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
           "no-caps": "",
           unelevated: "",
           color: "primary",
@@ -15304,7 +15304,7 @@ function OffBoardingvue_type_template_id_6370d406_render(_ctx, _cache, $props, $
         name: "pause_1",
         class: "q-pa-none flex-center"
       }, {
-        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_14, [OffBoardingvue_type_template_id_6370d406_hoisted_15, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_16, [OffBoardingvue_type_template_id_6370d406_hoisted_17, OffBoardingvue_type_template_id_6370d406_hoisted_18, OffBoardingvue_type_template_id_6370d406_hoisted_19, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([`Your account with all brand assets will stay secured on our server.`, `Potential price increases will not affect your subscription. You can start working with us at the same monthly rate.`, `You can end your paused period anytime and delegate new work within a day.`], item => {
+        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_14, [OffBoardingvue_type_template_id_8165b818_hoisted_15, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_16, [OffBoardingvue_type_template_id_8165b818_hoisted_17, OffBoardingvue_type_template_id_8165b818_hoisted_18, OffBoardingvue_type_template_id_8165b818_hoisted_19, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([`Your account with all brand assets will stay secured on our server.`, `Potential price increases will not affect your subscription. You can start working with us at the same monthly rate.`, `You can end your paused period anytime and delegate new work within a day.`], item => {
           return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_card_item, {
             class: "q-py-sm",
             itemPadding: "none",
@@ -15318,10 +15318,10 @@ function OffBoardingvue_type_template_id_6370d406_render(_ctx, _cache, $props, $
               color: "secondary",
               size: "xs"
             })]),
-            description: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("span", OffBoardingvue_type_template_id_6370d406_hoisted_20, (0,shared_esm_bundler/* toDisplayString */.zw)(item), 1)]),
+            description: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("span", OffBoardingvue_type_template_id_8165b818_hoisted_20, (0,shared_esm_bundler/* toDisplayString */.zw)(item), 1)]),
             _: 2
           }, 1024);
-        }), 128))])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_21, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_22, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_23, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+        }), 128))])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_21, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_22, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_23, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
           "no-caps": "",
           outline: "",
           unelevated: "",
@@ -15331,7 +15331,7 @@ function OffBoardingvue_type_template_id_6370d406_render(_ctx, _cache, $props, $
         }, {
           default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" Continue to cancel ")]),
           _: 1
-        })]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_24, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+        })]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_24, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
           "no-caps": "",
           unelevated: "",
           color: "primary",
@@ -15346,7 +15346,7 @@ function OffBoardingvue_type_template_id_6370d406_render(_ctx, _cache, $props, $
         name: "pause_2",
         class: "q-pa-none flex-center"
       }, {
-        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_25, [OffBoardingvue_type_template_id_6370d406_hoisted_26, OffBoardingvue_type_template_id_6370d406_hoisted_27, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_28, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_25, [OffBoardingvue_type_template_id_8165b818_hoisted_26, OffBoardingvue_type_template_id_8165b818_hoisted_27, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_28, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
           class: (0,shared_esm_bundler/* normalizeClass */.C_)(["col-12 col-md-3 flex", _ctx.$q.screen.lt.md ? 'flex-center' : ''])
         }, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_card, {
           flat: "",
@@ -15356,9 +15356,9 @@ function OffBoardingvue_type_template_id_6370d406_render(_ctx, _cache, $props, $
             "max-width": "300px"
           }
         }, {
-          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [OffBoardingvue_type_template_id_6370d406_hoisted_29]),
+          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [OffBoardingvue_type_template_id_8165b818_hoisted_29]),
           _: 1
-        })], 2), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_30, [OffBoardingvue_type_template_id_6370d406_hoisted_31, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_32, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_33, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_34, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([{
+        })], 2), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_30, [OffBoardingvue_type_template_id_8165b818_hoisted_31, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_32, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_33, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_34, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([{
           icon: 'icon-infinity',
           label: 'Unlimited maintenance requests'
         }, {
@@ -15387,7 +15387,7 @@ function OffBoardingvue_type_template_id_6370d406_render(_ctx, _cache, $props, $
             description: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)((0,shared_esm_bundler/* toDisplayString */.zw)(item.label), 1)]),
             _: 2
           }, 1024)]);
-        }), 64))])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_35, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_36, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([{
+        }), 64))])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_35, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_36, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([{
           icon: 'icon-check',
           label: 'Dedicated project manager'
         }, {
@@ -15417,7 +15417,7 @@ function OffBoardingvue_type_template_id_6370d406_render(_ctx, _cache, $props, $
           }, 1024)]);
         }), 64))])])])])]), (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_separator, {
           class: "q-my-lg"
-        }), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [OffBoardingvue_type_template_id_6370d406_hoisted_37, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_38, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_39, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_40, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([{
+        }), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [OffBoardingvue_type_template_id_8165b818_hoisted_37, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_38, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_39, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_40, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([{
           icon: 'icon-check',
           label: 'Fixing website bugs'
         }, {
@@ -15446,7 +15446,7 @@ function OffBoardingvue_type_template_id_6370d406_render(_ctx, _cache, $props, $
             description: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)((0,shared_esm_bundler/* toDisplayString */.zw)(item.label), 1)]),
             _: 2
           }, 1024)]);
-        }), 64))])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_41, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_42, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([{
+        }), 64))])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_41, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_42, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([{
           icon: 'icon-check',
           label: 'Implementing website with 3rd party tool'
         }, {
@@ -15471,7 +15471,7 @@ function OffBoardingvue_type_template_id_6370d406_render(_ctx, _cache, $props, $
             description: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)((0,shared_esm_bundler/* toDisplayString */.zw)(item.label), 1)]),
             _: 2
           }, 1024)]);
-        }), 64))])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_43, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_44, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([{
+        }), 64))])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_43, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_44, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([{
           icon: 'icon-check',
           label: 'Site speed optimization'
         }, {
@@ -15496,7 +15496,7 @@ function OffBoardingvue_type_template_id_6370d406_render(_ctx, _cache, $props, $
             description: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)((0,shared_esm_bundler/* toDisplayString */.zw)(item.label), 1)]),
             _: 2
           }, 1024)]);
-        }), 64))])])])])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_45, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_46, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_47, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+        }), 64))])])])])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_45, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_46, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_47, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
           "no-caps": "",
           outline: "",
           unelevated: "",
@@ -15506,7 +15506,7 @@ function OffBoardingvue_type_template_id_6370d406_render(_ctx, _cache, $props, $
         }, {
           default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" Continue to pause ")]),
           _: 1
-        })]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_48, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+        })]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_48, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
           "no-caps": "",
           unelevated: "",
           color: "primary",
@@ -15521,7 +15521,7 @@ function OffBoardingvue_type_template_id_6370d406_render(_ctx, _cache, $props, $
         name: "pause_3",
         class: "q-pa-none flex-center"
       }, {
-        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_49, [OffBoardingvue_type_template_id_6370d406_hoisted_50, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_51, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([`1 Week`, `2 Weeks`, `1 Month`, `2 Months`, `3 Months`, `4 Months`], item => {
+        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_49, [OffBoardingvue_type_template_id_8165b818_hoisted_50, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_51, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([`1 Week`, `2 Weeks`, `1 Month`, `2 Months`, `3 Months`, `4 Months`], item => {
           return (0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
             key: item,
             class: "col-12 col-sm-6 col-md-4"
@@ -15536,19 +15536,19 @@ function OffBoardingvue_type_template_id_6370d406_render(_ctx, _cache, $props, $
               color: "secondary",
               name: item
             }, null, 8, ["modelValue", "val", "name"])]),
-            description: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_52, (0,shared_esm_bundler/* toDisplayString */.zw)(item), 1)]),
+            description: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_52, (0,shared_esm_bundler/* toDisplayString */.zw)(item), 1)]),
             _: 2
           }, 1032, ["class", "onClick"])), [[_directive_ripple, {
             color: 'secondary'
           }]])]);
-        }), 64))]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_53, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+        }), 64))]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_53, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
           "no-caps": "",
           unelevated: "",
           color: "primary",
           class: (0,shared_esm_bundler/* normalizeClass */.C_)(["rounded q-py-sm font-medium text-body2", _ctx.$q.screen.lt.sm ? 'full-width' : '']),
           onClick: _ctx.pauseAccount
         }, {
-          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [OffBoardingvue_type_template_id_6370d406_hoisted_54]),
+          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [OffBoardingvue_type_template_id_8165b818_hoisted_54]),
           _: 1
         }, 8, ["class", "onClick"])])])]),
         _: 1
@@ -15556,10 +15556,10 @@ function OffBoardingvue_type_template_id_6370d406_render(_ctx, _cache, $props, $
         name: "pause_done",
         class: "q-pa-none flex-center"
       }, {
-        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_55, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_56, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_CardIconBox, {
+        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_55, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_56, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_CardIconBox, {
           icon: "icon-check-circle-broken",
           iconSize: "md"
-        })]), OffBoardingvue_type_template_id_6370d406_hoisted_57, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_58, [(0,runtime_core_esm_bundler/* withDirectives */.wy)(((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_q_btn, {
+        })]), OffBoardingvue_type_template_id_8165b818_hoisted_57, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_58, [(0,runtime_core_esm_bundler/* withDirectives */.wy)(((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_q_btn, {
           "no-caps": "",
           unelevated: "",
           ripple: {
@@ -15569,7 +15569,7 @@ function OffBoardingvue_type_template_id_6370d406_render(_ctx, _cache, $props, $
           class: (0,shared_esm_bundler/* normalizeClass */.C_)(["rounded slide-hover", _ctx.$q.screen.lt.sm ? 'full-width' : '']),
           onClick: _ctx.backToHome
         }, {
-          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [OffBoardingvue_type_template_id_6370d406_hoisted_59, (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [OffBoardingvue_type_template_id_8165b818_hoisted_59, (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
             size: "sm",
             name: "icon-arrow-narrow-right",
             class: "q-px-sm"
@@ -15581,10 +15581,10 @@ function OffBoardingvue_type_template_id_6370d406_render(_ctx, _cache, $props, $
         name: "maintenance_done",
         class: "q-pa-none flex-center"
       }, {
-        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_60, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_61, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_CardIconBox, {
+        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_60, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_61, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_CardIconBox, {
           icon: "icon-check-circle-broken",
           iconSize: "md"
-        })]), OffBoardingvue_type_template_id_6370d406_hoisted_62, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_63, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_64, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_65, [(0,runtime_core_esm_bundler/* withDirectives */.wy)(((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_q_btn, {
+        })]), OffBoardingvue_type_template_id_8165b818_hoisted_62, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_63, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_64, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_65, [(0,runtime_core_esm_bundler/* withDirectives */.wy)(((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_q_btn, {
           "no-caps": "",
           outline: "",
           unelevated: "",
@@ -15595,20 +15595,20 @@ function OffBoardingvue_type_template_id_6370d406_render(_ctx, _cache, $props, $
           class: (0,shared_esm_bundler/* normalizeClass */.C_)(["rounded slide-hover", _ctx.$q.screen.lt.sm ? 'full-width' : '']),
           onClick: _ctx.backToHome
         }, {
-          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [OffBoardingvue_type_template_id_6370d406_hoisted_66, (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [OffBoardingvue_type_template_id_8165b818_hoisted_66, (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
             size: "sm",
             name: "icon-arrow-narrow-right",
             class: "q-px-sm"
           })]),
           _: 1
-        }, 8, ["class", "onClick"])), [[_directive_close_popup]])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_67, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+        }, 8, ["class", "onClick"])), [[_directive_close_popup]])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_67, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
           "no-caps": "",
           unelevated: "",
           color: "primary",
           class: (0,shared_esm_bundler/* normalizeClass */.C_)(["rounded q-py-sm font-medium text-body2", _ctx.$q.screen.lt.sm ? 'full-width' : '']),
           onClick: _ctx.requestMaintenanceTask
         }, {
-          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [OffBoardingvue_type_template_id_6370d406_hoisted_68]),
+          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [OffBoardingvue_type_template_id_8165b818_hoisted_68]),
           _: 1
         }, 8, ["class", "onClick"])])])])])]),
         _: 1
@@ -15616,7 +15616,7 @@ function OffBoardingvue_type_template_id_6370d406_render(_ctx, _cache, $props, $
         name: "cancel_1",
         class: "q-pa-none flex-center"
       }, {
-        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_69, [OffBoardingvue_type_template_id_6370d406_hoisted_70, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_71, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([`We don't need more design & development work`, `We hired someone in-house`, `We started working with another company`, `We are not happy with the service`, `Others`], item => {
+        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_69, [OffBoardingvue_type_template_id_8165b818_hoisted_70, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_71, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([`We don't need more design & development work`, `We hired someone in-house`, `We started working with another company`, `We are not happy with the service`, `Others`], item => {
           return (0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
             key: item,
             class: "col-12 col-sm-6 col-md-4"
@@ -15631,7 +15631,7 @@ function OffBoardingvue_type_template_id_6370d406_render(_ctx, _cache, $props, $
               color: "secondary",
               name: item
             }, null, 8, ["modelValue", "val", "name"])]),
-            description: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_72, (0,shared_esm_bundler/* toDisplayString */.zw)(item), 1)]),
+            description: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_72, (0,shared_esm_bundler/* toDisplayString */.zw)(item), 1)]),
             _: 2
           }, 1032, ["class", "onClick"])), [[_directive_ripple, {
             color: 'secondary'
@@ -15639,7 +15639,7 @@ function OffBoardingvue_type_template_id_6370d406_render(_ctx, _cache, $props, $
         }), 64)), (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_slide_transition, {
           appear: _ctx.cancel.reason === 'Others'
         }, {
-          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* withDirectives */.wy)((0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_73, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_input, {
+          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* withDirectives */.wy)((0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_73, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_input, {
             dense: "",
             outlined: "",
             type: "textarea",
@@ -15649,7 +15649,7 @@ function OffBoardingvue_type_template_id_6370d406_render(_ctx, _cache, $props, $
             placeholder: "Please tell us the reason for your cancellation"
           }, null, 8, ["modelValue"])], 512), [[runtime_dom_esm_bundler/* vShow */.F8, _ctx.cancel.reason === 'Others']])]),
           _: 1
-        }, 8, ["appear"])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_74, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+        }, 8, ["appear"])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_74, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
           "no-caps": "",
           unelevated: "",
           color: "primary",
@@ -15676,7 +15676,7 @@ function OffBoardingvue_type_template_id_6370d406_render(_ctx, _cache, $props, $
         name: "cancel_2",
         class: "q-pa-none flex-center"
       }, {
-        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_75, [OffBoardingvue_type_template_id_6370d406_hoisted_76, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_77, [_hoisted_78, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([`Your subscription will stop, and you won't be billed again.`, `Your Growmodo account will be closed after the plan expires.`, `Your account will be permanently deleted. Remember to export your files before you cancel.`], item => {
+        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_75, [OffBoardingvue_type_template_id_8165b818_hoisted_76, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_8165b818_hoisted_77, [_hoisted_78, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([`Your subscription will stop, and you won't be billed again.`, `Your Growmodo account will be closed after the plan expires.`, `Your account will be permanently deleted. Remember to export your files before you cancel.`], item => {
           return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_card_item, {
             itemPadding: "none",
             class: "q-py-sm",
@@ -15741,7 +15741,7 @@ function OffBoardingvue_type_template_id_6370d406_render(_ctx, _cache, $props, $
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/components/Dialogs/OffBoarding.vue?vue&type=template&id=6370d406
+;// CONCATENATED MODULE: ./src/components/Dialogs/OffBoarding.vue?vue&type=template&id=8165b818
 
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Dialogs/OffBoarding.vue?vue&type=script&lang=js
 
@@ -15894,7 +15894,7 @@ var QSlideTransition = __webpack_require__(69003);
 
 
 ;
-const OffBoarding_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(OffBoardingvue_type_script_lang_js, [['render',OffBoardingvue_type_template_id_6370d406_render]])
+const OffBoarding_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(OffBoardingvue_type_script_lang_js, [['render',OffBoardingvue_type_template_id_8165b818_render]])
 
 /* harmony default export */ const OffBoarding = (OffBoarding_exports_);
 ;
@@ -29842,9 +29842,9 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.4.19-dev","desc
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [736], () => (__webpack_require__(76047)))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [736], () => (__webpack_require__(15281)))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.01574e52.js.map
+//# sourceMappingURL=app.19e5905d.js.map
