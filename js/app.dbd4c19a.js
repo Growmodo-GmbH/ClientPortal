@@ -25878,6 +25878,7 @@ var register_service_worker = __webpack_require__(70368);
 // events passes a ServiceWorkerRegistration instance in their arguments.
 // ServiceWorkerRegistration: https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration
 
+let updateChecker;
 (0,register_service_worker/* register */.z)("/service-worker.js", {
   // The registrationOptions object will be passed as the second argument
   // to ServiceWorkerContainer.register()
@@ -25915,7 +25916,7 @@ var register_service_worker = __webpack_require__(70368);
     //   message,
     // });
 
-    setInterval(() => {
+    updateChecker = setInterval(() => {
       if (true) console.info('Checking for update.');
       registration.update();
     }, 1000 * 60 * 60); // hourly checks
@@ -25942,6 +25943,7 @@ var register_service_worker = __webpack_require__(70368);
   async updated(registration) {
     let title = 'App has been Updated!';
     let message = 'New content is available; please refresh.';
+    if (updateChecker) clearInterval(updateChecker);
 
     const {
       productName
@@ -29847,4 +29849,4 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.4.19-dev","desc
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.19e5905d.js.map
+//# sourceMappingURL=app.dbd4c19a.js.map
