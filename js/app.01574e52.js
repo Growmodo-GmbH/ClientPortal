@@ -1,7 +1,7 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 65412:
+/***/ 76047:
 /***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -13187,103 +13187,103 @@ const RedirectConfirmation_exports_ = /*#__PURE__*/(0,exportHelper/* default */.
 
 runtime_auto_import_default()(RedirectConfirmationvue_type_script_lang_js, 'components', {QCard: QCard/* default */.Z,QCardSection: QCardSection/* default */.Z,QToolbar: QToolbar/* default */.Z,QIcon: QIcon/* default */.Z,QCardActions: QCardActions/* default */.Z,QBtn: QBtn/* default */.Z});runtime_auto_import_default()(RedirectConfirmationvue_type_script_lang_js, 'directives', {ClosePopup: ClosePopup/* default */.Z});
 
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Dialogs/UpgradeYourPlan.vue?vue&type=template&id=da3238be
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Dialogs/UpgradeYourPlan.vue?vue&type=template&id=34e28410
 
 
-const UpgradeYourPlanvue_type_template_id_da3238be_hoisted_1 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_1 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h4 text-primary font-medium"
 }, "Change your plan", -1);
 
-const UpgradeYourPlanvue_type_template_id_da3238be_hoisted_2 = {
+const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_2 = {
   class: "q-pb-md"
 };
 
-const UpgradeYourPlanvue_type_template_id_da3238be_hoisted_3 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_3 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-body2 font-medium color-primary2"
 }, " Your current plan ", -1);
 
-const UpgradeYourPlanvue_type_template_id_da3238be_hoisted_4 = {
+const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_4 = {
   class: "row q-col-gutter-x-lg items-center"
 };
-const UpgradeYourPlanvue_type_template_id_da3238be_hoisted_5 = {
+const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_5 = {
   class: "col-auto letter-space-normal"
 };
-const UpgradeYourPlanvue_type_template_id_da3238be_hoisted_6 = {
+const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_6 = {
   class: "q-py-xs text-body2 font-medium badge-text-active"
 };
-const UpgradeYourPlanvue_type_template_id_da3238be_hoisted_7 = {
+const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_7 = {
   class: "col-auto text-body2 text-primary letter-space-normal"
 };
-const UpgradeYourPlanvue_type_template_id_da3238be_hoisted_8 = {
+const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_8 = {
   class: "q-pb-md"
 };
 
-const UpgradeYourPlanvue_type_template_id_da3238be_hoisted_9 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_9 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-body2 font-medium color-primary2"
 }, " Days used on your current plan ", -1);
 
-const UpgradeYourPlanvue_type_template_id_da3238be_hoisted_10 = {
+const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_10 = {
   class: "q-my-sm"
 };
-const UpgradeYourPlanvue_type_template_id_da3238be_hoisted_11 = {
+const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_11 = {
   class: "q-pb-md"
 };
 
-const UpgradeYourPlanvue_type_template_id_da3238be_hoisted_12 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_12 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-body2 font-medium color-primary2"
 }, "Your new plan", -1);
 
-const UpgradeYourPlanvue_type_template_id_da3238be_hoisted_13 = {
+const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_13 = {
   class: "row q-col-gutter-md"
 };
-const UpgradeYourPlanvue_type_template_id_da3238be_hoisted_14 = {
+const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_14 = {
   class: "q-pb-md"
 };
 
-const UpgradeYourPlanvue_type_template_id_da3238be_hoisted_15 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_15 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-body2 font-medium color-primary2"
 }, "Billing", -1);
 
-const UpgradeYourPlanvue_type_template_id_da3238be_hoisted_16 = {
+const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_16 = {
   class: "q-my-sm"
 };
-const UpgradeYourPlanvue_type_template_id_da3238be_hoisted_17 = {
+const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_17 = {
   class: "row q-col-gutter-md"
 };
-const UpgradeYourPlanvue_type_template_id_da3238be_hoisted_18 = {
+const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_18 = {
   class: "q-pb-md"
 };
 
-const UpgradeYourPlanvue_type_template_id_da3238be_hoisted_19 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_19 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-body2 font-medium color-primary2"
 }, "Starts on", -1);
 
-const UpgradeYourPlanvue_type_template_id_da3238be_hoisted_20 = {
+const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_20 = {
   class: "q-my-sm flex inline"
 };
-const UpgradeYourPlanvue_type_template_id_da3238be_hoisted_21 = {
+const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_21 = {
   class: "q-pb-md"
 };
 
-const UpgradeYourPlanvue_type_template_id_da3238be_hoisted_22 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_22 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-body2 font-medium color-primary2"
 }, " Message (Optional) ", -1);
 
-const UpgradeYourPlanvue_type_template_id_da3238be_hoisted_23 = {
+const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_23 = {
   class: "q-my-sm"
 };
-const UpgradeYourPlanvue_type_template_id_da3238be_hoisted_24 = {
+const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_24 = {
   class: "text-h3 font-medium"
 };
-const UpgradeYourPlanvue_type_template_id_da3238be_hoisted_25 = {
+const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_25 = {
   class: "text-subtitle1 letter-space-normal"
 };
 
-const UpgradeYourPlanvue_type_template_id_da3238be_hoisted_26 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
+const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_26 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
   class: "q-pl-sm"
 }, "Submit Change Request", -1);
 
-function UpgradeYourPlanvue_type_template_id_da3238be_render(_ctx, _cache, $props, $setup, $data, $options) {
+function UpgradeYourPlanvue_type_template_id_34e28410_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_close_button = (0,runtime_core_esm_bundler/* resolveComponent */.up)("close-button");
 
   const _component_q_card_section = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-card-section");
@@ -13325,21 +13325,21 @@ function UpgradeYourPlanvue_type_template_id_da3238be_render(_ctx, _cache, $prop
     })) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true), (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
       class: (0,shared_esm_bundler/* normalizeClass */.C_)(["text-center bg-transparent q-px-lg", _ctx.noclose ? 'q-pt-md' : 'q-py-none'])
     }, {
-      default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [UpgradeYourPlanvue_type_template_id_da3238be_hoisted_1]),
+      default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [UpgradeYourPlanvue_type_template_id_34e28410_hoisted_1]),
       _: 1
     }, 8, ["class"]), (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
       class: "q-px-lg q-pt-lg q-pb-none"
     }, {
-      default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_da3238be_hoisted_2, [UpgradeYourPlanvue_type_template_id_da3238be_hoisted_3, (0,runtime_core_esm_bundler/* withDirectives */.wy)(((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_card_item, {
+      default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_2, [UpgradeYourPlanvue_type_template_id_34e28410_hoisted_3, (0,runtime_core_esm_bundler/* withDirectives */.wy)(((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_card_item, {
         class: "badge-bg-active badge-border-active q-my-sm cursor-pointer border-add hover-border-secondary"
       }, {
         title: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => {
           var _ctx$planPriceCalcula;
 
-          return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_da3238be_hoisted_4, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_da3238be_hoisted_5, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)((0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionPlan.label) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscription_talent_count) + " ", 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_da3238be_hoisted_6, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)((0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionPlan.price_currency_legend), 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("span", null, (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$planPriceCalcula = _ctx.planPriceCalculator(_ctx.subscription_talent_count, _ctx.subscription_billing_type)) === null || _ctx$planPriceCalcula === void 0 ? void 0 : _ctx$planPriceCalcula.label), 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("template", null, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)((0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionPlan_BillingTypes[_ctx.subscription_billing_type]), 1)])])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_da3238be_hoisted_7, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionPlan.description_1) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscription_talent_count === -1 ? 'custom' : _ctx.toWords(_ctx.subscription_talent_count)) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscription_talent_count > 1 || _ctx.subscription_talent_count === -1 ? 'users' : 'user') + ". ", 1)])];
+          return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_4, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_5, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)((0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionPlan.label) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscription_talent_count) + " ", 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_6, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)((0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionPlan.price_currency_legend), 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("span", null, (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$planPriceCalcula = _ctx.planPriceCalculator(_ctx.subscription_talent_count, _ctx.subscription_billing_type)) === null || _ctx$planPriceCalcula === void 0 ? void 0 : _ctx$planPriceCalcula.label), 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("template", null, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)((0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionPlan_BillingTypes[_ctx.subscription_billing_type]), 1)])])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_7, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionPlan.description_1) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscription_talent_count === -1 ? 'custom' : _ctx.toWords(_ctx.subscription_talent_count)) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscription_talent_count > 1 || _ctx.subscription_talent_count === -1 ? 'users' : 'user') + ". ", 1)])];
         }),
         _: 1
-      })), [[_directive_ripple, false]])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_da3238be_hoisted_8, [UpgradeYourPlanvue_type_template_id_da3238be_hoisted_9, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_da3238be_hoisted_10, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_RemainingDaysProgress)])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_da3238be_hoisted_11, [UpgradeYourPlanvue_type_template_id_da3238be_hoisted_12, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_da3238be_hoisted_13, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)(_ctx.subscriptionPlan_Talents, item => {
+      })), [[_directive_ripple, false]])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_8, [UpgradeYourPlanvue_type_template_id_34e28410_hoisted_9, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_10, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_RemainingDaysProgress)])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_11, [UpgradeYourPlanvue_type_template_id_34e28410_hoisted_12, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_13, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)(_ctx.subscriptionPlan_Talents, item => {
         var _ctx$newPlan$talent;
 
         return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", {
@@ -13365,13 +13365,13 @@ function UpgradeYourPlanvue_type_template_id_da3238be_render(_ctx, _cache, $prop
         }, 1032, ["class"])), [[_directive_ripple, {
           color: 'secondary'
         }]])]);
-      }), 128))])])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_da3238be_hoisted_14, [UpgradeYourPlanvue_type_template_id_da3238be_hoisted_15, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_da3238be_hoisted_16, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_da3238be_hoisted_17, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)(_ctx.subscriptionPlan_BillingTypes, item => {
-        var _ctx$newPlan$talent2, _ctx$newPlan$billing;
+      }), 128))])])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_14, [UpgradeYourPlanvue_type_template_id_34e28410_hoisted_15, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_16, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_17, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)(_ctx.subscriptionPlan_BillingTypes, item => {
+        var _ctx$newPlan$billing;
 
-        return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", (0,runtime_core_esm_bundler/* mergeProps */.dG)({
+        return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", {
           key: item,
           class: "col-12 col-sm-6"
-        }, _ctx.priceInfo = _ctx.planPriceCalculator(((_ctx$newPlan$talent2 = _ctx.newPlan.talent) === null || _ctx$newPlan$talent2 === void 0 ? void 0 : _ctx$newPlan$talent2.value) || 1, item.id)), [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_card, {
+        }, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_card, {
           flat: "",
           class: (0,shared_esm_bundler/* normalizeClass */.C_)(["rounded border-add border-md text-body2 hover-border-secondary", ((_ctx$newPlan$billing = _ctx.newPlan['billing']) === null || _ctx$newPlan$billing === void 0 ? void 0 : _ctx$newPlan$billing.id) === item.id ? 'border-secondary bg-accent' : ''])
         }, {
@@ -13383,16 +13383,16 @@ function UpgradeYourPlanvue_type_template_id_da3238be_render(_ctx, _cache, $prop
             class: "fit q-py-xs q-px-sm"
           }, {
             default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => {
-              var _ctx$priceInfo, _ctx$priceInfo$discou, _ctx$priceInfo$discou2;
+              var _ctx$planPriceCalcula2, _ctx$planPriceCalcula3, _ctx$planPriceCalcula4, _ctx$newPlan$talent2;
 
-              return [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)((0,shared_esm_bundler/* toDisplayString */.zw)(item.label) + " ", 1), item.savings && ((_ctx$priceInfo = _ctx.priceInfo) === null || _ctx$priceInfo === void 0 ? void 0 : (_ctx$priceInfo$discou = _ctx$priceInfo.discount_label) === null || _ctx$priceInfo$discou === void 0 ? void 0 : (_ctx$priceInfo$discou2 = _ctx$priceInfo$discou.toLowerCase) === null || _ctx$priceInfo$discou2 === void 0 ? void 0 : _ctx$priceInfo$discou2.call(_ctx$priceInfo$discou)) !== 'custom' ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_q_badge, {
+              return [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)((0,shared_esm_bundler/* toDisplayString */.zw)(item.label) + " ", 1), item.savings && ((_ctx$planPriceCalcula2 = _ctx.planPriceCalculator(((_ctx$newPlan$talent2 = _ctx.newPlan.talent) === null || _ctx$newPlan$talent2 === void 0 ? void 0 : _ctx$newPlan$talent2.value) || 1, item.id)) === null || _ctx$planPriceCalcula2 === void 0 ? void 0 : (_ctx$planPriceCalcula3 = _ctx$planPriceCalcula2.discount_label) === null || _ctx$planPriceCalcula3 === void 0 ? void 0 : (_ctx$planPriceCalcula4 = _ctx$planPriceCalcula3.toLowerCase) === null || _ctx$planPriceCalcula4 === void 0 ? void 0 : _ctx$planPriceCalcula4.call(_ctx$planPriceCalcula3)) !== 'custom' ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_q_badge, {
                 key: 0,
                 class: "badge badge-blue font-medium q-ml-xs"
               }, {
                 default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => {
-                  var _ctx$priceInfo2;
+                  var _ctx$planPriceCalcula5, _ctx$newPlan$talent3;
 
-                  return [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)((0,shared_esm_bundler/* toDisplayString */.zw)(item.savings_label) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$priceInfo2 = _ctx.priceInfo) === null || _ctx$priceInfo2 === void 0 ? void 0 : _ctx$priceInfo2.discount_label), 1)];
+                  return [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)((0,shared_esm_bundler/* toDisplayString */.zw)(item.savings_label) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$planPriceCalcula5 = _ctx.planPriceCalculator(((_ctx$newPlan$talent3 = _ctx.newPlan.talent) === null || _ctx$newPlan$talent3 === void 0 ? void 0 : _ctx$newPlan$talent3.value) || 1, item.id)) === null || _ctx$planPriceCalcula5 === void 0 ? void 0 : _ctx$planPriceCalcula5.discount_label), 1)];
                 }),
                 _: 2
               }, 1024)) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)];
@@ -13402,8 +13402,8 @@ function UpgradeYourPlanvue_type_template_id_da3238be_render(_ctx, _cache, $prop
             color: 'secondary'
           }]])]),
           _: 2
-        }, 1032, ["class"])], 16);
-      }), 128))])])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_da3238be_hoisted_18, [UpgradeYourPlanvue_type_template_id_da3238be_hoisted_19, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_da3238be_hoisted_20, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_input, {
+        }, 1032, ["class"])]);
+      }), 128))])])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_18, [UpgradeYourPlanvue_type_template_id_34e28410_hoisted_19, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_20, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_input, {
         dense: "",
         outlined: "",
         unelevated: "",
@@ -13439,7 +13439,7 @@ function UpgradeYourPlanvue_type_template_id_da3238be_render(_ctx, _cache, $prop
           _: 1
         })]),
         _: 1
-      }, 8, ["modelValue"])])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_da3238be_hoisted_21, [UpgradeYourPlanvue_type_template_id_da3238be_hoisted_22, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_da3238be_hoisted_23, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_input, {
+      }, 8, ["modelValue"])])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_21, [UpgradeYourPlanvue_type_template_id_34e28410_hoisted_22, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_23, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_input, {
         dense: "",
         outlined: "",
         rows: "4",
@@ -13452,9 +13452,9 @@ function UpgradeYourPlanvue_type_template_id_da3238be_render(_ctx, _cache, $prop
       class: "full-width justify-between q-px-lg q-pb-lg q-pt-none"
     }, {
       default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => {
-        var _ctx$planPriceCalcula2, _ctx$newPlan$talent3, _ctx$newPlan$billing2, _ctx$newPlan$billing3;
+        var _ctx$planPriceCalcula6, _ctx$newPlan$talent4, _ctx$newPlan$billing2, _ctx$newPlan$billing3;
 
-        return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_da3238be_hoisted_24, (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$planPriceCalcula2 = _ctx.planPriceCalculator((_ctx$newPlan$talent3 = _ctx.newPlan.talent) === null || _ctx$newPlan$talent3 === void 0 ? void 0 : _ctx$newPlan$talent3.value, (_ctx$newPlan$billing2 = _ctx.newPlan.billing) === null || _ctx$newPlan$billing2 === void 0 ? void 0 : _ctx$newPlan$billing2.id)) === null || _ctx$planPriceCalcula2 === void 0 ? void 0 : _ctx$planPriceCalcula2.label), 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_da3238be_hoisted_25, (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$newPlan$billing3 = _ctx.newPlan['billing']) === null || _ctx$newPlan$billing3 === void 0 ? void 0 : _ctx$newPlan$billing3.billed_label), 1)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+        return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_24, (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$planPriceCalcula6 = _ctx.planPriceCalculator((_ctx$newPlan$talent4 = _ctx.newPlan.talent) === null || _ctx$newPlan$talent4 === void 0 ? void 0 : _ctx$newPlan$talent4.value, (_ctx$newPlan$billing2 = _ctx.newPlan.billing) === null || _ctx$newPlan$billing2 === void 0 ? void 0 : _ctx$newPlan$billing2.id)) === null || _ctx$planPriceCalcula6 === void 0 ? void 0 : _ctx$planPriceCalcula6.label), 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_25, (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$newPlan$billing3 = _ctx.newPlan['billing']) === null || _ctx$newPlan$billing3 === void 0 ? void 0 : _ctx$newPlan$billing3.billed_label), 1)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
           "no-caps": "",
           unelevated: "",
           color: "primary",
@@ -13462,7 +13462,7 @@ function UpgradeYourPlanvue_type_template_id_da3238be_render(_ctx, _cache, $prop
           disable: !_ctx.allDataIsValid,
           onClick: _ctx.nextBtnClick
         }, {
-          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [UpgradeYourPlanvue_type_template_id_da3238be_hoisted_26, (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [UpgradeYourPlanvue_type_template_id_34e28410_hoisted_26, (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
             size: "sm",
             name: "icon-arrow-narrow-right",
             class: (0,shared_esm_bundler/* normalizeClass */.C_)(["q-px-sm", {
@@ -13477,7 +13477,7 @@ function UpgradeYourPlanvue_type_template_id_da3238be_render(_ctx, _cache, $prop
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/components/Dialogs/UpgradeYourPlan.vue?vue&type=template&id=da3238be
+;// CONCATENATED MODULE: ./src/components/Dialogs/UpgradeYourPlan.vue?vue&type=template&id=34e28410
 
 // EXTERNAL MODULE: ./node_modules/quasar/src/utils/date.js
 var date = __webpack_require__(54170);
@@ -13673,7 +13673,7 @@ var QDate = __webpack_require__(67088);
 
 
 ;
-const UpgradeYourPlan_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(UpgradeYourPlanvue_type_script_lang_js, [['render',UpgradeYourPlanvue_type_template_id_da3238be_render]])
+const UpgradeYourPlan_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(UpgradeYourPlanvue_type_script_lang_js, [['render',UpgradeYourPlanvue_type_template_id_34e28410_render]])
 
 /* harmony default export */ const UpgradeYourPlan = (UpgradeYourPlan_exports_);
 ;
@@ -14715,7 +14715,7 @@ function OnBoardingvue_type_template_id_0df9edf9_render(_ctx, _cache, $props, $s
 ;// CONCATENATED MODULE: ./src/components/Dialogs/OnBoarding.vue?vue&type=template&id=0df9edf9
 
 // EXTERNAL MODULE: ./src/components/Globals/CardItem.vue + 4 modules
-var CardItem = __webpack_require__(14854);
+var CardItem = __webpack_require__(52156);
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Dialogs/OnBoarding.vue?vue&type=script&lang=js
 
 
@@ -14862,100 +14862,101 @@ const OnBoarding_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(OnBoard
 
 runtime_auto_import_default()(OnBoardingvue_type_script_lang_js, 'components', {QCard: QCard/* default */.Z,QToolbar: QToolbar/* default */.Z,QLinearProgress: QLinearProgress/* default */.Z,QStepper: QStepper/* default */.Z,QStep: QStep/* default */.Z,QCardSection: QCardSection/* default */.Z,QVideo: QVideo/* default */.Z,QCardActions: QCardActions/* default */.Z,QBtn: QBtn/* default */.Z,QIcon: QIcon/* default */.Z,QSpace: QSpace/* default */.Z,QList: QList/* default */.Z,QCheckbox: QCheckbox/* default */.Z,QRadio: QRadio/* default */.Z,QDialog: QDialog/* default */.Z});runtime_auto_import_default()(OnBoardingvue_type_script_lang_js, 'directives', {Ripple: Ripple/* default */.Z,ClosePopup: ClosePopup/* default */.Z});
 
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Dialogs/OffBoarding.vue?vue&type=template&id=d2747234
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Dialogs/OffBoarding.vue?vue&type=template&id=6370d406
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_1 = {
+
+const OffBoardingvue_type_template_id_6370d406_hoisted_1 = {
   class: "row items-start q-pb-md q-col-gutter-xl"
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_2 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_2 = {
   class: "col-12 col-md-4"
 };
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_3 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("img", {
+const OffBoardingvue_type_template_id_6370d406_hoisted_3 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("img", {
   src: "/images/gif/goodbye.gif"
 }, null, -1);
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_4 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_4 = {
   class: "col-12 col-md-8"
 };
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_5 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const OffBoardingvue_type_template_id_6370d406_hoisted_5 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h4 letter-space-normal font-medium q-pb-md"
 }, " We're sad to see you go ", -1);
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_6 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_6 = {
   class: "text-body1 color-primary2 letter-space-normal"
 };
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_7 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("p", null, " At Growmodo we want to give growth-driven brands and agencies access to a flexible workforce of vetted talent. Our goal is to become an indispensable part of your team. ", -1);
+const OffBoardingvue_type_template_id_6370d406_hoisted_7 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("p", null, " At Growmodo we want to give growth-driven brands and agencies access to a flexible workforce of vetted talent. Our goal is to become an indispensable part of your team. ", -1);
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_8 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("p", null, " However, we know that business can be seasonal and there is just not enough work to delegate. In these situations, we allow you to pause your subscription and jump back in when you need us for a new project. ", -1);
+const OffBoardingvue_type_template_id_6370d406_hoisted_8 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("p", null, " However, we know that business can be seasonal and there is just not enough work to delegate. In these situations, we allow you to pause your subscription and jump back in when you need us for a new project. ", -1);
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_9 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("p", {
+const OffBoardingvue_type_template_id_6370d406_hoisted_9 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("p", {
   class: "font-medium"
 }, " Here are the advantages of pausing your account: ", -1);
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_10 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_10 = {
   class: "letter-space-normal"
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_11 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_11 = {
   class: "row q-col-gutter-md justify-center q-pt-lg"
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_12 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_12 = {
   class: "col-12 col-sm-6"
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_13 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_13 = {
   class: "col-12 col-sm-6"
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_14 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_14 = {
   class: "q-px-xl"
 };
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_15 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const OffBoardingvue_type_template_id_6370d406_hoisted_15 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h4 letter-space-normal font-medium q-pb-md"
 }, " We're sad to see you go ", -1);
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_16 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_16 = {
   class: "text-body1 color-primary2 letter-space-normal"
 };
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_17 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("p", {
+const OffBoardingvue_type_template_id_6370d406_hoisted_17 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("p", {
   class: "font-medium"
 }, " Mauris tortor est ultrices egestas phasellus ullamcorper. ", -1);
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_18 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("p", null, " We know that business can be seasonal and there is just not enough work to delegate. In these situations, we allow you to pause your subscription and jump back in when you need us for a new project. ", -1);
+const OffBoardingvue_type_template_id_6370d406_hoisted_18 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("p", null, " We know that business can be seasonal and there is just not enough work to delegate. In these situations, we allow you to pause your subscription and jump back in when you need us for a new project. ", -1);
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_19 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("p", {
+const OffBoardingvue_type_template_id_6370d406_hoisted_19 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("p", {
   class: "font-medium"
 }, " Here are the advantages of pausing your account: ", -1);
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_20 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_20 = {
   class: "letter-space-normal"
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_21 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_21 = {
   class: "full-width q-py-lg flex flex-center"
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_22 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_22 = {
   class: "row q-col-gutter-md justify-center",
   style: {
     "width": "720px"
   }
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_23 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_23 = {
   class: "col-12 col-sm-6"
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_24 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_24 = {
   class: "col-12 col-sm-6"
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_25 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_25 = {
   class: "q-px-xl"
 };
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_26 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const OffBoardingvue_type_template_id_6370d406_hoisted_26 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h3 text-center letter-space-normal font-medium q-pb-md"
 }, " Before you pause... ", -1);
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_27 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const OffBoardingvue_type_template_id_6370d406_hoisted_27 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-body1 color-primary2 letter-space-normal flex flex-center q-pb-md q-pt-sm"
 }, [/*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("p", {
   class: "text-center",
@@ -14966,11 +14967,11 @@ const OffBoardingvue_type_template_id_d2747234_hoisted_27 = /*#__PURE__*/(0,runt
   class: "font-demi-bold"
 }, "maintenance plan"), /*#__PURE__*/(0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" for businesses of all sizes that need a hands-on team to keep their websites safe and up-to-date without the headaches. ")])], -1);
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_28 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_28 = {
   class: "row text-body1 color-primary2 q-col-gutter-md"
 };
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_29 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [/*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const OffBoardingvue_type_template_id_6370d406_hoisted_29 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [/*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "letter-spacing-normal font-medium text-h6"
 }, " Maintenance Plan "), /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [/*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
   class: "text-h3 font-medium text-secondary"
@@ -14980,100 +14981,100 @@ const OffBoardingvue_type_template_id_d2747234_hoisted_29 = /*#__PURE__*/(0,runt
   }
 }, "/mo")])], -1);
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_30 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_30 = {
   class: "col-12 col-md-9"
 };
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_31 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const OffBoardingvue_type_template_id_6370d406_hoisted_31 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "font-demi-bold text-h6 q-pb-md"
 }, " What you will get... ", -1);
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_32 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_32 = {
   class: "row q-col-gutter-sm"
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_33 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_33 = {
   class: "col-12 col-sm-6"
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_34 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_34 = {
   class: "row q-col-gutter-md"
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_35 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_35 = {
   class: "col-12 col-sm-6"
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_36 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_36 = {
   class: "row q-col-gutter-md"
 };
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_37 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const OffBoardingvue_type_template_id_6370d406_hoisted_37 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "font-demi-bold text-left text-h6 color-primary2 q-pb-md"
 }, " Maintenance tasks includes... ", -1);
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_38 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_38 = {
   class: "row q-col-gutter-sm"
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_39 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_39 = {
   class: "col-12 col-sm-6 col-md-4"
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_40 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_40 = {
   class: "row q-col-gutter-md"
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_41 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_41 = {
   class: "col-12 col-sm-6 col-md-4"
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_42 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_42 = {
   class: "row q-col-gutter-md"
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_43 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_43 = {
   class: "col-12 col-sm-6 col-md-4"
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_44 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_44 = {
   class: "row q-col-gutter-md"
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_45 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_45 = {
   class: "full-width q-py-lg flex flex-center"
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_46 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_46 = {
   class: "row q-col-gutter-md justify-center",
   style: {
     "width": "720px"
   }
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_47 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_47 = {
   class: "col-12 col-sm-6"
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_48 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_48 = {
   class: "col-12 col-sm-6"
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_49 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_49 = {
   class: "q-px-xl"
 };
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_50 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const OffBoardingvue_type_template_id_6370d406_hoisted_50 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h4 letter-space-normal font-medium text-center q-pb-xl"
 }, " How long would you like to pause your subscription? ", -1);
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_51 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_51 = {
   class: "row q-col-gutter-lg"
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_52 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_52 = {
   class: "q-pt-sm"
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_53 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_53 = {
   class: "full-width q-py-lg flex flex-center"
 };
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_54 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
+const OffBoardingvue_type_template_id_6370d406_hoisted_54 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
   class: "q-px-sm"
 }, "Pause subscription", -1);
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_55 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_55 = {
   class: "q-px-xl"
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_56 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_56 = {
   class: "text-center"
 };
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_57 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const OffBoardingvue_type_template_id_6370d406_hoisted_57 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "q-py-md"
 }, [/*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h5 font-medium text-center"
@@ -15081,22 +15082,22 @@ const OffBoardingvue_type_template_id_d2747234_hoisted_57 = /*#__PURE__*/(0,runt
   class: "text-body1 color-primary2 q-pt-md text-center"
 }, " Your Growmodo subscription is paused now, but reactivating is easy and possible anytime. ")], -1);
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_58 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_58 = {
   class: "full-width text-center q-py-lg"
 };
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_59 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
+const OffBoardingvue_type_template_id_6370d406_hoisted_59 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
   class: "q-pl-sm"
 }, "Back to home", -1);
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_60 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_60 = {
   class: "q-px-xl"
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_61 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_61 = {
   class: "text-center"
 };
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_62 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const OffBoardingvue_type_template_id_6370d406_hoisted_62 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "q-py-md"
 }, [/*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h5 font-medium text-center"
@@ -15104,60 +15105,60 @@ const OffBoardingvue_type_template_id_d2747234_hoisted_62 = /*#__PURE__*/(0,runt
   class: "text-body1 color-primary2 q-pt-md text-center"
 }, " Your maintenance plan is active, you are able to request maintanenance tasks. ")], -1);
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_63 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_63 = {
   class: "full-width q-py-lg flex flex-center"
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_64 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_64 = {
   class: "row q-col-gutter-md justify-center",
   style: {
     "width": "720px"
   }
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_65 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_65 = {
   class: "col-12 col-sm-auto"
 };
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_66 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
+const OffBoardingvue_type_template_id_6370d406_hoisted_66 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
   class: "q-pl-sm"
 }, "Back to home", -1);
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_67 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_67 = {
   class: "col-12 col-sm-auto"
 };
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_68 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
+const OffBoardingvue_type_template_id_6370d406_hoisted_68 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
   class: "q-px-md"
 }, "Request maintenance task", -1);
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_69 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_69 = {
   class: "q-px-xl"
 };
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_70 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const OffBoardingvue_type_template_id_6370d406_hoisted_70 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h4 letter-space-normal font-medium text-center q-pb-xl"
 }, " Please tell us why you'd like to cancel ", -1);
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_71 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_71 = {
   class: "row q-col-gutter-lg"
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_72 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_72 = {
   class: "q-pt-sm"
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_73 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_73 = {
   class: "full-width"
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_74 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_74 = {
   class: "full-width q-py-lg flex flex-center"
 };
-const OffBoardingvue_type_template_id_d2747234_hoisted_75 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_75 = {
   class: "q-px-xl"
 };
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_76 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const OffBoardingvue_type_template_id_6370d406_hoisted_76 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h4 letter-space-normal font-medium q-pb-xl"
 }, " Cancel & delete your account ", -1);
 
-const OffBoardingvue_type_template_id_d2747234_hoisted_77 = {
+const OffBoardingvue_type_template_id_6370d406_hoisted_77 = {
   class: "text-body1 color-primary2 letter-space-normal"
 };
 
@@ -15201,7 +15202,7 @@ const _hoisted_88 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNod
   class: "text-body1 color-primary2 q-pt-md text-center"
 }, " You have successfully deleted your account. ")], -1);
 
-function OffBoardingvue_type_template_id_d2747234_render(_ctx, _cache, $props, $setup, $data, $options) {
+function OffBoardingvue_type_template_id_6370d406_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_close_button = (0,runtime_core_esm_bundler/* resolveComponent */.up)("close-button");
 
   const _component_q_card_section = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-card-section");
@@ -15239,7 +15240,7 @@ function OffBoardingvue_type_template_id_d2747234_render(_ctx, _cache, $props, $
   return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_q_card, {
     flat: ""
   }, {
-    default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [!_ctx.noclose && _ctx.formStep !== 'cancel_done' ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_q_card_section, {
+    default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [!_ctx.noclose && !['cancel_done', 'pause_done', 'maintenance_done'].includes(_ctx.formStep) ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_q_card_section, {
       key: 0,
       class: "text-right q-pb-none"
     }, {
@@ -15251,19 +15252,19 @@ function OffBoardingvue_type_template_id_d2747234_render(_ctx, _cache, $props, $
       "onUpdate:modelValue": _cache[9] || (_cache[9] = $event => _ctx.formStep = $event),
       "transition-prev": "fade",
       "transition-next": "fade",
-      class: (0,shared_esm_bundler/* normalizeClass */.C_)(["q-px-none q-py-none fit", _ctx.formStep === 'cancel_done' ? 'q-py-lg' : 'q-pb-lg'])
+      class: (0,shared_esm_bundler/* normalizeClass */.C_)(["q-px-none q-py-none fit", ['cancel_done', 'pause_done', 'maintenance_done'].includes(_ctx.formStep) ? 'q-py-lg' : 'q-pb-lg'])
     }, {
       default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_carousel_slide, {
         name: "init",
         class: "q-pa-none flex-center q-px-xl"
       }, {
-        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_1, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_2, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_avatar, {
+        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_1, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_2, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_avatar, {
           rounded: "",
           class: "rounded full-width full-height"
         }, {
-          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [OffBoardingvue_type_template_id_d2747234_hoisted_3]),
+          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [OffBoardingvue_type_template_id_6370d406_hoisted_3]),
           _: 1
-        })]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_4, [OffBoardingvue_type_template_id_d2747234_hoisted_5, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_6, [OffBoardingvue_type_template_id_d2747234_hoisted_7, OffBoardingvue_type_template_id_d2747234_hoisted_8, OffBoardingvue_type_template_id_d2747234_hoisted_9, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([`Your account with all brand assets will stay secured on our server.`, `Potential price increases will not affect your subscription. You can start working with us at the same monthly rate.`, `You can end your paused period anytime and delegate new work within a day.`], item => {
+        })]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_4, [OffBoardingvue_type_template_id_6370d406_hoisted_5, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_6, [OffBoardingvue_type_template_id_6370d406_hoisted_7, OffBoardingvue_type_template_id_6370d406_hoisted_8, OffBoardingvue_type_template_id_6370d406_hoisted_9, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([`Your account with all brand assets will stay secured on our server.`, `Potential price increases will not affect your subscription. You can start working with us at the same monthly rate.`, `You can end your paused period anytime and delegate new work within a day.`], item => {
           return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_card_item, {
             class: "q-py-sm",
             itemPadding: "none",
@@ -15275,10 +15276,10 @@ function OffBoardingvue_type_template_id_d2747234_render(_ctx, _cache, $props, $
               class: "q-py-xs",
               size: "xs"
             })]),
-            description: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("span", OffBoardingvue_type_template_id_d2747234_hoisted_10, (0,shared_esm_bundler/* toDisplayString */.zw)(item), 1)]),
+            description: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("span", OffBoardingvue_type_template_id_6370d406_hoisted_10, (0,shared_esm_bundler/* toDisplayString */.zw)(item), 1)]),
             _: 2
           }, 1024);
-        }), 128))])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_11, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_12, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+        }), 128))])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_11, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_12, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
           "no-caps": "",
           outline: "",
           unelevated: "",
@@ -15288,7 +15289,7 @@ function OffBoardingvue_type_template_id_d2747234_render(_ctx, _cache, $props, $
         }, {
           default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" Continue to cancel ")]),
           _: 1
-        })]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_13, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+        })]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_13, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
           "no-caps": "",
           unelevated: "",
           color: "primary",
@@ -15303,7 +15304,7 @@ function OffBoardingvue_type_template_id_d2747234_render(_ctx, _cache, $props, $
         name: "pause_1",
         class: "q-pa-none flex-center"
       }, {
-        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_14, [OffBoardingvue_type_template_id_d2747234_hoisted_15, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_16, [OffBoardingvue_type_template_id_d2747234_hoisted_17, OffBoardingvue_type_template_id_d2747234_hoisted_18, OffBoardingvue_type_template_id_d2747234_hoisted_19, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([`Your account with all brand assets will stay secured on our server.`, `Potential price increases will not affect your subscription. You can start working with us at the same monthly rate.`, `You can end your paused period anytime and delegate new work within a day.`], item => {
+        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_14, [OffBoardingvue_type_template_id_6370d406_hoisted_15, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_16, [OffBoardingvue_type_template_id_6370d406_hoisted_17, OffBoardingvue_type_template_id_6370d406_hoisted_18, OffBoardingvue_type_template_id_6370d406_hoisted_19, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([`Your account with all brand assets will stay secured on our server.`, `Potential price increases will not affect your subscription. You can start working with us at the same monthly rate.`, `You can end your paused period anytime and delegate new work within a day.`], item => {
           return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_card_item, {
             class: "q-py-sm",
             itemPadding: "none",
@@ -15317,10 +15318,10 @@ function OffBoardingvue_type_template_id_d2747234_render(_ctx, _cache, $props, $
               color: "secondary",
               size: "xs"
             })]),
-            description: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("span", OffBoardingvue_type_template_id_d2747234_hoisted_20, (0,shared_esm_bundler/* toDisplayString */.zw)(item), 1)]),
+            description: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("span", OffBoardingvue_type_template_id_6370d406_hoisted_20, (0,shared_esm_bundler/* toDisplayString */.zw)(item), 1)]),
             _: 2
           }, 1024);
-        }), 128))])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_21, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_22, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_23, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+        }), 128))])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_21, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_22, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_23, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
           "no-caps": "",
           outline: "",
           unelevated: "",
@@ -15330,7 +15331,7 @@ function OffBoardingvue_type_template_id_d2747234_render(_ctx, _cache, $props, $
         }, {
           default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" Continue to cancel ")]),
           _: 1
-        })]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_24, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+        })]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_24, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
           "no-caps": "",
           unelevated: "",
           color: "primary",
@@ -15345,7 +15346,7 @@ function OffBoardingvue_type_template_id_d2747234_render(_ctx, _cache, $props, $
         name: "pause_2",
         class: "q-pa-none flex-center"
       }, {
-        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_25, [OffBoardingvue_type_template_id_d2747234_hoisted_26, OffBoardingvue_type_template_id_d2747234_hoisted_27, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_28, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_25, [OffBoardingvue_type_template_id_6370d406_hoisted_26, OffBoardingvue_type_template_id_6370d406_hoisted_27, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_28, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
           class: (0,shared_esm_bundler/* normalizeClass */.C_)(["col-12 col-md-3 flex", _ctx.$q.screen.lt.md ? 'flex-center' : ''])
         }, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_card, {
           flat: "",
@@ -15355,9 +15356,9 @@ function OffBoardingvue_type_template_id_d2747234_render(_ctx, _cache, $props, $
             "max-width": "300px"
           }
         }, {
-          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [OffBoardingvue_type_template_id_d2747234_hoisted_29]),
+          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [OffBoardingvue_type_template_id_6370d406_hoisted_29]),
           _: 1
-        })], 2), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_30, [OffBoardingvue_type_template_id_d2747234_hoisted_31, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_32, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_33, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_34, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([{
+        })], 2), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_30, [OffBoardingvue_type_template_id_6370d406_hoisted_31, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_32, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_33, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_34, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([{
           icon: 'icon-infinity',
           label: 'Unlimited maintenance requests'
         }, {
@@ -15386,7 +15387,7 @@ function OffBoardingvue_type_template_id_d2747234_render(_ctx, _cache, $props, $
             description: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)((0,shared_esm_bundler/* toDisplayString */.zw)(item.label), 1)]),
             _: 2
           }, 1024)]);
-        }), 64))])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_35, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_36, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([{
+        }), 64))])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_35, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_36, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([{
           icon: 'icon-check',
           label: 'Dedicated project manager'
         }, {
@@ -15416,7 +15417,7 @@ function OffBoardingvue_type_template_id_d2747234_render(_ctx, _cache, $props, $
           }, 1024)]);
         }), 64))])])])])]), (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_separator, {
           class: "q-my-lg"
-        }), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [OffBoardingvue_type_template_id_d2747234_hoisted_37, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_38, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_39, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_40, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([{
+        }), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [OffBoardingvue_type_template_id_6370d406_hoisted_37, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_38, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_39, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_40, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([{
           icon: 'icon-check',
           label: 'Fixing website bugs'
         }, {
@@ -15445,7 +15446,7 @@ function OffBoardingvue_type_template_id_d2747234_render(_ctx, _cache, $props, $
             description: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)((0,shared_esm_bundler/* toDisplayString */.zw)(item.label), 1)]),
             _: 2
           }, 1024)]);
-        }), 64))])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_41, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_42, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([{
+        }), 64))])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_41, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_42, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([{
           icon: 'icon-check',
           label: 'Implementing website with 3rd party tool'
         }, {
@@ -15470,7 +15471,7 @@ function OffBoardingvue_type_template_id_d2747234_render(_ctx, _cache, $props, $
             description: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)((0,shared_esm_bundler/* toDisplayString */.zw)(item.label), 1)]),
             _: 2
           }, 1024)]);
-        }), 64))])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_43, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_44, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([{
+        }), 64))])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_43, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_44, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([{
           icon: 'icon-check',
           label: 'Site speed optimization'
         }, {
@@ -15495,7 +15496,7 @@ function OffBoardingvue_type_template_id_d2747234_render(_ctx, _cache, $props, $
             description: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)((0,shared_esm_bundler/* toDisplayString */.zw)(item.label), 1)]),
             _: 2
           }, 1024)]);
-        }), 64))])])])])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_45, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_46, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_47, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+        }), 64))])])])])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_45, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_46, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_47, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
           "no-caps": "",
           outline: "",
           unelevated: "",
@@ -15505,7 +15506,7 @@ function OffBoardingvue_type_template_id_d2747234_render(_ctx, _cache, $props, $
         }, {
           default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" Continue to pause ")]),
           _: 1
-        })]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_48, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+        })]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_48, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
           "no-caps": "",
           unelevated: "",
           color: "primary",
@@ -15520,7 +15521,7 @@ function OffBoardingvue_type_template_id_d2747234_render(_ctx, _cache, $props, $
         name: "pause_3",
         class: "q-pa-none flex-center"
       }, {
-        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_49, [OffBoardingvue_type_template_id_d2747234_hoisted_50, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_51, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([`1 Week`, `2 Weeks`, `1 Month`, `2 Months`, `3 Months`, `4 Months`], item => {
+        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_49, [OffBoardingvue_type_template_id_6370d406_hoisted_50, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_51, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([`1 Week`, `2 Weeks`, `1 Month`, `2 Months`, `3 Months`, `4 Months`], item => {
           return (0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
             key: item,
             class: "col-12 col-sm-6 col-md-4"
@@ -15535,19 +15536,19 @@ function OffBoardingvue_type_template_id_d2747234_render(_ctx, _cache, $props, $
               color: "secondary",
               name: item
             }, null, 8, ["modelValue", "val", "name"])]),
-            description: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_52, (0,shared_esm_bundler/* toDisplayString */.zw)(item), 1)]),
+            description: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_52, (0,shared_esm_bundler/* toDisplayString */.zw)(item), 1)]),
             _: 2
           }, 1032, ["class", "onClick"])), [[_directive_ripple, {
             color: 'secondary'
           }]])]);
-        }), 64))]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_53, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+        }), 64))]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_53, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
           "no-caps": "",
           unelevated: "",
           color: "primary",
           class: (0,shared_esm_bundler/* normalizeClass */.C_)(["rounded q-py-sm font-medium text-body2", _ctx.$q.screen.lt.sm ? 'full-width' : '']),
           onClick: _ctx.pauseAccount
         }, {
-          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [OffBoardingvue_type_template_id_d2747234_hoisted_54]),
+          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [OffBoardingvue_type_template_id_6370d406_hoisted_54]),
           _: 1
         }, 8, ["class", "onClick"])])])]),
         _: 1
@@ -15555,10 +15556,10 @@ function OffBoardingvue_type_template_id_d2747234_render(_ctx, _cache, $props, $
         name: "pause_done",
         class: "q-pa-none flex-center"
       }, {
-        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_55, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_56, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_CardIconBox, {
+        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_55, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_56, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_CardIconBox, {
           icon: "icon-check-circle-broken",
           iconSize: "md"
-        })]), OffBoardingvue_type_template_id_d2747234_hoisted_57, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_58, [(0,runtime_core_esm_bundler/* withDirectives */.wy)(((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_q_btn, {
+        })]), OffBoardingvue_type_template_id_6370d406_hoisted_57, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_58, [(0,runtime_core_esm_bundler/* withDirectives */.wy)(((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_q_btn, {
           "no-caps": "",
           unelevated: "",
           ripple: {
@@ -15568,7 +15569,7 @@ function OffBoardingvue_type_template_id_d2747234_render(_ctx, _cache, $props, $
           class: (0,shared_esm_bundler/* normalizeClass */.C_)(["rounded slide-hover", _ctx.$q.screen.lt.sm ? 'full-width' : '']),
           onClick: _ctx.backToHome
         }, {
-          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [OffBoardingvue_type_template_id_d2747234_hoisted_59, (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [OffBoardingvue_type_template_id_6370d406_hoisted_59, (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
             size: "sm",
             name: "icon-arrow-narrow-right",
             class: "q-px-sm"
@@ -15580,10 +15581,10 @@ function OffBoardingvue_type_template_id_d2747234_render(_ctx, _cache, $props, $
         name: "maintenance_done",
         class: "q-pa-none flex-center"
       }, {
-        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_60, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_61, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_CardIconBox, {
+        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_60, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_61, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_CardIconBox, {
           icon: "icon-check-circle-broken",
           iconSize: "md"
-        })]), OffBoardingvue_type_template_id_d2747234_hoisted_62, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_63, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_64, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_65, [(0,runtime_core_esm_bundler/* withDirectives */.wy)(((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_q_btn, {
+        })]), OffBoardingvue_type_template_id_6370d406_hoisted_62, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_63, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_64, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_65, [(0,runtime_core_esm_bundler/* withDirectives */.wy)(((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_q_btn, {
           "no-caps": "",
           outline: "",
           unelevated: "",
@@ -15594,20 +15595,20 @@ function OffBoardingvue_type_template_id_d2747234_render(_ctx, _cache, $props, $
           class: (0,shared_esm_bundler/* normalizeClass */.C_)(["rounded slide-hover", _ctx.$q.screen.lt.sm ? 'full-width' : '']),
           onClick: _ctx.backToHome
         }, {
-          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [OffBoardingvue_type_template_id_d2747234_hoisted_66, (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [OffBoardingvue_type_template_id_6370d406_hoisted_66, (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
             size: "sm",
             name: "icon-arrow-narrow-right",
             class: "q-px-sm"
           })]),
           _: 1
-        }, 8, ["class", "onClick"])), [[_directive_close_popup]])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_67, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+        }, 8, ["class", "onClick"])), [[_directive_close_popup]])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_67, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
           "no-caps": "",
           unelevated: "",
           color: "primary",
           class: (0,shared_esm_bundler/* normalizeClass */.C_)(["rounded q-py-sm font-medium text-body2", _ctx.$q.screen.lt.sm ? 'full-width' : '']),
           onClick: _ctx.requestMaintenanceTask
         }, {
-          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [OffBoardingvue_type_template_id_d2747234_hoisted_68]),
+          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [OffBoardingvue_type_template_id_6370d406_hoisted_68]),
           _: 1
         }, 8, ["class", "onClick"])])])])])]),
         _: 1
@@ -15615,7 +15616,7 @@ function OffBoardingvue_type_template_id_d2747234_render(_ctx, _cache, $props, $
         name: "cancel_1",
         class: "q-pa-none flex-center"
       }, {
-        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_69, [OffBoardingvue_type_template_id_d2747234_hoisted_70, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_71, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([`We don't need more design & development work`, `We hired someone in-house`, `We started working with another company`, `We are not happy with the service`, `Others`], item => {
+        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_69, [OffBoardingvue_type_template_id_6370d406_hoisted_70, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_71, [((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([`We don't need more design & development work`, `We hired someone in-house`, `We started working with another company`, `We are not happy with the service`, `Others`], item => {
           return (0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
             key: item,
             class: "col-12 col-sm-6 col-md-4"
@@ -15630,7 +15631,7 @@ function OffBoardingvue_type_template_id_d2747234_render(_ctx, _cache, $props, $
               color: "secondary",
               name: item
             }, null, 8, ["modelValue", "val", "name"])]),
-            description: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_72, (0,shared_esm_bundler/* toDisplayString */.zw)(item), 1)]),
+            description: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_72, (0,shared_esm_bundler/* toDisplayString */.zw)(item), 1)]),
             _: 2
           }, 1032, ["class", "onClick"])), [[_directive_ripple, {
             color: 'secondary'
@@ -15638,7 +15639,7 @@ function OffBoardingvue_type_template_id_d2747234_render(_ctx, _cache, $props, $
         }), 64)), (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_slide_transition, {
           appear: _ctx.cancel.reason === 'Others'
         }, {
-          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* withDirectives */.wy)((0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_73, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_input, {
+          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* withDirectives */.wy)((0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_73, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_input, {
             dense: "",
             outlined: "",
             type: "textarea",
@@ -15648,7 +15649,7 @@ function OffBoardingvue_type_template_id_d2747234_render(_ctx, _cache, $props, $
             placeholder: "Please tell us the reason for your cancellation"
           }, null, 8, ["modelValue"])], 512), [[runtime_dom_esm_bundler/* vShow */.F8, _ctx.cancel.reason === 'Others']])]),
           _: 1
-        }, 8, ["appear"])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_74, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+        }, 8, ["appear"])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_74, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
           "no-caps": "",
           unelevated: "",
           color: "primary",
@@ -15675,7 +15676,7 @@ function OffBoardingvue_type_template_id_d2747234_render(_ctx, _cache, $props, $
         name: "cancel_2",
         class: "q-pa-none flex-center"
       }, {
-        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_75, [OffBoardingvue_type_template_id_d2747234_hoisted_76, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_d2747234_hoisted_77, [_hoisted_78, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([`Your subscription will stop, and you won't be billed again.`, `Your Growmodo account will be closed after the plan expires.`, `Your account will be permanently deleted. Remember to export your files before you cancel.`], item => {
+        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_75, [OffBoardingvue_type_template_id_6370d406_hoisted_76, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", OffBoardingvue_type_template_id_6370d406_hoisted_77, [_hoisted_78, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)([`Your subscription will stop, and you won't be billed again.`, `Your Growmodo account will be closed after the plan expires.`, `Your account will be permanently deleted. Remember to export your files before you cancel.`], item => {
           return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_card_item, {
             itemPadding: "none",
             class: "q-py-sm",
@@ -15740,7 +15741,7 @@ function OffBoardingvue_type_template_id_d2747234_render(_ctx, _cache, $props, $
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/components/Dialogs/OffBoarding.vue?vue&type=template&id=d2747234
+;// CONCATENATED MODULE: ./src/components/Dialogs/OffBoarding.vue?vue&type=template&id=6370d406
 
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Dialogs/OffBoarding.vue?vue&type=script&lang=js
 
@@ -15893,7 +15894,7 @@ var QSlideTransition = __webpack_require__(69003);
 
 
 ;
-const OffBoarding_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(OffBoardingvue_type_script_lang_js, [['render',OffBoardingvue_type_template_id_d2747234_render]])
+const OffBoarding_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(OffBoardingvue_type_script_lang_js, [['render',OffBoardingvue_type_template_id_6370d406_render]])
 
 /* harmony default export */ const OffBoarding = (OffBoarding_exports_);
 ;
@@ -19915,33 +19916,33 @@ const Company_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(Companyvue
 
 runtime_auto_import_default()(Companyvue_type_script_lang_js, 'components', {QCard: QCard/* default */.Z,QCardSection: QCardSection/* default */.Z,QToolbar: QToolbar/* default */.Z,QToolbarTitle: QToolbarTitle/* default */.Z,QSeparator: QSeparator/* default */.Z,QInput: QInput/* default */.Z,QIcon: QIcon/* default */.Z,QDialog: QDialog/* default */.Z});
 
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Accounts/Subscription.vue?vue&type=template&id=8e07309a
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Accounts/Subscription.vue?vue&type=template&id=3686460b
 
-const Subscriptionvue_type_template_id_8e07309a_hoisted_1 = {
+const Subscriptionvue_type_template_id_3686460b_hoisted_1 = {
   class: "q-gutter-y-lg"
 };
-const Subscriptionvue_type_template_id_8e07309a_hoisted_2 = {
+const Subscriptionvue_type_template_id_3686460b_hoisted_2 = {
   class: "q-gutter-sm"
 };
-const Subscriptionvue_type_template_id_8e07309a_hoisted_3 = {
+const Subscriptionvue_type_template_id_3686460b_hoisted_3 = {
   class: "row items-center q-col-gutter-md q-py-sm"
 };
-const Subscriptionvue_type_template_id_8e07309a_hoisted_4 = {
+const Subscriptionvue_type_template_id_3686460b_hoisted_4 = {
   class: "col-12 col-md-4 text-secondary text-h6"
 };
-const Subscriptionvue_type_template_id_8e07309a_hoisted_5 = {
+const Subscriptionvue_type_template_id_3686460b_hoisted_5 = {
   class: "col-12 col-md-8"
 };
-const Subscriptionvue_type_template_id_8e07309a_hoisted_6 = {
+const Subscriptionvue_type_template_id_3686460b_hoisted_6 = {
   class: "q-pb-sm",
   style: {
-    "max-width": "325px"
+    "max-width": "350px"
   }
 };
-const Subscriptionvue_type_template_id_8e07309a_hoisted_7 = {
+const Subscriptionvue_type_template_id_3686460b_hoisted_7 = {
   class: "text-primary text-body2"
 };
-function Subscriptionvue_type_template_id_8e07309a_render(_ctx, _cache, $props, $setup, $data, $options) {
+function Subscriptionvue_type_template_id_3686460b_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_q_toolbar_title = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-toolbar-title");
 
   const _component_DynamicButton = (0,runtime_core_esm_bundler/* resolveComponent */.up)("DynamicButton");
@@ -19958,7 +19959,7 @@ function Subscriptionvue_type_template_id_8e07309a_render(_ctx, _cache, $props, 
 
   const _component_SubscriptionPlans = (0,runtime_core_esm_bundler/* resolveComponent */.up)("SubscriptionPlans");
 
-  return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", Subscriptionvue_type_template_id_8e07309a_hoisted_1, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_card, {
+  return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", Subscriptionvue_type_template_id_3686460b_hoisted_1, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_card, {
     flat: "",
     bordered: "",
     class: "rounded"
@@ -19974,7 +19975,7 @@ function Subscriptionvue_type_template_id_8e07309a_render(_ctx, _cache, $props, 
         }, {
           default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" Your Current Plan ")]),
           _: 1
-        }), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_8e07309a_hoisted_2, [!_ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_DynamicButton, {
+        }), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_3686460b_hoisted_2, [!_ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_DynamicButton, {
           key: 0,
           label: "Edit Subscription",
           icon: "icon-pencil-02",
@@ -19996,7 +19997,7 @@ function Subscriptionvue_type_template_id_8e07309a_render(_ctx, _cache, $props, 
       default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => {
         var _ctx$selectedOrg, _ctx$selectedOrg$subs;
 
-        return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_8e07309a_hoisted_3, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_8e07309a_hoisted_4, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionPlan.label) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$selectedOrg = _ctx.selectedOrg) === null || _ctx$selectedOrg === void 0 ? void 0 : (_ctx$selectedOrg$subs = _ctx$selectedOrg.subscriptionPlan) === null || _ctx$selectedOrg$subs === void 0 ? void 0 : _ctx$selectedOrg$subs.subscription_talent_count), 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_8e07309a_hoisted_5, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_8e07309a_hoisted_6, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_RemainingDaysProgress)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_8e07309a_hoisted_7, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionPlan.description_1) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.talentCount === -1 ? 'custom' : _ctx.toWords(_ctx.talentCount)) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.talentCount > 1 ? 'users' : 'user') + ". ", 1)])])];
+        return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_3686460b_hoisted_3, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_3686460b_hoisted_4, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionPlan.label) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$selectedOrg = _ctx.selectedOrg) === null || _ctx$selectedOrg === void 0 ? void 0 : (_ctx$selectedOrg$subs = _ctx$selectedOrg.subscriptionPlan) === null || _ctx$selectedOrg$subs === void 0 ? void 0 : _ctx$selectedOrg$subs.subscription_talent_count), 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_3686460b_hoisted_5, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_3686460b_hoisted_6, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_RemainingDaysProgress)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_3686460b_hoisted_7, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionPlan.description_1) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.talentCount === -1 ? 'custom' : _ctx.toWords(_ctx.talentCount)) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.talentCount > 1 ? 'users' : 'user') + ". ", 1)])])];
       }),
       _: 1
     }, 8, ["class"])]),
@@ -20020,26 +20021,26 @@ function Subscriptionvue_type_template_id_8e07309a_render(_ctx, _cache, $props, 
     _: 1
   })) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)]);
 }
-;// CONCATENATED MODULE: ./src/components/Accounts/Subscription.vue?vue&type=template&id=8e07309a
+;// CONCATENATED MODULE: ./src/components/Accounts/Subscription.vue?vue&type=template&id=3686460b
 
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/Subscription/SubscriptionPlans.vue?vue&type=template&id=eb60e054
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/Subscription/SubscriptionPlans.vue?vue&type=template&id=520d404d
 
-const SubscriptionPlansvue_type_template_id_eb60e054_hoisted_1 = {
+const SubscriptionPlansvue_type_template_id_520d404d_hoisted_1 = {
   key: 0,
   class: "full-width text-center q-pb-lg no-wrap"
 };
-const SubscriptionPlansvue_type_template_id_eb60e054_hoisted_2 = {
+const SubscriptionPlansvue_type_template_id_520d404d_hoisted_2 = {
   class: "letter-space-normal"
 };
-const SubscriptionPlansvue_type_template_id_eb60e054_hoisted_3 = {
+const SubscriptionPlansvue_type_template_id_520d404d_hoisted_3 = {
   class: "text-body2 text-primary"
 };
 
-const SubscriptionPlansvue_type_template_id_eb60e054_hoisted_4 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
+const SubscriptionPlansvue_type_template_id_520d404d_hoisted_4 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
   class: "q-pl-sm"
 }, "Request Change", -1);
 
-function SubscriptionPlansvue_type_template_id_eb60e054_render(_ctx, _cache, $props, $setup, $data, $options) {
+function SubscriptionPlansvue_type_template_id_520d404d_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_q_icon = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-icon");
 
   const _component_q_btn = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-btn");
@@ -20063,7 +20064,7 @@ function SubscriptionPlansvue_type_template_id_eb60e054_render(_ctx, _cache, $pr
   return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_q_card, {
     flat: ""
   }, {
-    default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [_ctx.planTypes ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", SubscriptionPlansvue_type_template_id_eb60e054_hoisted_1, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn_group, {
+    default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [_ctx.planTypes ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", SubscriptionPlansvue_type_template_id_520d404d_hoisted_1, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn_group, {
       spread: _ctx.$q.screen.sm || _ctx.$q.screen.lt.md,
       class: "rounded no-shadow border-add"
     }, {
@@ -20117,7 +20118,7 @@ function SubscriptionPlansvue_type_template_id_eb60e054_render(_ctx, _cache, $pr
             },
             rules: [val => val && val !== '' && val !== null || '']
           }, null, 8, ["modelValue", "val", "unchecked-icon", "class", "rules"])]),
-          title: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", SubscriptionPlansvue_type_template_id_eb60e054_hoisted_2, [talent.value > 0 ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, {
+          title: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", SubscriptionPlansvue_type_template_id_520d404d_hoisted_2, [talent.value > 0 ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, {
             key: 0
           }, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)((0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionPlan.label) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(talent.value), 1)], 64)) : ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, {
             key: 1
@@ -20127,7 +20128,7 @@ function SubscriptionPlansvue_type_template_id_eb60e054_render(_ctx, _cache, $pr
 
             return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", (0,runtime_core_esm_bundler/* mergeProps */.dG)({
               class: ["q-py-xs text-body2 font-medium", _ctx.checkIfPlanSelected(talent.value, _ctx.selectedBilling) ? 'badge-text-active' : talent.value === _ctx.selectedTalent ? 'text-secondary' : 'text-primary']
-            }, _ctx.priceInfo = _ctx.planPriceCalculator(talent.value, _ctx.selectedBilling)), [(0,runtime_core_esm_bundler/* createElementVNode */._)("span", null, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.priceInfo.label), 1), (0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" " + (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$subscriptionPlan = _ctx.subscriptionPlan_BillingTypes[_ctx.selectedBilling]) === null || _ctx$subscriptionPlan === void 0 ? void 0 : _ctx$subscriptionPlan.breakdown_label), 1)], 16), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", SubscriptionPlansvue_type_template_id_eb60e054_hoisted_3, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionPlan.description_1) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(talent.value === -1 ? 'custom' : _ctx.toWords(talent.value)) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(talent.value > 1 || talent.value === -1 ? 'users' : 'user') + ". ", 1)];
+            }, _ctx.priceInfo = _ctx.planPriceCalculator(talent.value, _ctx.selectedBilling)), [(0,runtime_core_esm_bundler/* createElementVNode */._)("span", null, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.priceInfo.label), 1), (0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" " + (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$subscriptionPlan = _ctx.subscriptionPlan_BillingTypes[_ctx.selectedBilling]) === null || _ctx$subscriptionPlan === void 0 ? void 0 : _ctx$subscriptionPlan.breakdown_label), 1)], 16), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", SubscriptionPlansvue_type_template_id_520d404d_hoisted_3, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionPlan.description_1) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(talent.value === -1 ? 'custom' : _ctx.toWords(talent.value)) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(talent.value > 1 || talent.value === -1 ? 'users' : 'user') + ". ", 1)];
           }),
           _: 2
         }, 1032, ["class", "onClick"])), [[_directive_ripple, _ctx.checkIfPlanSelected(talent.value, _ctx.selectedBilling) ? false : {
@@ -20144,7 +20145,7 @@ function SubscriptionPlansvue_type_template_id_eb60e054_render(_ctx, _cache, $pr
           class: "rounded slide-hover",
           onClick: _ctx.nextButtonClicked
         }, {
-          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [SubscriptionPlansvue_type_template_id_eb60e054_hoisted_4, (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [SubscriptionPlansvue_type_template_id_520d404d_hoisted_4, (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
             size: "sm",
             name: "icon-arrow-narrow-right",
             class: "slide-hover-left-md q-px-sm"
@@ -20158,7 +20159,7 @@ function SubscriptionPlansvue_type_template_id_eb60e054_render(_ctx, _cache, $pr
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/components/Helpers/Subscription/SubscriptionPlans.vue?vue&type=template&id=eb60e054
+;// CONCATENATED MODULE: ./src/components/Helpers/Subscription/SubscriptionPlans.vue?vue&type=template&id=520d404d
 
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/Subscription/SubscriptionPlans.vue?vue&type=script&lang=js
 
@@ -20224,9 +20225,9 @@ function SubscriptionPlansvue_type_template_id_eb60e054_render(_ctx, _cache, $pr
   methods: { ...(0,dist_pinia/* mapActions */.nv)(growmodo, ['planPriceCalculator']),
 
     updated() {
-      this.emit('updated', {
-        selectedTalent: this.selectedTalent,
-        selectedBilling: this.selectedBilling
+      this.$emit('updated', {
+        talent: this.selectedTalent,
+        billing: this.selectedBilling
       });
     },
 
@@ -20234,7 +20235,7 @@ function SubscriptionPlansvue_type_template_id_eb60e054_render(_ctx, _cache, $pr
       this.$emit('talentChanged', val || this.selectedTalent);
     },
 
-    billingChanged() {
+    billingChanged(val) {
       this.$emit('billingChanged', val || this.selectedBilling);
     },
 
@@ -20270,7 +20271,7 @@ function SubscriptionPlansvue_type_template_id_eb60e054_render(_ctx, _cache, $pr
 
 
 ;
-const SubscriptionPlans_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(SubscriptionPlansvue_type_script_lang_js, [['render',SubscriptionPlansvue_type_template_id_eb60e054_render]])
+const SubscriptionPlans_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(SubscriptionPlansvue_type_script_lang_js, [['render',SubscriptionPlansvue_type_template_id_520d404d_render]])
 
 /* harmony default export */ const SubscriptionPlans = (SubscriptionPlans_exports_);
 ;
@@ -20345,7 +20346,7 @@ runtime_auto_import_default()(SubscriptionPlansvue_type_script_lang_js, 'compone
 
 
 ;
-const Subscription_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(Subscriptionvue_type_script_lang_js, [['render',Subscriptionvue_type_template_id_8e07309a_render]])
+const Subscription_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(Subscriptionvue_type_script_lang_js, [['render',Subscriptionvue_type_template_id_3686460b_render]])
 
 /* harmony default export */ const Subscription = (Subscription_exports_);
 ;
@@ -28278,7 +28279,7 @@ const ExternalLink_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(Exter
 runtime_auto_import_default()(ExternalLinkvue_type_script_lang_js, 'components', {QIcon: QIcon/* default */.Z});
 
 // EXTERNAL MODULE: ./src/components/Globals/CardItem.vue + 4 modules
-var CardItem = __webpack_require__(14854);
+var CardItem = __webpack_require__(52156);
 // EXTERNAL MODULE: ./node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js
 var runtime_dom_esm_bundler = __webpack_require__(61957);
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Globals/GMToggle.vue?vue&type=template&id=e16148c0
@@ -28445,7 +28446,7 @@ const GMToggle_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(GMTogglev
 
 /***/ }),
 
-/***/ 14854:
+/***/ 52156:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -28459,7 +28460,7 @@ __webpack_require__.d(__webpack_exports__, {
 var runtime_core_esm_bundler = __webpack_require__(59835);
 // EXTERNAL MODULE: ./node_modules/@vue/shared/dist/shared.esm-bundler.js
 var shared_esm_bundler = __webpack_require__(86970);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Globals/CardItem.vue?vue&type=template&id=3a81bf15
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Globals/CardItem.vue?vue&type=template&id=20c7ca2d
 
 const _hoisted_1 = {
   key: 0,
@@ -28481,7 +28482,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     class: "full-height text-body1"
   }, {
     default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_item, {
-      class: (0,shared_esm_bundler/* normalizeClass */.C_)([`items-${_ctx.align} q-py-${_ctx.itemPadding}`, "fit no-min-height"])
+      class: (0,shared_esm_bundler/* normalizeClass */.C_)([`items-${_ctx.align} q-pa-${_ctx.itemPadding}`, "fit no-min-height"])
     }, {
       default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [_ctx.$slots.avatar ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_q_item_section, {
         key: 0,
@@ -28501,7 +28502,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 3
   });
 }
-;// CONCATENATED MODULE: ./src/components/Globals/CardItem.vue?vue&type=template&id=3a81bf15
+;// CONCATENATED MODULE: ./src/components/Globals/CardItem.vue?vue&type=template&id=20c7ca2d
 
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Globals/CardItem.vue?vue&type=script&lang=js
 
@@ -29841,9 +29842,9 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.4.19-dev","desc
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [736], () => (__webpack_require__(65412)))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [736], () => (__webpack_require__(76047)))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.a6be9119.js.map
+//# sourceMappingURL=app.01574e52.js.map
