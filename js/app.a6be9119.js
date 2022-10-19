@@ -1,7 +1,7 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 41766:
+/***/ 65412:
 /***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -8537,58 +8537,58 @@ const DirectoryLayout_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(Di
 
 runtime_auto_import_default()(DirectoryLayoutvue_type_script_lang_js, 'components', {QLayout: QLayout/* default */.Z,QDrawer: QDrawer/* default */.Z,QScrollArea: QScrollArea/* default */.Z,QList: QList/* default */.Z,QItem: QItem/* default */.Z,QItemSection: QItemSection/* default */.Z,QIcon: QIcon/* default */.Z,QHeader: QHeader/* default */.Z,QToolbar: QToolbar/* default */.Z,QBtn: QBtn/* default */.Z,QSpace: QSpace/* default */.Z,QPageContainer: QPageContainer/* default */.Z,QPage: QPage/* default */.Z,QInfiniteScroll: QInfiniteScroll/* default */.Z,QCard: QCard/* default */.Z,QCardSection: QCardSection/* default */.Z,QBadge: QBadge/* default */.Z,QSpinnerDots: QSpinnerDots/* default */.Z});runtime_auto_import_default()(DirectoryLayoutvue_type_script_lang_js, 'directives', {Ripple: Ripple/* default */.Z});
 
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Forms/Form_Task_Create.vue?vue&type=template&id=4ac603f9
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Forms/Form_Task_Create.vue?vue&type=template&id=1488484d
 
-const Form_Task_Createvue_type_template_id_4ac603f9_hoisted_1 = {
+const Form_Task_Createvue_type_template_id_1488484d_hoisted_1 = {
   class: "q-pt-sm q-mt-xs q-pb-xl q-px-lg"
 };
-const Form_Task_Createvue_type_template_id_4ac603f9_hoisted_2 = {
+const Form_Task_Createvue_type_template_id_1488484d_hoisted_2 = {
   key: 0
 };
-const Form_Task_Createvue_type_template_id_4ac603f9_hoisted_3 = {
+const Form_Task_Createvue_type_template_id_1488484d_hoisted_3 = {
   style: {
     "max-width": "100vw",
     "width": "650px"
   }
 };
-const Form_Task_Createvue_type_template_id_4ac603f9_hoisted_4 = {
+const Form_Task_Createvue_type_template_id_1488484d_hoisted_4 = {
   key: 0,
   autocorrect: "off",
   autocapitalize: "off",
   autocomplete: "off",
   spellcheck: "false"
 };
-const Form_Task_Createvue_type_template_id_4ac603f9_hoisted_5 = {
+const Form_Task_Createvue_type_template_id_1488484d_hoisted_5 = {
   class: "full-width text-left q-py-lg"
 };
-const Form_Task_Createvue_type_template_id_4ac603f9_hoisted_6 = {
+const Form_Task_Createvue_type_template_id_1488484d_hoisted_6 = {
   class: "font-medium text-h4 q-py-sm"
 };
-const Form_Task_Createvue_type_template_id_4ac603f9_hoisted_7 = {
+const Form_Task_Createvue_type_template_id_1488484d_hoisted_7 = {
   class: "text-body2 color-primary2"
 };
-const Form_Task_Createvue_type_template_id_4ac603f9_hoisted_8 = {
+const Form_Task_Createvue_type_template_id_1488484d_hoisted_8 = {
   class: "full-width"
 };
-const Form_Task_Createvue_type_template_id_4ac603f9_hoisted_9 = {
+const Form_Task_Createvue_type_template_id_1488484d_hoisted_9 = {
   class: "full-width text-left q-py-lg"
 };
-const Form_Task_Createvue_type_template_id_4ac603f9_hoisted_10 = {
+const Form_Task_Createvue_type_template_id_1488484d_hoisted_10 = {
   class: "font-medium text-h4 q-py-sm"
 };
-const Form_Task_Createvue_type_template_id_4ac603f9_hoisted_11 = {
+const Form_Task_Createvue_type_template_id_1488484d_hoisted_11 = {
   class: "text-body2 color-primary2"
 };
-const Form_Task_Createvue_type_template_id_4ac603f9_hoisted_12 = {
+const Form_Task_Createvue_type_template_id_1488484d_hoisted_12 = {
   class: "full-width"
 };
-const Form_Task_Createvue_type_template_id_4ac603f9_hoisted_13 = {
+const Form_Task_Createvue_type_template_id_1488484d_hoisted_13 = {
   class: "full-width text-left q-py-lg"
 };
-const Form_Task_Createvue_type_template_id_4ac603f9_hoisted_14 = {
+const Form_Task_Createvue_type_template_id_1488484d_hoisted_14 = {
   class: "font-medium text-h4 q-py-sm"
 };
-const Form_Task_Createvue_type_template_id_4ac603f9_hoisted_15 = {
+const Form_Task_Createvue_type_template_id_1488484d_hoisted_15 = {
   class: "text-body2 color-primary2"
 };
 const _hoisted_16 = {
@@ -8677,7 +8677,7 @@ const _hoisted_42 = {
 
 const _hoisted_43 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "full-width font-medium text-h4 q-pt-lg text-center"
-}, " Thank you. Your task have been successfully submitted. ", -1);
+}, [/*#__PURE__*/(0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" Thank you."), /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("br"), /*#__PURE__*/(0,runtime_core_esm_bundler/* createTextVNode */.Uk)("Your task have been successfully submitted. ")], -1);
 
 const _hoisted_44 = {
   class: "row items-center justify-center q-px-lg q-pt-none q-mt-none q-col-gutter-md"
@@ -8725,7 +8725,7 @@ const _hoisted_54 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNod
   class: "q-pl-sm"
 }, "Add your next request", -1);
 
-function Form_Task_Createvue_type_template_id_4ac603f9_render(_ctx, _cache, $props, $setup, $data, $options) {
+function Form_Task_Createvue_type_template_id_1488484d_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_GrowmodoTextIcon = (0,runtime_core_esm_bundler/* resolveComponent */.up)("GrowmodoTextIcon");
 
   const _component_q_step = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-step");
@@ -8799,15 +8799,15 @@ function Form_Task_Createvue_type_template_id_4ac603f9_render(_ctx, _cache, $pro
       modelValue: _ctx.containerSideMenu,
       "onUpdate:modelValue": _cache[1] || (_cache[1] = $event => _ctx.containerSideMenu = $event),
       side: "left",
-      width: _ctx.$q.screen.lt.md || _ctx.$q.screen.md ? 400 : 500,
-      breakpoint: _ctx.$q.screen.lt.md ? 1000 : 1080,
-      overlay: _ctx.$q.screen.width <= (_ctx.$q.screen.lt.md ? 1000 : 1080),
+      width: 300,
+      breakpoint: 900,
+      overlay: _ctx.$q.screen.width <= 750,
       class: "bg-primary text-white q-px-md"
     }, {
       default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_scroll_area, {
         class: "fit"
       }, {
-        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Form_Task_Createvue_type_template_id_4ac603f9_hoisted_1, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_GrowmodoTextIcon, {
+        default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Form_Task_Createvue_type_template_id_1488484d_hoisted_1, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_GrowmodoTextIcon, {
           dark: "",
           class: "cursor-pointer q-px-xs q-py-sm",
           onClick: _ctx.goTo_Home
@@ -8842,7 +8842,7 @@ function Form_Task_Createvue_type_template_id_4ac603f9_render(_ctx, _cache, $pro
         _: 1
       })]),
       _: 1
-    }, 8, ["modelValue", "width", "breakpoint", "overlay"]), (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_header, {
+    }, 8, ["modelValue", "overlay"]), (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_header, {
       class: "bg-white"
     }, {
       default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_toolbar, {
@@ -8871,7 +8871,7 @@ function Form_Task_Createvue_type_template_id_4ac603f9_render(_ctx, _cache, $pro
             class: "text-secondary bg-accent q-py-xs q-px-sm rounded font-medium"
           }, null, 8, ["label"])]),
           _: 1
-        }), (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_space), !_ctx.noclose ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", Form_Task_Createvue_type_template_id_4ac603f9_hoisted_2, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_close_button)])) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)]),
+        }), (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_space), !_ctx.noclose ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", Form_Task_Createvue_type_template_id_1488484d_hoisted_2, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_close_button)])) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)]),
         _: 1
       })]),
       _: 1
@@ -8887,7 +8887,7 @@ function Form_Task_Createvue_type_template_id_4ac603f9_render(_ctx, _cache, $pro
           }
         }, {
           default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_card_section, null, {
-            default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Form_Task_Createvue_type_template_id_4ac603f9_hoisted_3, [!_ctx.task_submitted ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("form", Form_Task_Createvue_type_template_id_4ac603f9_hoisted_4, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_stepper, {
+            default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Form_Task_Createvue_type_template_id_1488484d_hoisted_3, [!_ctx.task_submitted ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("form", Form_Task_Createvue_type_template_id_1488484d_hoisted_4, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_stepper, {
               modelValue: _ctx.step,
               "onUpdate:modelValue": _cache[13] || (_cache[13] = $event => _ctx.step = $event),
               flat: "",
@@ -8917,7 +8917,7 @@ function Form_Task_Createvue_type_template_id_4ac603f9_render(_ctx, _cache, $pro
                   default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => {
                     var _ctx$task_data$2, _ctx$task_data$3, _ctx$task_data$4;
 
-                    return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Form_Task_Createvue_type_template_id_4ac603f9_hoisted_5, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Form_Task_Createvue_type_template_id_4ac603f9_hoisted_6, (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$task_data$2 = _ctx.task_data[1]) === null || _ctx$task_data$2 === void 0 ? void 0 : _ctx$task_data$2.label), 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Form_Task_Createvue_type_template_id_4ac603f9_hoisted_7, (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$task_data$3 = _ctx.task_data[1]) === null || _ctx$task_data$3 === void 0 ? void 0 : _ctx$task_data$3.description), 1)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Form_Task_Createvue_type_template_id_4ac603f9_hoisted_8, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_editor, {
+                    return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Form_Task_Createvue_type_template_id_1488484d_hoisted_5, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Form_Task_Createvue_type_template_id_1488484d_hoisted_6, (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$task_data$2 = _ctx.task_data[1]) === null || _ctx$task_data$2 === void 0 ? void 0 : _ctx$task_data$2.label), 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Form_Task_Createvue_type_template_id_1488484d_hoisted_7, (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$task_data$3 = _ctx.task_data[1]) === null || _ctx$task_data$3 === void 0 ? void 0 : _ctx$task_data$3.description), 1)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Form_Task_Createvue_type_template_id_1488484d_hoisted_8, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_editor, {
                       ref: "descriptionEditorRef",
                       onPaste: _cache[2] || (_cache[2] = e => _ctx.onPaste(e, 'descriptionEditorRef')),
                       modelValue: _ctx.task[1],
@@ -8958,7 +8958,7 @@ function Form_Task_Createvue_type_template_id_4ac603f9_render(_ctx, _cache, $pro
                   default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => {
                     var _ctx$task_data$7, _ctx$task_data$8, _ctx$task_data$9;
 
-                    return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Form_Task_Createvue_type_template_id_4ac603f9_hoisted_9, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Form_Task_Createvue_type_template_id_4ac603f9_hoisted_10, (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$task_data$7 = _ctx.task_data[2]) === null || _ctx$task_data$7 === void 0 ? void 0 : _ctx$task_data$7.label), 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Form_Task_Createvue_type_template_id_4ac603f9_hoisted_11, (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$task_data$8 = _ctx.task_data[2]) === null || _ctx$task_data$8 === void 0 ? void 0 : _ctx$task_data$8.description), 1)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Form_Task_Createvue_type_template_id_4ac603f9_hoisted_12, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_input, {
+                    return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Form_Task_Createvue_type_template_id_1488484d_hoisted_9, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Form_Task_Createvue_type_template_id_1488484d_hoisted_10, (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$task_data$7 = _ctx.task_data[2]) === null || _ctx$task_data$7 === void 0 ? void 0 : _ctx$task_data$7.label), 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Form_Task_Createvue_type_template_id_1488484d_hoisted_11, (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$task_data$8 = _ctx.task_data[2]) === null || _ctx$task_data$8 === void 0 ? void 0 : _ctx$task_data$8.description), 1)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Form_Task_Createvue_type_template_id_1488484d_hoisted_12, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_input, {
                       outlined: "",
                       autofocus: "",
                       modelValue: _ctx.task[2],
@@ -8989,7 +8989,7 @@ function Form_Task_Createvue_type_template_id_4ac603f9_render(_ctx, _cache, $pro
                   default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => {
                     var _ctx$task_data$12, _ctx$task_data$13;
 
-                    return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Form_Task_Createvue_type_template_id_4ac603f9_hoisted_13, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Form_Task_Createvue_type_template_id_4ac603f9_hoisted_14, (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$task_data$12 = _ctx.task_data[3]) === null || _ctx$task_data$12 === void 0 ? void 0 : _ctx$task_data$12.label), 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Form_Task_Createvue_type_template_id_4ac603f9_hoisted_15, (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$task_data$13 = _ctx.task_data[3]) === null || _ctx$task_data$13 === void 0 ? void 0 : _ctx$task_data$13.description), 1)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", _hoisted_16, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)(_ctx.taskPriorities, priority => {
+                    return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Form_Task_Createvue_type_template_id_1488484d_hoisted_13, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Form_Task_Createvue_type_template_id_1488484d_hoisted_14, (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$task_data$12 = _ctx.task_data[3]) === null || _ctx$task_data$12 === void 0 ? void 0 : _ctx$task_data$12.label), 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Form_Task_Createvue_type_template_id_1488484d_hoisted_15, (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$task_data$13 = _ctx.task_data[3]) === null || _ctx$task_data$13 === void 0 ? void 0 : _ctx$task_data$13.description), 1)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", _hoisted_16, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)(_ctx.taskPriorities, priority => {
                       var _ctx$task_data$14;
 
                       return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", {
@@ -9392,7 +9392,7 @@ function Form_Task_Createvue_type_template_id_4ac603f9_render(_ctx, _cache, $pro
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/components/Forms/Form_Task_Create.vue?vue&type=template&id=4ac603f9
+;// CONCATENATED MODULE: ./src/components/Forms/Form_Task_Create.vue?vue&type=template&id=1488484d
 
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Brands/CreateNewBrand.vue?vue&type=template&id=26600918
 
@@ -12134,7 +12134,7 @@ runtime_auto_import_default()(CreateNewBrandvue_type_script_lang_js, 'components
   watch: {
     ['$root.$q.screen.width']: {
       async handler(val) {
-        if (val > 850 && !this.containerSideMenu) this.toogleContainerSideMenu(true);
+        if (val > 900 && !this.containerSideMenu) this.toogleContainerSideMenu(true);
       }
 
     }
@@ -12435,7 +12435,7 @@ var QChip = __webpack_require__(57691);
 
 
 ;
-const Form_Task_Create_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(Form_Task_Createvue_type_script_lang_js, [['render',Form_Task_Createvue_type_template_id_4ac603f9_render]])
+const Form_Task_Create_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(Form_Task_Createvue_type_script_lang_js, [['render',Form_Task_Createvue_type_template_id_1488484d_render]])
 
 /* harmony default export */ const Form_Task_Create = (Form_Task_Create_exports_);
 ;
@@ -16378,9 +16378,9 @@ function IndexPagevue_type_template_id_4d22b6a2_render(_ctx, _cache, $props, $se
 }
 ;// CONCATENATED MODULE: ./src/pages/IndexPage.vue?vue&type=template&id=4d22b6a2
 
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/DynamicButton.vue?vue&type=template&id=0cf2b7f0
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/DynamicButton.vue?vue&type=template&id=2129170c
 
-function DynamicButtonvue_type_template_id_0cf2b7f0_render(_ctx, _cache, $props, $setup, $data, $options) {
+function DynamicButtonvue_type_template_id_2129170c_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_q_icon = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-icon");
 
   const _component_tooltip_pro = (0,runtime_core_esm_bundler/* resolveComponent */.up)("tooltip-pro");
@@ -16395,7 +16395,10 @@ function DynamicButtonvue_type_template_id_0cf2b7f0_render(_ctx, _cache, $props,
     },
     color: "primary",
     size: "md",
-    class: (0,shared_esm_bundler/* normalizeClass */.C_)(_ctx.$q.screen.xs ? '' : 'rounded'),
+    class: (0,shared_esm_bundler/* normalizeClass */.C_)({
+      rounded: !_ctx.$q.screen.xs,
+      'not-gm': _ctx.$q.screen.xs
+    }),
     round: _ctx.$q.screen.xs
   }, {
     default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [_ctx.alwaysShowIcon || _ctx.$q.screen.xs ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_q_icon, {
@@ -16443,7 +16446,7 @@ function DynamicButtonvue_type_template_id_0cf2b7f0_render(_ctx, _cache, $props,
 
 
 ;
-const DynamicButton_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(DynamicButtonvue_type_script_lang_js, [['render',DynamicButtonvue_type_template_id_0cf2b7f0_render]])
+const DynamicButton_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(DynamicButtonvue_type_script_lang_js, [['render',DynamicButtonvue_type_template_id_2129170c_render]])
 
 /* harmony default export */ const DynamicButton = (DynamicButton_exports_);
 ;
@@ -19912,33 +19915,33 @@ const Company_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(Companyvue
 
 runtime_auto_import_default()(Companyvue_type_script_lang_js, 'components', {QCard: QCard/* default */.Z,QCardSection: QCardSection/* default */.Z,QToolbar: QToolbar/* default */.Z,QToolbarTitle: QToolbarTitle/* default */.Z,QSeparator: QSeparator/* default */.Z,QInput: QInput/* default */.Z,QIcon: QIcon/* default */.Z,QDialog: QDialog/* default */.Z});
 
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Accounts/Subscription.vue?vue&type=template&id=641c6fb7
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Accounts/Subscription.vue?vue&type=template&id=8e07309a
 
-const Subscriptionvue_type_template_id_641c6fb7_hoisted_1 = {
+const Subscriptionvue_type_template_id_8e07309a_hoisted_1 = {
   class: "q-gutter-y-lg"
 };
-const Subscriptionvue_type_template_id_641c6fb7_hoisted_2 = {
+const Subscriptionvue_type_template_id_8e07309a_hoisted_2 = {
   class: "q-gutter-sm"
 };
-const Subscriptionvue_type_template_id_641c6fb7_hoisted_3 = {
-  class: "row items-center q-py-sm"
+const Subscriptionvue_type_template_id_8e07309a_hoisted_3 = {
+  class: "row items-center q-col-gutter-md q-py-sm"
 };
-const Subscriptionvue_type_template_id_641c6fb7_hoisted_4 = {
+const Subscriptionvue_type_template_id_8e07309a_hoisted_4 = {
   class: "col-12 col-md-4 text-secondary text-h6"
 };
-const Subscriptionvue_type_template_id_641c6fb7_hoisted_5 = {
+const Subscriptionvue_type_template_id_8e07309a_hoisted_5 = {
   class: "col-12 col-md-8"
 };
-const Subscriptionvue_type_template_id_641c6fb7_hoisted_6 = {
+const Subscriptionvue_type_template_id_8e07309a_hoisted_6 = {
   class: "q-pb-sm",
   style: {
     "max-width": "325px"
   }
 };
-const Subscriptionvue_type_template_id_641c6fb7_hoisted_7 = {
+const Subscriptionvue_type_template_id_8e07309a_hoisted_7 = {
   class: "text-primary text-body2"
 };
-function Subscriptionvue_type_template_id_641c6fb7_render(_ctx, _cache, $props, $setup, $data, $options) {
+function Subscriptionvue_type_template_id_8e07309a_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_q_toolbar_title = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-toolbar-title");
 
   const _component_DynamicButton = (0,runtime_core_esm_bundler/* resolveComponent */.up)("DynamicButton");
@@ -19955,7 +19958,7 @@ function Subscriptionvue_type_template_id_641c6fb7_render(_ctx, _cache, $props, 
 
   const _component_SubscriptionPlans = (0,runtime_core_esm_bundler/* resolveComponent */.up)("SubscriptionPlans");
 
-  return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", Subscriptionvue_type_template_id_641c6fb7_hoisted_1, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_card, {
+  return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", Subscriptionvue_type_template_id_8e07309a_hoisted_1, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_card, {
     flat: "",
     bordered: "",
     class: "rounded"
@@ -19971,7 +19974,7 @@ function Subscriptionvue_type_template_id_641c6fb7_render(_ctx, _cache, $props, 
         }, {
           default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" Your Current Plan ")]),
           _: 1
-        }), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_641c6fb7_hoisted_2, [!_ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_DynamicButton, {
+        }), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_8e07309a_hoisted_2, [!_ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_DynamicButton, {
           key: 0,
           label: "Edit Subscription",
           icon: "icon-pencil-02",
@@ -19988,12 +19991,12 @@ function Subscriptionvue_type_template_id_641c6fb7_render(_ctx, _cache, $props, 
       })]),
       _: 1
     }, 8, ["class"]), (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_separator), (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
-      class: (0,shared_esm_bundler/* normalizeClass */.C_)(["q-gutter-y-md", _ctx.$q.screen.gt.sm ? 'q-pa-lg' : 'q-pa-md'])
+      class: (0,shared_esm_bundler/* normalizeClass */.C_)(_ctx.$q.screen.gt.sm ? 'q-pa-lg' : 'q-pa-md')
     }, {
       default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => {
         var _ctx$selectedOrg, _ctx$selectedOrg$subs;
 
-        return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_641c6fb7_hoisted_3, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_641c6fb7_hoisted_4, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionPlan.label) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$selectedOrg = _ctx.selectedOrg) === null || _ctx$selectedOrg === void 0 ? void 0 : (_ctx$selectedOrg$subs = _ctx$selectedOrg.subscriptionPlan) === null || _ctx$selectedOrg$subs === void 0 ? void 0 : _ctx$selectedOrg$subs.subscription_talent_count), 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_641c6fb7_hoisted_5, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_641c6fb7_hoisted_6, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_RemainingDaysProgress)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_641c6fb7_hoisted_7, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionPlan.description_1) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.talentCount === -1 ? 'custom' : _ctx.toWords(_ctx.talentCount)) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.talentCount > 1 ? 'users' : 'user') + ". ", 1)])])];
+        return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_8e07309a_hoisted_3, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_8e07309a_hoisted_4, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionPlan.label) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$selectedOrg = _ctx.selectedOrg) === null || _ctx$selectedOrg === void 0 ? void 0 : (_ctx$selectedOrg$subs = _ctx$selectedOrg.subscriptionPlan) === null || _ctx$selectedOrg$subs === void 0 ? void 0 : _ctx$selectedOrg$subs.subscription_talent_count), 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_8e07309a_hoisted_5, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_8e07309a_hoisted_6, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_RemainingDaysProgress)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Subscriptionvue_type_template_id_8e07309a_hoisted_7, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionPlan.description_1) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.talentCount === -1 ? 'custom' : _ctx.toWords(_ctx.talentCount)) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.talentCount > 1 ? 'users' : 'user') + ". ", 1)])])];
       }),
       _: 1
     }, 8, ["class"])]),
@@ -20009,34 +20012,34 @@ function Subscriptionvue_type_template_id_641c6fb7_render(_ctx, _cache, $props, 
     }, {
       default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_SubscriptionPlans, {
         nextButton: true,
-        onPlanChanged: _ctx.planChanged,
+        onUpdated: _ctx.planUpdated,
         onNextBtnClick: _ctx.nextBtnClick
-      }, null, 8, ["onPlanChanged", "onNextBtnClick"])]),
+      }, null, 8, ["onUpdated", "onNextBtnClick"])]),
       _: 1
     }, 8, ["class"])]),
     _: 1
   })) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)]);
 }
-;// CONCATENATED MODULE: ./src/components/Accounts/Subscription.vue?vue&type=template&id=641c6fb7
+;// CONCATENATED MODULE: ./src/components/Accounts/Subscription.vue?vue&type=template&id=8e07309a
 
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/Subscription/SubscriptionPlans.vue?vue&type=template&id=2d53d87b
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/Subscription/SubscriptionPlans.vue?vue&type=template&id=eb60e054
 
-const SubscriptionPlansvue_type_template_id_2d53d87b_hoisted_1 = {
+const SubscriptionPlansvue_type_template_id_eb60e054_hoisted_1 = {
   key: 0,
   class: "full-width text-center q-pb-lg no-wrap"
 };
-const SubscriptionPlansvue_type_template_id_2d53d87b_hoisted_2 = {
+const SubscriptionPlansvue_type_template_id_eb60e054_hoisted_2 = {
   class: "letter-space-normal"
 };
-const SubscriptionPlansvue_type_template_id_2d53d87b_hoisted_3 = {
+const SubscriptionPlansvue_type_template_id_eb60e054_hoisted_3 = {
   class: "text-body2 text-primary"
 };
 
-const SubscriptionPlansvue_type_template_id_2d53d87b_hoisted_4 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
+const SubscriptionPlansvue_type_template_id_eb60e054_hoisted_4 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
   class: "q-pl-sm"
 }, "Request Change", -1);
 
-function SubscriptionPlansvue_type_template_id_2d53d87b_render(_ctx, _cache, $props, $setup, $data, $options) {
+function SubscriptionPlansvue_type_template_id_eb60e054_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_q_icon = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-icon");
 
   const _component_q_btn = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-btn");
@@ -20060,7 +20063,7 @@ function SubscriptionPlansvue_type_template_id_2d53d87b_render(_ctx, _cache, $pr
   return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_q_card, {
     flat: ""
   }, {
-    default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [_ctx.planTypes ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", SubscriptionPlansvue_type_template_id_2d53d87b_hoisted_1, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn_group, {
+    default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [_ctx.planTypes ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", SubscriptionPlansvue_type_template_id_eb60e054_hoisted_1, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn_group, {
       spread: _ctx.$q.screen.sm || _ctx.$q.screen.lt.md,
       class: "rounded no-shadow border-add"
     }, {
@@ -20114,7 +20117,7 @@ function SubscriptionPlansvue_type_template_id_2d53d87b_render(_ctx, _cache, $pr
             },
             rules: [val => val && val !== '' && val !== null || '']
           }, null, 8, ["modelValue", "val", "unchecked-icon", "class", "rules"])]),
-          title: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", SubscriptionPlansvue_type_template_id_2d53d87b_hoisted_2, [talent.value > 0 ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, {
+          title: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", SubscriptionPlansvue_type_template_id_eb60e054_hoisted_2, [talent.value > 0 ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, {
             key: 0
           }, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)((0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionPlan.label) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(talent.value), 1)], 64)) : ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, {
             key: 1
@@ -20124,7 +20127,7 @@ function SubscriptionPlansvue_type_template_id_2d53d87b_render(_ctx, _cache, $pr
 
             return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", (0,runtime_core_esm_bundler/* mergeProps */.dG)({
               class: ["q-py-xs text-body2 font-medium", _ctx.checkIfPlanSelected(talent.value, _ctx.selectedBilling) ? 'badge-text-active' : talent.value === _ctx.selectedTalent ? 'text-secondary' : 'text-primary']
-            }, _ctx.priceInfo = _ctx.planPriceCalculator(talent.value, _ctx.selectedBilling)), [(0,runtime_core_esm_bundler/* createElementVNode */._)("span", null, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.priceInfo.label), 1), (0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" " + (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$subscriptionPlan = _ctx.subscriptionPlan_BillingTypes[_ctx.selectedBilling]) === null || _ctx$subscriptionPlan === void 0 ? void 0 : _ctx$subscriptionPlan.breakdown_label), 1)], 16), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", SubscriptionPlansvue_type_template_id_2d53d87b_hoisted_3, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionPlan.description_1) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(talent.value === -1 ? 'custom' : _ctx.toWords(talent.value)) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(talent.value > 1 || talent.value === -1 ? 'users' : 'user') + ". ", 1)];
+            }, _ctx.priceInfo = _ctx.planPriceCalculator(talent.value, _ctx.selectedBilling)), [(0,runtime_core_esm_bundler/* createElementVNode */._)("span", null, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.priceInfo.label), 1), (0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" " + (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$subscriptionPlan = _ctx.subscriptionPlan_BillingTypes[_ctx.selectedBilling]) === null || _ctx$subscriptionPlan === void 0 ? void 0 : _ctx$subscriptionPlan.breakdown_label), 1)], 16), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", SubscriptionPlansvue_type_template_id_eb60e054_hoisted_3, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionPlan.description_1) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(talent.value === -1 ? 'custom' : _ctx.toWords(talent.value)) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(talent.value > 1 || talent.value === -1 ? 'users' : 'user') + ". ", 1)];
           }),
           _: 2
         }, 1032, ["class", "onClick"])), [[_directive_ripple, _ctx.checkIfPlanSelected(talent.value, _ctx.selectedBilling) ? false : {
@@ -20141,7 +20144,7 @@ function SubscriptionPlansvue_type_template_id_2d53d87b_render(_ctx, _cache, $pr
           class: "rounded slide-hover",
           onClick: _ctx.nextButtonClicked
         }, {
-          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [SubscriptionPlansvue_type_template_id_2d53d87b_hoisted_4, (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [SubscriptionPlansvue_type_template_id_eb60e054_hoisted_4, (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
             size: "sm",
             name: "icon-arrow-narrow-right",
             class: "slide-hover-left-md q-px-sm"
@@ -20155,7 +20158,7 @@ function SubscriptionPlansvue_type_template_id_2d53d87b_render(_ctx, _cache, $pr
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/components/Helpers/Subscription/SubscriptionPlans.vue?vue&type=template&id=2d53d87b
+;// CONCATENATED MODULE: ./src/components/Helpers/Subscription/SubscriptionPlans.vue?vue&type=template&id=eb60e054
 
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/Subscription/SubscriptionPlans.vue?vue&type=script&lang=js
 
@@ -20167,7 +20170,7 @@ function SubscriptionPlansvue_type_template_id_2d53d87b_render(_ctx, _cache, $pr
 
 /* harmony default export */ const SubscriptionPlansvue_type_script_lang_js = ((0,runtime_core_esm_bundler/* defineComponent */.aZ)({
   name: 'SubscriptionPlans',
-  emits: ['planChanged', 'planTypeChanged', 'nextBtnClick'],
+  emits: ['updated', 'talentChanged', 'billingChanged', 'nextBtnClick'],
   props: {
     nextButton: {
       type: Boolean,
@@ -20204,19 +20207,36 @@ function SubscriptionPlansvue_type_template_id_2d53d87b_render(_ctx, _cache, $pr
   watch: {
     selectedTalent: {
       async handler(val) {
-        this.$emit('planChanged', val);
+        this.talentChanged(val);
+        this.updated();
       }
 
     },
     selectedBilling: {
       async handler(val) {
         this.selectedTalent = 0;
-        this.$emit('planTypeChanged', val);
+        this.billingChanged(val);
+        this.updated();
       }
 
     }
   },
   methods: { ...(0,dist_pinia/* mapActions */.nv)(growmodo, ['planPriceCalculator']),
+
+    updated() {
+      this.emit('updated', {
+        selectedTalent: this.selectedTalent,
+        selectedBilling: this.selectedBilling
+      });
+    },
+
+    talentChanged(val) {
+      this.$emit('talentChanged', val || this.selectedTalent);
+    },
+
+    billingChanged() {
+      this.$emit('billingChanged', val || this.selectedBilling);
+    },
 
     checkIfPlanSelected(subscription_talent_count, subscription_billing_type) {
       return this.orgSubscriptionPlan.subscription_billing_type == subscription_billing_type && this.orgSubscriptionPlan.subscription_talent_count == subscription_talent_count;
@@ -20250,7 +20270,7 @@ function SubscriptionPlansvue_type_template_id_2d53d87b_render(_ctx, _cache, $pr
 
 
 ;
-const SubscriptionPlans_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(SubscriptionPlansvue_type_script_lang_js, [['render',SubscriptionPlansvue_type_template_id_2d53d87b_render]])
+const SubscriptionPlans_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(SubscriptionPlansvue_type_script_lang_js, [['render',SubscriptionPlansvue_type_template_id_eb60e054_render]])
 
 /* harmony default export */ const SubscriptionPlans = (SubscriptionPlans_exports_);
 ;
@@ -20311,7 +20331,7 @@ runtime_auto_import_default()(SubscriptionPlansvue_type_script_lang_js, 'compone
       this.$root.dialogRequestUpgrade = true;
     },
 
-    planChanged(planinfo) {
+    planUpdated(planinfo) {
       if (true) console.log('Plan Changed:', planinfo);
     }
 
@@ -20325,7 +20345,7 @@ runtime_auto_import_default()(SubscriptionPlansvue_type_script_lang_js, 'compone
 
 
 ;
-const Subscription_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(Subscriptionvue_type_script_lang_js, [['render',Subscriptionvue_type_template_id_641c6fb7_render]])
+const Subscription_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(Subscriptionvue_type_script_lang_js, [['render',Subscriptionvue_type_template_id_8e07309a_render]])
 
 /* harmony default export */ const Subscription = (Subscription_exports_);
 ;
@@ -29821,9 +29841,9 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.4.19-dev","desc
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [736], () => (__webpack_require__(41766)))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [736], () => (__webpack_require__(65412)))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.672d06dd.js.map
+//# sourceMappingURL=app.a6be9119.js.map
