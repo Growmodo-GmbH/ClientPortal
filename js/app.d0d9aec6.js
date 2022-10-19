@@ -1,7 +1,7 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 15281:
+/***/ 3982:
 /***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -9394,66 +9394,66 @@ function Form_Task_Createvue_type_template_id_1488484d_render(_ctx, _cache, $pro
 }
 ;// CONCATENATED MODULE: ./src/components/Forms/Form_Task_Create.vue?vue&type=template&id=1488484d
 
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Brands/CreateNewBrand.vue?vue&type=template&id=26600918
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Brands/CreateNewBrand.vue?vue&type=template&id=62efa8f1
 
-const CreateNewBrandvue_type_template_id_26600918_hoisted_1 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_1 = {
   autocorrect: "off",
   autocapitalize: "off",
   autocomplete: "on",
   spellcheck: "true"
 };
-const CreateNewBrandvue_type_template_id_26600918_hoisted_2 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_2 = {
   class: "q-col-gutter-md"
 };
 
-const CreateNewBrandvue_type_template_id_26600918_hoisted_3 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_3 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "q-mt-md"
 }, [/*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h4 text-primary font-medium letter-space-normal"
 }, " Brand Information ")], -1);
 
-const CreateNewBrandvue_type_template_id_26600918_hoisted_4 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_4 = {
   class: "row items-center justify-start q-col-gutter-sm"
 };
 
-const CreateNewBrandvue_type_template_id_26600918_hoisted_5 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_5 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "col-12 font-medium color-primary2"
 }, [/*#__PURE__*/(0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" Brand Name"), /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
   class: "text-red"
 }, "*")], -1);
 
-const CreateNewBrandvue_type_template_id_26600918_hoisted_6 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_6 = {
   class: "col-12"
 };
-const CreateNewBrandvue_type_template_id_26600918_hoisted_7 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_7 = {
   class: "row items-center q-col-gutter-sm"
 };
 
-const CreateNewBrandvue_type_template_id_26600918_hoisted_8 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_8 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "col-12 font-medium color-primary2"
 }, [/*#__PURE__*/(0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" Brand Type"), /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
   class: "text-red"
 }, "*")], -1);
 
-const CreateNewBrandvue_type_template_id_26600918_hoisted_9 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_9 = {
   class: "col-12"
 };
-const CreateNewBrandvue_type_template_id_26600918_hoisted_10 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_10 = {
   class: "row items-center q-col-gutter-sm"
 };
 
-const CreateNewBrandvue_type_template_id_26600918_hoisted_11 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_11 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "col-12 font-medium color-primary2"
 }, "Website", -1);
 
-const CreateNewBrandvue_type_template_id_26600918_hoisted_12 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_12 = {
   class: "col-12"
 };
-const CreateNewBrandvue_type_template_id_26600918_hoisted_13 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_13 = {
   class: "q-col-gutter-md"
 };
 
-const CreateNewBrandvue_type_template_id_26600918_hoisted_14 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_14 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "q-mt-md"
 }, [/*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h4 text-primary font-medium letter-space-normal"
@@ -9461,28 +9461,28 @@ const CreateNewBrandvue_type_template_id_26600918_hoisted_14 = /*#__PURE__*/(0,r
   class: "text-body2 color-primary2 font-normal"
 }, " Uploading multiple files are allowed. ")])], -1);
 
-const CreateNewBrandvue_type_template_id_26600918_hoisted_15 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_15 = {
   class: "q-mt-lg"
 };
-const CreateNewBrandvue_type_template_id_26600918_hoisted_16 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_16 = {
   key: 0,
   class: "full-width scroll q-mt-md",
   style: {
     "max-height": "250px"
   }
 };
-const CreateNewBrandvue_type_template_id_26600918_hoisted_17 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_17 = {
   key: 0,
   class: "absolute-bottom bg-gradient no-pointer-events sticky",
   style: {
     "height": "50px"
   }
 };
-const CreateNewBrandvue_type_template_id_26600918_hoisted_18 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_18 = {
   class: "q-col-gutter-md"
 };
 
-const CreateNewBrandvue_type_template_id_26600918_hoisted_19 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_19 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "q-mt-md"
 }, [/*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h4 text-primary font-medium letter-space-normal"
@@ -9490,49 +9490,49 @@ const CreateNewBrandvue_type_template_id_26600918_hoisted_19 = /*#__PURE__*/(0,r
   class: "text-body2 color-primary2 font-normal"
 }, " Generate brand colors from image or add your own brand colors. ")])], -1);
 
-const CreateNewBrandvue_type_template_id_26600918_hoisted_20 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_20 = {
   class: "q-mt-lg"
 };
-const CreateNewBrandvue_type_template_id_26600918_hoisted_21 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_21 = {
   class: "row q-col-gutter-lg"
 };
-const CreateNewBrandvue_type_template_id_26600918_hoisted_22 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_22 = {
   class: "col-12"
 };
-const CreateNewBrandvue_type_template_id_26600918_hoisted_23 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_23 = {
   class: "row justify-end q-gutter-x-md q-pa-md"
 };
-const CreateNewBrandvue_type_template_id_26600918_hoisted_24 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_24 = {
   class: "col-12"
 };
-const CreateNewBrandvue_type_template_id_26600918_hoisted_25 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_25 = {
   class: "fit q-pt-md"
 };
 
-const CreateNewBrandvue_type_template_id_26600918_hoisted_26 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_26 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-body2 q-pb-md font-medium"
 }, " Add Colors ", -1);
 
-const CreateNewBrandvue_type_template_id_26600918_hoisted_27 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_27 = {
   class: "row q-col-gutter-md"
 };
-const CreateNewBrandvue_type_template_id_26600918_hoisted_28 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_28 = {
   class: "col-12 col-sm-6"
 };
-const CreateNewBrandvue_type_template_id_26600918_hoisted_29 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_29 = {
   class: "col-12 col-sm-6"
 };
-const CreateNewBrandvue_type_template_id_26600918_hoisted_30 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_30 = {
   class: "col-12 col-sm-6"
 };
-const CreateNewBrandvue_type_template_id_26600918_hoisted_31 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_31 = {
   class: "col-12 col-sm-6"
 };
-const CreateNewBrandvue_type_template_id_26600918_hoisted_32 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_32 = {
   class: "q-col-gutter-md"
 };
 
-const CreateNewBrandvue_type_template_id_26600918_hoisted_33 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_33 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "q-mt-md"
 }, [/*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h4 text-primary font-medium letter-space-normal"
@@ -9540,28 +9540,28 @@ const CreateNewBrandvue_type_template_id_26600918_hoisted_33 = /*#__PURE__*/(0,r
   class: "text-body2 color-primary2 font-normal"
 }, " Uploading multiple files are allowed. ")])], -1);
 
-const CreateNewBrandvue_type_template_id_26600918_hoisted_34 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_34 = {
   class: "q-mt-lg"
 };
-const CreateNewBrandvue_type_template_id_26600918_hoisted_35 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_35 = {
   key: 0,
   class: "full-width scroll q-mt-md",
   style: {
     "max-height": "250px"
   }
 };
-const CreateNewBrandvue_type_template_id_26600918_hoisted_36 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_36 = {
   key: 0,
   class: "absolute-bottom bg-gradient no-pointer-events sticky",
   style: {
     "height": "50px"
   }
 };
-const CreateNewBrandvue_type_template_id_26600918_hoisted_37 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_37 = {
   class: "q-col-gutter-md"
 };
 
-const CreateNewBrandvue_type_template_id_26600918_hoisted_38 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_38 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "q-mt-md"
 }, [/*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h4 text-primary font-medium letter-space-normal"
@@ -9569,28 +9569,28 @@ const CreateNewBrandvue_type_template_id_26600918_hoisted_38 = /*#__PURE__*/(0,r
   class: "text-body2 color-primary2 font-normal"
 }, " Uploading multiple files are allowed. ")])], -1);
 
-const CreateNewBrandvue_type_template_id_26600918_hoisted_39 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_39 = {
   class: "q-mt-lg"
 };
-const CreateNewBrandvue_type_template_id_26600918_hoisted_40 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_40 = {
   key: 0,
   class: "full-width scroll q-mt-md",
   style: {
     "max-height": "250px"
   }
 };
-const CreateNewBrandvue_type_template_id_26600918_hoisted_41 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_41 = {
   key: 0,
   class: "absolute-bottom bg-gradient no-pointer-events sticky",
   style: {
     "height": "50px"
   }
 };
-const CreateNewBrandvue_type_template_id_26600918_hoisted_42 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_42 = {
   class: "q-col-gutter-md"
 };
 
-const CreateNewBrandvue_type_template_id_26600918_hoisted_43 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_43 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "q-mt-md"
 }, [/*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h4 text-primary font-medium letter-space-normal"
@@ -9598,28 +9598,28 @@ const CreateNewBrandvue_type_template_id_26600918_hoisted_43 = /*#__PURE__*/(0,r
   class: "text-body2 color-primary2 font-normal"
 }, " Uploading multiple files are allowed. ")])], -1);
 
-const CreateNewBrandvue_type_template_id_26600918_hoisted_44 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_44 = {
   class: "q-mt-lg"
 };
-const CreateNewBrandvue_type_template_id_26600918_hoisted_45 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_45 = {
   key: 0,
   class: "full-width scroll q-mt-md",
   style: {
     "max-height": "250px"
   }
 };
-const CreateNewBrandvue_type_template_id_26600918_hoisted_46 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_46 = {
   key: 0,
   class: "absolute-bottom bg-gradient no-pointer-events sticky",
   style: {
     "height": "50px"
   }
 };
-const CreateNewBrandvue_type_template_id_26600918_hoisted_47 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_47 = {
   class: "q-col-gutter-md"
 };
 
-const CreateNewBrandvue_type_template_id_26600918_hoisted_48 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_48 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "q-mt-md"
 }, [/*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h4 text-primary font-medium letter-space-normal"
@@ -9627,34 +9627,34 @@ const CreateNewBrandvue_type_template_id_26600918_hoisted_48 = /*#__PURE__*/(0,r
   class: "text-body2 color-primary2 font-normal"
 }, " Uploading multiple files are allowed. ")])], -1);
 
-const CreateNewBrandvue_type_template_id_26600918_hoisted_49 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_49 = {
   class: "q-mt-lg"
 };
-const CreateNewBrandvue_type_template_id_26600918_hoisted_50 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_50 = {
   key: 0,
   class: "full-width scroll q-mt-md",
   style: {
     "max-height": "250px"
   }
 };
-const CreateNewBrandvue_type_template_id_26600918_hoisted_51 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_51 = {
   key: 0,
   class: "absolute-bottom bg-gradient no-pointer-events sticky",
   style: {
     "height": "50px"
   }
 };
-const CreateNewBrandvue_type_template_id_26600918_hoisted_52 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_52 = {
   class: "q-col-gutter-md"
 };
 
-const CreateNewBrandvue_type_template_id_26600918_hoisted_53 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_53 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "q-mt-md"
 }, [/*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h4 text-primary font-medium letter-space-normal"
 }, " Social Media Links ")], -1);
 
-const CreateNewBrandvue_type_template_id_26600918_hoisted_54 = {
+const CreateNewBrandvue_type_template_id_62efa8f1_hoisted_54 = {
   class: "q-pt-lg"
 };
 const _hoisted_55 = {
@@ -9740,7 +9740,7 @@ const _hoisted_76 = {
 const _hoisted_77 = {
   class: "q-px-sm"
 };
-function CreateNewBrandvue_type_template_id_26600918_render(_ctx, _cache, $props, $setup, $data, $options) {
+function CreateNewBrandvue_type_template_id_62efa8f1_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_close_button = (0,runtime_core_esm_bundler/* resolveComponent */.up)("close-button");
 
   const _component_q_card_section = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-card-section");
@@ -9778,7 +9778,7 @@ function CreateNewBrandvue_type_template_id_26600918_render(_ctx, _cache, $props
     })) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true), (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
       class: "q-px-none q-py-sm"
     }, {
-      default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("form", CreateNewBrandvue_type_template_id_26600918_hoisted_1, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_stepper, {
+      default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("form", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_1, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_stepper, {
         flat: "",
         animated: "",
         modelValue: _ctx.formStep,
@@ -9800,17 +9800,17 @@ function CreateNewBrandvue_type_template_id_26600918_render(_ctx, _cache, $props
           "error-icon": "none",
           class: "flex flex-center full-width"
         }, {
-          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_2, [CreateNewBrandvue_type_template_id_26600918_hoisted_3, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_4, [CreateNewBrandvue_type_template_id_26600918_hoisted_5, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_6, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_input, {
+          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_2, [CreateNewBrandvue_type_template_id_62efa8f1_hoisted_3, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_4, [CreateNewBrandvue_type_template_id_62efa8f1_hoisted_5, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_6, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_input, {
             dense: "",
             outlined: "",
             modelValue: _ctx.brand.label,
             "onUpdate:modelValue": _cache[0] || (_cache[0] = $event => _ctx.brand.label = $event),
             placeholder: "Brand Name"
-          }, null, 8, ["modelValue"])])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_7, [CreateNewBrandvue_type_template_id_26600918_hoisted_8, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_9, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_SelectCompanyType, {
+          }, null, 8, ["modelValue"])])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_7, [CreateNewBrandvue_type_template_id_62efa8f1_hoisted_8, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_9, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_SelectCompanyType, {
             modelValue: _ctx.brand.category,
             "onUpdate:modelValue": _cache[1] || (_cache[1] = $event => _ctx.brand.category = $event),
             initModel: _ctx.brand.category
-          }, null, 8, ["modelValue", "initModel"])])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_10, [CreateNewBrandvue_type_template_id_26600918_hoisted_11, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_12, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_InputWebsite, {
+          }, null, 8, ["modelValue", "initModel"])])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_10, [CreateNewBrandvue_type_template_id_62efa8f1_hoisted_11, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_12, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_InputWebsite, {
             modelValue: _ctx.brand.website,
             "onUpdate:modelValue": _cache[2] || (_cache[2] = $event => _ctx.brand.website = $event)
           }, null, 8, ["modelValue"])])])])]),
@@ -9848,7 +9848,7 @@ function CreateNewBrandvue_type_template_id_26600918_render(_ctx, _cache, $props
               default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => {
                 var _ctx$brand$logos, _ctx$brand$logos2, _ctx$brand$logos2$fil, _ctx$brand$logos3, _ctx$brand$logos3$fil;
 
-                return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_13, [CreateNewBrandvue_type_template_id_26600918_hoisted_14, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_15, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_FileUploader, {
+                return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_13, [CreateNewBrandvue_type_template_id_62efa8f1_hoisted_14, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_15, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_FileUploader, {
                   multiple: "",
                   ref: "upLogos",
                   "max-file-size": "10000000",
@@ -9857,11 +9857,11 @@ function CreateNewBrandvue_type_template_id_26600918_render(_ctx, _cache, $props
                   onRejected: _ctx.onRejected,
                   removedFile: (_ctx$brand$logos = _ctx.brand['logos']) === null || _ctx$brand$logos === void 0 ? void 0 : _ctx$brand$logos.removedFile,
                   onAdded: _cache[3] || (_cache[3] = files => _ctx.addUploadToModel('logos', files, 'upLogos'))
-                }, null, 8, ["filter", "onRejected", "removedFile"]), (_ctx$brand$logos2 = _ctx.brand['logos']) !== null && _ctx$brand$logos2 !== void 0 && (_ctx$brand$logos2$fil = _ctx$brand$logos2.files) !== null && _ctx$brand$logos2$fil !== void 0 && _ctx$brand$logos2$fil.length ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_16, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_UploadSlot, {
+                }, null, 8, ["filter", "onRejected", "removedFile"]), (_ctx$brand$logos2 = _ctx.brand['logos']) !== null && _ctx$brand$logos2 !== void 0 && (_ctx$brand$logos2$fil = _ctx$brand$logos2.files) !== null && _ctx$brand$logos2$fil !== void 0 && _ctx$brand$logos2$fil.length ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_16, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_UploadSlot, {
                   small: true,
                   thumbnail: "icon-image-03",
                   scope: _ctx.brand['logos']
-                }, null, 8, ["scope"]), ((_ctx$brand$logos3 = _ctx.brand['logos']) === null || _ctx$brand$logos3 === void 0 ? void 0 : (_ctx$brand$logos3$fil = _ctx$brand$logos3.files) === null || _ctx$brand$logos3$fil === void 0 ? void 0 : _ctx$brand$logos3$fil.length) > 2 ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_17)) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)])) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)])])];
+                }, null, 8, ["scope"]), ((_ctx$brand$logos3 = _ctx.brand['logos']) === null || _ctx$brand$logos3 === void 0 ? void 0 : (_ctx$brand$logos3$fil = _ctx$brand$logos3.files) === null || _ctx$brand$logos3$fil === void 0 ? void 0 : _ctx$brand$logos3$fil.length) > 2 ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_17)) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)])) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)])])];
               }),
               _: 1
             }), (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_step, {
@@ -9876,7 +9876,7 @@ function CreateNewBrandvue_type_template_id_26600918_render(_ctx, _cache, $props
               default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => {
                 var _ctx$brand$logos4, _ctx$brandColors$prim, _ctx$brandColors$seco, _ctx$brandColors$acce, _ctx$brandColors$text;
 
-                return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_18, [CreateNewBrandvue_type_template_id_26600918_hoisted_19, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_20, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_21, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_22, [!_ctx.brandColorSrc || !_ctx.validImageForColorPalette ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_FileUploader, {
+                return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_18, [CreateNewBrandvue_type_template_id_62efa8f1_hoisted_19, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_20, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_21, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_22, [!_ctx.brandColorSrc || !_ctx.validImageForColorPalette ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_FileUploader, {
                   key: 0,
                   multiple: false,
                   ref: "colorSourceUploader",
@@ -9893,7 +9893,7 @@ function CreateNewBrandvue_type_template_id_26600918_render(_ctx, _cache, $props
                   style: (0,shared_esm_bundler/* normalizeStyle */.j5)([{
                     "min-height": "250px"
                   }, _ctx.brandColorSrc ? `background-image: url('${_ctx.brandColorSrc}'); background-position: center; background-repeat: no-repeat; background-size: contain;` : ''])
-                }, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_23, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+                }, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_23, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
                   flat: "",
                   unelevated: "",
                   size: "14px",
@@ -9914,9 +9914,10 @@ function CreateNewBrandvue_type_template_id_26600918_render(_ctx, _cache, $props
                     var _ctx$$refs, _ctx$$refs$colorSourc;
 
                     _ctx.brandColorSrc = '';
+                    _ctx.colorPalette = null;
                     (_ctx$$refs = _ctx.$refs) === null || _ctx$$refs === void 0 ? void 0 : (_ctx$$refs$colorSourc = _ctx$$refs['colorSourceUploader']) === null || _ctx$$refs$colorSourc === void 0 ? void 0 : _ctx$$refs$colorSourc.reset();
                   })
-                })])], 6))]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_24, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_25, [CreateNewBrandvue_type_template_id_26600918_hoisted_26, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_27, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_28, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_ColorPickerCard, {
+                })])], 6))]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_24, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_25, [CreateNewBrandvue_type_template_id_62efa8f1_hoisted_26, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_27, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_28, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_ColorPickerCard, {
                   label: "Primary",
                   initColor: _ctx.brand.colors['primary'],
                   class: (0,shared_esm_bundler/* normalizeClass */.C_)(_ctx.brand.colors['primary'] && (_ctx$brandColors$prim = _ctx.brandColors['primary']) !== null && _ctx$brandColors$prim !== void 0 && _ctx$brandColors$prim.dark ? 'no-border' : ''),
@@ -9925,7 +9926,7 @@ function CreateNewBrandvue_type_template_id_26600918_render(_ctx, _cache, $props
                     _ctx.brandColors['primary'] = c;
                     _ctx.brand.colors['primary'] = c.color;
                   })
-                }, null, 8, ["initColor", "class", "colorPalette"])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_29, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_ColorPickerCard, {
+                }, null, 8, ["initColor", "class", "colorPalette"])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_29, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_ColorPickerCard, {
                   label: "Secondary",
                   initColor: _ctx.brand.colors['secondary'],
                   class: (0,shared_esm_bundler/* normalizeClass */.C_)(_ctx.brand.colors['secondary'] && (_ctx$brandColors$seco = _ctx.brandColors['secondary']) !== null && _ctx$brandColors$seco !== void 0 && _ctx$brandColors$seco.dark ? 'no-border' : ''),
@@ -9934,7 +9935,7 @@ function CreateNewBrandvue_type_template_id_26600918_render(_ctx, _cache, $props
                     _ctx.brandColors['secondary'] = c;
                     _ctx.brand.colors['secondary'] = c.color;
                   })
-                }, null, 8, ["initColor", "class", "colorPalette"])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_30, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_ColorPickerCard, {
+                }, null, 8, ["initColor", "class", "colorPalette"])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_30, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_ColorPickerCard, {
                   label: "Accent",
                   initColor: _ctx.brand.colors['accent'],
                   class: (0,shared_esm_bundler/* normalizeClass */.C_)(_ctx.brand.colors['accent'] && (_ctx$brandColors$acce = _ctx.brandColors['accent']) !== null && _ctx$brandColors$acce !== void 0 && _ctx$brandColors$acce.dark ? 'no-border' : ''),
@@ -9943,7 +9944,7 @@ function CreateNewBrandvue_type_template_id_26600918_render(_ctx, _cache, $props
                     _ctx.brandColors['accent'] = c;
                     _ctx.brand.colors['accent'] = c.color;
                   })
-                }, null, 8, ["initColor", "class", "colorPalette"])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_31, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_ColorPickerCard, {
+                }, null, 8, ["initColor", "class", "colorPalette"])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_31, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_ColorPickerCard, {
                   label: "Text",
                   initColor: _ctx.brand.colors['text'],
                   class: (0,shared_esm_bundler/* normalizeClass */.C_)(_ctx.brand.colors['text'] && (_ctx$brandColors$text = _ctx.brandColors['text']) !== null && _ctx$brandColors$text !== void 0 && _ctx$brandColors$text.dark ? 'no-border' : ''),
@@ -9967,7 +9968,7 @@ function CreateNewBrandvue_type_template_id_26600918_render(_ctx, _cache, $props
               default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => {
                 var _ctx$brand$logos5, _ctx$brand$fonts, _ctx$brand$fonts$file, _ctx$brand$fonts2, _ctx$brand$fonts2$fil;
 
-                return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_32, [CreateNewBrandvue_type_template_id_26600918_hoisted_33, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_34, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_FileUploader, {
+                return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_32, [CreateNewBrandvue_type_template_id_62efa8f1_hoisted_33, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_34, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_FileUploader, {
                   multiple: "",
                   ref: "upFonts",
                   "max-file-size": "10000000",
@@ -9976,11 +9977,11 @@ function CreateNewBrandvue_type_template_id_26600918_render(_ctx, _cache, $props
                   onRejected: _ctx.onRejected,
                   removedFile: (_ctx$brand$logos5 = _ctx.brand['logos']) === null || _ctx$brand$logos5 === void 0 ? void 0 : _ctx$brand$logos5.removedFile,
                   onAdded: _cache[10] || (_cache[10] = files => _ctx.addUploadToModel('fonts', files, 'upFonts'))
-                }, null, 8, ["filter", "onRejected", "removedFile"]), (_ctx$brand$fonts = _ctx.brand['fonts']) !== null && _ctx$brand$fonts !== void 0 && (_ctx$brand$fonts$file = _ctx$brand$fonts.files) !== null && _ctx$brand$fonts$file !== void 0 && _ctx$brand$fonts$file.length ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_35, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_UploadSlot, {
+                }, null, 8, ["filter", "onRejected", "removedFile"]), (_ctx$brand$fonts = _ctx.brand['fonts']) !== null && _ctx$brand$fonts !== void 0 && (_ctx$brand$fonts$file = _ctx$brand$fonts.files) !== null && _ctx$brand$fonts$file !== void 0 && _ctx$brand$fonts$file.length ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_35, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_UploadSlot, {
                   small: true,
                   thumbnail: "icon-type-square",
                   scope: _ctx.brand['fonts']
-                }, null, 8, ["scope"]), ((_ctx$brand$fonts2 = _ctx.brand['fonts']) === null || _ctx$brand$fonts2 === void 0 ? void 0 : (_ctx$brand$fonts2$fil = _ctx$brand$fonts2.files) === null || _ctx$brand$fonts2$fil === void 0 ? void 0 : _ctx$brand$fonts2$fil.length) > 2 ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_36)) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)])) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)])])];
+                }, null, 8, ["scope"]), ((_ctx$brand$fonts2 = _ctx.brand['fonts']) === null || _ctx$brand$fonts2 === void 0 ? void 0 : (_ctx$brand$fonts2$fil = _ctx$brand$fonts2.files) === null || _ctx$brand$fonts2$fil === void 0 ? void 0 : _ctx$brand$fonts2$fil.length) > 2 ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_36)) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)])) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)])])];
               }),
               _: 1
             }), (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_step, {
@@ -9995,7 +9996,7 @@ function CreateNewBrandvue_type_template_id_26600918_render(_ctx, _cache, $props
               default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => {
                 var _ctx$brand$logos6, _ctx$brand$icons, _ctx$brand$icons$file, _ctx$brand$icons2, _ctx$brand$icons2$fil;
 
-                return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_37, [CreateNewBrandvue_type_template_id_26600918_hoisted_38, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_39, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_FileUploader, {
+                return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_37, [CreateNewBrandvue_type_template_id_62efa8f1_hoisted_38, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_39, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_FileUploader, {
                   multiple: "",
                   ref: "upIcons",
                   "max-file-size": "5000000",
@@ -10004,11 +10005,11 @@ function CreateNewBrandvue_type_template_id_26600918_render(_ctx, _cache, $props
                   note: "SVG, PNG, or ICO (max. 5MB)",
                   filter: files => _ctx.checkFileExtensions(files, ['.svg', '.png', '.ico']),
                   onAdded: _cache[11] || (_cache[11] = files => _ctx.addUploadToModel('icons', files, 'upIcons'))
-                }, null, 8, ["onRejected", "removedFile", "filter"]), (_ctx$brand$icons = _ctx.brand['icons']) !== null && _ctx$brand$icons !== void 0 && (_ctx$brand$icons$file = _ctx$brand$icons.files) !== null && _ctx$brand$icons$file !== void 0 && _ctx$brand$icons$file.length ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_40, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_UploadSlot, {
+                }, null, 8, ["onRejected", "removedFile", "filter"]), (_ctx$brand$icons = _ctx.brand['icons']) !== null && _ctx$brand$icons !== void 0 && (_ctx$brand$icons$file = _ctx$brand$icons.files) !== null && _ctx$brand$icons$file !== void 0 && _ctx$brand$icons$file.length ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_40, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_UploadSlot, {
                   small: true,
                   thumbnail: "icon-image-03",
                   scope: _ctx.brand['icons']
-                }, null, 8, ["scope"]), ((_ctx$brand$icons2 = _ctx.brand['icons']) === null || _ctx$brand$icons2 === void 0 ? void 0 : (_ctx$brand$icons2$fil = _ctx$brand$icons2.files) === null || _ctx$brand$icons2$fil === void 0 ? void 0 : _ctx$brand$icons2$fil.length) > 2 ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_41)) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)])) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)])])];
+                }, null, 8, ["scope"]), ((_ctx$brand$icons2 = _ctx.brand['icons']) === null || _ctx$brand$icons2 === void 0 ? void 0 : (_ctx$brand$icons2$fil = _ctx$brand$icons2.files) === null || _ctx$brand$icons2$fil === void 0 ? void 0 : _ctx$brand$icons2$fil.length) > 2 ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_41)) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)])) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)])])];
               }),
               _: 1
             }), (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_step, {
@@ -10023,7 +10024,7 @@ function CreateNewBrandvue_type_template_id_26600918_render(_ctx, _cache, $props
               default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => {
                 var _ctx$brand$logos7, _ctx$brand$images, _ctx$brand$images$fil, _ctx$brand$images2, _ctx$brand$images2$fi;
 
-                return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_42, [CreateNewBrandvue_type_template_id_26600918_hoisted_43, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_44, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_FileUploader, {
+                return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_42, [CreateNewBrandvue_type_template_id_62efa8f1_hoisted_43, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_44, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_FileUploader, {
                   multiple: "",
                   ref: "upImages",
                   "max-file-size": "10000000",
@@ -10032,11 +10033,11 @@ function CreateNewBrandvue_type_template_id_26600918_render(_ctx, _cache, $props
                   accept: _ctx.acceptedImageTypes.join(','),
                   removedFile: (_ctx$brand$logos7 = _ctx.brand['logos']) === null || _ctx$brand$logos7 === void 0 ? void 0 : _ctx$brand$logos7.removedFile,
                   onAdded: _cache[12] || (_cache[12] = files => _ctx.addUploadToModel('images', files, 'upImages'))
-                }, null, 8, ["onRejected", "accept", "removedFile"]), (_ctx$brand$images = _ctx.brand['images']) !== null && _ctx$brand$images !== void 0 && (_ctx$brand$images$fil = _ctx$brand$images.files) !== null && _ctx$brand$images$fil !== void 0 && _ctx$brand$images$fil.length ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_45, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_UploadSlot, {
+                }, null, 8, ["onRejected", "accept", "removedFile"]), (_ctx$brand$images = _ctx.brand['images']) !== null && _ctx$brand$images !== void 0 && (_ctx$brand$images$fil = _ctx$brand$images.files) !== null && _ctx$brand$images$fil !== void 0 && _ctx$brand$images$fil.length ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_45, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_UploadSlot, {
                   small: true,
                   thumbnail: "icon-image-03",
                   scope: _ctx.brand['images']
-                }, null, 8, ["scope"]), ((_ctx$brand$images2 = _ctx.brand['images']) === null || _ctx$brand$images2 === void 0 ? void 0 : (_ctx$brand$images2$fi = _ctx$brand$images2.files) === null || _ctx$brand$images2$fi === void 0 ? void 0 : _ctx$brand$images2$fi.length) > 2 ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_46)) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)])) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)])])];
+                }, null, 8, ["scope"]), ((_ctx$brand$images2 = _ctx.brand['images']) === null || _ctx$brand$images2 === void 0 ? void 0 : (_ctx$brand$images2$fi = _ctx$brand$images2.files) === null || _ctx$brand$images2$fi === void 0 ? void 0 : _ctx$brand$images2$fi.length) > 2 ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_46)) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)])) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)])])];
               }),
               _: 1
             }), (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_step, {
@@ -10051,7 +10052,7 @@ function CreateNewBrandvue_type_template_id_26600918_render(_ctx, _cache, $props
               default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => {
                 var _ctx$brand$logos8, _ctx$brand$graphic_el, _ctx$brand$graphic_el2, _ctx$brand$graphic_el3, _ctx$brand$graphic_el4;
 
-                return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_47, [CreateNewBrandvue_type_template_id_26600918_hoisted_48, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_49, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_FileUploader, {
+                return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_47, [CreateNewBrandvue_type_template_id_62efa8f1_hoisted_48, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_49, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_FileUploader, {
                   multiple: "",
                   ref: "upGraphicElements",
                   "max-file-size": "10000000",
@@ -10060,11 +10061,11 @@ function CreateNewBrandvue_type_template_id_26600918_render(_ctx, _cache, $props
                   filter: files => _ctx.checkFileExtensions(files, ['.png', '.ico', '.jpg', '.jpeg', '.svg', '.ai', '.psd', '.eps']),
                   removedFile: (_ctx$brand$logos8 = _ctx.brand['logos']) === null || _ctx$brand$logos8 === void 0 ? void 0 : _ctx$brand$logos8.removedFile,
                   onAdded: _cache[13] || (_cache[13] = files => _ctx.addUploadToModel('graphic_elements', files, 'upGraphicElements'))
-                }, null, 8, ["onRejected", "filter", "removedFile"]), (_ctx$brand$graphic_el = _ctx.brand['graphic_elements']) !== null && _ctx$brand$graphic_el !== void 0 && (_ctx$brand$graphic_el2 = _ctx$brand$graphic_el.files) !== null && _ctx$brand$graphic_el2 !== void 0 && _ctx$brand$graphic_el2.length ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_50, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_UploadSlot, {
+                }, null, 8, ["onRejected", "filter", "removedFile"]), (_ctx$brand$graphic_el = _ctx.brand['graphic_elements']) !== null && _ctx$brand$graphic_el !== void 0 && (_ctx$brand$graphic_el2 = _ctx$brand$graphic_el.files) !== null && _ctx$brand$graphic_el2 !== void 0 && _ctx$brand$graphic_el2.length ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_50, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_UploadSlot, {
                   small: true,
                   thumbnail: "icon-image-03",
                   scope: _ctx.brand['graphic_elements']
-                }, null, 8, ["scope"]), ((_ctx$brand$graphic_el3 = _ctx.brand['graphic_elements']) === null || _ctx$brand$graphic_el3 === void 0 ? void 0 : (_ctx$brand$graphic_el4 = _ctx$brand$graphic_el3.files) === null || _ctx$brand$graphic_el4 === void 0 ? void 0 : _ctx$brand$graphic_el4.length) > 2 ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_51)) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)])) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)])])];
+                }, null, 8, ["scope"]), ((_ctx$brand$graphic_el3 = _ctx.brand['graphic_elements']) === null || _ctx$brand$graphic_el3 === void 0 ? void 0 : (_ctx$brand$graphic_el4 = _ctx$brand$graphic_el3.files) === null || _ctx$brand$graphic_el4 === void 0 ? void 0 : _ctx$brand$graphic_el4.length) > 2 ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_51)) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)])) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)])])];
               }),
               _: 1
             })]),
@@ -10080,7 +10081,7 @@ function CreateNewBrandvue_type_template_id_26600918_render(_ctx, _cache, $props
           "error-icon": "none",
           class: "flex flex-center full-width"
         }, {
-          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_52, [CreateNewBrandvue_type_template_id_26600918_hoisted_53, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_26600918_hoisted_54, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", _hoisted_55, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", _hoisted_56, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", _hoisted_57, [_hoisted_58, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", _hoisted_59, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_InputWebsite, {
+          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_52, [CreateNewBrandvue_type_template_id_62efa8f1_hoisted_53, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", CreateNewBrandvue_type_template_id_62efa8f1_hoisted_54, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", _hoisted_55, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", _hoisted_56, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", _hoisted_57, [_hoisted_58, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", _hoisted_59, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_InputWebsite, {
             modelValue: _ctx.brand.social.linkedin,
             "onUpdate:modelValue": _cache[15] || (_cache[15] = $event => _ctx.brand.social.linkedin = $event),
             prepend: "linkedin.com/company/",
@@ -10134,7 +10135,7 @@ function CreateNewBrandvue_type_template_id_26600918_render(_ctx, _cache, $props
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/components/Brands/CreateNewBrand.vue?vue&type=template&id=26600918
+;// CONCATENATED MODULE: ./src/components/Brands/CreateNewBrand.vue?vue&type=template&id=62efa8f1
 
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/SelectCompanyType.vue?vue&type=template&id=31e5f163
 
@@ -10678,20 +10679,27 @@ function ColorPickerCardvue_type_template_id_456fda28_render(_ctx, _cache, $prop
 var colors = __webpack_require__(75103);
 // EXTERNAL MODULE: ./node_modules/quasar/src/utils/copy-to-clipboard.js
 var copy_to_clipboard = __webpack_require__(65054);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/ColorPicker.vue?vue&type=template&id=0e50d951
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/ColorPicker.vue?vue&type=template&id=559644b6
 
-const ColorPickervue_type_template_id_0e50d951_hoisted_1 = {
+const ColorPickervue_type_template_id_559644b6_hoisted_1 = {
   key: 0,
   class: "text-body2 font-medium q-pb-sm"
 };
-const ColorPickervue_type_template_id_0e50d951_hoisted_2 = {
+const ColorPickervue_type_template_id_559644b6_hoisted_2 = {
+  class: "row q-gutter-xs items-center justify-center"
+};
+const ColorPickervue_type_template_id_559644b6_hoisted_3 = {
   class: "col-5"
 };
-const ColorPickervue_type_template_id_0e50d951_hoisted_3 = {
+const ColorPickervue_type_template_id_559644b6_hoisted_4 = {
   class: "q-gutter-sm row"
 };
-function ColorPickervue_type_template_id_0e50d951_render(_ctx, _cache, $props, $setup, $data, $options) {
+function ColorPickervue_type_template_id_559644b6_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_q_color = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-color");
+
+  const _component_tooltip_pro = (0,runtime_core_esm_bundler/* resolveComponent */.up)("tooltip-pro");
+
+  const _component_q_card = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-card");
 
   const _component_q_icon = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-icon");
 
@@ -10701,15 +10709,13 @@ function ColorPickervue_type_template_id_0e50d951_render(_ctx, _cache, $props, $
 
   const _component_q_btn = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-btn");
 
-  const _component_q_card = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-card");
-
   return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_q_card, {
     class: "rounded q-pa-md"
   }, {
     default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => {
       var _ctx$colorFormat;
 
-      return [_ctx.colorPaletteSrc && _ctx.colorViewPalette ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", ColorPickervue_type_template_id_0e50d951_hoisted_1, " Colors from the image ")) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true), (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_color, {
+      return [_ctx.colorPaletteSrc && _ctx.colorViewPalette ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", ColorPickervue_type_template_id_559644b6_hoisted_1, " Colors from the image ")) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true), (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_color, {
         "no-header": "",
         "no-footer": "",
         ref: "customColorPicker",
@@ -10718,7 +10724,24 @@ function ColorPickervue_type_template_id_0e50d951_render(_ctx, _cache, $props, $
         modelValue: _ctx.colorModel,
         "onUpdate:modelValue": _cache[0] || (_cache[0] = $event => _ctx.colorModel = $event),
         "format-model": (_ctx$colorFormat = _ctx.colorFormat) === null || _ctx$colorFormat === void 0 ? void 0 : _ctx$colorFormat.value
-      }, null, 8, ["palette", "default-view", "modelValue", "format-model"]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+      }, null, 8, ["palette", "default-view", "modelValue", "format-model"]), _ctx.colorPaletteSrc ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", {
+        key: 1,
+        class: (0,shared_esm_bundler/* normalizeClass */.C_)(_ctx.colorPaletteSrc && _ctx.colorViewPalette ? 'q-py-md' : 'q-pb-md')
+      }, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", ColorPickervue_type_template_id_559644b6_hoisted_2, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)(_ctx.colorPaletteSrc.slice(0, _ctx.colorPaletteSrc.length > 30 ? 30 : _ctx.colorPaletteSrc.length), (color, i) => {
+        return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_q_card, {
+          key: i,
+          flat: "",
+          class: "col-auto q-pa-md cursor-pointer rounded",
+          style: (0,shared_esm_bundler/* normalizeStyle */.j5)(`background-color: ${color};`),
+          onClick: $event => _ctx.colorModel = _ctx.colorFormat.value === 'rgba' ? color : _ctx.rgbToHex(_ctx.textToRgb(color))
+        }, {
+          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_tooltip_pro, null, {
+            default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)((0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.colorFormat.value === 'rgba' ? color : _ctx.rgbToHex(_ctx.textToRgb(color))), 1)]),
+            _: 2
+          }, 1024)]),
+          _: 2
+        }, 1032, ["style", "onClick"]);
+      }), 128))])], 2)) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
         class: (0,shared_esm_bundler/* normalizeClass */.C_)(["row q-col-gutter-sm", _ctx.colorPaletteSrc && _ctx.colorViewPalette ? 'q-py-md' : 'q-pb-md'])
       }, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
         class: "col-7",
@@ -10745,7 +10768,7 @@ function ColorPickervue_type_template_id_0e50d951_render(_ctx, _cache, $props, $
           onClick: _cache[1] || (_cache[1] = $event => _ctx.copyToClipboard(_ctx.colorModel))
         })]),
         key: "0"
-      } : undefined]), 1032, ["modelValue"])], 32), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", ColorPickervue_type_template_id_0e50d951_hoisted_2, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_select, {
+      } : undefined]), 1032, ["modelValue"])], 32), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", ColorPickervue_type_template_id_559644b6_hoisted_3, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_select, {
         dense: "",
         outlined: "",
         modelValue: _ctx.colorFormat,
@@ -10754,7 +10777,7 @@ function ColorPickervue_type_template_id_0e50d951_render(_ctx, _cache, $props, $
         "popup-content-class": "bg-white rounded-bottom shadow-ui",
         "input-class": "text-body1 letter-space-normal text-primary",
         options: Object.values(_ctx.colorFormats)
-      }, null, 8, ["modelValue", "options"])])], 2), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", ColorPickervue_type_template_id_0e50d951_hoisted_3, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+      }, null, 8, ["modelValue", "options"])])], 2), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", ColorPickervue_type_template_id_559644b6_hoisted_4, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
         "no-caps": "",
         outline: "",
         unelevated: "",
@@ -10778,11 +10801,15 @@ function ColorPickervue_type_template_id_0e50d951_render(_ctx, _cache, $props, $
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/components/Helpers/ColorPicker.vue?vue&type=template&id=0e50d951
+;// CONCATENATED MODULE: ./src/components/Helpers/ColorPicker.vue?vue&type=template&id=559644b6
 
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/ColorPicker.vue?vue&type=script&lang=js
 
 
+const {
+  rgbToHex,
+  textToRgb
+} = colors/* default */.ZP;
 /* harmony default export */ const ColorPickervue_type_script_lang_js = ((0,runtime_core_esm_bundler/* defineComponent */.aZ)({
   name: 'ColorPicker',
   emits: ['updated', 'saved', 'canceled', 'closed'],
@@ -10812,6 +10839,8 @@ function ColorPickervue_type_template_id_0e50d951_render(_ctx, _cache, $props, $
       }
     };
     return {
+      rgbToHex,
+      textToRgb,
       colorModel: '',
       colorFormats,
       showCopy: false,
@@ -10836,16 +10865,9 @@ function ColorPickervue_type_template_id_0e50d951_render(_ctx, _cache, $props, $
     ['colorFormat.value']: {
       async handler(val) {
         if (val === 'rgba') {
-          const {
-            textToRgb
-          } = colors/* default */.ZP;
           let l_rgba = textToRgb(this.colorModel);
           this.colorModel = `rgba(${l_rgba.r},${l_rgba.g},${l_rgba.b},${l_rgba.a / 100 || 1})`;
         } else {
-          const {
-            rgbToHex,
-            textToRgb
-          } = colors/* default */.ZP;
           this.colorModel = rgbToHex(textToRgb(this.colorModel));
         }
       }
@@ -10923,10 +10945,6 @@ function ColorPickervue_type_template_id_0e50d951_render(_ctx, _cache, $props, $
     alwaysToHex(colorString) {
       try {
         if (colorString.charAt(0) === '#') return colorString.substring(0, 7);
-        const {
-          rgbToHex,
-          textToRgb
-        } = colors/* default */.ZP;
         return rgbToHex(textToRgb(colorString)).substring(0, 7);
       } catch (e) {
         return colorString;
@@ -10942,9 +10960,9 @@ function ColorPickervue_type_template_id_0e50d951_render(_ctx, _cache, $props, $
 }));
 ;// CONCATENATED MODULE: ./src/components/Helpers/ColorPicker.vue?vue&type=script&lang=js
  
-// EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js??clonedRuleSet-17.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-17.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-17.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-17.use[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.quasar-scss-variables.js!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/ColorPicker.vue?vue&type=style&index=0&id=0e50d951&lang=scss
-var ColorPickervue_type_style_index_0_id_0e50d951_lang_scss = __webpack_require__(65642);
-;// CONCATENATED MODULE: ./src/components/Helpers/ColorPicker.vue?vue&type=style&index=0&id=0e50d951&lang=scss
+// EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js??clonedRuleSet-17.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-17.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-17.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-17.use[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.quasar-scss-variables.js!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/ColorPicker.vue?vue&type=style&index=0&id=559644b6&lang=scss
+var ColorPickervue_type_style_index_0_id_559644b6_lang_scss = __webpack_require__(12715);
+;// CONCATENATED MODULE: ./src/components/Helpers/ColorPicker.vue?vue&type=style&index=0&id=559644b6&lang=scss
 
 // EXTERNAL MODULE: ./node_modules/quasar/src/components/color/QColor.js + 3 modules
 var QColor = __webpack_require__(48297);
@@ -10958,7 +10976,7 @@ var QSlider = __webpack_require__(28423);
 ;
 
 
-const ColorPicker_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(ColorPickervue_type_script_lang_js, [['render',ColorPickervue_type_template_id_0e50d951_render]])
+const ColorPicker_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(ColorPickervue_type_script_lang_js, [['render',ColorPickervue_type_template_id_559644b6_render]])
 
 /* harmony default export */ const ColorPicker = (ColorPicker_exports_);
 ;
@@ -11970,7 +11988,7 @@ var QStep = __webpack_require__(46017);
 
 
 ;
-const CreateNewBrand_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(CreateNewBrandvue_type_script_lang_js, [['render',CreateNewBrandvue_type_template_id_26600918_render]])
+const CreateNewBrand_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(CreateNewBrandvue_type_script_lang_js, [['render',CreateNewBrandvue_type_template_id_62efa8f1_render]])
 
 /* harmony default export */ const CreateNewBrand = (CreateNewBrand_exports_);
 ;
@@ -29337,7 +29355,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, ".q-tooltip {\n  background-color: tran
 
 /***/ }),
 
-/***/ 72819:
+/***/ 73341:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -29589,19 +29607,19 @@ var update = add("8304d2fc", content, true, {"sourceMap":true});
 
 /***/ }),
 
-/***/ 65642:
+/***/ 12715:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(72819);
+var content = __webpack_require__(73341);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.id, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var add = (__webpack_require__(81486)/* ["default"] */ .Z)
-var update = add("e4a27b24", content, true, {"sourceMap":true});
+var update = add("50120bde", content, true, {"sourceMap":true});
 
 /***/ }),
 
@@ -29844,9 +29862,9 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.4.19-dev","desc
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [736], () => (__webpack_require__(15281)))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [736], () => (__webpack_require__(3982)))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.dbd4c19a.js.map
+//# sourceMappingURL=app.d0d9aec6.js.map
