@@ -1,7 +1,7 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 55206:
+/***/ 82396:
 /***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -11509,9 +11509,7 @@ var fn_store = __webpack_require__(85487);
 
 
 async function loginWithPassword(payload) {
-  return await apis.api.post('/login', payload, {
-    crossdomain: true
-  }).then(res => {
+  return await apis.api.post('/login', payload).then(res => {
     if (true) console.log(res.data);
     let data = res.data;
 
@@ -18590,149 +18588,155 @@ function AccountSettingsPagevue_type_template_id_4afccf3c_render(_ctx, _cache, $
 }
 ;// CONCATENATED MODULE: ./src/pages/AccountSettingsPage.vue?vue&type=template&id=4afccf3c
 
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Accounts/Profile.vue?vue&type=template&id=c45e5fbc
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Accounts/Profile.vue?vue&type=template&id=2147ea22
 
-const Profilevue_type_template_id_c45e5fbc_hoisted_1 = {
+const Profilevue_type_template_id_2147ea22_hoisted_1 = {
   class: "q-gutter-y-lg"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_2 = {
+const Profilevue_type_template_id_2147ea22_hoisted_2 = {
   class: "q-gutter-sm"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_3 = {
+const Profilevue_type_template_id_2147ea22_hoisted_3 = {
   class: "row full-wdith items-center justify-start"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_4 = {
+const Profilevue_type_template_id_2147ea22_hoisted_4 = {
   class: "col-12 col-sm-4 col-md-3 font-medium color-primary2"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_5 = {
+const Profilevue_type_template_id_2147ea22_hoisted_5 = {
   key: 0,
   class: "text-red"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_6 = {
+const Profilevue_type_template_id_2147ea22_hoisted_6 = {
   key: 0,
   class: "col-12 col-sm-8 col-md-9"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_7 = {
+const Profilevue_type_template_id_2147ea22_hoisted_7 = {
   class: "row q-col-gutter-sm items-center justify-start"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_8 = {
+const Profilevue_type_template_id_2147ea22_hoisted_8 = {
   class: "col-12 col-md-6"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_9 = {
+const Profilevue_type_template_id_2147ea22_hoisted_9 = {
   class: "col-12 col-md-6"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_10 = {
+const Profilevue_type_template_id_2147ea22_hoisted_10 = {
   key: 1,
   class: "col-12 col-sm-8 col-md-9 letter-space-normal"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_11 = {
+const Profilevue_type_template_id_2147ea22_hoisted_11 = {
   class: "row full-wdith items-center justify-start"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_12 = {
+const Profilevue_type_template_id_2147ea22_hoisted_12 = {
   class: "col-12 col-sm-4 col-md-3 font-medium color-primary2"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_13 = {
+const Profilevue_type_template_id_2147ea22_hoisted_13 = {
   key: 0,
   class: "text-red"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_14 = {
+const Profilevue_type_template_id_2147ea22_hoisted_14 = {
   class: "col-12 col-sm-8 col-md-9"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_15 = {
+const Profilevue_type_template_id_2147ea22_hoisted_15 = {
   key: 1,
   class: "letter-space-normal"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_16 = ["href"];
-const Profilevue_type_template_id_c45e5fbc_hoisted_17 = {
+const Profilevue_type_template_id_2147ea22_hoisted_16 = ["href"];
+const Profilevue_type_template_id_2147ea22_hoisted_17 = {
   key: 0,
   class: "row full-wdith items-center justify-start"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_18 = {
+const Profilevue_type_template_id_2147ea22_hoisted_18 = {
   class: "col-12 col-sm-4 col-md-3 font-medium color-primary2"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_19 = {
+const Profilevue_type_template_id_2147ea22_hoisted_19 = {
   key: 0,
   class: "text-red"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_20 = {
+const Profilevue_type_template_id_2147ea22_hoisted_20 = {
   class: "col-12 col-sm-8 col-md-9"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_21 = {
+const Profilevue_type_template_id_2147ea22_hoisted_21 = {
   class: "letter-space-normal"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_22 = {
+const Profilevue_type_template_id_2147ea22_hoisted_22 = {
   key: 1,
   class: "row full-wdith items-center justify-start"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_23 = {
+const Profilevue_type_template_id_2147ea22_hoisted_23 = {
   class: "col-12 col-sm-4 col-md-3 font-medium color-primary2"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_24 = {
+const Profilevue_type_template_id_2147ea22_hoisted_24 = {
   key: 0,
   class: "text-red"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_25 = {
+const Profilevue_type_template_id_2147ea22_hoisted_25 = {
   class: "col-12 col-sm-8 col-md-9"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_26 = {
+const Profilevue_type_template_id_2147ea22_hoisted_26 = {
   key: 1,
   class: "letter-space-normal"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_27 = {
+const Profilevue_type_template_id_2147ea22_hoisted_27 = {
+  autocorrect: "off",
+  autocapitalize: "off",
+  autocomplete: "off",
+  spellcheck: "false"
+};
+const Profilevue_type_template_id_2147ea22_hoisted_28 = {
   class: "q-gutter-sm"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_28 = {
+const Profilevue_type_template_id_2147ea22_hoisted_29 = {
   class: "row full-width items-center justify-start"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_29 = {
+const Profilevue_type_template_id_2147ea22_hoisted_30 = {
   class: "col-12 col-sm-4 col-md-3 font-medium color-primary2"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_30 = {
+const Profilevue_type_template_id_2147ea22_hoisted_31 = {
   key: 0,
   class: "text-red"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_31 = {
+const Profilevue_type_template_id_2147ea22_hoisted_32 = {
   class: "col-12 col-sm-8 col-md-9"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_32 = {
+const Profilevue_type_template_id_2147ea22_hoisted_33 = {
   key: 1,
   class: "letter-space-normal"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_33 = {
+const Profilevue_type_template_id_2147ea22_hoisted_34 = {
   class: "row full-width items-center justify-start"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_34 = {
+const Profilevue_type_template_id_2147ea22_hoisted_35 = {
   class: "col-12 col-sm-4 col-md-3 font-medium color-primary2"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_35 = {
+const Profilevue_type_template_id_2147ea22_hoisted_36 = {
   key: 0,
   class: "text-red"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_36 = {
+const Profilevue_type_template_id_2147ea22_hoisted_37 = {
   class: "col-12 col-sm-8 col-md-9"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_37 = {
+const Profilevue_type_template_id_2147ea22_hoisted_38 = {
   key: 1,
   class: "letter-space-normal"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_38 = {
+const Profilevue_type_template_id_2147ea22_hoisted_39 = {
   class: "row full-width items-center justify-start"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_39 = {
+const Profilevue_type_template_id_2147ea22_hoisted_40 = {
   class: "col-12 col-sm-4 col-md-3 font-medium color-primary2"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_40 = {
+const Profilevue_type_template_id_2147ea22_hoisted_41 = {
   key: 0,
   class: "text-red"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_41 = {
+const Profilevue_type_template_id_2147ea22_hoisted_42 = {
   class: "col-12 col-sm-8 col-md-9"
 };
-const Profilevue_type_template_id_c45e5fbc_hoisted_42 = {
+const Profilevue_type_template_id_2147ea22_hoisted_43 = {
   key: 1,
   class: "letter-space-normal"
 };
-function Profilevue_type_template_id_c45e5fbc_render(_ctx, _cache, $props, $setup, $data, $options) {
+function Profilevue_type_template_id_2147ea22_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_q_toolbar_title = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-toolbar-title");
 
   const _component_DynamicButton = (0,runtime_core_esm_bundler/* resolveComponent */.up)("DynamicButton");
@@ -18757,7 +18761,7 @@ function Profilevue_type_template_id_c45e5fbc_render(_ctx, _cache, $props, $setu
 
   const _component_q_dialog = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-dialog");
 
-  return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", Profilevue_type_template_id_c45e5fbc_hoisted_1, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_card, {
+  return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", Profilevue_type_template_id_2147ea22_hoisted_1, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_card, {
     flat: "",
     bordered: "",
     class: "rounded"
@@ -18773,7 +18777,7 @@ function Profilevue_type_template_id_c45e5fbc_render(_ctx, _cache, $props, $setu
         }, {
           default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" Account Information ")]),
           _: 1
-        }), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_c45e5fbc_hoisted_2, [!_ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_DynamicButton, {
+        }), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_2147ea22_hoisted_2, [!_ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_DynamicButton, {
           key: 0,
           label: "Edit Info",
           icon: "icon-pencil-02",
@@ -18798,36 +18802,36 @@ function Profilevue_type_template_id_c45e5fbc_render(_ctx, _cache, $props, $setu
       class: (0,shared_esm_bundler/* normalizeClass */.C_)(["q-col-gutter-md font-normal text-primary text-body2", _ctx.$q.screen.gt.sm ? 'q-pa-lg' : 'q-pa-md']),
       style: (0,shared_esm_bundler/* normalizeStyle */.j5)(_ctx.editing ? 'max-width: 900px' : '')
     }, {
-      default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_c45e5fbc_hoisted_3, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_c45e5fbc_hoisted_4, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" Full Name"), _ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("span", Profilevue_type_template_id_c45e5fbc_hoisted_5, "*")) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)]), _ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", Profilevue_type_template_id_c45e5fbc_hoisted_6, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_c45e5fbc_hoisted_7, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_c45e5fbc_hoisted_8, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_input, {
+      default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_2147ea22_hoisted_3, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_2147ea22_hoisted_4, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" Full Name"), _ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("span", Profilevue_type_template_id_2147ea22_hoisted_5, "*")) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)]), _ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", Profilevue_type_template_id_2147ea22_hoisted_6, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_2147ea22_hoisted_7, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_2147ea22_hoisted_8, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_input, {
         dense: "",
         outlined: "",
         placeholder: "First Name",
         modelValue: _ctx.account.firstname,
         "onUpdate:modelValue": _cache[1] || (_cache[1] = $event => _ctx.account.firstname = $event)
-      }, null, 8, ["modelValue"])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_c45e5fbc_hoisted_9, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_input, {
+      }, null, 8, ["modelValue"])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_2147ea22_hoisted_9, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_input, {
         dense: "",
         outlined: "",
         placeholder: "Last Name",
         modelValue: _ctx.account.lastname,
         "onUpdate:modelValue": _cache[2] || (_cache[2] = $event => _ctx.account.lastname = $event)
-      }, null, 8, ["modelValue"])])])])) : ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", Profilevue_type_template_id_c45e5fbc_hoisted_10, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.user.firstname) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.user.lastname), 1)]))]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_c45e5fbc_hoisted_11, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_c45e5fbc_hoisted_12, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" Email Address"), _ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("span", Profilevue_type_template_id_c45e5fbc_hoisted_13, "*")) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_c45e5fbc_hoisted_14, [_ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_q_input, {
+      }, null, 8, ["modelValue"])])])])) : ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", Profilevue_type_template_id_2147ea22_hoisted_10, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.user.firstname) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.user.lastname), 1)]))]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_2147ea22_hoisted_11, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_2147ea22_hoisted_12, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" Email Address"), _ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("span", Profilevue_type_template_id_2147ea22_hoisted_13, "*")) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_2147ea22_hoisted_14, [_ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_q_input, {
         key: 0,
         dense: "",
         outlined: "",
         placeholder: "example@email.com",
         modelValue: _ctx.account.email,
         "onUpdate:modelValue": _cache[3] || (_cache[3] = $event => _ctx.account.email = $event)
-      }, null, 8, ["modelValue"])) : ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", Profilevue_type_template_id_c45e5fbc_hoisted_15, [(0,runtime_core_esm_bundler/* createElementVNode */._)("a", {
+      }, null, 8, ["modelValue"])) : ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", Profilevue_type_template_id_2147ea22_hoisted_15, [(0,runtime_core_esm_bundler/* createElementVNode */._)("a", {
         href: 'mailto:' + _ctx.user.email,
         target: "_blank",
         class: "text-primary"
-      }, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.user.email), 9, Profilevue_type_template_id_c45e5fbc_hoisted_16)]))])]), !_ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", Profilevue_type_template_id_c45e5fbc_hoisted_17, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_c45e5fbc_hoisted_18, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" Company"), _ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("span", Profilevue_type_template_id_c45e5fbc_hoisted_19, "*")) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_c45e5fbc_hoisted_20, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_c45e5fbc_hoisted_21, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.selectedOrg.title), 1)])])) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.editing || _ctx.user.phone_code && _ctx.user.phone_number ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", Profilevue_type_template_id_c45e5fbc_hoisted_22, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_c45e5fbc_hoisted_23, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" Phone Number"), _ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("span", Profilevue_type_template_id_c45e5fbc_hoisted_24)) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_c45e5fbc_hoisted_25, [_ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_InputPhoneNumber, {
+      }, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.user.email), 9, Profilevue_type_template_id_2147ea22_hoisted_16)]))])]), !_ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", Profilevue_type_template_id_2147ea22_hoisted_17, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_2147ea22_hoisted_18, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" Company"), _ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("span", Profilevue_type_template_id_2147ea22_hoisted_19, "*")) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_2147ea22_hoisted_20, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_2147ea22_hoisted_21, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.selectedOrg.title), 1)])])) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.editing || _ctx.user.phone_code && _ctx.user.phone_number ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", Profilevue_type_template_id_2147ea22_hoisted_22, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_2147ea22_hoisted_23, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" Phone Number"), _ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("span", Profilevue_type_template_id_2147ea22_hoisted_24)) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_2147ea22_hoisted_25, [_ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_InputPhoneNumber, {
         key: 0,
         onAreaCodeChanged: _cache[4] || (_cache[4] = e => _ctx.account.phone_code = e),
         onNumberChanged: _cache[5] || (_cache[5] = e => _ctx.account.phone_number = e),
         areaCode: _ctx.account.phone_code,
         phoneNumber: _ctx.account.phone_number
-      }, null, 8, ["areaCode", "phoneNumber"])) : ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", Profilevue_type_template_id_c45e5fbc_hoisted_26, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_external_link, {
+      }, null, 8, ["areaCode", "phoneNumber"])) : ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", Profilevue_type_template_id_2147ea22_hoisted_26, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_external_link, {
         url: `tel:+${_ctx.user.phone_code}${_ctx.user.phone_number}`,
         label: `+${_ctx.user.phone_code}${_ctx.user.phone_number}`
       }, null, 8, ["url", "label"])]))])])) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)]),
@@ -18840,7 +18844,7 @@ function Profilevue_type_template_id_c45e5fbc_render(_ctx, _cache, $props, $setu
     bordered: "",
     class: "rounded"
   }, {
-    default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
+    default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("form", Profilevue_type_template_id_2147ea22_hoisted_27, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
       class: (0,shared_esm_bundler/* normalizeClass */.C_)(_ctx.$q.screen.gt.sm ? 'q-px-lg q-py-md' : 'q-px-md q-py-sm')
     }, {
       default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_toolbar, {
@@ -18851,7 +18855,7 @@ function Profilevue_type_template_id_c45e5fbc_render(_ctx, _cache, $props, $setu
         }, {
           default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" Account Security ")]),
           _: 1
-        }), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_c45e5fbc_hoisted_27, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_DynamicButton, {
+        }), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_2147ea22_hoisted_28, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_DynamicButton, {
           label: "Update Password",
           icon: "icon-save-01",
           onClick: _ctx.updatePassword,
@@ -18864,21 +18868,21 @@ function Profilevue_type_template_id_c45e5fbc_render(_ctx, _cache, $props, $setu
       class: (0,shared_esm_bundler/* normalizeClass */.C_)(["q-col-gutter-md", _ctx.$q.screen.gt.sm ? 'q-px-lg q-py-md' : 'q-px-md q-py-sm']),
       style: (0,shared_esm_bundler/* normalizeStyle */.j5)(_ctx.editing ? 'max-width: 900px' : '')
     }, {
-      default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_c45e5fbc_hoisted_28, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_c45e5fbc_hoisted_29, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" Old Password"), _ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("span", Profilevue_type_template_id_c45e5fbc_hoisted_30, "*")) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_c45e5fbc_hoisted_31, [_ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_InputPassword, {
+      default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_2147ea22_hoisted_29, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_2147ea22_hoisted_30, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" Old Password"), _ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("span", Profilevue_type_template_id_2147ea22_hoisted_31, "*")) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_2147ea22_hoisted_32, [_ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_InputPassword, {
         key: 0,
         modelValue: _ctx.account.password_old,
         "onUpdate:modelValue": _cache[6] || (_cache[6] = $event => _ctx.account.password_old = $event)
-      }, null, 8, ["modelValue"])) : ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", Profilevue_type_template_id_c45e5fbc_hoisted_32, "*******"))])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_c45e5fbc_hoisted_33, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_c45e5fbc_hoisted_34, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" New Password"), _ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("span", Profilevue_type_template_id_c45e5fbc_hoisted_35, "*")) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_c45e5fbc_hoisted_36, [_ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_InputPassword, {
+      }, null, 8, ["modelValue"])) : ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", Profilevue_type_template_id_2147ea22_hoisted_33, "*******"))])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_2147ea22_hoisted_34, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_2147ea22_hoisted_35, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" New Password"), _ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("span", Profilevue_type_template_id_2147ea22_hoisted_36, "*")) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_2147ea22_hoisted_37, [_ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_InputPassword, {
         key: 0,
         modelValue: _ctx.account.password_new,
         "onUpdate:modelValue": _cache[7] || (_cache[7] = $event => _ctx.account.password_new = $event)
-      }, null, 8, ["modelValue"])) : ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", Profilevue_type_template_id_c45e5fbc_hoisted_37, "*******"))])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_c45e5fbc_hoisted_38, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_c45e5fbc_hoisted_39, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" Confirm New Password"), _ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("span", Profilevue_type_template_id_c45e5fbc_hoisted_40, "*")) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_c45e5fbc_hoisted_41, [_ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_InputPassword, {
+      }, null, 8, ["modelValue"])) : ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", Profilevue_type_template_id_2147ea22_hoisted_38, "*******"))])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_2147ea22_hoisted_39, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_2147ea22_hoisted_40, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)(" Confirm New Password"), _ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("span", Profilevue_type_template_id_2147ea22_hoisted_41, "*")) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", Profilevue_type_template_id_2147ea22_hoisted_42, [_ctx.editing ? ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_InputPassword, {
         key: 0,
         modelValue: _ctx.account.password_conf,
         "onUpdate:modelValue": _cache[8] || (_cache[8] = $event => _ctx.account.password_conf = $event)
-      }, null, 8, ["modelValue"])) : ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", Profilevue_type_template_id_c45e5fbc_hoisted_42, "*******"))])])]),
+      }, null, 8, ["modelValue"])) : ((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", Profilevue_type_template_id_2147ea22_hoisted_43, "*******"))])])]),
       _: 1
-    }, 8, ["style", "class"])]),
+    }, 8, ["style", "class"])])]),
     _: 1
   })) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true), (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_dialog, {
     modelValue: _ctx.unsaved,
@@ -18894,7 +18898,7 @@ function Profilevue_type_template_id_c45e5fbc_render(_ctx, _cache, $props, $setu
     _: 1
   }, 8, ["modelValue"])]);
 }
-;// CONCATENATED MODULE: ./src/components/Accounts/Profile.vue?vue&type=template&id=c45e5fbc
+;// CONCATENATED MODULE: ./src/components/Accounts/Profile.vue?vue&type=template&id=2147ea22
 
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/InputPassword.vue?vue&type=template&id=5d96dac6
 
@@ -19266,7 +19270,7 @@ runtime_auto_import_default()(InputPhoneNumbervue_type_script_lang_js, 'componen
 
 
 ;
-const Profile_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(Profilevue_type_script_lang_js, [['render',Profilevue_type_template_id_c45e5fbc_render]])
+const Profile_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(Profilevue_type_script_lang_js, [['render',Profilevue_type_template_id_2147ea22_render]])
 
 /* harmony default export */ const Profile = (Profile_exports_);
 ;
@@ -26385,7 +26389,7 @@ Do not enter or paste code that you do not understand.
    * API defaults
    */
   api: {
-    baseURL: "https://api.growmodo.com/api"
+    baseURL: "https://api.growmodo.com:7001/api"
   },
   publicPath: ['/signup', '/checkout'],
   regexp: {
@@ -29709,9 +29713,9 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.4.18-dev","desc
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [736], () => (__webpack_require__(55206)))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [736], () => (__webpack_require__(82396)))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.ff3270fb.js.map
+//# sourceMappingURL=app.f61be7e8.js.map
