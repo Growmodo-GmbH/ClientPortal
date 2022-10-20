@@ -1,7 +1,7 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 74465:
+/***/ 55076:
 /***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -13269,103 +13269,103 @@ const RedirectConfirmation_exports_ = /*#__PURE__*/(0,exportHelper/* default */.
 
 runtime_auto_import_default()(RedirectConfirmationvue_type_script_lang_js, 'components', {QCard: QCard/* default */.Z,QCardSection: QCardSection/* default */.Z,QToolbar: QToolbar/* default */.Z,QIcon: QIcon/* default */.Z,QCardActions: QCardActions/* default */.Z,QBtn: QBtn/* default */.Z});runtime_auto_import_default()(RedirectConfirmationvue_type_script_lang_js, 'directives', {ClosePopup: ClosePopup/* default */.Z});
 
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Dialogs/UpgradeYourPlan.vue?vue&type=template&id=34e28410
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Dialogs/UpgradeYourPlan.vue?vue&type=template&id=7436ca22
 
 
-const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_1 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_1 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h4 text-primary font-medium"
 }, "Change your plan", -1);
 
-const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_2 = {
+const UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_2 = {
   class: "q-pb-md"
 };
 
-const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_3 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_3 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-body2 font-medium color-primary2"
 }, " Your current plan ", -1);
 
-const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_4 = {
+const UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_4 = {
   class: "row q-col-gutter-x-lg items-center"
 };
-const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_5 = {
+const UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_5 = {
   class: "col-auto letter-space-normal"
 };
-const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_6 = {
+const UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_6 = {
   class: "q-py-xs text-body2 font-medium badge-text-active"
 };
-const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_7 = {
+const UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_7 = {
   class: "col-auto text-body2 text-primary letter-space-normal"
 };
-const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_8 = {
+const UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_8 = {
   class: "q-pb-md"
 };
 
-const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_9 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_9 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-body2 font-medium color-primary2"
 }, " Days used on your current plan ", -1);
 
-const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_10 = {
+const UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_10 = {
   class: "q-my-sm"
 };
-const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_11 = {
+const UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_11 = {
   class: "q-pb-md"
 };
 
-const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_12 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_12 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-body2 font-medium color-primary2"
 }, "Your new plan", -1);
 
-const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_13 = {
+const UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_13 = {
   class: "row q-col-gutter-md"
 };
-const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_14 = {
+const UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_14 = {
   class: "q-pb-md"
 };
 
-const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_15 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_15 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-body2 font-medium color-primary2"
 }, "Billing", -1);
 
-const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_16 = {
+const UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_16 = {
   class: "q-my-sm"
 };
-const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_17 = {
+const UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_17 = {
   class: "row q-col-gutter-md"
 };
-const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_18 = {
+const UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_18 = {
   class: "q-pb-md"
 };
 
-const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_19 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_19 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-body2 font-medium color-primary2"
 }, "Starts on", -1);
 
-const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_20 = {
+const UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_20 = {
   class: "q-my-sm flex inline"
 };
-const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_21 = {
+const UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_21 = {
   class: "q-pb-md"
 };
 
-const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_22 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
+const UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_22 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("div", {
   class: "text-body2 font-medium color-primary2"
 }, " Message (Optional) ", -1);
 
-const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_23 = {
+const UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_23 = {
   class: "q-my-sm"
 };
-const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_24 = {
+const UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_24 = {
   class: "text-h3 font-medium"
 };
-const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_25 = {
+const UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_25 = {
   class: "text-subtitle1 letter-space-normal"
 };
 
-const UpgradeYourPlanvue_type_template_id_34e28410_hoisted_26 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
+const UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_26 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */._)("span", {
   class: "q-pl-sm"
 }, "Submit Change Request", -1);
 
-function UpgradeYourPlanvue_type_template_id_34e28410_render(_ctx, _cache, $props, $setup, $data, $options) {
+function UpgradeYourPlanvue_type_template_id_7436ca22_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_close_button = (0,runtime_core_esm_bundler/* resolveComponent */.up)("close-button");
 
   const _component_q_card_section = (0,runtime_core_esm_bundler/* resolveComponent */.up)("q-card-section");
@@ -13407,21 +13407,21 @@ function UpgradeYourPlanvue_type_template_id_34e28410_render(_ctx, _cache, $prop
     })) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true), (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
       class: (0,shared_esm_bundler/* normalizeClass */.C_)(["text-center bg-transparent q-px-lg", _ctx.noclose ? 'q-pt-md' : 'q-py-none'])
     }, {
-      default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [UpgradeYourPlanvue_type_template_id_34e28410_hoisted_1]),
+      default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_1]),
       _: 1
     }, 8, ["class"]), (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
       class: "q-px-lg q-pt-lg q-pb-none"
     }, {
-      default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_2, [UpgradeYourPlanvue_type_template_id_34e28410_hoisted_3, (0,runtime_core_esm_bundler/* withDirectives */.wy)(((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_card_item, {
+      default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_2, [UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_3, (0,runtime_core_esm_bundler/* withDirectives */.wy)(((0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(_component_card_item, {
         class: "badge-bg-active badge-border-active q-my-sm cursor-pointer border-add hover-border-secondary"
       }, {
         title: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => {
           var _ctx$planPriceCalcula;
 
-          return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_4, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_5, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)((0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionPlan.label) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscription_talent_count) + " ", 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_6, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)((0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionPlan.price_currency_legend), 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("span", null, (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$planPriceCalcula = _ctx.planPriceCalculator(_ctx.subscription_talent_count, _ctx.subscription_billing_type)) === null || _ctx$planPriceCalcula === void 0 ? void 0 : _ctx$planPriceCalcula.label), 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("template", null, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)((0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionPlan_BillingTypes[_ctx.subscription_billing_type]), 1)])])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_7, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionPlan.description_1) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscription_talent_count === -1 ? 'custom' : _ctx.toWords(_ctx.subscription_talent_count)) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscription_talent_count > 1 || _ctx.subscription_talent_count === -1 ? 'users' : 'user') + ". ", 1)])];
+          return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_4, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_5, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)((0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionPlan.label) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscription_talent_count) + " ", 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_6, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)((0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionPlan.price_currency_legend), 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("span", null, (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$planPriceCalcula = _ctx.planPriceCalculator(_ctx.subscription_talent_count, _ctx.subscription_billing_type)) === null || _ctx$planPriceCalcula === void 0 ? void 0 : _ctx$planPriceCalcula.label), 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("template", null, [(0,runtime_core_esm_bundler/* createTextVNode */.Uk)((0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionPlan_BillingTypes[_ctx.subscription_billing_type]), 1)])])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_7, (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscriptionPlan.description_1) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscription_talent_count === -1 ? 'custom' : _ctx.toWords(_ctx.subscription_talent_count)) + " " + (0,shared_esm_bundler/* toDisplayString */.zw)(_ctx.subscription_talent_count > 1 || _ctx.subscription_talent_count === -1 ? 'users' : 'user') + ". ", 1)])];
         }),
         _: 1
-      })), [[_directive_ripple, false]])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_8, [UpgradeYourPlanvue_type_template_id_34e28410_hoisted_9, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_10, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_RemainingDaysProgress)])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_11, [UpgradeYourPlanvue_type_template_id_34e28410_hoisted_12, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_13, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)(_ctx.subscriptionPlan_Talents, item => {
+      })), [[_directive_ripple, false]])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_8, [UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_9, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_10, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_RemainingDaysProgress)])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_11, [UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_12, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_13, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)(_ctx.subscriptionPlan_Talents, item => {
         var _ctx$newPlan$talent;
 
         return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", {
@@ -13447,7 +13447,7 @@ function UpgradeYourPlanvue_type_template_id_34e28410_render(_ctx, _cache, $prop
         }, 1032, ["class"])), [[_directive_ripple, {
           color: 'secondary'
         }]])]);
-      }), 128))])])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_14, [UpgradeYourPlanvue_type_template_id_34e28410_hoisted_15, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_16, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_17, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)(_ctx.subscriptionPlan_BillingTypes, item => {
+      }), 128))])])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_14, [UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_15, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_16, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_17, [((0,runtime_core_esm_bundler/* openBlock */.wg)(true), (0,runtime_core_esm_bundler/* createElementBlock */.iD)(runtime_core_esm_bundler/* Fragment */.HY, null, (0,runtime_core_esm_bundler/* renderList */.Ko)(_ctx.subscriptionPlan_BillingTypes, item => {
         var _ctx$newPlan$billing;
 
         return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createElementBlock */.iD)("div", {
@@ -13485,7 +13485,7 @@ function UpgradeYourPlanvue_type_template_id_34e28410_render(_ctx, _cache, $prop
           }]])]),
           _: 2
         }, 1032, ["class"])]);
-      }), 128))])])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_18, [UpgradeYourPlanvue_type_template_id_34e28410_hoisted_19, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_20, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_input, {
+      }), 128))])])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_18, [UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_19, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_20, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_input, {
         dense: "",
         outlined: "",
         unelevated: "",
@@ -13521,7 +13521,7 @@ function UpgradeYourPlanvue_type_template_id_34e28410_render(_ctx, _cache, $prop
           _: 1
         })]),
         _: 1
-      }, 8, ["modelValue"])])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_21, [UpgradeYourPlanvue_type_template_id_34e28410_hoisted_22, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_23, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_input, {
+      }, 8, ["modelValue"])])]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_21, [UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_22, (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_23, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_input, {
         dense: "",
         outlined: "",
         rows: "4",
@@ -13536,7 +13536,7 @@ function UpgradeYourPlanvue_type_template_id_34e28410_render(_ctx, _cache, $prop
       default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => {
         var _ctx$planPriceCalcula6, _ctx$newPlan$talent4, _ctx$newPlan$billing2, _ctx$newPlan$billing3;
 
-        return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_24, (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$planPriceCalcula6 = _ctx.planPriceCalculator((_ctx$newPlan$talent4 = _ctx.newPlan.talent) === null || _ctx$newPlan$talent4 === void 0 ? void 0 : _ctx$newPlan$talent4.value, (_ctx$newPlan$billing2 = _ctx.newPlan.billing) === null || _ctx$newPlan$billing2 === void 0 ? void 0 : _ctx$newPlan$billing2.id)) === null || _ctx$planPriceCalcula6 === void 0 ? void 0 : _ctx$planPriceCalcula6.label), 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_34e28410_hoisted_25, (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$newPlan$billing3 = _ctx.newPlan['billing']) === null || _ctx$newPlan$billing3 === void 0 ? void 0 : _ctx$newPlan$billing3.billed_label), 1)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+        return [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [(0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_24, (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$planPriceCalcula6 = _ctx.planPriceCalculator((_ctx$newPlan$talent4 = _ctx.newPlan.talent) === null || _ctx$newPlan$talent4 === void 0 ? void 0 : _ctx$newPlan$talent4.value, (_ctx$newPlan$billing2 = _ctx.newPlan.billing) === null || _ctx$newPlan$billing2 === void 0 ? void 0 : _ctx$newPlan$billing2.id)) === null || _ctx$planPriceCalcula6 === void 0 ? void 0 : _ctx$planPriceCalcula6.label), 1), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_25, (0,shared_esm_bundler/* toDisplayString */.zw)((_ctx$newPlan$billing3 = _ctx.newPlan['billing']) === null || _ctx$newPlan$billing3 === void 0 ? void 0 : _ctx$newPlan$billing3.billed_label), 1)]), (0,runtime_core_esm_bundler/* createElementVNode */._)("div", null, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
           "no-caps": "",
           unelevated: "",
           color: "primary",
@@ -13544,11 +13544,11 @@ function UpgradeYourPlanvue_type_template_id_34e28410_render(_ctx, _cache, $prop
           disable: !_ctx.allDataIsValid,
           onClick: _ctx.nextBtnClick
         }, {
-          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [UpgradeYourPlanvue_type_template_id_34e28410_hoisted_26, (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+          default: (0,runtime_core_esm_bundler/* withCtx */.w5)(() => [UpgradeYourPlanvue_type_template_id_7436ca22_hoisted_26, (0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
             size: "sm",
             name: "icon-arrow-narrow-right",
             class: (0,shared_esm_bundler/* normalizeClass */.C_)(["q-px-sm", {
-              'slide-hover-left-md': !_ctx.allDataIsValid
+              'slide-hover-left-md': _ctx.allDataIsValid
             }])
           }, null, 8, ["class"])]),
           _: 1
@@ -13559,7 +13559,7 @@ function UpgradeYourPlanvue_type_template_id_34e28410_render(_ctx, _cache, $prop
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/components/Dialogs/UpgradeYourPlan.vue?vue&type=template&id=34e28410
+;// CONCATENATED MODULE: ./src/components/Dialogs/UpgradeYourPlan.vue?vue&type=template&id=7436ca22
 
 // EXTERNAL MODULE: ./node_modules/quasar/src/utils/date.js
 var date = __webpack_require__(54170);
@@ -13755,7 +13755,7 @@ var QDate = __webpack_require__(67088);
 
 
 ;
-const UpgradeYourPlan_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(UpgradeYourPlanvue_type_script_lang_js, [['render',UpgradeYourPlanvue_type_template_id_34e28410_render]])
+const UpgradeYourPlan_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(UpgradeYourPlanvue_type_script_lang_js, [['render',UpgradeYourPlanvue_type_template_id_7436ca22_render]])
 
 /* harmony default export */ const UpgradeYourPlan = (UpgradeYourPlan_exports_);
 ;
@@ -29707,7 +29707,7 @@ var update = add("811164b4", content, true, {"sourceMap":true});
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.4.19-dev","description":"Growmodo, GmbH","productName":"Growmodo Hub","author":{"name":"Mike Saraus","url":"https://github.com/mikesaraus"},"private":true,"scripts":{"dev":"npm run icon-font:watch & quasar dev","lint":"eslint --ext .js,.vue ./","format":"prettier --write \\"**/*.{js,vue,scss,html,md,json}\\" --ignore-path .prettierignore","test":"echo \\"See package.json => scripts for available tests.\\" && exit 0","icon-font":"fantasticon -c .fantasticonrc.js --debug","icon-fixer":"oslllo-svg-fixer -s src/svg-tmp -d src/svg-all/custom --show-progress --strict-destination","icon-genie":"icongenie generate --skip-trim --svg-color 121212 -i ./public/favicon.png","icon-font:watch":"watch \'npm run icon-font\' src/svg-icons","test:unit:ui":"majestic","test:unit":"jest --updateSnapshot","test:unit:ci":"jest --ci","test:unit:coverage":"jest --coverage","test:unit:watch":"jest --watch","test:unit:watchAll":"jest --watchAll","serve:test:coverage":"quasar serve test/jest/coverage/lcov-report/ --port 8788","concurrently:dev:jest":"concurrently \\"quasar dev\\" \\"jest --watch\\"","test:e2e":"cross-env NODE_ENV=test start-test \\"quasar dev\\" http-get://localhost:8080 \\"cypress open\\"","test:e2e:ci":"cross-env NODE_ENV=test start-test \\"quasar dev\\" http-get://localhost:8080 \\"cypress run\\"","test:component":"cross-env NODE_ENV=test cypress open-ct","test:component:ci":"cross-env NODE_ENV=test cypress run-ct"},"dependencies":{"@quasar/extras":"^1.0.0","axios":"^0.21.1","core-js":"^3.6.5","date-fns":"^2.29.2","number-to-words":"^1.2.4","pinia":"^2.0.21","quasar":"^2.6.0","vue":"^3.0.0","vue-i18n":"^9.3.0-beta.3","vue-router":"^4.0.0"},"devDependencies":{"@babel/eslint-parser":"^7.13.14","@quasar/app-webpack":"^3.0.0","@quasar/quasar-app-extension-testing":"^2.0.4","@quasar/quasar-app-extension-testing-e2e-cypress":"^4.2.1","@quasar/quasar-app-extension-testing-unit-jest":"^3.0.0-alpha.10","@squoosh/lib":"^0.4.0","eslint":"^8.25.0","eslint-config-prettier":"^8.1.0","eslint-plugin-cypress":"^2.11.3","eslint-plugin-jest":"^25.2.2","eslint-plugin-vue":"^9.0.0","eslint-webpack-plugin":"^3.1.1","fantasticon":"^1.2.2","image-minimizer-webpack-plugin":"^3.6.1","javascript-obfuscator":"^4.0.0","majestic":"^1.7.0","oslllo-svg-fixer":"^2.1.2","prettier":"^2.5.1","watch":"^0.13.0","webpack-obfuscator":"^3.5.1","workbox-webpack-plugin":"^6.5.4"},"browserslist":["last 10 Chrome versions","last 10 Firefox versions","last 4 Edge versions","last 7 Safari versions","last 8 Android versions","last 8 ChromeAndroid versions","last 8 FirefoxAndroid versions","last 10 iOS versions","last 5 Opera versions"],"engines":{"node":"^18 || ^16 || ^14.19","npm":">= 6.0.0"}}');
+module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.4.20-dev","description":"Growmodo, GmbH","productName":"Growmodo Hub","author":{"name":"Mike Saraus","url":"https://github.com/mikesaraus"},"private":true,"scripts":{"dev":"npm run icon-font:watch & quasar dev","lint":"eslint --ext .js,.vue ./","format":"prettier --write \\"**/*.{js,vue,scss,html,md,json}\\" --ignore-path .prettierignore","test":"echo \\"See package.json => scripts for available tests.\\" && exit 0","icon-font":"fantasticon -c .fantasticonrc.js --debug","icon-fixer":"oslllo-svg-fixer -s src/svg-tmp -d src/svg-all/custom --show-progress --strict-destination","icon-genie":"icongenie generate --skip-trim --svg-color 121212 -i ./public/favicon.png","icon-font:watch":"watch \'npm run icon-font\' src/svg-icons","test:unit:ui":"majestic","test:unit":"jest --updateSnapshot","test:unit:ci":"jest --ci","test:unit:coverage":"jest --coverage","test:unit:watch":"jest --watch","test:unit:watchAll":"jest --watchAll","serve:test:coverage":"quasar serve test/jest/coverage/lcov-report/ --port 8788","concurrently:dev:jest":"concurrently \\"quasar dev\\" \\"jest --watch\\"","test:e2e":"cross-env NODE_ENV=test start-test \\"quasar dev\\" http-get://localhost:8080 \\"cypress open\\"","test:e2e:ci":"cross-env NODE_ENV=test start-test \\"quasar dev\\" http-get://localhost:8080 \\"cypress run\\"","test:component":"cross-env NODE_ENV=test cypress open-ct","test:component:ci":"cross-env NODE_ENV=test cypress run-ct"},"dependencies":{"@quasar/extras":"^1.0.0","axios":"^0.21.1","core-js":"^3.6.5","date-fns":"^2.29.2","number-to-words":"^1.2.4","pinia":"^2.0.21","quasar":"^2.6.0","vue":"^3.0.0","vue-i18n":"^9.3.0-beta.3","vue-router":"^4.0.0"},"devDependencies":{"@babel/eslint-parser":"^7.13.14","@quasar/app-webpack":"^3.0.0","@quasar/quasar-app-extension-testing":"^2.0.4","@quasar/quasar-app-extension-testing-e2e-cypress":"^4.2.1","@quasar/quasar-app-extension-testing-unit-jest":"^3.0.0-alpha.10","@squoosh/lib":"^0.4.0","eslint":"^8.25.0","eslint-config-prettier":"^8.1.0","eslint-plugin-cypress":"^2.11.3","eslint-plugin-jest":"^25.2.2","eslint-plugin-vue":"^9.0.0","eslint-webpack-plugin":"^3.1.1","fantasticon":"^1.2.2","image-minimizer-webpack-plugin":"^3.6.1","javascript-obfuscator":"^4.0.0","majestic":"^1.7.0","oslllo-svg-fixer":"^2.1.2","prettier":"^2.5.1","watch":"^0.13.0","webpack-obfuscator":"^3.5.1","workbox-webpack-plugin":"^6.5.4"},"browserslist":["last 10 Chrome versions","last 10 Firefox versions","last 4 Edge versions","last 7 Safari versions","last 8 Android versions","last 8 ChromeAndroid versions","last 8 FirefoxAndroid versions","last 10 iOS versions","last 5 Opera versions"],"engines":{"node":"^18 || ^16 || ^14.19","npm":">= 6.0.0"}}');
 
 /***/ })
 
@@ -29926,9 +29926,9 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.4.19-dev","desc
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [736], () => (__webpack_require__(74465)))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [736], () => (__webpack_require__(55076)))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.baa4ea82.js.map
+//# sourceMappingURL=app.6ee88f3b.js.map
