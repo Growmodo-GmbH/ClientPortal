@@ -26018,7 +26018,7 @@ let updateChecker;
 
     if ('periodicSync' in registration) {
       try {
-        await registration.periodicSync.register('content-sync-' + Date.now(), {
+        await registration.periodicSync.register('content-sync', {
           minInterval: 1000 * 60 * 60 // hourly sync
 
         });
@@ -29970,4 +29970,4 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.4.20-dev","desc
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.6821a5e4.js.map
+//# sourceMappingURL=app.abeb75d8.js.map
