@@ -1,10 +1,9 @@
 # Simple workflow for deploying static content to GitHub Pages
-name: Deploy Dev Master
+name: Deploy Version
 
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ['master']
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
