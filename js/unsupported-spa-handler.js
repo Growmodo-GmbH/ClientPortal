@@ -1,5 +1,5 @@
 /**
-* Growmodo Hub v0.6.1
+* Growmodo Hub v0.6.2
 * (c) 2022 Growmodo, GmbH
 *
 * @preserve
