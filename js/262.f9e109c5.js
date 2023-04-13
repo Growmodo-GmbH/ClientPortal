@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[486,618,232],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[262,618,232],{
 
-/***/ 4256:
+/***/ 9847:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(6646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Brands/BrandsPage.vue?vue&type=template&id=0206c9a0
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Brands/BrandsPage.vue?vue&type=template&id=2eaadc60
 
 const _hoisted_1 = {
   class: "font-medium text-h5 text-primary-700"
@@ -29,12 +29,15 @@ const _hoisted_4 = {
   class: "col-12 col-md-6"
 };
 const _hoisted_5 = {
-  class: "col-12 col-sm-7 col-md-9"
+  class: "row q-col-gutter-md items-center text-right justify-end"
 };
 const _hoisted_6 = {
-  class: "col-auto"
+  class: "col-12 col-sm-7 col-md-9"
 };
 const _hoisted_7 = {
+  class: "col-auto"
+};
+const _hoisted_8 = {
   class: "scroll fit card-px card-pt-sm"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -77,11 +80,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
         class: "card-pt card-px"
       }, {
-        default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_2, [_hoisted_3, (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_4, [(0,vue_esm_bundler/* createElementVNode */._)("div", {
-          class: (0,vue_esm_bundler/* normalizeClass */.C_)(["row q-col-gutter-md items-center text-right", {
-            [`justify-${_ctx.$q.screen.lt.sm ? 'center' : 'end'}`]: true
-          }])
-        }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_5, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_input, {
+        default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_2, [_hoisted_3, (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_4, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_5, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_6, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_input, {
           modelValue: _ctx.searchQuery,
           "onUpdate:modelValue": _cache[0] || (_cache[0] = $event => _ctx.searchQuery = $event),
           dense: "",
@@ -97,7 +96,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             class: "hover-text-secondary"
           })]),
           _: 1
-        }, 8, ["modelValue"])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_6, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_select, {
+        }, 8, ["modelValue"])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_7, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_select, {
           dense: "",
           outlined: "",
           "emit-value": "",
@@ -138,7 +137,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             _: 2
           }, 1040, ["disable", "class"])]),
           _: 1
-        }, 8, ["options", "modelValue", "option-value"])])], 2)])])]),
+        }, 8, ["options", "modelValue", "option-value"])])])])])]),
         _: 1
       }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
         class: "q-pa-none",
@@ -149,7 +148,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           "min-height": "300px"
         }
       }, {
-        default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_7, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_BrandsList, {
+        default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_8, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_BrandsList, {
           class: "card-pb",
           status: _ctx.activeFilter,
           search: _ctx.searchQuery
@@ -161,10 +160,10 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/Brands/BrandsPage.vue?vue&type=template&id=0206c9a0
+;// CONCATENATED MODULE: ./src/pages/Brands/BrandsPage.vue?vue&type=template&id=2eaadc60
 
 // EXTERNAL MODULE: ./src/components/Brands/BrandsList.vue + 4 modules
-var BrandsList = __webpack_require__(3491);
+var BrandsList = __webpack_require__(9797);
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Brands/BrandsPage.vue?vue&type=script&lang=js
 
 
@@ -256,4 +255,4 @@ runtime_auto_import_default()(BrandsPagevue_type_script_lang_js, 'components', {
 /***/ })
 
 }]);
-//# sourceMappingURL=486.b67d9052.js.map
+//# sourceMappingURL=262.f9e109c5.js.map
