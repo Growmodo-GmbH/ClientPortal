@@ -807,7 +807,7 @@ async function getSingleProjects(projectId, params = {}, orgId) {
 
 /***/ }),
 
-/***/ 4323:
+/***/ 3491:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 
@@ -820,7 +820,7 @@ __webpack_require__.d(__webpack_exports__, {
 var es_array_push = __webpack_require__(9665);
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(6646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Brands/BrandsList.vue?vue&type=template&id=3ff5d73b
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Brands/BrandsList.vue?vue&type=template&id=615c6a54
 
 
 const _hoisted_1 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
@@ -847,162 +847,199 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_q_list = (0,vue_esm_bundler/* resolveComponent */.up)("q-list");
   const _component_q_menu = (0,vue_esm_bundler/* resolveComponent */.up)("q-menu");
   const _component_q_card_actions = (0,vue_esm_bundler/* resolveComponent */.up)("q-card-actions");
-  const _component_CreateNewBrand = (0,vue_esm_bundler/* resolveComponent */.up)("CreateNewBrand");
+  const _component_q_infinite_scroll = (0,vue_esm_bundler/* resolveComponent */.up)("q-infinite-scroll");
+  const _component_dynamic_dialog_confirmation = (0,vue_esm_bundler/* resolveComponent */.up)("dynamic-dialog-confirmation");
   const _component_q_dialog = (0,vue_esm_bundler/* resolveComponent */.up)("q-dialog");
+  const _component_CreateNewBrand = (0,vue_esm_bundler/* resolveComponent */.up)("CreateNewBrand");
   const _directive_ripple = (0,vue_esm_bundler/* resolveDirective */.Q2)("ripple");
   return (0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_card, {
-    flat: "",
-    class: (0,vue_esm_bundler/* normalizeClass */.C_)(["row", `q-col-gutter-${_ctx.gridGutter}`])
+    flat: ""
   }, {
-    default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_ctx.canAdd ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
-      key: 0,
-      class: (0,vue_esm_bundler/* normalizeClass */.C_)(_ctx.gridClass)
-    }, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card, {
-      flat: "",
-      bordered: "",
-      class: "card-quicklinks card-quicklinks-new border-add border-dashed bg-primary-1 full-height row items-center justify-center hover-border-secondary",
-      onClick: _cache[0] || (_cache[0] = $event => _ctx.addBrand = true)
+    default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_infinite_scroll, {
+      onLoad: _ctx.loadInfiniteScroll,
+      offset: 0,
+      class: (0,vue_esm_bundler/* normalizeClass */.C_)(["row", `q-col-gutter-${_ctx.gridGutter}`])
     }, {
-      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
-        class: "text-center flex-center flex"
+      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_ctx.canAdd ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
+        key: 0,
+        class: (0,vue_esm_bundler/* normalizeClass */.C_)(_ctx.gridClass)
+      }, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card, {
+        flat: "",
+        bordered: "",
+        class: "card-quicklinks card-quicklinks-new border-add border-dashed bg-primary-1 full-height row items-center justify-center hover-border-secondary",
+        onClick: _cache[0] || (_cache[0] = $event => _ctx.addBrand = true)
       }, {
-        default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_avatar, {
-          rounded: "",
-          size: "55px",
-          class: "rounded q-pa-sm text-white bg-primary auto-hw"
+        default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
+          class: "text-center flex-center flex"
         }, {
-          default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
-            name: "icon-plus",
-            color: "white",
-            size: "sm",
-            class: "q-pa-xs",
-            style: {
-              "color": "white !important"
-            }
-          })]),
-          _: 1
-        }), _hoisted_1]),
-        _: 1
-      })]),
-      _: 1
-    })], 2)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), ((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(_ctx.brands, (brand, i) => {
-      return (0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(vue_esm_bundler/* Transition */.uT, {
-        appear: "",
-        duration: 500,
-        "enter-active-class": "animated fade",
-        "leave-active-class": "animated fade",
-        key: i
-      }, {
-        default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", {
-          class: (0,vue_esm_bundler/* normalizeClass */.C_)(_ctx.gridClass)
-        }, [(0,vue_esm_bundler/* withDirectives */.wy)(((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_card, {
-          flat: "",
-          bordered: "",
-          class: "card-quicklinks brand full-height slide-hover row items-center hover-border-secondary",
-          onClick: $event => _ctx.$router.push('/brands/' + brand.id)
-        }, {
-          default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
-            class: "self-start full-width q-px-lg q-pt-lg q-pb-md"
+          default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_avatar, {
+            rounded: "",
+            size: "55px",
+            class: "rounded q-pa-sm text-white bg-primary auto-hw"
           }, {
-            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_ctx.brandCategories?.[brand?.brand_type]?.label ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_2, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_3, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_badge, {
-              rounded: "",
-              class: (0,vue_esm_bundler/* normalizeClass */.C_)(["badge badge-md", {
-                'badge-bg-disable': !_ctx.brandCategories?.[brand?.brand_type]?.bg_color,
-                'badge-text-disable': !_ctx.brandCategories?.[brand?.brand_type]?.color
-              }]),
-              style: (0,vue_esm_bundler/* normalizeStyle */.j5)(`background-color: ${_ctx.brandCategories?.[brand?.brand_type]?.bg_color}; color: ${_ctx.brandCategories?.[brand?.brand_type]?.color}`)
-            }, {
-              default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)((0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.brandCategories?.[brand?.brand_type]?.label), 1)]),
-              _: 2
-            }, 1032, ["class", "style"])]), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
-              flat: "",
-              round: "",
-              size: "xs",
-              name: "icon-dots-horizontal",
-              class: "absolute-top-right all-pointer-events text-primary-500",
+            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+              name: "icon-plus",
+              color: "white",
+              size: "sm",
+              class: "q-pa-xs",
               style: {
-                "top": "8px",
-                "right": "8px"
-              },
-              onClick: [_cache[3] || (_cache[3] = (0,vue_esm_bundler/* withModifiers */.iM)(() => {}, ["stop"])), _cache[4] || (_cache[4] = (0,vue_esm_bundler/* withModifiers */.iM)(() => {}, ["prevent"]))]
-            }, {
-              default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_menu, {
-                "auto-close": ""
-              }, {
-                default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_list, {
-                  separator: ""
-                }, {
-                  default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item, {
-                    clickable: "",
-                    class: "hover-text-secondary",
-                    onClick: _cache[1] || (_cache[1] = (0,vue_esm_bundler/* withModifiers */.iM)(() => {}, ["prevent"]))
-                  }, {
-                    default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, {
-                      side: "",
-                      class: "q-pr-sm"
-                    }, {
-                      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
-                        name: "icon-archive",
-                        size: "xs"
-                      })]),
-                      _: 1
-                    }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, null, {
-                      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)("Archive")]),
-                      _: 1
-                    })]),
-                    _: 1
-                  }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item, {
-                    clickable: "",
-                    class: "text-negative hover-text-negative",
-                    onClick: _cache[2] || (_cache[2] = (0,vue_esm_bundler/* withModifiers */.iM)(() => {}, ["prevent"]))
-                  }, {
-                    default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, {
-                      side: "",
-                      class: "q-pr-sm"
-                    }, {
-                      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
-                        name: "icon-trash-01",
-                        size: "xs",
-                        color: "negative"
-                      })]),
-                      _: 1
-                    }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, null, {
-                      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)("Delete")]),
-                      _: 1
-                    })]),
-                    _: 1
-                  })]),
-                  _: 1
-                })]),
-                _: 1
-              })]),
-              _: 1
-            })])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_4, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.limitBrandName(brand?.brand_name)), 1)]),
-            _: 2
-          }, 1024), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card_actions, {
-            align: "right",
-            class: "full-width q-px-md bg-primary-1 self-end text-secondary text-body1 font-medium",
-            to: brand.id,
-            href: brand.id,
-            style: {
-              "height": "56px"
-            }
-          }, {
-            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)(" View Brand "), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
-              size: "20px",
-              name: "icon-arrow-narrow-right",
-              class: "q-pl-sm slide-hover-left-md"
+                "color": "white !important"
+              }
             })]),
+            _: 1
+          }), _hoisted_1]),
+          _: 1
+        })]),
+        _: 1
+      })], 2)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), ((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(_ctx.brands, (brand, i) => {
+        return (0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(vue_esm_bundler/* Transition */.uT, {
+          appear: "",
+          duration: 500,
+          "enter-active-class": "animated fadeIn",
+          "leave-active-class": "animated fadeOut",
+          key: i
+        }, {
+          default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", {
+            class: (0,vue_esm_bundler/* normalizeClass */.C_)(_ctx.gridClass)
+          }, [(0,vue_esm_bundler/* withDirectives */.wy)(((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_card, {
+            flat: "",
+            bordered: "",
+            class: "card-quicklinks brand full-height slide-hover row items-center hover-border-secondary",
+            onClick: $event => _ctx.$router.push('/brands/' + brand.id)
+          }, {
+            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
+              class: "self-start full-width q-px-lg q-pt-lg q-pb-md"
+            }, {
+              default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_ctx.brandCategories?.[brand?.brand_type]?.label ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_2, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_3, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_badge, {
+                rounded: "",
+                class: (0,vue_esm_bundler/* normalizeClass */.C_)(["badge badge-md", {
+                  'badge-bg-disable': !_ctx.brandCategories?.[brand?.brand_type]?.bg_color || brand?.deleted_at,
+                  'badge-text-disable': !_ctx.brandCategories?.[brand?.brand_type]?.color || brand?.deleted_at
+                }]),
+                style: (0,vue_esm_bundler/* normalizeStyle */.j5)(`background-color: ${_ctx.brandCategories?.[brand?.brand_type]?.bg_color}; color: ${_ctx.brandCategories?.[brand?.brand_type]?.color}`)
+              }, {
+                default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)((0,vue_esm_bundler/* toDisplayString */.zw)(brand?.deleted_at ? 'Archived' : _ctx.brandCategories?.[brand?.brand_type]?.label), 1)]),
+                _: 2
+              }, 1032, ["class", "style"])]), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+                flat: "",
+                round: "",
+                size: "xs",
+                name: "icon-dots-horizontal",
+                class: "absolute-top-right all-pointer-events text-primary-500",
+                style: {
+                  "top": "8px",
+                  "right": "8px"
+                },
+                onClick: [_cache[1] || (_cache[1] = (0,vue_esm_bundler/* withModifiers */.iM)(() => {}, ["stop"])), _cache[2] || (_cache[2] = (0,vue_esm_bundler/* withModifiers */.iM)(() => {}, ["prevent"]))]
+              }, {
+                default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_menu, {
+                  "auto-close": ""
+                }, {
+                  default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_list, {
+                    separator: ""
+                  }, {
+                    default: (0,vue_esm_bundler/* withCtx */.w5)(() => [!brand?.deleted_at ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_item, {
+                      key: 0,
+                      clickable: "",
+                      class: "hover-text-secondary",
+                      onClick: (0,vue_esm_bundler/* withModifiers */.iM)($event => _ctx.addAction('archiveOrgBrand_local', brand.id), ["prevent"])
+                    }, {
+                      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, {
+                        side: "",
+                        class: "q-pr-sm"
+                      }, {
+                        default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+                          name: "icon-archive",
+                          size: "xs"
+                        })]),
+                        _: 1
+                      }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, null, {
+                        default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)("Archive")]),
+                        _: 1
+                      })]),
+                      _: 2
+                    }, 1032, ["onClick"])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), brand?.deleted_at ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_item, {
+                      key: 1,
+                      clickable: "",
+                      class: "hover-text-secondary",
+                      onClick: (0,vue_esm_bundler/* withModifiers */.iM)($event => _ctx.addAction('restoreArchiveOrgBrand_local', brand.id), ["prevent"])
+                    }, {
+                      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, {
+                        side: "",
+                        class: "q-pr-sm"
+                      }, {
+                        default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+                          name: "icon-corner-down-left",
+                          size: "xs"
+                        })]),
+                        _: 1
+                      }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, null, {
+                        default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)("Restore")]),
+                        _: 1
+                      })]),
+                      _: 2
+                    }, 1032, ["onClick"])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item, {
+                      clickable: "",
+                      class: "text-negative hover-text-negative",
+                      onClick: (0,vue_esm_bundler/* withModifiers */.iM)($event => _ctx.addAction('deleteOrgBrand_local', brand.id), ["prevent"])
+                    }, {
+                      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, {
+                        side: "",
+                        class: "q-pr-sm"
+                      }, {
+                        default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+                          name: "icon-trash-01",
+                          size: "xs",
+                          color: "negative"
+                        })]),
+                        _: 1
+                      }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, null, {
+                        default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)("Delete")]),
+                        _: 1
+                      })]),
+                      _: 2
+                    }, 1032, ["onClick"])]),
+                    _: 2
+                  }, 1024)]),
+                  _: 2
+                }, 1024)]),
+                _: 2
+              }, 1024)])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_4, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.limitBrandName(brand?.brand_name)), 1)]),
+              _: 2
+            }, 1024), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card_actions, {
+              align: "right",
+              class: "full-width q-px-md bg-primary-1 self-end text-secondary text-body1 font-medium",
+              to: brand.id,
+              href: brand.id,
+              style: {
+                "height": "56px"
+              }
+            }, {
+              default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)(" View Brand "), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+                size: "20px",
+                name: "icon-arrow-narrow-right",
+                class: "q-pl-sm slide-hover-left-md"
+              })]),
+              _: 2
+            }, 1032, ["to", "href"])]),
             _: 2
-          }, 1032, ["to", "href"])]),
+          }, 1032, ["onClick"])), [[_directive_ripple, void 0, "accent"]])], 2)]),
           _: 2
-        }, 1032, ["onClick"])), [[_directive_ripple, void 0, "accent"]])], 2)]),
-        _: 2
-      }, 1024);
-    }), 128)), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_dialog, {
+        }, 1024);
+      }), 128))]),
+      _: 1
+    }, 8, ["onLoad", "class"]), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_dialog, {
+      modelValue: _ctx.actionConfirmation,
+      "onUpdate:modelValue": _cache[3] || (_cache[3] = $event => _ctx.actionConfirmation = $event)
+    }, {
+      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_dynamic_dialog_confirmation, (0,vue_esm_bundler/* mergeProps */.dG)(_ctx.actionOptions, {
+        onOkay: _ctx.performAction
+      }), null, 16, ["onOkay"])]),
+      _: 1
+    }, 8, ["modelValue"]), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_dialog, {
       persistent: "",
       modelValue: _ctx.addBrand,
-      "onUpdate:modelValue": _cache[7] || (_cache[7] = $event => _ctx.addBrand = $event),
+      "onUpdate:modelValue": _cache[6] || (_cache[6] = $event => _ctx.addBrand = $event),
       "transition-show": "scale",
       "transition-hide": "scale",
       "transition-duration": 300
@@ -1012,16 +1049,23 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           "max-width": "90vw",
           "width": "640px"
         },
-        onFinished: _cache[5] || (_cache[5] = $event => _ctx.addBrand = false),
-        onClose: _cache[6] || (_cache[6] = $event => _ctx.addBrand = false)
+        onFinished: _cache[4] || (_cache[4] = () => {
+          _ctx.queryBrands();
+          _ctx.addBrand = false;
+        }),
+        onClose: _cache[5] || (_cache[5] = $event => _ctx.addBrand = false)
       })]),
       _: 1
     }, 8, ["modelValue"])]),
     _: 1
-  }, 8, ["class"]);
+  });
 }
-;// CONCATENATED MODULE: ./src/components/Brands/BrandsList.vue?vue&type=template&id=3ff5d73b
+;// CONCATENATED MODULE: ./src/components/Brands/BrandsList.vue?vue&type=template&id=615c6a54
 
+// EXTERNAL MODULE: ./node_modules/quasar/src/utils/debounce.js
+var debounce = __webpack_require__(899);
+// EXTERNAL MODULE: ./node_modules/quasar/src/utils/throttle.js
+var throttle = __webpack_require__(8633);
 // EXTERNAL MODULE: ./src/components/Brands/CreateNewBrand.vue + 4 modules
 var CreateNewBrand = __webpack_require__(9183);
 // EXTERNAL MODULE: ./node_modules/pinia/dist/pinia.mjs + 1 modules
@@ -1031,6 +1075,7 @@ var user = __webpack_require__(3701);
 // EXTERNAL MODULE: ./src/stores/growmodo/index.js + 3 modules
 var growmodo = __webpack_require__(2393);
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Brands/BrandsList.vue?vue&type=script&lang=js
+
 
 
 
@@ -1061,34 +1106,169 @@ var growmodo = __webpack_require__(2393);
     gridGutter: {
       type: String,
       default: 'md'
+    },
+    search: {
+      type: String,
+      default: ''
+    },
+    status: {
+      type: String,
+      default: ''
+    },
+    per_page: {
+      type: Number,
+      default: 10
+    },
+    sort_by: {
+      type: String,
+      default: 'brand_name'
+    },
+    start_page: {
+      type: Number,
+      default: 1
     }
   },
   data() {
     return {
       maxTitle: 33,
-      addBrand: false
+      addBrand: false,
+      brandsResult: {},
+      current_page: 1,
+      last_page: 1,
+      queryBrands: () => void 0,
+      loadInfiniteScroll: (i, d) => typeof d === 'function' ? d() : void 0,
+      actionConfirmation: false,
+      actionTargetBrand: null,
+      actionName: '',
+      actionOptions: {}
     };
   },
   computed: {
-    ...(0,pinia/* mapState */.rn)(user/* default */.Z, ['selectedOrgBrands']),
+    ...(0,pinia/* mapState */.rn)(user/* default */.Z, ['selectedOrg']),
     ...(0,pinia/* mapState */.rn)(growmodo/* default */.Z, ['brandCategories']),
     brands() {
-      let visibleBrands = Object.values(this.selectedOrgBrands);
-      // Check if Need to Reverse
-      if (this.reverseList) visibleBrands = visibleBrands.reverse();
+      let visibleBrands = Object.values(this.brandsResult);
       // Slice to Maximimun Brands
       if (this.maxBrand && typeof this.maxBrand === 'number') visibleBrands = visibleBrands.slice(0, this.maxBrand);
       return visibleBrands;
+    },
+    confirmationDialogOptions() {
+      return {
+        archiveOrgBrand_local: {
+          icon: 'icon-archive',
+          okText: 'Archive',
+          messageTitle: 'Archive brand?'
+        },
+        restoreArchiveOrgBrand_local: {
+          icon: 'icon-corner-down-left',
+          okText: 'Restore',
+          messageTitle: 'Restore brand?'
+        },
+        deleteOrgBrand_local: {
+          icon: 'icon-trash-01',
+          okText: 'Delete',
+          messageTitle: 'Confirm to delete brand?'
+        }
+      };
     }
   },
   async mounted() {
-    this.getOrgBrands();
+    this.current_page = this.start_page;
+    this.queryBrands = (0,throttle/* default */.Z)(this.queryBrands_Fn, 300 /* execute at most once every 0.3s */);
+
+    this.loadInfiniteScroll = (0,debounce/* default */.Z)(this.loadInfiniteScroll_Fn, 500 /* ms to wait */);
+
+    this.queryBrands();
+  },
+  watch: {
+    status: {
+      async handler(val) {
+        this.current_page = 1;
+        this.queryBrands(this.current_page, this.per_page, true);
+      }
+    },
+    search: {
+      async handler(val) {
+        this.current_page = 1;
+        this.queryBrands(this.current_page, this.per_page, true);
+      }
+    }
   },
   methods: {
-    ...(0,pinia/* mapActions */.nv)(user/* default */.Z, ['getOrgBrands']),
+    ...(0,pinia/* mapActions */.nv)(user/* default */.Z, ['getOrgBrands', 'deleteOrgBrand', 'archiveOrgBrand', 'restoreArchiveOrgBrand', 'removeFromOrgBrandState']),
+    addAction(method_name, brand_id) {
+      if (typeof this[method_name] === 'function' && this.brandsResult[brand_id] && this.confirmationDialogOptions[method_name]) {
+        this.actionConfirmation = true;
+        this.actionName = method_name;
+        this.actionTargetBrand = brand_id;
+        this.actionOptions = this.confirmationDialogOptions[method_name];
+      }
+    },
+    performAction() {
+      if (typeof this[this.actionName] === 'function') this[this.actionName](this.actionTargetBrand);
+    },
+    archiveOrgBrand_local(brand_id, org_id = this.selectedOrg?.id) {
+      this.archiveOrgBrand(brand_id, org_id).then(res => {
+        if (res.success) {
+          if (!this.status || this.status == 'archived') {
+            if (this.brandsResult[brand_id]) this.brandsResult[brand_id].deleted_at = Date.now();
+          } else {
+            if (this.brandsResult[brand_id]) delete this.brandsResult[brand_id];
+          }
+        }
+      });
+    },
+    restoreArchiveOrgBrand_local(brand_id, org_id = this.selectedOrg?.id) {
+      this.restoreArchiveOrgBrand(brand_id, org_id).then(res => {
+        if (res.success) {
+          if (this.brandsResult[brand_id]) {
+            this.brandsResult[brand_id].deleted_at = null;
+            if (this.status == 'archived') delete this.brandsResult[brand_id];
+          }
+        }
+      });
+    },
+    deleteOrgBrand_local(brand_id, org_id = this.selectedOrg?.id) {
+      this.deleteOrgBrand(brand_id, org_id).then(res => {
+        if (res.success) {
+          if (this.brandsResult[brand_id]) delete this.brandsResult[brand_id];
+        }
+      });
+    },
     limitBrandName(brandName) {
       let addDot = brandName?.length > this.maxTitle;
       return String(brandName).slice(0, 33) + (addDot ? '...' : '');
+    },
+    async queryBrands_Fn(page, per_page, clearOldBrands = false) {
+      if (!page) page = this.current_page;
+      if (!per_page) per_page = this.per_page;
+      const brandQuery = await this.getOrgBrands(false, this.selectedOrg?.id, {
+        page,
+        per_page,
+        search: this.search,
+        status: this.status,
+        sortBy: this.sort_by,
+        sort_type: this.reverseList ? 'DESC' : 'ASC'
+      });
+      if (brandQuery.success) {
+        this.last_page = brandQuery.data?.last_page;
+        const brands = brandQuery.data?.data || [];
+        if (clearOldBrands) this.brandsResult = {};
+        for (const brand of brands) {
+          this.brandsResult[brand.id] = brand;
+        }
+      }
+      return brandQuery;
+    },
+    loadInfiniteScroll_Fn(index, done) {
+      if (this.current_page >= this.last_page) {
+        done();
+      } else {
+        if (this.last_page > this.current_page) this.current_page += 1;
+        this.queryBrands().finally(() => {
+          done();
+        });
+      }
     }
   }
 }));
@@ -1098,6 +1278,8 @@ var growmodo = __webpack_require__(2393);
 var exportHelper = __webpack_require__(1639);
 // EXTERNAL MODULE: ./node_modules/quasar/src/components/card/QCard.js
 var QCard = __webpack_require__(4458);
+// EXTERNAL MODULE: ./node_modules/quasar/src/components/infinite-scroll/QInfiniteScroll.js
+var QInfiniteScroll = __webpack_require__(6870);
 // EXTERNAL MODULE: ./node_modules/quasar/src/components/card/QCardSection.js
 var QCardSection = __webpack_require__(3190);
 // EXTERNAL MODULE: ./node_modules/quasar/src/components/avatar/QAvatar.js
@@ -1144,7 +1326,8 @@ const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(BrandsListvue_t
 
 
 
-runtime_auto_import_default()(BrandsListvue_type_script_lang_js, 'components', {QCard: QCard/* default */.Z,QCardSection: QCardSection/* default */.Z,QAvatar: QAvatar/* default */.Z,QIcon: QIcon/* default */.Z,QBadge: QBadge/* default */.Z,QMenu: QMenu/* default */.Z,QList: QList/* default */.Z,QItem: QItem/* default */.Z,QItemSection: QItemSection/* default */.Z,QCardActions: QCardActions/* default */.Z,QDialog: QDialog/* default */.Z});runtime_auto_import_default()(BrandsListvue_type_script_lang_js, 'directives', {Ripple: Ripple/* default */.Z});
+
+runtime_auto_import_default()(BrandsListvue_type_script_lang_js, 'components', {QCard: QCard/* default */.Z,QInfiniteScroll: QInfiniteScroll/* default */.Z,QCardSection: QCardSection/* default */.Z,QAvatar: QAvatar/* default */.Z,QIcon: QIcon/* default */.Z,QBadge: QBadge/* default */.Z,QMenu: QMenu/* default */.Z,QList: QList/* default */.Z,QItem: QItem/* default */.Z,QItemSection: QItemSection/* default */.Z,QCardActions: QCardActions/* default */.Z,QDialog: QDialog/* default */.Z});runtime_auto_import_default()(BrandsListvue_type_script_lang_js, 'directives', {Ripple: Ripple/* default */.Z});
 
 
 /***/ }),
@@ -7014,4 +7197,4 @@ runtime_auto_import_default()(CustomDropdownvue_type_script_lang_js, 'components
 /***/ })
 
 }]);
-//# sourceMappingURL=chunk-common.23cdf94a.js.map
+//# sourceMappingURL=chunk-common.ac30b896.js.map

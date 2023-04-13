@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[542],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[386],{
 
-/***/ 6542:
+/***/ 2386:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(6646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Drawer_Main.vue?vue&type=template&id=7c8954ee
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Drawer_Main.vue?vue&type=template&id=6177cc98
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_GrowmodoTextIcon = (0,vue_esm_bundler/* resolveComponent */.up)("GrowmodoTextIcon");
@@ -185,7 +185,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         }, null, 8, ["style"]), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item, {
           clickable: "",
           class: "menu-item settings q-mb-md q-mx-sm",
-          to: _ctx.$q.screen.gt.sm ? '/settings' : null,
+          to: _ctx.$route.params?.settings_tab ? null : '/settings',
           onClick: _cache[1] || (_cache[1] = e => {
             if (!_ctx.$q.screen.gt.sm || _ctx.$route.params?.settings_tab) {
               _ctx.$root.toggleSettingsDrawer();
@@ -236,7 +236,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   }, 8, ["dark", "mini", "bordered", "modelValue", "breakpoint", "mini-width", "width", "class"]);
 }
-;// CONCATENATED MODULE: ./src/components/Drawer_Main.vue?vue&type=template&id=7c8954ee
+;// CONCATENATED MODULE: ./src/components/Drawer_Main.vue?vue&type=template&id=6177cc98
 
 // EXTERNAL MODULE: ./src/components/GrowmodoTextIcon.vue + 4 modules
 var GrowmodoTextIcon = __webpack_require__(2788);
@@ -376,4 +376,4 @@ runtime_auto_import_default()(Drawer_Mainvue_type_script_lang_js, 'components', 
 /***/ })
 
 }]);
-//# sourceMappingURL=542.2f1e5ce1.js.map
+//# sourceMappingURL=386.f0ae4ec2.js.map

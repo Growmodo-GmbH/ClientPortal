@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[523],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[175],{
 
-/***/ 5523:
+/***/ 2175:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -18,7 +18,7 @@ var es_array_includes = __webpack_require__(6727);
 var es_array_push = __webpack_require__(9665);
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(6646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Dialogs/OnBoarding.vue?vue&type=template&id=b5401a04
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Dialogs/OnBoarding.vue?vue&type=template&id=07fcf18e
 
 
 
@@ -28,105 +28,102 @@ const _hoisted_1 = {
 const _hoisted_2 = {
   class: "full-width"
 };
-const _hoisted_3 = {
-  class: "full-width"
-};
-const _hoisted_4 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
+const _hoisted_3 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h2 text-primary font-medium"
 }, " Welcome to Growmodo! ", -1);
-const _hoisted_5 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
+const _hoisted_4 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h5 text-primary-600"
 }, " A quick message from our team ", -1);
-const _hoisted_6 = {
+const _hoisted_5 = {
   class: "full-width"
 };
-const _hoisted_7 = {
+const _hoisted_6 = {
   class: "full-width text-center"
 };
-const _hoisted_8 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
+const _hoisted_7 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
   class: "full-width text-center text-body1 text-primary-600 q-py-sm"
 }, " In less than 2 minutes ", -1);
-const _hoisted_9 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
+const _hoisted_8 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h4 text-primary-500 full-width"
 }, " Let us personalize your service experience ", -1);
-const _hoisted_10 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
+const _hoisted_9 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h2 text-primary font-medium full-width"
 }, " How would you like to use Growmodo? ", -1);
-const _hoisted_11 = {
+const _hoisted_10 = {
   class: "row q-col-gutter-md"
 };
-const _hoisted_12 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
+const _hoisted_11 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h2 text-primary font-medium"
 }, " How familiar are you with working with a remote team? ", -1);
-const _hoisted_13 = {
+const _hoisted_12 = {
   class: "row q-col-gutter-md"
 };
-const _hoisted_14 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
+const _hoisted_13 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h2 text-primary font-medium limited-width"
 }, " How would you describe your experience level with design and development work? ", -1);
-const _hoisted_15 = {
+const _hoisted_14 = {
   class: "row q-col-gutter-md"
 };
-const _hoisted_16 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
+const _hoisted_15 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h2 text-primary font-medium limited-width"
 }, " How do you prefer to work with the Growmodo talent on design tasks? ", -1);
-const _hoisted_17 = {
+const _hoisted_16 = {
   class: "row q-col-gutter-md"
 };
-const _hoisted_18 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
+const _hoisted_17 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h2 text-primary font-medium limited-width"
 }, " How do you prefer to work with the Growmodo talent on development tasks? ", -1);
-const _hoisted_19 = {
+const _hoisted_18 = {
   class: "row q-col-gutter-md"
 };
-const _hoisted_20 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
+const _hoisted_19 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h2 text-primary font-medium"
 }, " What design tools do you already use or want us to use? ", -1);
-const _hoisted_21 = {
+const _hoisted_20 = {
   class: "row q-col-gutter-md"
 };
-const _hoisted_22 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
+const _hoisted_21 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h2 text-primary font-medium"
 }, " What tech stack do you use or want us to use? ", -1);
-const _hoisted_23 = {
+const _hoisted_22 = {
   class: "row q-col-gutter-md"
 };
-const _hoisted_24 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
+const _hoisted_23 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h2 text-primary font-medium"
 }, " What are the top 3 qualities that would make Growmodo an indispensable extension of your team? ", -1);
-const _hoisted_25 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
+const _hoisted_24 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h4 text-primary-500"
 }, " (Only 3 selectable) ", -1);
-const _hoisted_26 = {
+const _hoisted_25 = {
   class: "row q-col-gutter-md"
 };
-const _hoisted_27 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
+const _hoisted_26 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h2 text-primary font-medium"
 }, " What are your current pain points that led to signing up with Growmodo? ", -1);
-const _hoisted_28 = {
+const _hoisted_27 = {
   class: "row q-col-gutter-md"
 };
-const _hoisted_29 = {
+const _hoisted_28 = {
   key: 0,
   class: "full-width text-center q-mt-lg"
 };
-const _hoisted_30 = {
+const _hoisted_29 = {
   class: "flex flex-center q-col-gutter-md"
 };
-const _hoisted_31 = {
+const _hoisted_30 = {
   key: 0,
   class: "full-width",
   style: {
     "max-width": "240px"
   }
 };
-const _hoisted_32 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
+const _hoisted_31 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h4 font-medium",
   style: {
     "max-width": "600px"
   }
 }, " Thank You. Your account has already been set up and is ready to use. ", -1);
-const _hoisted_33 = {
+const _hoisted_32 = {
   class: "full-width text-center q-gutter-md"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -150,7 +147,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   const _directive_ripple = (0,vue_esm_bundler/* resolveDirective */.Q2)("ripple");
   const _directive_close_popup = (0,vue_esm_bundler/* resolveDirective */.Q2)("close-popup");
   return (0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_card, {
-    flat: ""
+    flat: "",
+    class: "q-py-md"
   }, {
     default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", {
       class: (0,vue_esm_bundler/* normalizeClass */.C_)(_ctx.formStep > 1 ? 'container fit' : '')
@@ -170,7 +168,11 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     })) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), (0,vue_esm_bundler/* createElementVNode */._)("div", {
       class: (0,vue_esm_bundler/* normalizeClass */.C_)([_ctx.formStep > 1 ? 'window-height' : '', "flex flex-center"]),
       style: (0,vue_esm_bundler/* normalizeStyle */.j5)(_ctx.formStep > 1 ? 'max-height: calc(100vh - 150px)' : '')
-    }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_3, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_stepper, {
+    }, [(0,vue_esm_bundler/* createElementVNode */._)("div", {
+      class: (0,vue_esm_bundler/* normalizeClass */.C_)(["full-width", {
+        'q-py-xl': _ctx.formStep > 1
+      }])
+    }, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_stepper, {
       modelValue: _ctx.formStep,
       "onUpdate:modelValue": _cache[3] || (_cache[3] = $event => _ctx.formStep = $event),
       flat: "",
@@ -200,12 +202,12 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           })) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
             class: "text-center bg-transparent q-pa-none"
           }, {
-            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_hoisted_4, _hoisted_5]),
+            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_hoisted_3, _hoisted_4]),
             _: 1
           }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
             class: "rounded q-px-none q-py-lg hover-shrink-wrapper"
           }, {
-            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_6, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_video, {
+            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_5, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_video, {
               title: "Welcome to Growmodo",
               ref: "WelcomeVideo",
               ratio: 16 / 9,
@@ -216,7 +218,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
             class: "q-pa-none"
           }, {
-            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_7, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_6, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
               "no-caps": "",
               unelevated: "",
               color: "primary",
@@ -229,7 +231,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                 class: "q-pl-xs"
               })]),
               _: 1
-            }, 8, ["onClick"])]), _hoisted_8]),
+            }, 8, ["onClick"])]), _hoisted_7]),
             _: 1
           })]),
           _: 1
@@ -245,7 +247,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
             class: "flex flex-center text-center bg-transparent q-px-none"
           }, {
-            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_hoisted_9, _hoisted_10]),
+            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_hoisted_8, _hoisted_9]),
             _: 1
           }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_space, {
             class: "q-py-lg"
@@ -253,7 +255,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             class: "q-px-none flex flex-center"
           }, {
             default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_list, null, {
-              default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_11, [((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)([{
+              default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_10, [((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)([{
                 label: 'Web Design',
                 key: 'web_design',
                 icon: 'icon-browser'
@@ -343,7 +345,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
             class: "flex flex-center text-center bg-transparent q-px-none"
           }, {
-            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_hoisted_12]),
+            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_hoisted_11]),
             _: 1
           }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_space, {
             class: "q-py-lg"
@@ -353,7 +355,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_list, {
               class: "limited-width"
             }, {
-              default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_13, [((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)([`I've never done this before`, `I used freelancer marketplaces or agencies before`, `I used a similar service like Growmodo before`, `I work with remote designers & developers all the time`], item => {
+              default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_12, [((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)([`I've never done this before`, `I used freelancer marketplaces or agencies before`, `I used a similar service like Growmodo before`, `I work with remote designers & developers all the time`], item => {
                 return (0,vue_esm_bundler/* createElementVNode */._)("div", {
                   key: item,
                   class: "col-12 col-sm-6"
@@ -392,7 +394,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
             class: "flex flex-center text-center bg-transparent q-px-none"
           }, {
-            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_hoisted_14]),
+            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_hoisted_13]),
             _: 1
           }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_space, {
             class: "q-py-lg"
@@ -402,7 +404,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_list, {
               class: "limited-width"
             }, {
-              default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_15, [((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)([`I don't know anything about design & development`, `I can't design or code myself, but I know exactly what I want`, `I have a design and/or development background myself`, `I have worked on multiple web design projects before`], item => {
+              default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_14, [((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)([`I don't know anything about design & development`, `I can't design or code myself, but I know exactly what I want`, `I have a design and/or development background myself`, `I have worked on multiple web design projects before`], item => {
                 return (0,vue_esm_bundler/* createElementVNode */._)("div", {
                   key: item,
                   class: "col-12 col-sm-6"
@@ -441,7 +443,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
             class: "flex flex-center text-center bg-transparent q-px-none"
           }, {
-            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_hoisted_16]),
+            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_hoisted_15]),
             _: 1
           }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_space, {
             class: "q-py-lg"
@@ -451,7 +453,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_list, {
               class: "limited-width"
             }, {
-              default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_17, [((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)([`I don't know anything about design and rely on your creativity and expertise`, `I will give detailed briefs, and I like you to follow them thoroughly`, `I will determine this on a task-by-task basis`, `I will not use you for design tasks`], item => {
+              default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_16, [((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)([`I don't know anything about design and rely on your creativity and expertise`, `I will give detailed briefs, and I like you to follow them thoroughly`, `I will determine this on a task-by-task basis`, `I will not use you for design tasks`], item => {
                 return (0,vue_esm_bundler/* createElementVNode */._)("div", {
                   key: item,
                   class: "col-12 col-sm-6"
@@ -490,7 +492,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
             class: "flex flex-center text-center bg-transparent q-px-none"
           }, {
-            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_hoisted_18]),
+            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_hoisted_17]),
             _: 1
           }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_space, {
             class: "q-py-lg"
@@ -500,7 +502,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_list, {
               class: "limited-width"
             }, {
-              default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_19, [((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)([`I trust your Quality Assurance process and rely on your expertise`, `I like you to follow our development guidelines and will provide QA checklists`, `I will determine this on a task-by-task basis`, `I will not use you for development tasks`], item => {
+              default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_18, [((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)([`I trust your Quality Assurance process and rely on your expertise`, `I like you to follow our development guidelines and will provide QA checklists`, `I will determine this on a task-by-task basis`, `I will not use you for development tasks`], item => {
                 return (0,vue_esm_bundler/* createElementVNode */._)("div", {
                   key: item,
                   class: "col-12 col-sm-6"
@@ -539,7 +541,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
             class: "text-center bg-transparent q-px-none"
           }, {
-            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_hoisted_20]),
+            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_hoisted_19]),
             _: 1
           }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_space, {
             class: "q-py-lg"
@@ -547,7 +549,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             class: "q-px-none flex flex-center"
           }, {
             default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_list, null, {
-              default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_21, [((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)([{
+              default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_20, [((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)([{
                 label: 'Adobe Photoshop',
                 key: 'adobe_photoshop',
                 icon: _ctx.formatPlatformIconSrc('Photoshop')
@@ -628,7 +630,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
             class: "text-center bg-transparent q-px-none"
           }, {
-            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_hoisted_22]),
+            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_hoisted_21]),
             _: 1
           }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_space, {
             class: "q-py-lg"
@@ -636,7 +638,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             class: "q-px-none flex flex-center"
           }, {
             default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_list, null, {
-              default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_23, [((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)([{
+              default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_22, [((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)([{
                 label: 'Wordpress',
                 key: 'wordpress',
                 icon: _ctx.formatPlatformIconSrc('Wordpress')
@@ -729,7 +731,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
             class: "text-center bg-transparent q-px-none"
           }, {
-            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_hoisted_24, _hoisted_25]),
+            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_hoisted_23, _hoisted_24]),
             _: 1
           }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_space, {
             class: "q-py-lg"
@@ -737,7 +739,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             class: "q-px-none flex flex-center"
           }, {
             default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_list, null, {
-              default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_26, [((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)([`Consistent high work quality`, `Clear and fast communication`, `Big variety of skillsets`, `Hands-on project management`, `Quick to hire additional talent`, `Proactive task suggestions`, `On-demand design & tech advice`, `Others`], item => {
+              default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_25, [((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)([`Consistent high work quality`, `Clear and fast communication`, `Big variety of skillsets`, `Hands-on project management`, `Quick to hire additional talent`, `Proactive task suggestions`, `On-demand design & tech advice`, `Others`], item => {
                 return (0,vue_esm_bundler/* createElementVNode */._)("div", {
                   key: item,
                   class: "col-12 col-sm-6 col-md-3"
@@ -778,7 +780,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
             class: "text-center bg-transparent q-px-none"
           }, {
-            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_hoisted_27]),
+            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_hoisted_26]),
             _: 1
           }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_space, {
             class: "q-py-lg"
@@ -786,7 +788,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             class: "q-px-none flex flex-center"
           }, {
             default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_list, null, {
-              default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_28, [((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)([`Lack of design talent in our team`, `Lack of development talent in our team`, `Underperforming website`, `Bad app user experience`, `Hiring talent takes too long`, `In-house employees are too expensive`, `Unreliable freelancers`, `Others`], item => {
+              default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_27, [((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)([`Lack of design talent in our team`, `Lack of development talent in our team`, `Underperforming website`, `Bad app user experience`, `Hiring talent takes too long`, `In-house employees are too expensive`, `Unreliable freelancers`, `Others`], item => {
                 return (0,vue_esm_bundler/* createElementVNode */._)("div", {
                   key: item,
                   class: "col-12 col-sm-6 col-md-3"
@@ -819,7 +821,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         _: 1
       })]),
       _: 1
-    }, 8, ["modelValue"]), _ctx.formStep > 1 ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_29, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_30, [_ctx.formStep > 2 ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_31, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+    }, 8, ["modelValue"]), _ctx.formStep > 1 ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_28, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_29, [_ctx.formStep > 2 ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_30, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
       "no-caps": "",
       outline: "",
       unelevated: "",
@@ -850,7 +852,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         class: "q-pl-xs"
       })]),
       _: 1
-    }, 8, ["disable"])], 4)])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)])], 6)], 2), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_dialog, {
+    }, 8, ["disable"])], 4)])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 2)], 6)], 2), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_dialog, {
       persistent: "",
       modelValue: _ctx.onboarded,
       "onUpdate:modelValue": _cache[7] || (_cache[7] = $event => _ctx.onboarded = $event)
@@ -871,12 +873,12 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
           class: "flex flex-center q-gutter-sm"
         }, {
-          default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_hoisted_32]),
+          default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_hoisted_31]),
           _: 1
         }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card_actions, {
           class: "q-pa-md"
         }, {
-          default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_33, [(0,vue_esm_bundler/* withDirectives */.wy)(((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_btn, {
+          default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_32, [(0,vue_esm_bundler/* withDirectives */.wy)(((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_btn, {
             "no-caps": "",
             unelevated: "",
             ripple: {
@@ -906,7 +908,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/components/Dialogs/OnBoarding.vue?vue&type=template&id=b5401a04
+;// CONCATENATED MODULE: ./src/components/Dialogs/OnBoarding.vue?vue&type=template&id=07fcf18e
 
 // EXTERNAL MODULE: ./src/components/Helpers/CardIconBox.vue + 4 modules
 var CardIconBox = __webpack_require__(6122);
@@ -1112,4 +1114,4 @@ runtime_auto_import_default()(OnBoardingvue_type_script_lang_js, 'components', {
 /***/ })
 
 }]);
-//# sourceMappingURL=523.d333614a.js.map
+//# sourceMappingURL=175.69f16547.js.map

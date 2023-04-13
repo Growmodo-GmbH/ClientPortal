@@ -1,1 +1,0 @@
-{"version":3,"file":"css/523.ce7d5bd3.css","mappings":"AAKE;EACE,gBAJQ;AAAZ,C","sources":["webpack://growmodo_hub/./src/components/Dialogs/OnBoarding.vue"],"sourcesContent":["@import '~src/css/quasar.variables.scss', 'quasar/src/css/variables.sass';\n\n$max-width: 880px;\n\n.limited {\n  &-width {\n    max-width: $max-width;\n  }\n}\n"],"names":[],"sourceRoot":""}

@@ -219,10 +219,10 @@ var app = __webpack_require__(39);
 /* harmony default export */ const MainLayoutvue_type_script_lang_js = ((0,vue_esm_bundler/* defineComponent */.aZ)({
   name: 'MainLayout',
   components: {
-    DrawerMain: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(542)]).then(__webpack_require__.bind(__webpack_require__, 6542))),
+    DrawerMain: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(386)]).then(__webpack_require__.bind(__webpack_require__, 2386))),
     RedirectConfirmation: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 620).then(__webpack_require__.bind(__webpack_require__, 6620))),
     Dialog_UpgradeYourPlan: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(378)]).then(__webpack_require__.bind(__webpack_require__, 4378))),
-    OnBoarding: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(523)]).then(__webpack_require__.bind(__webpack_require__, 5523)))
+    OnBoarding: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(175)]).then(__webpack_require__.bind(__webpack_require__, 2175)))
   },
   data() {
     return {
@@ -332,4 +332,4 @@ runtime_auto_import_default()(MainLayoutvue_type_script_lang_js, 'components', {
 /***/ })
 
 }]);
-//# sourceMappingURL=397.7c0f17a7.js.map
+//# sourceMappingURL=397.13d28c30.js.map

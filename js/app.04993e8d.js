@@ -419,7 +419,7 @@ const routes = [{
     path: 'brands',
     children: [{
       path: '',
-      component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(555)]).then(__webpack_require__.bind(__webpack_require__, 5039))
+      component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(486)]).then(__webpack_require__.bind(__webpack_require__, 4256))
     }, {
       path: ':brandId',
       children: [{
@@ -458,10 +458,10 @@ const routes = [{
     path: 'settings',
     children: [{
       path: '',
-      component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(81)]).then(__webpack_require__.bind(__webpack_require__, 8081))
+      component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(884)]).then(__webpack_require__.bind(__webpack_require__, 5884))
     }, {
       path: ':settings_tab',
-      component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(81)]).then(__webpack_require__.bind(__webpack_require__, 8081))
+      component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(884)]).then(__webpack_require__.bind(__webpack_require__, 5884))
     }]
   }]
 }, {
@@ -4181,6 +4181,7 @@ __webpack_require__.d(actions_namespaceObject, {
   "addOrgFiles": () => (addOrgFiles),
   "addOrgUser": () => (addOrgUser),
   "afterLogin": () => (afterLogin),
+  "archiveOrgBrand": () => (archiveOrgBrand),
   "cancelSubscription": () => (cancelSubscription),
   "createBrand": () => (createBrand),
   "deleteOrgBrand": () => (deleteOrgBrand),
@@ -4205,8 +4206,10 @@ __webpack_require__.d(actions_namespaceObject, {
   "onboardUser": () => (onboardUser),
   "pauseSubscription": () => (pauseSubscription),
   "removeBrandFile": () => (removeBrandFile),
+  "removeFromOrgBrandState": () => (removeFromOrgBrandState),
   "requestSubscriptionChange": () => (requestSubscriptionChange),
   "resendEmailInvitation": () => (resendEmailInvitation),
+  "restoreArchiveOrgBrand": () => (restoreArchiveOrgBrand),
   "resumeSubscription": () => (resumeSubscription),
   "searchUserInfo": () => (searchUserInfo),
   "signupResendEmailVerify": () => (signupResendEmailVerify),
@@ -4857,12 +4860,15 @@ async function getSingleBrand(brandId, orgId = this.activeOrgID) {
     return cache_data || e;
   });
 }
-async function getOrgBrands(orgId = this.activeOrgID) {
+async function getOrgBrands(saveState = true, orgId = this.activeOrgID, params = {}) {
   if (!orgId) return;
-  const url = `/organization/${orgId}/brands?per_page=-1`;
-  return await apis.api.get(url).then(res => {
+  const url = `/organization/${orgId}/brands`;
+  if (params && !params.per_page) params.per_page = -1;
+  return await apis.api.get(url, {
+    params
+  }).then(res => {
     const data = res.data;
-    if (data.success) {
+    if (data.success && saveState) {
       const brands = data.data?.data || [];
       for (const brand of brands) {
         this.organizationBrands[orgId][brand.id] = brand;
@@ -4925,9 +4931,47 @@ function updateOrgBrand(brandId, brandInfo = {}, {
     this.organizationBrands[orgId][brandId] = brandInfo;
   }
 }
-function deleteOrgBrand(brandId, orgId = this.activeOrgID) {
+function removeFromOrgBrandState(brandId, orgId = this.activeOrgID) {
   if (!brandId || !orgId) return {};
-  delete this.organizationBrands[orgId][brandId];
+  if (this.organizationBrands[orgId][brandId]) delete this.organizationBrands[orgId][brandId];
+}
+async function archiveOrgBrand(brandId, orgId = this.activeOrgID) {
+  if (!brandId || !orgId) return {};
+  return await apis.api.put(`/organization/${orgId}/brands/${brandId}/archive`).then(res => {
+    const data = res.data;
+    if (data.success) {
+      if (this.organizationBrands[orgId][brandId]) this.organizationBrands[orgId][brandId].deleted_at = Date.now();
+      this.removeFromOrgBrandState(brandId, orgId);
+    }
+    return data;
+  }).catch(e => {
+    return e;
+  });
+}
+async function restoreArchiveOrgBrand(brandId, orgId = this.activeOrgID) {
+  if (!brandId || !orgId) return {};
+  return await apis.api.put(`/organization/${orgId}/brands/${brandId}/restore`).then(res => {
+    const data = res.data;
+    if (data.success) {
+      if (this.organizationBrands[orgId][brandId]) this.organizationBrands[orgId][brandId].deleted_at = null;
+      this.removeFromOrgBrandState(brandId, orgId);
+    }
+    return data;
+  }).catch(e => {
+    return e;
+  });
+}
+async function deleteOrgBrand(brandId, orgId = this.activeOrgID) {
+  if (!brandId || !orgId) return {};
+  return await apis.api["delete"](`/organization/${orgId}/brands/${brandId}`).then(res => {
+    const data = res.data;
+    if (data.success) {
+      this.removeFromOrgBrandState(brandId, orgId);
+    }
+    return data;
+  }).catch(e => {
+    return e;
+  });
 }
 function getBrandUploadedAssets(brandId, target, custom_files = undefined, orgId = this.activeOrgID) {
   if (!brandId || !target || !orgId) return [];
@@ -5432,7 +5476,7 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.8.8","descripti
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"48":"fe357986","59":"8ac4b71b","64":"23cdf94a","72":"30af6a5d","79":"5eb47fa5","81":"3b0c7d18","95":"adcb335f","144":"b227344c","232":"392d18cd","378":"f29c4238","397":"7c0f17a7","404":"edc765be","405":"1f53fc09","409":"c2542a5d","422":"28a0ceb4","480":"7c3ce231","493":"0b2cea49","507":"4142185f","523":"d333614a","542":"2f1e5ce1","546":"e6f3d455","555":"097de874","563":"f7b160fe","594":"e565e9fc","597":"85b3d961","618":"390dc98e","620":"83a173fa","685":"ec5541c8","713":"63f547f5","723":"7bfae9cd","737":"b8810320","775":"fc0b618f","785":"9190dfc5","787":"7d332418","872":"628882c6","885":"4771863b","966":"d3f206d9"}[chunkId] + ".js";
+/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"48":"fe357986","59":"8ac4b71b","64":"ac30b896","72":"30af6a5d","79":"5eb47fa5","95":"adcb335f","144":"b227344c","175":"69f16547","232":"392d18cd","378":"f29c4238","386":"f0ae4ec2","397":"13d28c30","404":"edc765be","405":"1f53fc09","409":"c2542a5d","422":"28a0ceb4","480":"7c3ce231","486":"b67d9052","493":"0b2cea49","507":"4142185f","546":"e6f3d455","563":"f7b160fe","594":"e565e9fc","597":"85b3d961","618":"390dc98e","620":"83a173fa","685":"ec5541c8","713":"63f547f5","723":"7bfae9cd","737":"b8810320","775":"fc0b618f","785":"3300bc5e","787":"7d332418","872":"628882c6","884":"5d00ff5b","885":"4771863b","966":"d3f206d9"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -5441,7 +5485,7 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.8.8","descripti
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.miniCssF = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "css/" + chunkId + "." + {"59":"ba8a76d3","232":"ba8a76d3","523":"ce7d5bd3","555":"ba8a76d3","618":"ba8a76d3","785":"ba8a76d3"}[chunkId] + ".css";
+/******/ 			return "css/" + chunkId + "." + {"59":"5f7b042d","175":"28c14466","232":"5f7b042d","486":"5f7b042d","618":"5f7b042d","785":"5f7b042d"}[chunkId] + ".css";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -5585,7 +5629,7 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.8.8","descripti
 /******/ 		};
 /******/ 		
 /******/ 		__webpack_require__.f.miniCss = (chunkId, promises) => {
-/******/ 			var cssChunks = {"59":1,"232":1,"523":1,"555":1,"618":1,"785":1};
+/******/ 			var cssChunks = {"59":1,"175":1,"232":1,"486":1,"618":1,"785":1};
 /******/ 			if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 			else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 				promises.push(installedCssChunks[chunkId] = loadStylesheet(chunkId).then(() => {
@@ -5700,4 +5744,4 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.8.8","descripti
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.dad0942c.js.map
+//# sourceMappingURL=app.04993e8d.js.map

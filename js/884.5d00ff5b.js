@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[81],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[884],{
 
-/***/ 8081:
+/***/ 5884:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(6646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/AccountSettingsPage.vue?vue&type=template&id=76eaee23
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/AccountSettingsPage.vue?vue&type=template&id=1262ecf3
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_q_item_section = (0,vue_esm_bundler/* resolveComponent */.up)("q-item-section");
@@ -186,7 +186,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             "onUpdate:modelValue": _cache[3] || (_cache[3] = $event => _ctx.confirmLogout = $event)
           }, {
             default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_dynamic_dialog_confirmation, (0,vue_esm_bundler/* mergeProps */.dG)(_ctx.$root.messagesDialogs?.confirmLogout, {
-              onOkay: _cache[2] || (_cache[2] = $event => this.logoutAccount())
+              onOkay: _cache[2] || (_cache[2] = $event => _ctx.logoutAccount())
             }), null, 16)]),
             _: 1
           }, 8, ["modelValue"])]),
@@ -199,7 +199,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/AccountSettingsPage.vue?vue&type=template&id=76eaee23
+;// CONCATENATED MODULE: ./src/pages/AccountSettingsPage.vue?vue&type=template&id=1262ecf3
 
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Accounts/Profile.vue?vue&type=template&id=6287fd3c
 
@@ -4133,4 +4133,4 @@ runtime_auto_import_default()(AccountSettingsPagevue_type_script_lang_js, 'compo
 /***/ })
 
 }]);
-//# sourceMappingURL=81.3b0c7d18.js.map
+//# sourceMappingURL=884.5d00ff5b.js.map

@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[555,618,232],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[486,618,232],{
 
-/***/ 5039:
+/***/ 4256:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(6646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/BrandsPage.vue?vue&type=template&id=0b6d42d3
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Brands/BrandsPage.vue?vue&type=template&id=0206c9a0
 
 const _hoisted_1 = {
   class: "font-medium text-h5 text-primary-700"
@@ -29,9 +29,12 @@ const _hoisted_4 = {
   class: "col-12 col-md-6"
 };
 const _hoisted_5 = {
-  class: "col-7 col-md-9"
+  class: "col-12 col-sm-7 col-md-9"
 };
 const _hoisted_6 = {
+  class: "col-auto"
+};
+const _hoisted_7 = {
   class: "scroll fit card-px card-pt-sm"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -94,9 +97,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             class: "hover-text-secondary"
           })]),
           _: 1
-        }, 8, ["modelValue"])]), (0,vue_esm_bundler/* createElementVNode */._)("div", null, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_select, {
+        }, 8, ["modelValue"])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_6, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_select, {
           dense: "",
-          multiple: "",
           outlined: "",
           "emit-value": "",
           "map-options": "",
@@ -107,7 +109,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           modelValue: _ctx.activeFilter,
           "onUpdate:modelValue": _cache[1] || (_cache[1] = $event => _ctx.activeFilter = $event),
           "display-value": "Filters",
-          "option-value": (val, row) => val ? val.name : null,
+          "option-value": (val, row) => val ? val.value : null,
           class: "hover-text-secondary table-select-filter",
           "transition-show": "jump-up",
           "transition-hide": "jump-down"
@@ -147,9 +149,11 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           "min-height": "300px"
         }
       }, {
-        default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_6, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_BrandsList, {
-          class: "card-pb"
-        })])]),
+        default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_7, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_BrandsList, {
+          class: "card-pb",
+          status: _ctx.activeFilter,
+          search: _ctx.searchQuery
+        }, null, 8, ["status", "search"])])]),
         _: 1
       })]),
       _: 1
@@ -157,11 +161,11 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/BrandsPage.vue?vue&type=template&id=0b6d42d3
+;// CONCATENATED MODULE: ./src/pages/Brands/BrandsPage.vue?vue&type=template&id=0206c9a0
 
 // EXTERNAL MODULE: ./src/components/Brands/BrandsList.vue + 4 modules
-var BrandsList = __webpack_require__(4323);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/BrandsPage.vue?vue&type=script&lang=js
+var BrandsList = __webpack_require__(3491);
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Brands/BrandsPage.vue?vue&type=script&lang=js
 
 
 /* harmony default export */ const BrandsPagevue_type_script_lang_js = ((0,vue_esm_bundler/* defineComponent */.aZ)({
@@ -179,9 +183,14 @@ var BrandsList = __webpack_require__(4323);
   computed: {
     filters() {
       return [{
-        label: 'Achived'
+        label: 'All',
+        value: ''
       }, {
-        label: 'Active'
+        label: 'Achived',
+        value: 'archived'
+      }, {
+        label: 'Active',
+        value: 'active'
       }];
     }
   },
@@ -191,7 +200,7 @@ var BrandsList = __webpack_require__(4323);
     });
   }
 }));
-;// CONCATENATED MODULE: ./src/pages/BrandsPage.vue?vue&type=script&lang=js
+;// CONCATENATED MODULE: ./src/pages/Brands/BrandsPage.vue?vue&type=script&lang=js
  
 // EXTERNAL MODULE: ./node_modules/vue-loader/dist/exportHelper.js
 var exportHelper = __webpack_require__(1639);
@@ -220,7 +229,7 @@ var QItemLabel = __webpack_require__(3115);
 // EXTERNAL MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/runtime.auto-import.js
 var runtime_auto_import = __webpack_require__(9984);
 var runtime_auto_import_default = /*#__PURE__*/__webpack_require__.n(runtime_auto_import);
-;// CONCATENATED MODULE: ./src/pages/BrandsPage.vue
+;// CONCATENATED MODULE: ./src/pages/Brands/BrandsPage.vue
 
 
 
@@ -247,4 +256,4 @@ runtime_auto_import_default()(BrandsPagevue_type_script_lang_js, 'components', {
 /***/ })
 
 }]);
-//# sourceMappingURL=555.097de874.js.map
+//# sourceMappingURL=486.b67d9052.js.map
