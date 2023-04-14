@@ -807,7 +807,7 @@ async function getSingleProjects(projectId, params = {}, orgId) {
 
 /***/ }),
 
-/***/ 5861:
+/***/ 7764:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 
@@ -820,7 +820,7 @@ __webpack_require__.d(__webpack_exports__, {
 var es_array_push = __webpack_require__(9665);
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(6646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Brands/BrandsList.vue?vue&type=template&id=59a8b715
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Brands/BrandsList.vue?vue&type=template&id=8d4d3bcc
 
 
 const _hoisted_1 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
@@ -962,7 +962,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                       key: 1,
                       clickable: "",
                       class: "hover-text-secondary",
-                      onClick: (0,vue_esm_bundler/* withModifiers */.iM)($event => _ctx.addAction('restoreArchiveOrgBrand_local', brand.id), ["prevent"])
+                      onClick: (0,vue_esm_bundler/* withModifiers */.iM)($event => _ctx.restoreArchiveOrgBrand_local(brand.id), ["prevent"])
                     }, {
                       default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, {
                         side: "",
@@ -1060,7 +1060,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/components/Brands/BrandsList.vue?vue&type=template&id=59a8b715
+;// CONCATENATED MODULE: ./src/components/Brands/BrandsList.vue?vue&type=template&id=8d4d3bcc
 
 // EXTERNAL MODULE: ./node_modules/quasar/src/utils/debounce.js
 var debounce = __webpack_require__(899);
@@ -1157,18 +1157,18 @@ var growmodo = __webpack_require__(2393);
         archiveOrgBrand_local: {
           icon: 'icon-archive',
           okText: 'Archive',
-          messageTitle: 'Archive brand?'
+          messageTitle: `Archive "${this.brandsResult[this.actionTargetBrand]?.brand_name}" brand?`
         },
         restoreArchiveOrgBrand_local: {
           icon: 'icon-corner-down-left',
           okText: 'Restore',
-          messageTitle: 'Restore brand?'
+          messageTitle: `Restore "${this.brandsResult[this.actionTargetBrand]?.brand_name}" brand?`
         },
         deleteOrgBrand_local: {
           icon: 'icon-trash-01',
           okText: 'Delete',
           okColor: 'negative',
-          messageTitle: 'Confirm to delete brand?'
+          messageTitle: `Confirm to delete "${this.brandsResult[this.actionTargetBrand]?.brand_name}" brand?`
         }
       };
     }
@@ -1209,14 +1209,25 @@ var growmodo = __webpack_require__(2393);
     performAction() {
       if (typeof this[this.actionName] === 'function') this[this.actionName](this.actionTargetBrand);
     },
+    showActionNotif(message, success = true) {
+      const params = {
+        icon: success ? 'icon-check-circle-broken' : 'icon-alert-triangle',
+        message
+      };
+      if (!success) params.iconColor = 'negative';
+      this.$q.notify(params);
+    },
     archiveOrgBrand_local(brand_id, org_id = this.selectedOrg?.id) {
       this.archiveOrgBrand(brand_id, org_id).then(res => {
         if (res.success) {
           if (!this.status || this.status == 'archived') {
             if (this.brandsResult[brand_id]) this.brandsResult[brand_id].deleted_at = Date.now();
+            this.showActionNotif('Brand has been archived');
           } else {
             if (this.brandsResult[brand_id]) delete this.brandsResult[brand_id];
           }
+        } else {
+          this.showActionNotif('Action failed', false);
         }
       });
     },
@@ -1226,7 +1237,10 @@ var growmodo = __webpack_require__(2393);
           if (this.brandsResult[brand_id]) {
             this.brandsResult[brand_id].deleted_at = null;
             if (this.status == 'archived') delete this.brandsResult[brand_id];
+            this.showActionNotif('Brand has been restored');
           }
+        } else {
+          this.showActionNotif('Action failed', false);
         }
       });
     },
@@ -1234,6 +1248,9 @@ var growmodo = __webpack_require__(2393);
       this.deleteOrgBrand(brand_id, org_id).then(res => {
         if (res.success) {
           if (this.brandsResult[brand_id]) delete this.brandsResult[brand_id];
+          this.showActionNotif('Brand has been removed');
+        } else {
+          this.showActionNotif('Action failed', false);
         }
       });
     },
@@ -7199,4 +7216,4 @@ runtime_auto_import_default()(CustomDropdownvue_type_script_lang_js, 'components
 /***/ })
 
 }]);
-//# sourceMappingURL=chunk-common.bf56c538.js.map
+//# sourceMappingURL=chunk-common.980ac542.js.map
