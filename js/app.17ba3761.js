@@ -424,7 +424,7 @@ const routes = [{
       path: ':brandId',
       children: [{
         path: '',
-        component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(59)]).then(__webpack_require__.bind(__webpack_require__, 5847))
+        component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(638)]).then(__webpack_require__.bind(__webpack_require__, 9459))
       }, {
         path: 'task',
         children: [{
@@ -970,7 +970,7 @@ app(vue_esm_bundler/* createApp */.ri, quasar_user_options).then(app => {
     }
     return result.value.default;
   })] : ['all', bootFiles => bootFiles.map(entry => entry.default)];
-  return Promise[method]([Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8744)), Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8812)), Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9542)), Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7730)), Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7571))]).then(bootFiles => {
+  return Promise[method]([Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8744)), Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8812)), Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9542)), Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 41)), Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7571))]).then(bootFiles => {
     const boot = mapFn(bootFiles).filter(entry => typeof entry === 'function');
     start(app, boot);
   });
@@ -2312,7 +2312,7 @@ var vue_i18n = __webpack_require__(6366);
 
 /***/ }),
 
-/***/ 7730:
+/***/ 41:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2669,10 +2669,10 @@ const DynamicDialogConfirmation_exports_ = /*#__PURE__*/(0,exportHelper/* defaul
 
 runtime_auto_import_default()(DynamicDialogConfirmationvue_type_script_lang_js, 'components', {QCard: QCard/* default */.Z,QCardSection: QCardSection/* default */.Z,QToolbar: QToolbar/* default */.Z,QBtn: QBtn/* default */.Z});runtime_auto_import_default()(DynamicDialogConfirmationvue_type_script_lang_js, 'directives', {ClosePopup: ClosePopup/* default */.Z});
 
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Globals/ExternalLink.vue?vue&type=template&id=26743844
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Globals/ExternalLink.vue?vue&type=template&id=1e7b778c
 
-const ExternalLinkvue_type_template_id_26743844_hoisted_1 = ["href"];
-function ExternalLinkvue_type_template_id_26743844_render(_ctx, _cache, $props, $setup, $data, $options) {
+const ExternalLinkvue_type_template_id_1e7b778c_hoisted_1 = ["href"];
+function ExternalLinkvue_type_template_id_1e7b778c_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_q_icon = (0,vue_esm_bundler/* resolveComponent */.up)("q-icon");
   return _ctx.urlLabel ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("a", {
     key: 0,
@@ -2697,9 +2697,9 @@ function ExternalLinkvue_type_template_id_26743844_render(_ctx, _cache, $props, 
     size: "12px",
     name: _ctx.externalIcon,
     class: "hover-visibility-show"
-  }, null, 8, ["name"])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 10, ExternalLinkvue_type_template_id_26743844_hoisted_1)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true);
+  }, null, 8, ["name"])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 10, ExternalLinkvue_type_template_id_1e7b778c_hoisted_1)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true);
 }
-;// CONCATENATED MODULE: ./src/components/Globals/ExternalLink.vue?vue&type=template&id=26743844
+;// CONCATENATED MODULE: ./src/components/Globals/ExternalLink.vue?vue&type=template&id=1e7b778c
 
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Globals/ExternalLink.vue?vue&type=script&lang=js
 
@@ -2747,8 +2747,13 @@ function ExternalLinkvue_type_template_id_26743844_render(_ctx, _cache, $props, 
   computed: {
     urlLabel() {
       if (this.label) return this.label;
-      const xurl = (0,functions.url2link)(this.url),
+      const xurl = (0,functions.url2link)(this.url);
+      let url = '';
+      try {
         url = xurl ? new URL(xurl) : {};
+      } catch (e) {
+        if (this.$DEV_MODE) console.error('Received invalid url');
+      }
       return (this.format ? url?.[this.format] : url?.hostname + (url?.pathname !== '/' ? url?.pathname : '')) || this.url;
     },
     urlLink() {
@@ -2766,7 +2771,7 @@ var QIcon = __webpack_require__(2857);
 
 
 ;
-const ExternalLink_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(ExternalLinkvue_type_script_lang_js, [['render',ExternalLinkvue_type_template_id_26743844_render]])
+const ExternalLink_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(ExternalLinkvue_type_script_lang_js, [['render',ExternalLinkvue_type_template_id_1e7b778c_render]])
 
 /* harmony default export */ const ExternalLink = (ExternalLink_exports_);
 ;
@@ -4948,13 +4953,14 @@ async function archiveOrgBrand(brandId, orgId = this.activeOrgID) {
     return e;
   });
 }
-async function restoreArchiveOrgBrand(brandId, orgId = this.activeOrgID) {
-  if (!brandId || !orgId) return {};
+async function restoreArchiveOrgBrand(brandInfo, orgId = this.activeOrgID) {
+  if (!brandInfo?.id || !orgId) return {};
+  const brandId = brandInfo.id;
   return await apis.api.put(`/organization/${orgId}/brands/${brandId}/restore`).then(res => {
     const data = res.data;
     if (data.success) {
+      this.organizationBrands[orgId][brandId] = brandInfo;
       if (this.organizationBrands[orgId][brandId]) this.organizationBrands[orgId][brandId].deleted_at = null;
-      this.removeFromOrgBrandState(brandId, orgId);
     }
     return data;
   }).catch(e => {
@@ -5476,7 +5482,7 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.8.9","descripti
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"48":"fe357986","59":"8ac4b71b","64":"980ac542","72":"30af6a5d","79":"5eb47fa5","95":"adcb335f","144":"b227344c","175":"69f16547","232":"392d18cd","262":"737fdf53","378":"f29c4238","386":"f0ae4ec2","397":"13d28c30","404":"edc765be","405":"1f53fc09","409":"c2542a5d","422":"28a0ceb4","480":"7c3ce231","493":"0b2cea49","507":"4142185f","539":"c8120319","546":"e6f3d455","563":"f7b160fe","594":"e565e9fc","597":"85b3d961","618":"390dc98e","620":"83a173fa","685":"ec5541c8","713":"63f547f5","723":"7bfae9cd","737":"b8810320","775":"fc0b618f","785":"115b4953","787":"7d332418","884":"5d00ff5b","885":"4771863b","966":"d3f206d9"}[chunkId] + ".js";
+/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"48":"fe357986","64":"d53c494a","72":"30af6a5d","79":"5eb47fa5","95":"adcb335f","144":"b227344c","175":"69f16547","232":"392d18cd","262":"9baff8fc","378":"f29c4238","386":"f0ae4ec2","397":"13d28c30","404":"edc765be","405":"1f53fc09","409":"c2542a5d","422":"28a0ceb4","480":"7c3ce231","493":"0b2cea49","507":"4142185f","539":"c8120319","546":"e6f3d455","563":"f7b160fe","594":"e565e9fc","597":"85b3d961","618":"390dc98e","620":"83a173fa","638":"1d1befd3","685":"ec5541c8","713":"63f547f5","723":"7bfae9cd","737":"b8810320","775":"fc0b618f","785":"7203d6f8","787":"7d332418","884":"5d00ff5b","885":"4771863b","966":"d3f206d9"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -5485,7 +5491,7 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.8.9","descripti
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.miniCssF = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "css/" + chunkId + "." + {"59":"82f758d6","175":"28c14466","232":"82f758d6","262":"82f758d6","618":"82f758d6","785":"82f758d6"}[chunkId] + ".css";
+/******/ 			return "css/" + chunkId + "." + {"175":"28c14466","232":"7ca3f1c4","262":"7ca3f1c4","618":"7ca3f1c4","638":"7ca3f1c4","785":"7ca3f1c4"}[chunkId] + ".css";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -5629,7 +5635,7 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.8.9","descripti
 /******/ 		};
 /******/ 		
 /******/ 		__webpack_require__.f.miniCss = (chunkId, promises) => {
-/******/ 			var cssChunks = {"59":1,"175":1,"232":1,"262":1,"618":1,"785":1};
+/******/ 			var cssChunks = {"175":1,"232":1,"262":1,"618":1,"638":1,"785":1};
 /******/ 			if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 			else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 				promises.push(installedCssChunks[chunkId] = loadStylesheet(chunkId).then(() => {
@@ -5744,4 +5750,4 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.8.9","descripti
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.eff49036.js.map
+//# sourceMappingURL=app.17ba3761.js.map

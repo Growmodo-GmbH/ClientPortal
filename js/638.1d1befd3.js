@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[59,618,232],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[638,618,232],{
 
-/***/ 5847:
+/***/ 9459:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -18,7 +18,7 @@ var es_array_push = __webpack_require__(9665);
 var es_array_includes = __webpack_require__(6727);
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(6646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Brands/BrandOverview.vue?vue&type=template&id=480ee618
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Brands/BrandOverview.vue?vue&type=template&id=3c502023
 
 
 
@@ -39,210 +39,216 @@ const _hoisted_6 = {
   class: "col-12 col-sm-auto"
 };
 const _hoisted_7 = {
-  class: "q-pt-md q-pb-sm text-h3 font-demi-bold text-primary"
+  class: "q-pt-md q-pb-sm"
 };
 const _hoisted_8 = {
-  class: "row items-center q-col-gutter-x-xs"
+  class: "row items-center q-gutter-sm"
 };
 const _hoisted_9 = {
-  class: "text-body1"
+  class: "text-h4 font-demi-bold text-primary"
 };
 const _hoisted_10 = {
-  class: "row q-col-gutter-md items-center justify-end"
+  class: "row items-center q-col-gutter-x-xs"
 };
 const _hoisted_11 = {
-  key: 1
+  class: "text-body1"
 };
 const _hoisted_12 = {
+  class: "row q-col-gutter-md items-center justify-end"
+};
+const _hoisted_13 = {
+  key: 1
+};
+const _hoisted_14 = {
   class: "row items-center justify-start q-col-gutter-xs"
 };
-const _hoisted_13 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
+const _hoisted_15 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
   class: "col-12 col-sm-3 font-medium text-primary-700"
 }, " Brand Name ", -1);
-const _hoisted_14 = {
+const _hoisted_16 = {
   class: "col-12 col-sm-9 text-primary-500"
 };
-const _hoisted_15 = {
+const _hoisted_17 = {
   key: 0,
   class: "row items-center justify-start q-col-gutter-xs"
 };
-const _hoisted_16 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
+const _hoisted_18 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
   class: "col-12 col-sm-3 font-medium text-primary-700"
 }, " Brand Tagline ", -1);
-const _hoisted_17 = {
+const _hoisted_19 = {
   class: "col-12 col-sm-9 text-primary-500"
 };
-const _hoisted_18 = {
+const _hoisted_20 = {
   class: "row items-center justify-start q-col-gutter-xs"
 };
-const _hoisted_19 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
+const _hoisted_21 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
   class: "col-12 col-sm-3 font-medium text-primary-700"
 }, " Brand Type ", -1);
-const _hoisted_20 = {
+const _hoisted_22 = {
   class: "col-12 col-sm-9 text-primary-500"
 };
-const _hoisted_21 = {
+const _hoisted_23 = {
   key: 1,
   class: "row items-center justify-start q-col-gutter-xs"
 };
-const _hoisted_22 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
+const _hoisted_24 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
   class: "col-12 col-sm-3 font-medium text-primary-700"
 }, " Website ", -1);
-const _hoisted_23 = {
-  class: "col-12 col-sm-9 text-primary-500"
-};
-const _hoisted_24 = {
-  key: 2,
-  class: "row items-center justify-start q-col-gutter-xs"
-};
 const _hoisted_25 = {
   class: "col-12 col-sm-9 text-primary-500"
 };
 const _hoisted_26 = {
+  key: 2,
+  class: "row items-center justify-start q-col-gutter-xs"
+};
+const _hoisted_27 = {
+  class: "col-12 col-sm-9 text-primary-500"
+};
+const _hoisted_28 = {
   key: 3,
   class: "row items-center justify-start q-col-gutter-xs"
 };
-const _hoisted_27 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
+const _hoisted_29 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
   class: "self-start col-12 col-sm-3 font-medium text-primary-700"
 }, " Target Audience ", -1);
-const _hoisted_28 = {
+const _hoisted_30 = {
   class: "col-12 col-sm-9 text-primary-500"
 };
-const _hoisted_29 = {
+const _hoisted_31 = {
   key: 4,
   class: "row items-center justify-start q-col-gutter-xs"
 };
-const _hoisted_30 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
+const _hoisted_32 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
   class: "self-start col-12 col-sm-3 font-medium text-primary-700"
 }, " Competitors ", -1);
-const _hoisted_31 = {
+const _hoisted_33 = {
   class: "col-12 col-sm-9 text-primary-500"
 };
-const _hoisted_32 = {
+const _hoisted_34 = {
   key: 5,
   class: "row items-center justify-start q-col-gutter-xs"
 };
-const _hoisted_33 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
+const _hoisted_35 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
   class: "self-start col-12 col-sm-3 font-medium text-primary-700"
 }, " Unique Value Proposition ", -1);
-const _hoisted_34 = {
-  class: "col-12 col-sm-9 text-primary-500"
-};
-const _hoisted_35 = {
-  key: 6,
-  class: "row full-wdith items-center justify-start q-col-gutter-xs"
-};
 const _hoisted_36 = {
   class: "col-12 col-sm-9 text-primary-500"
 };
 const _hoisted_37 = {
-  key: 0,
-  class: "q-gutter-y-md q-pb-xs"
+  key: 6,
+  class: "row full-wdith items-center justify-start q-col-gutter-xs"
 };
 const _hoisted_38 = {
-  key: 1,
-  class: "q-col-gutter-sm"
+  class: "col-12 col-sm-9 text-primary-500"
 };
 const _hoisted_39 = {
   key: 0,
-  class: "q-pb-md"
+  class: "q-gutter-y-md q-pb-xs"
 };
 const _hoisted_40 = {
-  key: 0,
-  class: "q-pb-md"
+  key: 1,
+  class: "q-col-gutter-sm"
 };
 const _hoisted_41 = {
-  class: "row justify-end q-gutter-x-md q-pa-sm"
+  key: 0,
+  class: "q-pb-md"
 };
 const _hoisted_42 = {
   key: 0,
+  class: "q-pb-md"
+};
+const _hoisted_43 = {
+  class: "row justify-end q-gutter-x-md q-pa-sm"
+};
+const _hoisted_44 = {
+  key: 0,
   class: "col-12 col-sm-6 col-md-3"
 };
-const _hoisted_43 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("span", {
+const _hoisted_45 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("span", {
   class: "font-medium flex inline text-primary q-pl-sm",
   style: {
     "max-width": "80%"
   }
 }, " Add New Color ", -1);
-const _hoisted_44 = {
+const _hoisted_46 = {
   key: 0,
   class: "q-pb-md"
-};
-const _hoisted_45 = {
-  class: "q-mt-lg q-mb-md"
-};
-const _hoisted_46 = {
-  class: "text-body1 font-medium text-primary-500 col-12 flex items-center q-pb-md"
 };
 const _hoisted_47 = {
-  class: "fit hover-visibility"
+  class: "q-mt-lg q-mb-md"
 };
-const _hoisted_48 = ["href"];
-const _hoisted_49 = {
-  class: "col-3"
-};
-const _hoisted_50 = {
-  key: 2
-};
-const _hoisted_51 = {
+const _hoisted_48 = {
   class: "text-body1 font-medium text-primary-500 col-12 flex items-center q-pb-md"
 };
-const _hoisted_52 = {
+const _hoisted_49 = {
   class: "fit hover-visibility"
 };
-const _hoisted_53 = ["href"];
-const _hoisted_54 = ["onClick"];
-const _hoisted_55 = ["onClick"];
-const _hoisted_56 = {
-  key: 0,
-  class: "q-pb-md"
+const _hoisted_50 = ["href"];
+const _hoisted_51 = {
+  class: "col-3"
 };
-const _hoisted_57 = {
-  key: 0,
-  class: "q-pb-md"
+const _hoisted_52 = {
+  key: 2
 };
+const _hoisted_53 = {
+  class: "text-body1 font-medium text-primary-500 col-12 flex items-center q-pb-md"
+};
+const _hoisted_54 = {
+  class: "fit hover-visibility"
+};
+const _hoisted_55 = ["href"];
+const _hoisted_56 = ["onClick"];
+const _hoisted_57 = ["onClick"];
 const _hoisted_58 = {
   key: 0,
   class: "q-pb-md"
 };
 const _hoisted_59 = {
   key: 0,
-  class: "q-col-gutter-md"
+  class: "q-pb-md"
 };
 const _hoisted_60 = {
   key: 0,
-  class: "row items-center justify-start q-col-gutter-xs"
+  class: "q-pb-md"
 };
 const _hoisted_61 = {
-  class: "col-12 col-sm-3 font-medium text-primary-700"
+  key: 0,
+  class: "q-col-gutter-md"
 };
 const _hoisted_62 = {
-  class: "row items-center q-gutter-x-sm"
+  key: 0,
+  class: "row items-center justify-start q-col-gutter-xs"
 };
 const _hoisted_63 = {
-  class: "col-12 col-sm-9"
+  class: "col-12 col-sm-3 font-medium text-primary-700"
 };
 const _hoisted_64 = {
+  class: "row items-center q-gutter-x-sm"
+};
+const _hoisted_65 = {
+  class: "col-12 col-sm-9"
+};
+const _hoisted_66 = {
   key: 1
 };
-const _hoisted_65 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("span", {
+const _hoisted_67 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("span", {
   class: "font-medium"
 }, " No social media accounts. ", -1);
-const _hoisted_66 = [_hoisted_65];
-const _hoisted_67 = {
+const _hoisted_68 = [_hoisted_67];
+const _hoisted_69 = {
   key: 1,
   class: "row items-center justify-start q-col-gutter-xs q-col-gutter-sm"
 };
-const _hoisted_68 = {
+const _hoisted_70 = {
   class: "col-12 col-sm-3 font-medium text-primary-700"
 };
-const _hoisted_69 = {
+const _hoisted_71 = {
   class: "row items-center q-gutter-x-sm"
 };
-const _hoisted_70 = {
+const _hoisted_72 = {
   class: "col-12 col-sm-9"
 };
-const _hoisted_71 = {
+const _hoisted_73 = {
   class: "text-primary-700 text-body2"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -250,6 +256,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_q_avatar = (0,vue_esm_bundler/* resolveComponent */.up)("q-avatar");
   const _component_q_breadcrumbs_el = (0,vue_esm_bundler/* resolveComponent */.up)("q-breadcrumbs-el");
   const _component_q_breadcrumbs = (0,vue_esm_bundler/* resolveComponent */.up)("q-breadcrumbs");
+  const _component_q_badge = (0,vue_esm_bundler/* resolveComponent */.up)("q-badge");
   const _component_q_card_section = (0,vue_esm_bundler/* resolveComponent */.up)("q-card-section");
   const _component_q_space = (0,vue_esm_bundler/* resolveComponent */.up)("q-space");
   const _component_q_btn = (0,vue_esm_bundler/* resolveComponent */.up)("q-btn");
@@ -268,7 +275,6 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_ColorPickerCard = (0,vue_esm_bundler/* resolveComponent */.up)("ColorPickerCard");
   const _component_q_slide_item = (0,vue_esm_bundler/* resolveComponent */.up)("q-slide-item");
   const _component_SelectFont = (0,vue_esm_bundler/* resolveComponent */.up)("SelectFont");
-  const _component_q_badge = (0,vue_esm_bundler/* resolveComponent */.up)("q-badge");
   const _component_CardIconBox = (0,vue_esm_bundler/* resolveComponent */.up)("CardIconBox");
   const _component_q_item_section = (0,vue_esm_bundler/* resolveComponent */.up)("q-item-section");
   const _component_q_item = (0,vue_esm_bundler/* resolveComponent */.up)("q-item");
@@ -333,14 +339,21 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             class: "text-secondary bg-accent q-py-xs q-px-sm rounded font-medium"
           })]),
           _: 1
-        }), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_7, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.brandInfo.brand_name), 1)])])]),
+        }), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_7, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_8, [(0,vue_esm_bundler/* createElementVNode */._)("span", _hoisted_9, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.brandInfo.brand_name), 1), _ctx.brandInfo.deleted_at ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_badge, {
+          key: 0,
+          class: "badge badge-bg-disable badge-text-disable cursor-pointer",
+          to: `/brands/?filter=archived`
+        }, {
+          default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)(" Archived ")]),
+          _: 1
+        })) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)])])])])]),
         _: 1
       }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_space, {
         class: "padding-3a"
       }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
         class: "card-padding"
       }, {
-        default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_8, [(0,vue_esm_bundler/* createElementVNode */._)("div", null, [((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)([{
+        default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_10, [(0,vue_esm_bundler/* createElementVNode */._)("div", null, [((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)([{
           label: 'General',
           key: 'general'
         }, {
@@ -382,7 +395,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               _ctx.brandTab = tab.key;
             }, ["prevent"])
           }, {
-            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("span", _hoisted_9, (0,vue_esm_bundler/* toDisplayString */.zw)(tab.label), 1)]),
+            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("span", _hoisted_11, (0,vue_esm_bundler/* toDisplayString */.zw)(tab.label), 1)]),
             _: 2
           }, 1032, ["class", "to", "onClick"]);
         }), 64))])])]),
@@ -394,7 +407,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           class: (0,vue_esm_bundler/* normalizeClass */.C_)(["q-pb-lg", {
             ['float-right']: _ctx.brandTab == 'general' && !_ctx.$q.screen.lt.sm
           }])
-        }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_10, [_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, {
+        }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_12, [_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, {
           key: 0
         }, [(0,vue_esm_bundler/* createElementVNode */._)("div", null, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_DynamicButton, {
           outline: "",
@@ -414,7 +427,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           label: ['general', 'brand_colors', 'social_accounts', 'brand_fonts'].includes(_ctx.brandTab) ? 'Save Changes' : 'Done Editing',
           disable: _ctx.savingChanges,
           onClick: _ctx.saveBrandChanges
-        }, null, 8, ["label", "disable", "onClick"])])], 64)) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_11, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_DynamicButton, {
+        }, null, 8, ["label", "disable", "onClick"])])], 64)) : !_ctx.brandInfo.deleted_at ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_13, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_DynamicButton, {
           outline: "",
           format: "sm",
           alwaysShowIcon: "",
@@ -424,7 +437,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           icon: "icon-pencil-02",
           onClick: _cache[3] || (_cache[3] = $event => _ctx.editing = !_ctx.editing),
           class: "button-gm-outline-dark"
-        }, null, 8, ["label"])]))])], 2), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_tab_panels, {
+        }, null, 8, ["label"])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)])], 2), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_tab_panels, {
           modelValue: _ctx.brandTab,
           "onUpdate:modelValue": _cache[31] || (_cache[31] = $event => _ctx.brandTab = $event),
           animated: "",
@@ -440,7 +453,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               class: (0,vue_esm_bundler/* normalizeClass */.C_)({
                 [`q-col-gutter-${_ctx.editing ? 'lg' : 'md'}`]: true
               })
-            }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_12, [_hoisted_13, (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_14, [!_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, {
+            }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_14, [_hoisted_15, (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_16, [!_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, {
               key: 0
             }, [(0,vue_esm_bundler/* createTextVNode */.Uk)((0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.brandInfo.brand_name), 1)], 64)) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_input, {
               key: 1,
@@ -452,7 +465,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               style: (0,vue_esm_bundler/* normalizeStyle */.j5)({
                 ['max-width']: _ctx.$q.screen.lt.sm ? '100%' : '400px'
               })
-            }, null, 8, ["modelValue", "placeholder", "style"]))])]), _ctx.editing || _ctx.brandInfo.tagline ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_15, [_hoisted_16, (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_17, [!_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, {
+            }, null, 8, ["modelValue", "placeholder", "style"]))])]), _ctx.editing || _ctx.brandInfo.tagline ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_17, [_hoisted_18, (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_19, [!_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, {
               key: 0
             }, [(0,vue_esm_bundler/* createTextVNode */.Uk)((0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.brandInfo.tagline), 1)], 64)) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_input, {
               key: 1,
@@ -464,7 +477,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               style: (0,vue_esm_bundler/* normalizeStyle */.j5)({
                 ['max-width']: _ctx.$q.screen.lt.sm ? '100%' : '400px'
               })
-            }, null, 8, ["modelValue", "placeholder", "style"]))])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_18, [_hoisted_19, (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_20, [!_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, {
+            }, null, 8, ["modelValue", "placeholder", "style"]))])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_20, [_hoisted_21, (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_22, [!_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, {
               key: 0
             }, [(0,vue_esm_bundler/* createTextVNode */.Uk)((0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.brandCategories[_ctx.brandInfo.brand_type]?.label), 1)], 64)) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_SelectBrandType, {
               key: 1,
@@ -474,7 +487,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               style: (0,vue_esm_bundler/* normalizeStyle */.j5)({
                 ['max-width']: _ctx.$q.screen.lt.sm ? '100%' : '400px'
               })
-            }, null, 8, ["modelValue", "initModel", "style"]))])]), _ctx.editing || _ctx.brandInfo.website ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_21, [_hoisted_22, (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_23, [!_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_external_link, {
+            }, null, 8, ["modelValue", "initModel", "style"]))])]), _ctx.editing || _ctx.brandInfo.website ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_23, [_hoisted_24, (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_25, [!_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_external_link, {
               key: 0,
               url: _ctx.brandInfo.website,
               color: "text-secondary"
@@ -487,11 +500,11 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               style: (0,vue_esm_bundler/* normalizeStyle */.j5)({
                 ['max-width']: _ctx.$q.screen.lt.sm ? '100%' : '400px'
               })
-            }, null, 8, ["modelValue", "placeholder", "style"]))])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.editing || _ctx.brandInfo.description ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_24, [(0,vue_esm_bundler/* createElementVNode */._)("div", {
+            }, null, 8, ["modelValue", "placeholder", "style"]))])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.editing || _ctx.brandInfo.description ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_26, [(0,vue_esm_bundler/* createElementVNode */._)("div", {
               class: (0,vue_esm_bundler/* normalizeClass */.C_)(["self-start col-12 col-sm-3 font-medium text-primary-700", {
                 ['q-pt-sm']: _ctx.editing
               }])
-            }, " Brand Description ", 2), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_25, [!_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_DisplayString, {
+            }, " Brand Description ", 2), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_27, [!_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_DisplayString, {
               key: 0,
               str: _ctx.brandInfo.description
             }, null, 8, ["str"])) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_TextArea1, {
@@ -504,7 +517,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               style: (0,vue_esm_bundler/* normalizeStyle */.j5)({
                 ['max-width']: _ctx.$q.screen.lt.sm ? '100%' : '400px'
               })
-            }, null, 8, ["modelValue", "placeholder", "style"]))])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.editing || _ctx.brandInfo.target_audience ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_26, [_hoisted_27, (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_28, [!_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_DisplayString, {
+            }, null, 8, ["modelValue", "placeholder", "style"]))])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.editing || _ctx.brandInfo.target_audience ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_28, [_hoisted_29, (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_30, [!_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_DisplayString, {
               key: 0,
               str: _ctx.brandInfo.target_audience
             }, null, 8, ["str"])) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_TextArea1, {
@@ -517,7 +530,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               style: (0,vue_esm_bundler/* normalizeStyle */.j5)({
                 ['max-width']: _ctx.$q.screen.lt.sm ? '100%' : '400px'
               })
-            }, null, 8, ["modelValue", "placeholder", "style"]))])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.editing || _ctx.brandInfo.competitors ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_29, [_hoisted_30, (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_31, [!_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_DisplayString, {
+            }, null, 8, ["modelValue", "placeholder", "style"]))])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.editing || _ctx.brandInfo.competitors ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_31, [_hoisted_32, (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_33, [!_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_DisplayString, {
               key: 0,
               str: _ctx.brandInfo.competitors
             }, null, 8, ["str"])) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_TextArea1, {
@@ -530,7 +543,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               style: (0,vue_esm_bundler/* normalizeStyle */.j5)({
                 ['max-width']: _ctx.$q.screen.lt.sm ? '100%' : '400px'
               })
-            }, null, 8, ["modelValue", "placeholder", "style"]))])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.editing || _ctx.brandInfo.value_proposition ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_32, [_hoisted_33, (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_34, [!_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_DisplayString, {
+            }, null, 8, ["modelValue", "placeholder", "style"]))])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.editing || _ctx.brandInfo.value_proposition ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_34, [_hoisted_35, (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_36, [!_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_DisplayString, {
               key: 0,
               str: _ctx.brandInfo.value_proposition
             }, null, 8, ["str"])) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_TextArea1, {
@@ -543,11 +556,11 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               style: (0,vue_esm_bundler/* normalizeStyle */.j5)({
                 ['max-width']: _ctx.$q.screen.lt.sm ? '100%' : '400px'
               })
-            }, null, 8, ["modelValue", "placeholder", "style"]))])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.editing || Object.values(_ctx.brandInfo.social_accounts || {})?.length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_35, [(0,vue_esm_bundler/* createElementVNode */._)("div", {
+            }, null, 8, ["modelValue", "placeholder", "style"]))])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.editing || Object.values(_ctx.brandInfo.social_accounts || {})?.length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_37, [(0,vue_esm_bundler/* createElementVNode */._)("div", {
               class: (0,vue_esm_bundler/* normalizeClass */.C_)(["self-start col-12 col-sm-3 font-medium text-primary-700 font-medium", {
                 ['q-pt-sm']: _ctx.editing
               }])
-            }, " Social Media Links ", 2), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_36, [_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_37, [((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(_ctx.socialMedia, opt => {
+            }, " Social Media Links ", 2), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_38, [_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_39, [((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(_ctx.socialMedia, opt => {
               return (0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_InputWebsite, {
                 key: opt.platform,
                 rule: undefined,
@@ -559,7 +572,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                   ['max-width']: _ctx.$q.screen.lt.sm ? '100%' : '400px'
                 })
               }, null, 8, ["modelValue", "onUpdate:modelValue", "prepend", "style"]);
-            }), 128))])) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_38, [((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(Object.keys(_ctx.brandInfo.social_accounts), opt => {
+            }), 128))])) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_40, [((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(Object.keys(_ctx.brandInfo.social_accounts), opt => {
               return (0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
                 key: opt
               }, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_external_link, {
@@ -574,7 +587,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           }, {
             default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_ctx.editing || !_ctx.getBrandUploadedAssets(_ctx.brand_id, 'brand_logo', _ctx.editing ? {
               uploads: _ctx.brand.uploads
-            } : null).length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_39, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_FileUploader, {
+            } : null).length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_41, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_FileUploader, {
               ref: "brand_logo",
               "max-file-size": "10000000",
               factory: files => _ctx.factoryFn(files, 'brand_logo'),
@@ -628,7 +641,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             name: "brand_colors",
             class: "q-pa-none"
           }, {
-            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_ctx.editing || !_ctx.currentBrandColors.length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_40, [!_ctx.brandColorSrc || !_ctx.validImageForColorPalette ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_FileUploader, {
+            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_ctx.editing || !_ctx.currentBrandColors.length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_42, [!_ctx.brandColorSrc || !_ctx.validImageForColorPalette ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_FileUploader, {
               key: 0,
               multiple: false,
               "auto-upload": false,
@@ -647,7 +660,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               style: (0,vue_esm_bundler/* normalizeStyle */.j5)([{
                 "min-height": "250px"
               }, _ctx.brandColorSrc ? `background-image: url('${_ctx.brandColorSrc}'); background-position: center; background-repeat: no-repeat; background-size: contain;` : ''])
-            }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_41, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+            }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_43, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
               flat: "",
               round: "",
               unelevated: "",
@@ -673,7 +686,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               style: {
                 "max-height": "670px"
               }
-            }, [_ctx.editing || !_ctx.currentBrandColors.length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_42, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card, {
+            }, [_ctx.editing || !_ctx.currentBrandColors.length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_44, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card, {
               flat: "",
               bordered: "",
               class: "row items-center border-dashed rounded full-width cursor-pointer q-px-md q-py-sm hover-border-secondary",
@@ -687,7 +700,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                 name: "icon-plus",
                 color: "primary",
                 class: "card-icon q-pa-xs"
-              }), _hoisted_43]),
+              }), _hoisted_45]),
               _: 1
             }, 8, ["onClick"])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), ((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(_ctx.currentBrandColors, (colorKey, i) => {
               return (0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
@@ -740,7 +753,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           }, {
             default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_ctx.editing || !_ctx.getBrandUploadedAssets(_ctx.brand_id, 'brand_fonts', _ctx.editing ? {
               uploads: _ctx.brand.uploads
-            } : null).length && !(_ctx.editing ? _ctx.brand : _ctx.brandInfo).googlefonts?.length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_44, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_FileUploader, {
+            } : null).length && !(_ctx.editing ? _ctx.brand : _ctx.brandInfo).googlefonts?.length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_46, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_FileUploader, {
               ref: "brand_fonts",
               "max-file-size": "10000000",
               factory: files => _ctx.factoryFn(files, 'brand_fonts'),
@@ -757,7 +770,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               thumbnail: "icon-image-03",
               onUploaded: _ctx.uploadedEvent,
               onFailed: _ctx.failedEvent
-            }, null, 8, ["factory", "note", "removedFile", "onUploaded", "onFailed"]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_45, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_SelectFont, {
+            }, null, 8, ["factory", "note", "removedFile", "onUploaded", "onFailed"]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_47, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_SelectFont, {
               modelValue: _ctx.brand.googlefonts,
               "onUpdate:modelValue": _cache[18] || (_cache[18] = $event => _ctx.brand.googlefonts = $event),
               initModel: _ctx.brand.googlefonts,
@@ -775,7 +788,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               class: (0,vue_esm_bundler/* normalizeClass */.C_)({
                 ['q-mt-sm']: _ctx.editing
               })
-            }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_46, [(0,vue_esm_bundler/* createTextVNode */.Uk)(" Google Fonts "), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_badge, {
+            }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_48, [(0,vue_esm_bundler/* createTextVNode */.Uk)(" Google Fonts "), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_badge, {
               class: "q-ml-sm",
               color: "accent",
               "text-color": "secondary",
@@ -793,11 +806,11 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               return (0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
                 key: font,
                 class: "col-12 col-sm-6 col-md-3 rounded overflow-hidden"
-              }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_47, [(0,vue_esm_bundler/* createElementVNode */._)("a", {
+              }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_49, [(0,vue_esm_bundler/* createElementVNode */._)("a", {
                 target: "_blank",
                 class: "row items-center q-col-gutter-sm cursor-pointer text-primary",
                 href: `https://fonts.google.com/specimen/${font}`
-              }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_49, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_CardIconBox, {
+              }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_51, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_CardIconBox, {
                 icon: "icon-type-square"
               })]), (0,vue_esm_bundler/* createElementVNode */._)("div", {
                 class: (0,vue_esm_bundler/* normalizeClass */.C_)(["hover-text-secondary overflow-hidden", {
@@ -891,14 +904,14 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                   _: 2
                 }, 1024)]),
                 _: 2
-              }, 1024)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 2), [[vue_esm_bundler/* vShow */.F8, _ctx.editing]])], 8, _hoisted_48)])]);
+              }, 1024)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 2), [[vue_esm_bundler/* vShow */.F8, _ctx.editing]])], 8, _hoisted_50)])]);
             }), 128))]))], 2)], 2)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.getBrandUploadedAssets(_ctx.brand_id, 'brand_fonts', _ctx.editing ? {
               uploads: _ctx.brand.uploads
-            } : null).length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_50, [(0,vue_esm_bundler/* createElementVNode */._)("div", {
+            } : null).length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_52, [(0,vue_esm_bundler/* createElementVNode */._)("div", {
               class: (0,vue_esm_bundler/* normalizeClass */.C_)({
                 ['q-mt-sm']: _ctx.editing
               })
-            }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_51, [(0,vue_esm_bundler/* createTextVNode */.Uk)(" Uploaded Fonts "), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_badge, {
+            }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_53, [(0,vue_esm_bundler/* createTextVNode */.Uk)(" Uploaded Fonts "), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_badge, {
               class: "q-ml-sm",
               color: "accent",
               "text-color": "secondary",
@@ -920,7 +933,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               return (0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
                 key: file,
                 class: "col-12 col-sm-6 col-md-3 rounded overflow-hidden"
-              }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_52, [(0,vue_esm_bundler/* createElementVNode */._)("a", {
+              }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_54, [(0,vue_esm_bundler/* createElementVNode */._)("a", {
                 target: "_blank",
                 href: `${_ctx.$cdn_host}/${file.path}`,
                 onClick: _cache[24] || (_cache[24] = (0,vue_esm_bundler/* withModifiers */.iM)(() => {}, ["prevent"])),
@@ -933,7 +946,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               }, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_CardIconBox, {
                 useSpinner: file.isSkeleton,
                 icon: file.isSkeleton ? 'icon-upload-cloud-01' : 'icon-type-square'
-              }, null, 8, ["useSpinner", "icon"])], 8, _hoisted_54), (0,vue_esm_bundler/* createElementVNode */._)("div", {
+              }, null, 8, ["useSpinner", "icon"])], 8, _hoisted_56), (0,vue_esm_bundler/* createElementVNode */._)("div", {
                 class: (0,vue_esm_bundler/* normalizeClass */.C_)(["hover-text-secondary overflow-hidden", {
                   ['text-primary-700']: file.isSkeleton,
                   [`col${_ctx.editing ? '-7' : ''}`]: true
@@ -942,7 +955,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                   "text-overflow": "ellipsis"
                 },
                 onClick: (0,vue_esm_bundler/* withModifiers */.iM)($event => file.isSkeleton ? void 0 : _ctx.$downloadItem(`${_ctx.$cdn_host}/${file.path}`, file.file), ["prevent"])
-              }, (0,vue_esm_bundler/* toDisplayString */.zw)(file.file), 11, _hoisted_55), (0,vue_esm_bundler/* withDirectives */.wy)((0,vue_esm_bundler/* createElementVNode */._)("div", {
+              }, (0,vue_esm_bundler/* toDisplayString */.zw)(file.file), 11, _hoisted_57), (0,vue_esm_bundler/* withDirectives */.wy)((0,vue_esm_bundler/* createElementVNode */._)("div", {
                 class: (0,vue_esm_bundler/* normalizeClass */.C_)(["row q-col-gutter-x-sm justify-end", {
                   [`col${_ctx.editing ? '-2' : 'auto'}`]: true
                 }])
@@ -1038,7 +1051,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                   _: 2
                 }, 1024)]),
                 _: 2
-              }, 1024)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 2), [[vue_esm_bundler/* vShow */.F8, _ctx.editing]])], 10, _hoisted_53)])]);
+              }, 1024)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 2), [[vue_esm_bundler/* vShow */.F8, _ctx.editing]])], 10, _hoisted_55)])]);
             }), 128))]))], 2)])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)]),
             _: 1
           }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_tab_panel, {
@@ -1047,7 +1060,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           }, {
             default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_ctx.editing || !_ctx.getBrandUploadedAssets(_ctx.brand_id, 'graphic_elements', _ctx.editing ? {
               uploads: _ctx.brand.uploads
-            } : null).length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_56, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_FileUploader, {
+            } : null).length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_58, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_FileUploader, {
               ref: "graphic_elements",
               "max-file-size": "10000000",
               factory: files => _ctx.factoryFn(files, 'graphic_elements'),
@@ -1099,7 +1112,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           }, {
             default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_ctx.editing || !_ctx.getBrandUploadedAssets(_ctx.brand_id, 'brand_icon', _ctx.editing ? {
               uploads: _ctx.brand.uploads
-            } : null).length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_57, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_FileUploader, {
+            } : null).length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_59, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_FileUploader, {
               ref: "brand_icon",
               "max-file-size": "10000000",
               factory: files => _ctx.factoryFn(files, 'brand_icon'),
@@ -1155,7 +1168,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           }, {
             default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_ctx.editing || !_ctx.getBrandUploadedAssets(_ctx.brand_id, 'brand_images', _ctx.editing ? {
               uploads: _ctx.brand.uploads
-            } : null).length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_58, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_FileUploader, {
+            } : null).length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_60, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_FileUploader, {
               ref: "brand_images",
               "max-file-size": "10000000",
               factory: files => _ctx.factoryFn(files, 'brand_images'),
@@ -1207,17 +1220,17 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           }, {
             default: (0,vue_esm_bundler/* withCtx */.w5)(() => [!_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, {
               key: 0
-            }, [Object.values(_ctx.brandInfo.social_accounts || {})?.length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_59, [((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(Object.keys(_ctx.brandInfo.social_accounts || {})?.sort?.((a, b) => a.toLowerCase() > b.toLowerCase() ? 1 : a.toLowerCase() < b.toLowerCase() ? -1 : 0), social => {
+            }, [Object.values(_ctx.brandInfo.social_accounts || {})?.length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_61, [((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(Object.keys(_ctx.brandInfo.social_accounts || {})?.sort?.((a, b) => a.toLowerCase() > b.toLowerCase() ? 1 : a.toLowerCase() < b.toLowerCase() ? -1 : 0), social => {
               return (0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, {
                 key: social
-              }, [_ctx.brandInfo.social_accounts?.[social] ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_60, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_61, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_62, [ false ? (0) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), (0,vue_esm_bundler/* createElementVNode */._)("span", null, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.capitalize(social)), 1)])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_63, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_external_link, {
+              }, [_ctx.brandInfo.social_accounts?.[social] ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_62, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_63, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_64, [ false ? (0) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), (0,vue_esm_bundler/* createElementVNode */._)("span", null, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.capitalize(social)), 1)])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_65, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_external_link, {
                 url: (_ctx.getSocialInfo(social)?.base_url || '') + '/' + _ctx.brandInfo.social_accounts?.[social],
                 icon: _ctx.formatMediaPlatformIconSrc(social)
               }, null, 8, ["url", "icon"])])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 64);
-            }), 128))])) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_64, _hoisted_66))], 64)) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_67, [((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(Object.values(_ctx.socialMedia || {})?.sort?.((a, b) => a.platform?.toLowerCase() > b.platform?.toLowerCase() ? 1 : a.platform?.toLowerCase() < b.platform?.toLowerCase() ? -1 : 0), opt => {
+            }), 128))])) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_66, _hoisted_68))], 64)) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_69, [((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(Object.values(_ctx.socialMedia || {})?.sort?.((a, b) => a.platform?.toLowerCase() > b.platform?.toLowerCase() ? 1 : a.platform?.toLowerCase() < b.platform?.toLowerCase() ? -1 : 0), opt => {
               return (0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, {
                 key: opt.platform
-              }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_68, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_69, [ false ? (0) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), (0,vue_esm_bundler/* createElementVNode */._)("span", null, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.capitalize(opt.platform)), 1)])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_70, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_input, {
+              }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_70, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_71, [ false ? (0) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), (0,vue_esm_bundler/* createElementVNode */._)("span", null, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.capitalize(opt.platform)), 1)])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_72, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_input, {
                 dense: "",
                 outlined: "",
                 placeholder: "username",
@@ -1227,7 +1240,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                   ['max-width']: _ctx.$q.screen.lt.sm ? '100%' : '400px'
                 })
               }, {
-                prepend: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_71, (0,vue_esm_bundler/* toDisplayString */.zw)((_ctx.getSocialInfo(opt.platform)?.base_url || '').replace('http://', '').replace('https://', '').replace('www.', '')) + (0,vue_esm_bundler/* toDisplayString */.zw)(!opt.platform.endsWith('/') ? '/' : ''), 1), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_separator, {
+                prepend: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_73, (0,vue_esm_bundler/* toDisplayString */.zw)((_ctx.getSocialInfo(opt.platform)?.base_url || '').replace('http://', '').replace('https://', '').replace('www.', '')) + (0,vue_esm_bundler/* toDisplayString */.zw)(!opt.platform.endsWith('/') ? '/' : ''), 1), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_separator, {
                   vertical: "",
                   class: "q-ml-sm"
                 })]),
@@ -1274,7 +1287,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/Brands/BrandOverview.vue?vue&type=template&id=480ee618
+;// CONCATENATED MODULE: ./src/pages/Brands/BrandOverview.vue?vue&type=template&id=3c502023
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.unshift.js
 var es_array_unshift = __webpack_require__(6890);
@@ -2118,6 +2131,8 @@ var QAvatar = __webpack_require__(1357);
 var QBreadcrumbs = __webpack_require__(2605);
 // EXTERNAL MODULE: ./node_modules/quasar/src/components/breadcrumbs/QBreadcrumbsEl.js
 var QBreadcrumbsEl = __webpack_require__(8052);
+// EXTERNAL MODULE: ./node_modules/quasar/src/components/badge/QBadge.js
+var QBadge = __webpack_require__(990);
 // EXTERNAL MODULE: ./node_modules/quasar/src/components/space/QSpace.js
 var QSpace = __webpack_require__(136);
 // EXTERNAL MODULE: ./node_modules/quasar/src/components/separator/QSeparator.js
@@ -2130,8 +2145,6 @@ var QTabPanel = __webpack_require__(4106);
 var QInput = __webpack_require__(6611);
 // EXTERNAL MODULE: ./node_modules/quasar/src/components/slide-item/QSlideItem.js
 var QSlideItem = __webpack_require__(8713);
-// EXTERNAL MODULE: ./node_modules/quasar/src/components/badge/QBadge.js
-var QBadge = __webpack_require__(990);
 ;// CONCATENATED MODULE: ./src/pages/Brands/BrandOverview.vue
 
 
@@ -2162,10 +2175,10 @@ const BrandOverview_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(Bran
 
 
 
-runtime_auto_import_default()(BrandOverviewvue_type_script_lang_js, 'components', {QPage: QPage/* default */.Z,QCard: QCard/* default */.Z,QCardSection: QCardSection/* default */.Z,QAvatar: QAvatar/* default */.Z,QIcon: QIcon/* default */.Z,QBreadcrumbs: QBreadcrumbs/* default */.Z,QBreadcrumbsEl: QBreadcrumbsEl/* default */.Z,QSpace: QSpace/* default */.Z,QBtn: QBtn/* default */.Z,QSeparator: QSeparator/* default */.Z,QTabPanels: QTabPanels/* default */.Z,QTabPanel: QTabPanel/* default */.Z,QInput: QInput/* default */.Z,QSlideItem: QSlideItem/* default */.Z,QBadge: QBadge/* default */.Z,QMenu: QMenu/* default */.Z,QList: QList/* default */.Z,QItem: QItem/* default */.Z,QItemSection: QItemSection/* default */.Z,QDialog: QDialog/* default */.Z});
+runtime_auto_import_default()(BrandOverviewvue_type_script_lang_js, 'components', {QPage: QPage/* default */.Z,QCard: QCard/* default */.Z,QCardSection: QCardSection/* default */.Z,QAvatar: QAvatar/* default */.Z,QIcon: QIcon/* default */.Z,QBreadcrumbs: QBreadcrumbs/* default */.Z,QBreadcrumbsEl: QBreadcrumbsEl/* default */.Z,QBadge: QBadge/* default */.Z,QSpace: QSpace/* default */.Z,QBtn: QBtn/* default */.Z,QSeparator: QSeparator/* default */.Z,QTabPanels: QTabPanels/* default */.Z,QTabPanel: QTabPanel/* default */.Z,QInput: QInput/* default */.Z,QSlideItem: QSlideItem/* default */.Z,QMenu: QMenu/* default */.Z,QList: QList/* default */.Z,QItem: QItem/* default */.Z,QItemSection: QItemSection/* default */.Z,QDialog: QDialog/* default */.Z});
 
 
 /***/ })
 
 }]);
-//# sourceMappingURL=59.8ac4b71b.js.map
+//# sourceMappingURL=638.1d1befd3.js.map

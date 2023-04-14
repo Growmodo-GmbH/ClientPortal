@@ -807,7 +807,7 @@ async function getSingleProjects(projectId, params = {}, orgId) {
 
 /***/ }),
 
-/***/ 7764:
+/***/ 3182:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 
@@ -820,7 +820,7 @@ __webpack_require__.d(__webpack_exports__, {
 var es_array_push = __webpack_require__(9665);
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(6646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Brands/BrandsList.vue?vue&type=template&id=8d4d3bcc
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Brands/BrandsList.vue?vue&type=template&id=2d2873a8
 
 
 const _hoisted_1 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
@@ -1060,7 +1060,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/components/Brands/BrandsList.vue?vue&type=template&id=8d4d3bcc
+;// CONCATENATED MODULE: ./src/components/Brands/BrandsList.vue?vue&type=template&id=2d2873a8
 
 // EXTERNAL MODULE: ./node_modules/quasar/src/utils/debounce.js
 var debounce = __webpack_require__(899);
@@ -1121,7 +1121,7 @@ var growmodo = __webpack_require__(2393);
     },
     sort_by: {
       type: String,
-      default: 'brand_name'
+      default: 'id'
     },
     start_page: {
       type: Number,
@@ -1232,7 +1232,8 @@ var growmodo = __webpack_require__(2393);
       });
     },
     restoreArchiveOrgBrand_local(brand_id, org_id = this.selectedOrg?.id) {
-      this.restoreArchiveOrgBrand(brand_id, org_id).then(res => {
+      const brand_info = this.brandsResult[brand_id];
+      this.restoreArchiveOrgBrand(brand_info, org_id).then(res => {
         if (res.success) {
           if (this.brandsResult[brand_id]) {
             this.brandsResult[brand_id].deleted_at = null;
@@ -7216,4 +7217,4 @@ runtime_auto_import_default()(CustomDropdownvue_type_script_lang_js, 'components
 /***/ })
 
 }]);
-//# sourceMappingURL=chunk-common.980ac542.js.map
+//# sourceMappingURL=chunk-common.d53c494a.js.map
