@@ -807,7 +807,7 @@ async function getSingleProjects(projectId, params = {}, orgId) {
 
 /***/ }),
 
-/***/ 9797:
+/***/ 5861:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 
@@ -820,7 +820,7 @@ __webpack_require__.d(__webpack_exports__, {
 var es_array_push = __webpack_require__(9665);
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(6646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Brands/BrandsList.vue?vue&type=template&id=37bef6de
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Brands/BrandsList.vue?vue&type=template&id=59a8b715
 
 
 const _hoisted_1 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
@@ -1060,7 +1060,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/components/Brands/BrandsList.vue?vue&type=template&id=37bef6de
+;// CONCATENATED MODULE: ./src/components/Brands/BrandsList.vue?vue&type=template&id=59a8b715
 
 // EXTERNAL MODULE: ./node_modules/quasar/src/utils/debounce.js
 var debounce = __webpack_require__(899);
@@ -1144,7 +1144,7 @@ var growmodo = __webpack_require__(2393);
     };
   },
   computed: {
-    ...(0,pinia/* mapState */.rn)(user/* default */.Z, ['selectedOrg']),
+    ...(0,pinia/* mapState */.rn)(user/* default */.Z, ['selectedOrg', 'selectedOrgBrands']),
     ...(0,pinia/* mapState */.rn)(growmodo/* default */.Z, ['brandCategories']),
     brands() {
       let visibleBrands = Object.values(this.brandsResult);
@@ -1175,11 +1175,12 @@ var growmodo = __webpack_require__(2393);
   },
   async mounted() {
     this.current_page = this.start_page;
+    this.brandsResult = this.selectedOrgBrands;
     this.queryBrands = (0,throttle/* default */.Z)(this.queryBrands_Fn, 300 /* execute at most once every 0.3s */);
 
     this.loadInfiniteScroll = (0,debounce/* default */.Z)(this.loadInfiniteScroll_Fn, 500 /* ms to wait */);
 
-    this.queryBrands();
+    this.queryBrands(this.current_page, this.per_page, true);
   },
   watch: {
     status: {
@@ -1248,8 +1249,8 @@ var growmodo = __webpack_require__(2393);
         per_page,
         search: this.search,
         status: this.status,
-        sortBy: this.sort_by,
-        sort_type: this.reverseList ? 'DESC' : 'ASC'
+        sort_by: this.sort_by,
+        sort: this.reverseList ? 'DESC' : 'ASC'
       });
       if (brandQuery.success) {
         this.last_page = brandQuery.data?.last_page;
@@ -7198,4 +7199,4 @@ runtime_auto_import_default()(CustomDropdownvue_type_script_lang_js, 'components
 /***/ })
 
 }]);
-//# sourceMappingURL=chunk-common.799a6e11.js.map
+//# sourceMappingURL=chunk-common.bf56c538.js.map

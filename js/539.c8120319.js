@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[872],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[539],{
 
-/***/ 6872:
+/***/ 7539:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -34,7 +34,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.push.js
 var es_array_push = __webpack_require__(9665);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Forms/Form_Authentication.vue?vue&type=template&id=7025da54
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Forms/Form_Authentication.vue?vue&type=template&id=6a844a98
 
 const _hoisted_1 = {
   class: "text-h5 font-medium q-ma-none"
@@ -54,7 +54,7 @@ const _hoisted_5 = {
 const _hoisted_6 = {
   class: "row q-col-gutter-md justify-end"
 };
-function Form_Authenticationvue_type_template_id_7025da54_render(_ctx, _cache, $props, $setup, $data, $options) {
+function Form_Authenticationvue_type_template_id_6a844a98_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_GrowmodoTextIcon = (0,vue_esm_bundler/* resolveComponent */.up)("GrowmodoTextIcon");
   const _component_q_toolbar_title = (0,vue_esm_bundler/* resolveComponent */.up)("q-toolbar-title");
   const _component_q_toolbar = (0,vue_esm_bundler/* resolveComponent */.up)("q-toolbar");
@@ -104,7 +104,7 @@ function Form_Authenticationvue_type_template_id_7025da54_render(_ctx, _cache, $
         "input-class": _ctx.$config?.class?.activeInput,
         rules: [val => _ctx.checker.input(!!val || '', 250)],
         onKeyup: _ctx.modKey,
-        class: "rounded input-lg format-bold"
+        class: "rounded input-lg format-bold format-border-normal"
       }, {
         prepend: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
           size: "sm",
@@ -128,7 +128,7 @@ function Form_Authenticationvue_type_template_id_7025da54_render(_ctx, _cache, $
         "input-class": _ctx.$config?.class?.activeInput,
         rules: [val => _ctx.checker.input(!!val || '', 250)],
         onKeyup: _ctx.modKey,
-        class: "rounded input-lg format-bold"
+        class: "rounded input-lg format-bold format-border-normal"
       }, null, 8, ["modelValue", "input-class", "rules", "onKeyup"])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_5, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_6, [(0,vue_esm_bundler/* createElementVNode */._)("div", {
         class: (0,vue_esm_bundler/* normalizeClass */.C_)({
           ['full-width']: _ctx.$q.screen.lt.sm
@@ -186,7 +186,7 @@ function Form_Authenticationvue_type_template_id_7025da54_render(_ctx, _cache, $
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/components/Forms/Form_Authentication.vue?vue&type=template&id=7025da54
+;// CONCATENATED MODULE: ./src/components/Forms/Form_Authentication.vue?vue&type=template&id=6a844a98
 
 // EXTERNAL MODULE: ./src/assets/scripts/functions.js + 1 modules
 var functions = __webpack_require__(1966);
@@ -333,7 +333,7 @@ var runtime_auto_import_default = /*#__PURE__*/__webpack_require__.n(runtime_aut
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(Form_Authenticationvue_type_script_lang_js, [['render',Form_Authenticationvue_type_template_id_7025da54_render]])
+const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(Form_Authenticationvue_type_script_lang_js, [['render',Form_Authenticationvue_type_template_id_6a844a98_render]])
 
 /* harmony default export */ const Form_Authentication = (__exports__);
 ;
@@ -411,4 +411,4 @@ runtime_auto_import_default()(AuthenticationPagevue_type_script_lang_js, 'compon
 /***/ })
 
 }]);
-//# sourceMappingURL=872.628882c6.js.map
+//# sourceMappingURL=539.c8120319.js.map

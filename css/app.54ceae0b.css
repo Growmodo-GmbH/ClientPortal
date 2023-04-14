@@ -5457,7 +5457,7 @@ p:last-child {
 }
 
 .q-field--outlined .q-field__control:before, .q-field--outlined .q-field__control:after {
-  border-width: 1px !important;
+  border-width: 1px;
   border-color: #e5e5e5;
 }
 
@@ -5474,7 +5474,7 @@ p:last-child {
 }
 
 .q-field.format-bold.q-field--outlined .q-field__control:before, .q-field.format-bold.q-field--outlined .q-field__control:after {
-  border-width: 1.5px !important;
+  border-width: 1.5px;
   border-color: #121212;
 }
 
@@ -5491,8 +5491,24 @@ p:last-child {
 }
 
 .q-field.format-bold-light.q-field--outlined .q-field__control:before, .q-field.format-bold-light.q-field--outlined .q-field__control:after {
-  border-width: 1.5px !important;
+  border-width: 1.5px;
   border-color: #e5e5e5;
+}
+
+.q-field.format-bold.format-border-normal.q-field:not(.input-split) .q-separator {
+  border-width: 1px;
+}
+
+.q-field.format-bold.format-border-normal.q-field--outlined .q-field__control:before, .q-field.format-bold.format-border-normal.q-field--outlined .q-field__control:after {
+  border-width: 1px;
+}
+
+.q-field.format-bold.format-border-normal-light.q-field:not(.input-split) .q-separator {
+  border-width: 1px;
+}
+
+.q-field.format-bold.format-border-normal-light.q-field--outlined .q-field__control:before, .q-field.format-bold.format-border-normal-light.q-field--outlined .q-field__control:after {
+  border-width: 1px;
 }
 
 .q-field.table-select-filter .q-field__native {
@@ -5913,4 +5929,4 @@ p:last-child {
   border-radius: 50%;
 }
 
-/*# sourceMappingURL=app.f7ea7466.css.map*/
+/*# sourceMappingURL=app.54ceae0b.css.map*/
