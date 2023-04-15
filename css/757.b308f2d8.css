@@ -1,0 +1,48 @@
+.q-color-picker {
+  border-radius: 8px;
+}
+.q-color-picker .q-panel-parent {
+  border-radius: 8px;
+}
+.q-color-picker__spectrum {
+  border-radius: 8px;
+}
+.q-color-picker__spectrum-white, .q-color-picker__spectrum-black {
+  border-radius: 8px;
+}
+.q-color-picker__palette-tab, .q-color-picker__palette-rows {
+  border-radius: 8px;
+}
+.q-color-picker .q-slider__focus-ring {
+  text-align: center;
+  opacity: 1 !important;
+  background: white !important;
+}
+.q-color-picker .q-slider__focus-ring:hover, .q-color-picker .q-slider__focus-ring:active, .q-color-picker .q-slider__focus-ring:focus-within, .q-color-picker .q-slider__focus-ring:focus-visible {
+  transform: scale3d(1, 1, 1) !important;
+}
+.q-color-picker .q-slider__focus-ring:before {
+  opacity: 1 !important;
+  border-radius: 50%;
+  background: white !important;
+  color: var(--ringColor) !important;
+}
+.q-color-picker .q-slider__track {
+  height: 20px !important;
+}
+.q-color-picker .q-slider__track:before {
+  background: var(--barColor) !important;
+}
+.q-color-picker .q-slider__track-container:hover .q-slider__focus-ring, .q-color-picker .q-slider__track-container:active .q-slider__focus-ring, .q-color-picker .q-slider__track-container:focus-within .q-slider__focus-ring, .q-color-picker .q-slider__track-container:focus-visible .q-slider__focus-ring {
+  transform: scale3d(1, 1, 1) !important;
+}
+.q-color-picker .q-slider__thumb {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.q-color-picker .q-slider__thumb svg {
+  display: none;
+}
+
+/*# sourceMappingURL=757.b308f2d8.css.map*/
