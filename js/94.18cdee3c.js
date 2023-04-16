@@ -187,7 +187,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 ;// CONCATENATED MODULE: ./src/components/Brands/SelectBrand.vue?vue&type=template&id=27f016cc
 
 // EXTERNAL MODULE: ./src/components/Brands/CreateNewBrand.vue + 4 modules
-var CreateNewBrand = __webpack_require__(9183);
+var CreateNewBrand = __webpack_require__(3811);
 // EXTERNAL MODULE: ./node_modules/pinia/dist/pinia.mjs + 1 modules
 var pinia = __webpack_require__(1872);
 // EXTERNAL MODULE: ./src/stores/growmodo/index.js + 3 modules
@@ -337,4 +337,4 @@ runtime_auto_import_default()(SelectBrandvue_type_script_lang_js, 'components', 
 /***/ })
 
 }]);
-//# sourceMappingURL=94.41e4ac97.js.map
+//# sourceMappingURL=94.18cdee3c.js.map

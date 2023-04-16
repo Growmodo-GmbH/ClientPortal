@@ -807,7 +807,7 @@ async function getSingleProjects(projectId, params = {}, orgId) {
 
 /***/ }),
 
-/***/ 4936:
+/***/ 1561:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 
@@ -820,7 +820,7 @@ __webpack_require__.d(__webpack_exports__, {
 var es_array_push = __webpack_require__(9665);
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(6646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Brands/BrandsList.vue?vue&type=template&id=6a51a82e
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Brands/BrandsList.vue?vue&type=template&id=78ed8fcc
 
 
 const _hoisted_1 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
@@ -1060,12 +1060,12 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/components/Brands/BrandsList.vue?vue&type=template&id=6a51a82e
+;// CONCATENATED MODULE: ./src/components/Brands/BrandsList.vue?vue&type=template&id=78ed8fcc
 
 // EXTERNAL MODULE: ./node_modules/quasar/src/utils/debounce.js
 var debounce = __webpack_require__(899);
 // EXTERNAL MODULE: ./src/components/Brands/CreateNewBrand.vue + 4 modules
-var CreateNewBrand = __webpack_require__(9183);
+var CreateNewBrand = __webpack_require__(3811);
 // EXTERNAL MODULE: ./node_modules/pinia/dist/pinia.mjs + 1 modules
 var pinia = __webpack_require__(1872);
 // EXTERNAL MODULE: ./src/stores/user/index.js + 3 modules
@@ -1095,7 +1095,7 @@ var growmodo = __webpack_require__(2393);
     },
     reverseList: {
       type: Boolean,
-      default: true
+      default: false
     },
     gridClass: {
       type: String,
@@ -1119,7 +1119,7 @@ var growmodo = __webpack_require__(2393);
     },
     sort_by: {
       type: String,
-      default: 'id'
+      default: 'updated_at'
     },
     start_page: {
       type: Number,
@@ -1350,7 +1350,7 @@ runtime_auto_import_default()(BrandsListvue_type_script_lang_js, 'components', {
 
 /***/ }),
 
-/***/ 9183:
+/***/ 3811:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 
@@ -1363,7 +1363,7 @@ __webpack_require__.d(__webpack_exports__, {
 var es_array_push = __webpack_require__(9665);
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(6646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Brands/CreateNewBrand.vue?vue&type=template&id=e7bd9322
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Brands/CreateNewBrand.vue?vue&type=template&id=efbd69ea
 
 
 const _hoisted_1 = {
@@ -1749,7 +1749,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         }, 8, ["done"]), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_step, {
           name: 2,
           title: "Brand Guidlines",
-          class: "flex flex-center full-width full-inner",
+          class: "flex flex-center full-width full-inner q-px-lg",
           done: _ctx.formStep > 2
         }, {
           default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_stepper, {
@@ -2060,7 +2060,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/components/Brands/CreateNewBrand.vue?vue&type=template&id=e7bd9322
+;// CONCATENATED MODULE: ./src/components/Brands/CreateNewBrand.vue?vue&type=template&id=efbd69ea
 
 // EXTERNAL MODULE: ./src/assets/scripts/functions.js + 1 modules
 var functions = __webpack_require__(1966);
@@ -6944,4 +6944,4 @@ runtime_auto_import_default()(CustomDropdownvue_type_script_lang_js, 'components
 /***/ })
 
 }]);
-//# sourceMappingURL=chunk-common.03dd8ae5.js.map
+//# sourceMappingURL=chunk-common.79db2987.js.map

@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[529],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[870],{
 
-/***/ 8529:
+/***/ 7870:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(6646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/DynamicQuestions.vue?vue&type=template&id=e064e07c
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/DynamicQuestions.vue?vue&type=template&id=bfeacc6a
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_TextArea1 = (0,vue_esm_bundler/* resolveComponent */.up)("TextArea1");
@@ -39,8 +39,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "onUpdate:modelValue": _cache[0] || (_cache[0] = $event => _ctx.answer.value = $event),
     required: _ctx.dynamic_questions.required,
     name: 'question-' + _ctx.dynamic_questions.id,
-    placeholder: "Enter a description..."
-  }, null, 8, ["autofocus", "modelValue", "required", "name"])) : _ctx.dynamic_questions.type === 'textarea2' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_TextArea2, {
+    placeholder: _ctx.question.placeholder || 'Enter a description...',
+    rows: _ctx.textareaRow
+  }, null, 8, ["autofocus", "modelValue", "required", "name", "placeholder", "rows"])) : _ctx.dynamic_questions.type === 'textarea2' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_TextArea2, {
     key: 1,
     autofocus: _ctx.autofocus,
     dense: false,
@@ -48,17 +49,18 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "onUpdate:modelValue": _cache[1] || (_cache[1] = $event => _ctx.answer.value = $event),
     required: _ctx.dynamic_questions.required,
     name: 'question-' + _ctx.dynamic_questions.id,
-    placeholder: "Enter a description..."
-  }, null, 8, ["autofocus", "modelValue", "required", "name"])) : _ctx.dynamic_questions.type === 'textfield' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_InputTextField, {
+    placeholder: _ctx.question.placeholder || 'Enter a description...',
+    rows: _ctx.textareaRow
+  }, null, 8, ["autofocus", "modelValue", "required", "name", "placeholder", "rows"])) : _ctx.dynamic_questions.type === 'textfield' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_InputTextField, {
     key: 2,
     autofocus: _ctx.autofocus,
     dense: false,
     modelValue: _ctx.answer.value,
     "onUpdate:modelValue": _cache[2] || (_cache[2] = $event => _ctx.answer.value = $event),
     name: 'question-' + _ctx.dynamic_questions.id,
-    placeholder: "Your target audience",
+    placeholder: _ctx.question.placeholder || 'Your target audience',
     required: _ctx.dynamic_questions.required
-  }, null, 8, ["autofocus", "modelValue", "name", "required"])) : _ctx.dynamic_questions.type === 'select' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_SelectOption, {
+  }, null, 8, ["autofocus", "modelValue", "name", "placeholder", "required"])) : _ctx.dynamic_questions.type === 'select' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_SelectOption, {
     key: 3,
     autofocus: _ctx.autofocus,
     dense: false,
@@ -208,7 +210,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     thumbnail: _ctx.fileThumbnail
   }, null, 8, ["autofocus", "multiple", "note", "accept", "factory", "removedFile", "initSlots", "thumbnail"])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true);
 }
-;// CONCATENATED MODULE: ./src/components/DynamicQuestions.vue?vue&type=template&id=e064e07c
+;// CONCATENATED MODULE: ./src/components/DynamicQuestions.vue?vue&type=template&id=bfeacc6a
 
 // EXTERNAL MODULE: ./src/mixins/index.js + 7 modules
 var mixins = __webpack_require__(3458);
@@ -229,7 +231,7 @@ var functions = __webpack_require__(1966);
     CheckboxSelect: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 480).then(__webpack_require__.bind(__webpack_require__, 2480))),
     InputTextField: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 64).then(__webpack_require__.bind(__webpack_require__, 5403))),
     TextArea1: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 64).then(__webpack_require__.bind(__webpack_require__, 7248))),
-    TextArea2: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(40)]).then(__webpack_require__.bind(__webpack_require__, 7040))),
+    TextArea2: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(229)]).then(__webpack_require__.bind(__webpack_require__, 6229))),
     InputVideoWalkthrough: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(474)]).then(__webpack_require__.bind(__webpack_require__, 6474))),
     SelectOption: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(991)]).then(__webpack_require__.bind(__webpack_require__, 991))),
     InputWebsite: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 64).then(__webpack_require__.bind(__webpack_require__, 9212))),
@@ -258,6 +260,10 @@ var functions = __webpack_require__(1966);
     fileThumbnail: {
       type: String,
       default: 'auto'
+    },
+    textareaRow: {
+      type: Number,
+      default: 15
     },
     fileRemovedFile: {},
     fileFactory: {},
@@ -314,4 +320,4 @@ const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(DynamicQuestion
 /***/ })
 
 }]);
-//# sourceMappingURL=529.d7796fc5.js.map
+//# sourceMappingURL=870.750e8441.js.map
