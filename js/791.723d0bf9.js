@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[746],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[791],{
 
-/***/ 4746:
+/***/ 1791:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(6646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Request/RequestForm.vue?vue&type=template&id=0ad52128
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Request/RequestForm.vue?vue&type=template&id=34a15fbf
 
 const _hoisted_1 = {
   class: "q-pt-sm q-mt-xs q-pb-xl q-px-lg"
@@ -300,27 +300,108 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                     "done-color": "white",
                     class: "q-py-sm"
                   }, {
-                    default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_6, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_7, (0,vue_esm_bundler/* toDisplayString */.zw)(question.title), 1), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_8, (0,vue_esm_bundler/* toDisplayString */.zw)(question.question), 1)]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_9, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_DynamicQuestions, {
+                    default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_6, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_7, (0,vue_esm_bundler/* toDisplayString */.zw)(question.title), 1), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_8, (0,vue_esm_bundler/* toDisplayString */.zw)(question.question), 1)]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_9, [ true ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_DynamicQuestions, {
+                      key: 0,
                       autofocus: true,
                       question: question,
                       initAnswer: _ctx.answer[question.id],
                       platforms: _ctx.requestInfo.platforms,
-                      onAnswered: ans => _ctx.answer[question.id] = ans
-                    }, null, 8, ["question", "initAnswer", "platforms", "onAnswered"])]), question.alternative_if && (_ctx.answer[question.id].value === question.alternative_if || _ctx.answer[question.id].value.value === question.alternative_if) ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, {
+                      onAnswered: ans => _ctx.answer[question.id] = ans,
+                      ref_for: true,
+                      ref: question.type.startsWith('upload_') ? `upload${question.id}` : undefined,
+                      fileRemovedFile: _ctx.uploads[`upload${question.id}`]?.removedFile,
+                      fileFactory: _ctx.factoryFn,
+                      fileInitSlots: _ctx.uploads[`upload${question.id}`],
+                      fileThumbnail: "auto",
+                      onFileAdded: files => {
+                        if (!_ctx.uploads[`upload${question.id}`]?.files?.length || question.type === 'upload_multiple') {
+                          _ctx.addUploadToModel('uploads', `upload${question.id}`, files, `upload${question.id}`);
+                        } else {
+                          _ctx.uploads[`upload${question.id}`].files = files;
+                        }
+                      },
+                      onFileUploaded: ({
+                        files,
+                        xhr
+                      }) => {
+                        const response = JSON.parse(xhr.response || '{}');
+                        if (response.success) {
+                          const data = response.data;
+                          if (question.type === 'upload_multiple') {
+                            _ctx.answer[question.id].value = _ctx.answer[question.id].concat(data.map(e => e.id));
+                          } else {
+                            _ctx.answer[question.id].value = data[0]?.id;
+                          }
+                        }
+                      },
+                      onFileRemoved: files => {
+                        if (question.type === 'upload_multiple') {
+                          files.map(e => e.id).forEach(e => {
+                            const ind = _ctx.answer[question.id]?.answer?.findIndex?.(a => a === e);
+                            if (ind !== -1) {
+                              _ctx.answer[question.id].value.splice(ind, 1);
+                            }
+                          });
+                        } else {
+                          _ctx.answer[question.id].value = '';
+                        }
+                      }
+                    }, null, 8, ["question", "initAnswer", "platforms", "onAnswered", "fileRemovedFile", "fileFactory", "fileInitSlots", "onFileAdded", "onFileUploaded", "onFileRemoved"])) : 0]), question.alternative_if && (_ctx.answer[question.id]?.value === question.alternative_if || _ctx.answer[question.id]?.value?.value === question.alternative_if) ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, {
                       key: 0
-                    }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_10, [question.alternative_question ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_11, (0,vue_esm_bundler/* toDisplayString */.zw)(question.alternative_question), 1)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_12, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_DynamicQuestions, {
+                    }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_10, [question.alternative_question ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_11, (0,vue_esm_bundler/* toDisplayString */.zw)(question.alternative_question), 1)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_12, [ true ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_DynamicQuestions, {
+                      key: 0,
                       question: {
                         id: question.id,
                         type: question.alternative_type,
                         required: question.required,
-                        options: question.alternative_options
+                        options: question.alternative_options,
+                        placeholder: question.alternative_placeholder
                       },
                       initAnswer: {
                         value: _ctx.answer[question.id].alternative_answer
                       },
                       platforms: _ctx.requestInfo.platforms,
-                      onAnswered: ans => _ctx.answer[question.id].alternative_answer = ans?.value
-                    }, null, 8, ["question", "initAnswer", "platforms", "onAnswered"])])], 64)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)]),
+                      onAnswered: ans => _ctx.answer[question.id].alternative_answer = ans?.value,
+                      ref_for: true,
+                      ref: question.alternative_type.startsWith('upload_') ? `upload${question.id}` : undefined,
+                      fileRemovedFile: _ctx.uploads[`upload${question.id}`]?.removedFile,
+                      fileFactory: _ctx.factoryFn,
+                      fileInitSlots: _ctx.uploads[`upload${question.id}`],
+                      fileThumbnail: "auto",
+                      onFileAdded: files => {
+                        if (!_ctx.uploads[`upload${question.id}`]?.files?.length || question.alternative_type === 'upload_multiple') {
+                          _ctx.addUploadToModel('uploads', `upload${question.id}`, files, `upload${question.id}`);
+                        } else {
+                          _ctx.uploads[`upload${question.id}`].files = files;
+                        }
+                      },
+                      onFileUploaded: ({
+                        files,
+                        xhr
+                      }) => {
+                        const response = JSON.parse(xhr.response || '{}');
+                        if (response.success) {
+                          const data = response.data;
+                          if (question.alternative_type === 'upload_multiple') {
+                            _ctx.answer[question.id].alternative_answer = _ctx.answer[question.id].alternative_answer.concat(data.map(e => e.id));
+                          } else {
+                            _ctx.answer[question.id].alternative_answer = data[0]?.id;
+                          }
+                        }
+                      },
+                      onFileRemoved: files => {
+                        if (question.alternative_type === 'upload_multiple') {
+                          files.map(e => e.id).forEach(e => {
+                            const ind = _ctx.answer[question.id]?.answer?.findIndex?.(a => a === e);
+                            if (ind !== -1) {
+                              _ctx.answer[question.id].alternative_answer.splice(ind, 1);
+                            }
+                          });
+                        } else {
+                          _ctx.answer[question.id].alternative_answer = '';
+                        }
+                      }
+                    }, null, 8, ["question", "initAnswer", "platforms", "onAnswered", "fileRemovedFile", "fileFactory", "fileInitSlots", "onFileAdded", "onFileUploaded", "onFileRemoved"])) : 0])], 64)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)]),
                     _: 2
                   }, 1032, ["name", "title"]);
                 }), 128))]),
@@ -425,7 +506,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/Request/RequestForm.vue?vue&type=template&id=0ad52128
+;// CONCATENATED MODULE: ./src/pages/Request/RequestForm.vue?vue&type=template&id=34a15fbf
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.push.js
 var es_array_push = __webpack_require__(9665);
@@ -463,7 +544,7 @@ var fn_store = __webpack_require__(5487);
   components: {
     GrowmodoTextIcon: GrowmodoTextIcon/* default */.Z,
     CardIconBox: CardIconBox["default"],
-    DynamicQuestions: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 654).then(__webpack_require__.bind(__webpack_require__, 654)))
+    DynamicQuestions: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 529).then(__webpack_require__.bind(__webpack_require__, 8529)))
   },
   data() {
     return {
@@ -728,4 +809,4 @@ runtime_auto_import_default()(RequestFormvue_type_script_lang_js, 'components', 
 /***/ })
 
 }]);
-//# sourceMappingURL=746.a6c96ae7.js.map
+//# sourceMappingURL=791.723d0bf9.js.map

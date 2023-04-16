@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[654],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[529],{
 
-/***/ 654:
+/***/ 8529:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(6646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/DynamicQuestions.vue?vue&type=template&id=c74586da
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/DynamicQuestions.vue?vue&type=template&id=e064e07c
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_TextArea1 = (0,vue_esm_bundler/* resolveComponent */.up)("TextArea1");
@@ -190,50 +190,25 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     temporary: "",
     withItems: "",
     miniItems: "",
-    ref: `upload${_ctx.dynamic_questions.id}`,
     "max-file-size": "10000000",
     note: _ctx.question?.options?.note || '',
     accept: _ctx.question?.options?.accept || 'image/*, woff, woff2, otf, ttf, psd, eps, ai, xd, fig',
-    removedFile: _ctx.uploads[`upload${_ctx.dynamic_questions.id}`]?.removedFile,
-    onAdded: _cache[20] || (_cache[20] = files => {
-      if (!_ctx.uploads[`upload${_ctx.dynamic_questions.id}`]?.files?.length || _ctx.dynamic_questions.type === 'upload_multiple') {
-        _ctx.addUploadToModel('uploads', `upload${_ctx.dynamic_questions.id}`, files, `upload${_ctx.dynamic_questions.id}`);
-      } else {
-        _ctx.uploads[`upload${_ctx.dynamic_questions.id}`].files = files;
-      }
-    }),
+    onAdded: _cache[20] || (_cache[20] = files => _ctx.$emit('fileAdded', files)),
     onUploaded: _cache[21] || (_cache[21] = ({
       files,
       xhr
-    }) => {
-      const response = JSON.parse(xhr.response || '{}');
-      if (response.success) {
-        const data = response.data;
-        if (_ctx.dynamic_questions.type === 'upload_multiple') {
-          _ctx.answer.value = _ctx.answer.concat(data.map(e => e.id));
-        } else {
-          _ctx.answer.value = data[0]?.id;
-        }
-      }
-    }),
-    onRemoved: _cache[22] || (_cache[22] = files => {
-      if (_ctx.dynamic_questions.type === 'upload_multiple') {
-        files.map(e => e.id).forEach(e => {
-          const ind = _ctx.answer.answer.findIndex(a => a === e);
-          if (ind !== -1) {
-            _ctx.answer.value.splice(ind, 1);
-          }
-        });
-      } else {
-        _ctx.answer.value = '';
-      }
-    }),
-    factory: _ctx.factoryFn,
-    initSlots: _ctx.uploads[`upload${_ctx.dynamic_questions.id}`],
-    thumbnail: "auto"
-  }, null, 8, ["autofocus", "multiple", "note", "accept", "removedFile", "factory", "initSlots"])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true);
+    }) => _ctx.$emit('fileUploaded', {
+      files,
+      xhr
+    })),
+    onRemoved: _cache[22] || (_cache[22] = files => _ctx.$emit('fileRemoved', files)),
+    factory: _ctx.fileFactory,
+    removedFile: _ctx.fileRemovedFile,
+    initSlots: _ctx.fileInitSlots,
+    thumbnail: _ctx.fileThumbnail
+  }, null, 8, ["autofocus", "multiple", "note", "accept", "factory", "removedFile", "initSlots", "thumbnail"])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true);
 }
-;// CONCATENATED MODULE: ./src/components/DynamicQuestions.vue?vue&type=template&id=c74586da
+;// CONCATENATED MODULE: ./src/components/DynamicQuestions.vue?vue&type=template&id=e064e07c
 
 // EXTERNAL MODULE: ./src/mixins/index.js + 7 modules
 var mixins = __webpack_require__(3458);
@@ -245,7 +220,7 @@ var functions = __webpack_require__(1966);
 
 /* harmony default export */ const DynamicQuestionsvue_type_script_lang_js = ((0,vue_esm_bundler/* defineComponent */.aZ)({
   name: 'DynamicQuestions',
-  emits: ['answered'],
+  emits: ['answered', 'fileAdded', 'fileUploaded', 'fileRemoved'],
   mixins: [mixins/* DynamicQuestions_Mixin */.r1],
   components: {
     SelectBrand: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(94)]).then(__webpack_require__.bind(__webpack_require__, 1758))),
@@ -279,7 +254,14 @@ var functions = __webpack_require__(1966);
     platforms: {
       type: Array,
       default: () => []
-    }
+    },
+    fileThumbnail: {
+      type: String,
+      default: 'auto'
+    },
+    fileRemovedFile: {},
+    fileFactory: {},
+    fileInitSlots: {}
   },
   data() {
     return {
@@ -332,4 +314,4 @@ const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(DynamicQuestion
 /***/ })
 
 }]);
-//# sourceMappingURL=654.49f98058.js.map
+//# sourceMappingURL=529.d7796fc5.js.map
