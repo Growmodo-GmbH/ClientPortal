@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[638],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[654],{
 
-/***/ 2638:
+/***/ 654:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(6646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/DynamicQuestions.vue?vue&type=template&id=62331cee
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/DynamicQuestions.vue?vue&type=template&id=c74586da
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_TextArea1 = (0,vue_esm_bundler/* resolveComponent */.up)("TextArea1");
@@ -31,44 +31,44 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_InputWebsite = (0,vue_esm_bundler/* resolveComponent */.up)("InputWebsite");
   const _component_InputPhoneNumber = (0,vue_esm_bundler/* resolveComponent */.up)("InputPhoneNumber");
   const _component_FileUploader = (0,vue_esm_bundler/* resolveComponent */.up)("FileUploader");
-  return _ctx.question.type === 'textarea1' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_TextArea1, {
+  return _ctx.dynamic_questions.type === 'textarea1' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_TextArea1, {
     key: 0,
     autofocus: _ctx.autofocus,
     dense: false,
     modelValue: _ctx.answer.value,
     "onUpdate:modelValue": _cache[0] || (_cache[0] = $event => _ctx.answer.value = $event),
-    required: _ctx.question.required,
-    name: 'question-' + _ctx.question.id,
+    required: _ctx.dynamic_questions.required,
+    name: 'question-' + _ctx.dynamic_questions.id,
     placeholder: "Enter a description..."
-  }, null, 8, ["autofocus", "modelValue", "required", "name"])) : _ctx.question.type === 'textarea2' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_TextArea2, {
+  }, null, 8, ["autofocus", "modelValue", "required", "name"])) : _ctx.dynamic_questions.type === 'textarea2' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_TextArea2, {
     key: 1,
     autofocus: _ctx.autofocus,
     dense: false,
     modelValue: _ctx.answer.value,
     "onUpdate:modelValue": _cache[1] || (_cache[1] = $event => _ctx.answer.value = $event),
-    required: _ctx.question.required,
-    name: 'question-' + _ctx.question.id,
+    required: _ctx.dynamic_questions.required,
+    name: 'question-' + _ctx.dynamic_questions.id,
     placeholder: "Enter a description..."
-  }, null, 8, ["autofocus", "modelValue", "required", "name"])) : _ctx.question.type === 'textfield' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_InputTextField, {
+  }, null, 8, ["autofocus", "modelValue", "required", "name"])) : _ctx.dynamic_questions.type === 'textfield' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_InputTextField, {
     key: 2,
     autofocus: _ctx.autofocus,
     dense: false,
     modelValue: _ctx.answer.value,
     "onUpdate:modelValue": _cache[2] || (_cache[2] = $event => _ctx.answer.value = $event),
-    name: 'question-' + _ctx.question.id,
+    name: 'question-' + _ctx.dynamic_questions.id,
     placeholder: "Your target audience",
-    required: _ctx.question.required
-  }, null, 8, ["autofocus", "modelValue", "name", "required"])) : _ctx.question.type === 'select' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_SelectOption, {
+    required: _ctx.dynamic_questions.required
+  }, null, 8, ["autofocus", "modelValue", "name", "required"])) : _ctx.dynamic_questions.type === 'select' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_SelectOption, {
     key: 3,
     autofocus: _ctx.autofocus,
     dense: false,
     initModel: _ctx.answer.value,
     modelValue: _ctx.answer.value,
     "onUpdate:modelValue": _cache[3] || (_cache[3] = $event => _ctx.answer.value = $event),
-    selection: _ctx.question.options,
-    required: _ctx.question.required,
-    name: 'question-' + _ctx.question.id
-  }, null, 8, ["autofocus", "initModel", "modelValue", "selection", "required", "name"])) : _ctx.question.type === 'select_multiple' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_SelectOption, {
+    selection: _ctx.dynamic_questions.options,
+    required: _ctx.dynamic_questions.required,
+    name: 'question-' + _ctx.dynamic_questions.id
+  }, null, 8, ["autofocus", "initModel", "modelValue", "selection", "required", "name"])) : _ctx.dynamic_questions.type === 'select_multiple' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_SelectOption, {
     key: 4,
     autofocus: _ctx.autofocus,
     dense: false,
@@ -76,57 +76,57 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     initModel: _ctx.answer.value,
     modelValue: _ctx.answer.value,
     "onUpdate:modelValue": _cache[4] || (_cache[4] = $event => _ctx.answer.value = $event),
-    selection: _ctx.question.options,
-    required: _ctx.question.required,
-    name: 'question-' + _ctx.question.id
-  }, null, 8, ["autofocus", "initModel", "modelValue", "selection", "required", "name"])) : _ctx.question.type === 'radio' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_RadioSelect, {
+    selection: _ctx.dynamic_questions.options,
+    required: _ctx.dynamic_questions.required,
+    name: 'question-' + _ctx.dynamic_questions.id
+  }, null, 8, ["autofocus", "initModel", "modelValue", "selection", "required", "name"])) : _ctx.dynamic_questions.type === 'radio' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_RadioSelect, {
     key: 5,
     dense: false,
     initModel: _ctx.answer.value,
-    selection: _ctx.question.options,
-    required: _ctx.question.required,
-    name: 'question-' + _ctx.question.id,
+    selection: _ctx.dynamic_questions.options,
+    required: _ctx.dynamic_questions.required,
+    name: 'question-' + _ctx.dynamic_questions.id,
     onUpdated: _cache[5] || (_cache[5] = v => _ctx.answer.value = v)
-  }, null, 8, ["initModel", "selection", "required", "name"])) : _ctx.question.type === 'checkbox' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_CheckboxSelect, {
+  }, null, 8, ["initModel", "selection", "required", "name"])) : _ctx.dynamic_questions.type === 'checkbox' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_CheckboxSelect, {
     key: 6,
     dense: false,
     initModel: _ctx.answer.value,
-    selection: _ctx.question.options,
-    required: _ctx.question.required,
-    name: 'question-' + _ctx.question.id,
+    selection: _ctx.dynamic_questions.options,
+    required: _ctx.dynamic_questions.required,
+    name: 'question-' + _ctx.dynamic_questions.id,
     onUpdated: _cache[6] || (_cache[6] = v => _ctx.answer.value = v)
-  }, null, 8, ["initModel", "selection", "required", "name"])) : _ctx.question.type === 'select_platform' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_SelectPlatforms, {
+  }, null, 8, ["initModel", "selection", "required", "name"])) : _ctx.dynamic_questions.type === 'select_platform' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_SelectPlatforms, {
     key: 7,
     dense: false,
     initModel: _ctx.answer.value,
-    required: _ctx.question.required,
+    required: _ctx.dynamic_questions.required,
     platforms: _ctx.platforms,
-    name: 'question-' + _ctx.question.id,
+    name: 'question-' + _ctx.dynamic_questions.id,
     onUpdated: _cache[7] || (_cache[7] = v => _ctx.answer.value = v)
-  }, null, 8, ["initModel", "required", "platforms", "name"])) : _ctx.question.type === 'video_walkthrough' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_InputVideoWalkthrough, {
+  }, null, 8, ["initModel", "required", "platforms", "name"])) : _ctx.dynamic_questions.type === 'video_walkthrough' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_InputVideoWalkthrough, {
     key: 8,
     autofocus: _ctx.autofocus,
     dense: false,
     class: "full-width",
-    name: 'question-' + _ctx.question.id,
+    name: 'question-' + _ctx.dynamic_questions.id,
     initModel: _ctx.answer.value,
-    required: _ctx.question.required,
+    required: _ctx.dynamic_questions.required,
     onUpdated: _cache[8] || (_cache[8] = v => _ctx.answer.value = v)
-  }, null, 8, ["autofocus", "name", "initModel", "required"])) : _ctx.question.type === 'select_brand' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_SelectBrand, {
+  }, null, 8, ["autofocus", "name", "initModel", "required"])) : _ctx.dynamic_questions.type === 'select_brand' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_SelectBrand, {
     key: 9,
     autofocus: _ctx.autofocus,
     dense: false,
     modelValue: _ctx.answer.value,
     "onUpdate:modelValue": _cache[9] || (_cache[9] = $event => _ctx.answer.value = $event),
     initModel: _ctx.answer.value,
-    name: 'question-' + _ctx.question.id,
-    required: _ctx.question.required,
+    name: 'question-' + _ctx.dynamic_questions.id,
+    required: _ctx.dynamic_questions.required,
     onBrandAdded: _cache[10] || (_cache[10] = e => _ctx.answer.value = e),
     onBrandFinished: _cache[11] || (_cache[11] = e => _ctx.answer.value = e),
     onBrandFormClosed: _cache[12] || (_cache[12] = () => {
       if (_ctx.answer.value && _ctx.answer.value?.id === 0) _ctx.answer.value = '';
     })
-  }, null, 8, ["autofocus", "modelValue", "initModel", "name", "required"])) : _ctx.question.type === 'select_taskcategory' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_SelectCategoryType, {
+  }, null, 8, ["autofocus", "modelValue", "initModel", "name", "required"])) : _ctx.dynamic_questions.type === 'select_taskcategory' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_SelectCategoryType, {
     key: 10,
     autofocus: _ctx.autofocus,
     dense: false,
@@ -134,8 +134,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     modelValue: _ctx.answer.value,
     "onUpdate:modelValue": _cache[13] || (_cache[13] = $event => _ctx.answer.value = $event),
     initModel: _ctx.answer.value,
-    required: _ctx.question.required
-  }, null, 8, ["autofocus", "modelValue", "initModel", "required"])) : _ctx.question.type === 'select_projectcategory' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_SelectCategoryType, {
+    required: _ctx.dynamic_questions.required
+  }, null, 8, ["autofocus", "modelValue", "initModel", "required"])) : _ctx.dynamic_questions.type === 'select_projectcategory' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_SelectCategoryType, {
     key: 11,
     autofocus: _ctx.autofocus,
     dense: false,
@@ -143,8 +143,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     modelValue: _ctx.answer.value,
     "onUpdate:modelValue": _cache[14] || (_cache[14] = $event => _ctx.answer.value = $event),
     initModel: _ctx.answer.value,
-    required: _ctx.question.required
-  }, null, 8, ["autofocus", "modelValue", "initModel", "required"])) : _ctx.question.type === 'select_tasktype' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_SelectTaskProjectType, {
+    required: _ctx.dynamic_questions.required
+  }, null, 8, ["autofocus", "modelValue", "initModel", "required"])) : _ctx.dynamic_questions.type === 'select_tasktype' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_SelectTaskProjectType, {
     key: 12,
     autofocus: false,
     dense: false,
@@ -152,8 +152,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     modelValue: _ctx.answer.value,
     "onUpdate:modelValue": _cache[15] || (_cache[15] = $event => _ctx.answer.value = $event),
     initModel: _ctx.answer.value,
-    required: _ctx.question.required
-  }, null, 8, ["modelValue", "initModel", "required"])) : _ctx.question.type === 'select_projecttype' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_SelectTaskProjectType, {
+    required: _ctx.dynamic_questions.required
+  }, null, 8, ["modelValue", "initModel", "required"])) : _ctx.dynamic_questions.type === 'select_projecttype' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_SelectTaskProjectType, {
     key: 13,
     autofocus: false,
     dense: false,
@@ -161,19 +161,19 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     modelValue: _ctx.answer.value,
     "onUpdate:modelValue": _cache[16] || (_cache[16] = $event => _ctx.answer.value = $event),
     initModel: _ctx.answer.value,
-    required: _ctx.question.required
-  }, null, 8, ["modelValue", "initModel", "required"])) : _ctx.question.type === 'url' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_InputWebsite, {
+    required: _ctx.dynamic_questions.required
+  }, null, 8, ["modelValue", "initModel", "required"])) : _ctx.dynamic_questions.type === 'url' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_InputWebsite, {
     key: 14,
     autofocus: _ctx.autofocus,
     dense: false,
     modelValue: _ctx.answer.value,
     "onUpdate:modelValue": _cache[17] || (_cache[17] = $event => _ctx.answer.value = $event),
-    required: _ctx.question.required
-  }, null, 8, ["autofocus", "modelValue", "required"])) : _ctx.question.type === 'phone' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_InputPhoneNumber, {
+    required: _ctx.dynamic_questions.required
+  }, null, 8, ["autofocus", "modelValue", "required"])) : _ctx.dynamic_questions.type === 'phone' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_InputPhoneNumber, {
     key: 15,
     autofocus: _ctx.autofocus,
     dense: false,
-    required: _ctx.question.required,
+    required: _ctx.dynamic_questions.required,
     onAreaCodeChanged: _cache[18] || (_cache[18] = e => {
       _ctx.answer.value = _ctx.answer.answer ? `${e}+${_ctx.answer.value?.split('+')[1] || ''}` : e;
     }),
@@ -182,24 +182,24 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     }),
     areaCode: _ctx.answer.value.split('+')[0],
     phoneNumber: _ctx.answer.value.split('+')[1]
-  }, null, 8, ["autofocus", "required", "areaCode", "phoneNumber"])) : _ctx.question.type === 'upload_single' || _ctx.question.type === 'upload_multiple' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_FileUploader, {
+  }, null, 8, ["autofocus", "required", "areaCode", "phoneNumber"])) : _ctx.dynamic_questions.type === 'upload_single' || _ctx.dynamic_questions.type === 'upload_multiple' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_FileUploader, {
     key: 16,
     autofocus: _ctx.autofocus,
     dense: false,
-    multiple: _ctx.question.type === 'upload_multiple',
+    multiple: _ctx.dynamic_questions.type === 'upload_multiple',
     temporary: "",
     withItems: "",
     miniItems: "",
-    ref: `upload${_ctx.question.id}`,
+    ref: `upload${_ctx.dynamic_questions.id}`,
     "max-file-size": "10000000",
     note: _ctx.question?.options?.note || '',
     accept: _ctx.question?.options?.accept || 'image/*, woff, woff2, otf, ttf, psd, eps, ai, xd, fig',
-    removedFile: _ctx.uploads[`upload${_ctx.question.id}`]?.removedFile,
+    removedFile: _ctx.uploads[`upload${_ctx.dynamic_questions.id}`]?.removedFile,
     onAdded: _cache[20] || (_cache[20] = files => {
-      if (!_ctx.uploads[`upload${_ctx.question.id}`]?.files?.length || _ctx.question.type === 'upload_multiple') {
-        _ctx.addUploadToModel('uploads', `upload${_ctx.question.id}`, files, `upload${_ctx.question.id}`);
+      if (!_ctx.uploads[`upload${_ctx.dynamic_questions.id}`]?.files?.length || _ctx.dynamic_questions.type === 'upload_multiple') {
+        _ctx.addUploadToModel('uploads', `upload${_ctx.dynamic_questions.id}`, files, `upload${_ctx.dynamic_questions.id}`);
       } else {
-        _ctx.uploads[`upload${_ctx.question.id}`].files = files;
+        _ctx.uploads[`upload${_ctx.dynamic_questions.id}`].files = files;
       }
     }),
     onUploaded: _cache[21] || (_cache[21] = ({
@@ -209,7 +209,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       const response = JSON.parse(xhr.response || '{}');
       if (response.success) {
         const data = response.data;
-        if (_ctx.question.type === 'upload_multiple') {
+        if (_ctx.dynamic_questions.type === 'upload_multiple') {
           _ctx.answer.value = _ctx.answer.concat(data.map(e => e.id));
         } else {
           _ctx.answer.value = data[0]?.id;
@@ -217,7 +217,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       }
     }),
     onRemoved: _cache[22] || (_cache[22] = files => {
-      if (_ctx.question.type === 'upload_multiple') {
+      if (_ctx.dynamic_questions.type === 'upload_multiple') {
         files.map(e => e.id).forEach(e => {
           const ind = _ctx.answer.answer.findIndex(a => a === e);
           if (ind !== -1) {
@@ -229,15 +229,18 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       }
     }),
     factory: _ctx.factoryFn,
-    initSlots: _ctx.uploads[`upload${_ctx.question.id}`],
+    initSlots: _ctx.uploads[`upload${_ctx.dynamic_questions.id}`],
     thumbnail: "auto"
   }, null, 8, ["autofocus", "multiple", "note", "accept", "removedFile", "factory", "initSlots"])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true);
 }
-;// CONCATENATED MODULE: ./src/components/DynamicQuestions.vue?vue&type=template&id=62331cee
+;// CONCATENATED MODULE: ./src/components/DynamicQuestions.vue?vue&type=template&id=c74586da
 
 // EXTERNAL MODULE: ./src/mixins/index.js + 7 modules
 var mixins = __webpack_require__(3458);
+// EXTERNAL MODULE: ./src/assets/scripts/functions.js + 1 modules
+var functions = __webpack_require__(1966);
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/DynamicQuestions.vue?vue&type=script&lang=js
+
 
 
 /* harmony default export */ const DynamicQuestionsvue_type_script_lang_js = ((0,vue_esm_bundler/* defineComponent */.aZ)({
@@ -280,7 +283,8 @@ var mixins = __webpack_require__(3458);
   },
   data() {
     return {
-      answer: {}
+      answer: {},
+      initDone: false
     };
   },
   watch: {
@@ -291,14 +295,23 @@ var mixins = __webpack_require__(3458);
       deep: true
     }
   },
-  async mounted() {
+  computed: {
+    dynamic_questions() {
+      const question = (0,functions.objectCopy)(this.question);
+      if (this.initDone !== true) question.required = false;
+      return question;
+    }
+  },
+  mounted() {
+    this.initDone = false;
     if (this.initAnswer) this.answer = this.initAnswer;
     this.init();
   },
   methods: {
-    async init() {
+    init() {
       if (!this.question?.id) return;
       if (!this.answer?.value) this.answer = this.formatDynamicAnswer(this.question);
+      this.initDone = true;
     }
   }
 }));
@@ -319,4 +332,4 @@ const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(DynamicQuestion
 /***/ })
 
 }]);
-//# sourceMappingURL=638.c52bb1e5.js.map
+//# sourceMappingURL=654.49f98058.js.map

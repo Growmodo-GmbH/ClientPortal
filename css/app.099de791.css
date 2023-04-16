@@ -5490,6 +5490,11 @@ p:last-child {
   background: #f04438 !important;
 }
 
+.q-field .q-field__control:before, .q-field .q-field__control:after {
+  border-width: 1px;
+  border-color: #e5e5e5;
+}
+
 .q-field .q-separator {
   transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
   width: 0;
@@ -5504,6 +5509,7 @@ p:last-child {
 }
 
 .q-field--outlined .q-field__control:before, .q-field--outlined .q-field__control:after {
+  border-width: 1px;
   border-color: #e5e5e5;
 }
 
@@ -5975,4 +5981,4 @@ p:last-child {
   border-radius: 50%;
 }
 
-/*# sourceMappingURL=app.6669e4db.css.map*/
+/*# sourceMappingURL=app.099de791.css.map*/

@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[828],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[440],{
 
-/***/ 6828:
+/***/ 8440:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,71 +14,68 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(6646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Request/QuickRequestForm.vue?vue&type=template&id=ef421990
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Request/QuickRequestForm.vue?vue&type=template&id=0b53c976
 
 const _hoisted_1 = {
   key: 0,
   class: "col-12 q-pb-lg fit self-start"
 };
 const _hoisted_2 = {
-  class: "q-mx-auto"
-};
-const _hoisted_3 = {
   style: {
     "max-width": "696px"
   }
 };
-const _hoisted_4 = {
+const _hoisted_3 = {
   key: 0,
   class: "text-h2 text-center font-medium text-primary q-pb-xl q-pt-sm letter-space-negative"
 };
-const _hoisted_5 = {
+const _hoisted_4 = {
   class: "row q-col-gutter-md"
 };
-const _hoisted_6 = {
+const _hoisted_5 = {
   key: 0,
   class: "col-12"
 };
-const _hoisted_7 = {
+const _hoisted_6 = {
   class: "text-center"
 };
-const _hoisted_8 = {
+const _hoisted_7 = {
   class: "full-width font-medium text-h4 q-pt-lg text-center"
 };
-const _hoisted_9 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("br", null, null, -1);
-const _hoisted_10 = {
+const _hoisted_8 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("br", null, null, -1);
+const _hoisted_9 = {
   key: 1,
   class: "col-12"
 };
-const _hoisted_11 = {
+const _hoisted_10 = {
   class: "row q-col-gutter-md"
 };
-const _hoisted_12 = ["name"];
-const _hoisted_13 = {
+const _hoisted_11 = ["name"];
+const _hoisted_12 = {
   class: "row q-col-gutter-sm"
 };
-const _hoisted_14 = {
+const _hoisted_13 = {
   class: "col-12 text-body2 text-primary-500 font-medium"
+};
+const _hoisted_14 = {
+  class: "col-12"
 };
 const _hoisted_15 = {
   class: "col-12"
 };
 const _hoisted_16 = {
-  class: "col-12"
+  class: "row items-center"
 };
 const _hoisted_17 = {
-  class: "row items-center"
-};
-const _hoisted_18 = {
   class: "col-12"
 };
-const _hoisted_19 = {
+const _hoisted_18 = {
   class: "row items-center"
 };
-const _hoisted_20 = {
+const _hoisted_19 = {
   class: "col"
 };
-const _hoisted_21 = {
+const _hoisted_20 = {
   class: "col"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -118,7 +115,11 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             class: "q-pr-xs"
           }), (0,vue_esm_bundler/* createTextVNode */.Uk)(" Back to Growmodo ")]),
           _: 1
-        })])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_2, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_3, [!_ctx.request_submitted ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_4, " Request a " + (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.isTask ? 'Task' : 'Project'), 1)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card, {
+        })])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), (0,vue_esm_bundler/* createElementVNode */._)("div", {
+          class: (0,vue_esm_bundler/* normalizeClass */.C_)(["q-mx-auto", {
+            ['self-center']: _ctx.request_submitted
+          }])
+        }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_2, [!_ctx.request_submitted ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_3, " Request a " + (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.isTask ? 'Task' : 'Project'), 1)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card, {
           bordered: "",
           class: (0,vue_esm_bundler/* normalizeClass */.C_)(["rounded shadows-sm full-width", {
             ['card-padding-md']: _ctx.$q.screen.lt.md,
@@ -132,9 +133,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             spellcheck: "false",
             onSubmit: _cache[1] || (_cache[1] = (0,vue_esm_bundler/* withModifiers */.iM)(() => {}, ["prevent"]))
           }, {
-            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_5, [_ctx.request_submitted ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_6, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_7, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_CardIconBox, {
+            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_4, [_ctx.request_submitted ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_5, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_6, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_CardIconBox, {
               icon: "icon-check-circle-broken"
-            })]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_8, [(0,vue_esm_bundler/* createTextVNode */.Uk)(" Thank you."), _hoisted_9, (0,vue_esm_bundler/* createTextVNode */.Uk)("Your " + (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.isTask ? 'task' : 'project') + " have been successfully submitted. ", 1)])])) : _ctx.showSkeleton ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_10, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_11, [((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)([1, 2, 3, 4], j => {
+            })]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_7, [(0,vue_esm_bundler/* createTextVNode */.Uk)(" Thank you."), _hoisted_8, (0,vue_esm_bundler/* createTextVNode */.Uk)("Your " + (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.isTask ? 'task' : 'project') + " have been successfully submitted. ", 1)])])) : _ctx.showSkeleton ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_9, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_10, [((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)([1, 2, 3, 4], j => {
               return (0,vue_esm_bundler/* createElementVNode */._)("div", {
                 class: "col-12",
                 key: j
@@ -153,21 +154,21 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                 key: question,
                 name: i,
                 class: "col-12"
-              }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_13, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_14, (0,vue_esm_bundler/* toDisplayString */.zw)(question.title), 1), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_15, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_DynamicQuestions, {
+              }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_12, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_13, (0,vue_esm_bundler/* toDisplayString */.zw)(question.title), 1), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_14, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_DynamicQuestions, {
                 autofocus: false,
                 question: question,
                 initAnswer: _ctx.answer[question.id],
                 platforms: question.options,
                 onAnswered: ans => _ctx.answer[question.id] = ans
-              }, null, 8, ["question", "initAnswer", "platforms", "onAnswered"])])])], 8, _hoisted_12);
+              }, null, 8, ["question", "initAnswer", "platforms", "onAnswered"])])])], 8, _hoisted_11);
             }), 128)), !_ctx.request_submitted ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, {
               key: 3
-            }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_16, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_17, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+            }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_15, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_16, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
               name: "icon-alert-circle",
               size: "sm",
               class: "q-pr-sm",
               color: "warning-500"
-            }), (0,vue_esm_bundler/* createTextVNode */.Uk)(" Turnaround time might be longer if the brief is incomplete. ")])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_18, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_19, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+            }), (0,vue_esm_bundler/* createTextVNode */.Uk)(" Turnaround time might be longer if the brief is incomplete. ")])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_17, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_18, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
               "no-caps": "",
               unelevated: "",
               color: "primary",
@@ -183,7 +184,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               _: 1
             }, 8, ["disable", "onClick"])])])], 64)) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, {
               key: 4
-            }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_20, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+            }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_19, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
               outline: "",
               "no-caps": "",
               ripple: {
@@ -199,7 +200,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                 class: "q-pr-sm"
               }), (0,vue_esm_bundler/* createTextVNode */.Uk)(" Back to home ")]),
               _: 1
-            }, 8, ["onClick"])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_21, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+            }, 8, ["onClick"])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_20, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
               "no-caps": "",
               unelevated: "",
               ripple: {
@@ -215,7 +216,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             _: 1
           })]),
           _: 1
-        }, 8, ["class"])])])]),
+        }, 8, ["class"])])], 2)]),
         _: 1
       })]),
       _: 1
@@ -223,7 +224,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/Request/QuickRequestForm.vue?vue&type=template&id=ef421990
+;// CONCATENATED MODULE: ./src/pages/Request/QuickRequestForm.vue?vue&type=template&id=0b53c976
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.push.js
 var es_array_push = __webpack_require__(9665);
@@ -235,10 +236,7 @@ var growmodo = __webpack_require__(2393);
 var app = __webpack_require__(39);
 // EXTERNAL MODULE: ./src/assets/scripts/functions.js + 1 modules
 var functions = __webpack_require__(1966);
-// EXTERNAL MODULE: ./src/mixins/index.js + 7 modules
-var mixins = __webpack_require__(3458);
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Request/QuickRequestForm.vue?vue&type=script&lang=js
-
 
 
 
@@ -250,9 +248,8 @@ var mixins = __webpack_require__(3458);
   name: 'QuickRequest',
   components: {
     CardIconBox: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.resolve(/* import() */).then(__webpack_require__.bind(__webpack_require__, 6122))),
-    DynamicQuestions: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 638).then(__webpack_require__.bind(__webpack_require__, 2638)))
+    DynamicQuestions: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 654).then(__webpack_require__.bind(__webpack_require__, 654)))
   },
-  mixins: [mixins/* DynamicQuestions_Mixin */.r1],
   data() {
     return {
       request: {},
@@ -274,10 +271,13 @@ var mixins = __webpack_require__(3458);
       return this.type.toLowerCase() === 'task' ? true : false;
     },
     showSkeleton() {
-      return !this.questions.length || Object.keys(this.answer).length !== this.questions.length;
+      return !this.questions.length;
+      // ||
+      // Object.keys(this.answer).length !== this.questions.length
     },
+
     typeId() {
-      const id = this.questions.findIndex(e => e.type == 'select_tasktype');
+      const id = this.questions.findIndex(e => e.type === this.isTask ? 'select_tasktype' : 'select_projecttype');
       return this.questions[id];
     },
     typeanswer() {
@@ -338,9 +338,6 @@ var mixins = __webpack_require__(3458);
     },
     async init() {
       this.init_RequestForm();
-      for (const q of this.questions) {
-        if (!this.answer[q.id]?.value) this.answer[q.id] = this.formatDynamicAnswer(q);
-      }
     },
     goTo_Directory(model) {
       if (!model) model = this.isTask ? 'task' : 'project';
@@ -397,4 +394,4 @@ runtime_auto_import_default()(QuickRequestFormvue_type_script_lang_js, 'componen
 /***/ })
 
 }]);
-//# sourceMappingURL=828.0b84c5d2.js.map
+//# sourceMappingURL=440.5a9cf5a4.js.map

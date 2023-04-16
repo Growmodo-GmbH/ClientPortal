@@ -468,14 +468,14 @@ const routes = [{
   path: '/request',
   children: [{
     path: 'task/:taskId',
-    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(47)]).then(__webpack_require__.bind(__webpack_require__, 4047))
+    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(746)]).then(__webpack_require__.bind(__webpack_require__, 4746))
   }, {
     path: 'project/:projectId',
-    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(47)]).then(__webpack_require__.bind(__webpack_require__, 4047))
+    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(746)]).then(__webpack_require__.bind(__webpack_require__, 4746))
   }]
 }, {
   path: '/quick-request/:quickRequestType',
-  component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(828)]).then(__webpack_require__.bind(__webpack_require__, 6828))
+  component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(440)]).then(__webpack_require__.bind(__webpack_require__, 8440))
 }, {
   path: '/signup',
   children: [{
@@ -3760,6 +3760,7 @@ var user = __webpack_require__(3701);
         case 'video_walkthrough':
         case 'upload_single':
         case 'select_tasktype':
+        case 'select_projecttype':
         case 'select_taskcategory':
         case 'select_projectcategory':
           answer.value = '';
@@ -3787,6 +3788,7 @@ var user = __webpack_require__(3701);
         case 'video_walkthrough':
         case 'upload_single':
         case 'select_tasktype':
+        case 'select_projecttype':
         case 'select_taskcategory':
         case 'select_projectcategory':
           answer.alternative_answer = '';
@@ -5554,7 +5556,7 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.9.0","descripti
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"40":"7b416978","47":"cd0e499e","48":"e73a4687","64":"03dd8ae5","79":"9998e7aa","94":"41e4ac97","95":"9dc3ee7f","175":"69f16547","191":"29167568","255":"67559438","335":"88a1448c","378":"f29c4238","386":"f0ae4ec2","397":"13d28c30","404":"edc765be","405":"1f53fc09","422":"28a0ceb4","474":"19456c61","480":"7c3ce231","484":"6ca2881e","493":"0b2cea49","507":"4142185f","539":"0e99bcae","563":"f7b160fe","620":"83a173fa","638":"c52bb1e5","661":"0369e753","712":"c0733c7c","713":"63f547f5","737":"b8810320","757":"f699b8b8","775":"fc0b618f","785":"b262ecf0","828":"0b84c5d2","909":"dc17e0fe","966":"d3f206d9","991":"90122fec"}[chunkId] + ".js";
+/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"40":"7b416978","48":"e73a4687","64":"03dd8ae5","79":"9998e7aa","94":"41e4ac97","95":"9dc3ee7f","175":"69f16547","191":"29167568","255":"67559438","335":"88a1448c","378":"f29c4238","386":"f0ae4ec2","397":"13d28c30","404":"edc765be","405":"1f53fc09","422":"28a0ceb4","440":"5a9cf5a4","474":"19456c61","480":"7c3ce231","484":"6ca2881e","493":"0b2cea49","507":"4142185f","539":"0e99bcae","563":"f7b160fe","620":"83a173fa","654":"49f98058","661":"0369e753","712":"c0733c7c","713":"63f547f5","737":"b8810320","746":"a6c96ae7","757":"f699b8b8","775":"fc0b618f","785":"b262ecf0","909":"dc17e0fe","966":"d3f206d9","991":"90122fec"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -5822,4 +5824,4 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.9.0","descripti
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.25b11b97.js.map
+//# sourceMappingURL=app.c2e46eaf.js.map

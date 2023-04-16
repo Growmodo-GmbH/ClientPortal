@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[47],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[746],{
 
-/***/ 4047:
+/***/ 4746:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(6646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Request/RequestForm.vue?vue&type=template&id=2585382a
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Request/RequestForm.vue?vue&type=template&id=0ad52128
 
 const _hoisted_1 = {
   class: "q-pt-sm q-mt-xs q-pb-xl q-px-lg"
@@ -425,7 +425,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/Request/RequestForm.vue?vue&type=template&id=2585382a
+;// CONCATENATED MODULE: ./src/pages/Request/RequestForm.vue?vue&type=template&id=0ad52128
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.push.js
 var es_array_push = __webpack_require__(9665);
@@ -459,11 +459,11 @@ var fn_store = __webpack_require__(5487);
 
 /* harmony default export */ const RequestFormvue_type_script_lang_js = ((0,vue_esm_bundler/* defineComponent */.aZ)({
   name: 'FormNewRequest',
-  mixins: [mixins/* DynamicQuestions_Mixin */.r1, mixins/* RequestOptions_Mixin */.Tt, mixins/* FileUploader_Mixin */.GU, mixins/* Editor_Mixin */.kE],
+  mixins: [mixins/* RequestOptions_Mixin */.Tt, mixins/* FileUploader_Mixin */.GU, mixins/* Editor_Mixin */.kE],
   components: {
     GrowmodoTextIcon: GrowmodoTextIcon/* default */.Z,
     CardIconBox: CardIconBox["default"],
-    DynamicQuestions: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 638).then(__webpack_require__.bind(__webpack_require__, 2638)))
+    DynamicQuestions: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 654).then(__webpack_require__.bind(__webpack_require__, 654)))
   },
   data() {
     return {
@@ -490,11 +490,13 @@ var fn_store = __webpack_require__(5487);
       return (this.isTask ? this.taskDirectory[this.taskRouteId] : this.projectDirectory[this.projectRouteId]) || {};
     },
     showSkeleton() {
-      return !this.dynamic_questions_array.length || Object.keys(this.answer).length !== this.dynamic_questions_array.length || this.step === -1;
+      return !this.dynamic_questions_array.length ||
+      // Object.keys(this.answer).length !==
+      //   this.dynamic_questions_array.length ||
+      this.step === -1;
     },
     dynamic_questions_array() {
-      return (/* this.testQuestions || */this.requestInfo.questions || []
-      );
+      return this.requestInfo.questions || [];
     },
     dynamic_questions() {
       const data = {};
@@ -537,9 +539,6 @@ var fn_store = __webpack_require__(5487);
       });
       this.step = 0;
       this.init_RequestForm();
-      for (const q of this.dynamic_questions_array) {
-        if (!this.answer[q.id]?.value) this.answer[q.id] = this.formatDynamicAnswer(q);
-      }
     },
     async submitRequest() {
       if (!this.validateData()) return;
@@ -729,4 +728,4 @@ runtime_auto_import_default()(RequestFormvue_type_script_lang_js, 'components', 
 /***/ })
 
 }]);
-//# sourceMappingURL=47.cd0e499e.js.map
+//# sourceMappingURL=746.a6c96ae7.js.map
