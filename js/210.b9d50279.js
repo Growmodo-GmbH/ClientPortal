@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[789],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[210],{
 
-/***/ 7789:
+/***/ 5210:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(6646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Request/QuickRequestForm.vue?vue&type=template&id=3955ca7a
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Request/QuickRequestForm.vue?vue&type=template&id=ee66c4ea
 
 const _hoisted_1 = {
   key: 0,
@@ -225,7 +225,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/Request/QuickRequestForm.vue?vue&type=template&id=3955ca7a
+;// CONCATENATED MODULE: ./src/pages/Request/QuickRequestForm.vue?vue&type=template&id=ee66c4ea
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.push.js
 var es_array_push = __webpack_require__(9665);
@@ -249,7 +249,7 @@ var functions = __webpack_require__(1966);
   name: 'QuickRequest',
   components: {
     CardIconBox: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.resolve(/* import() */).then(__webpack_require__.bind(__webpack_require__, 6122))),
-    DynamicQuestions: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 870).then(__webpack_require__.bind(__webpack_require__, 7870)))
+    DynamicQuestions: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 574).then(__webpack_require__.bind(__webpack_require__, 6574)))
   },
   data() {
     return {
@@ -308,12 +308,6 @@ var functions = __webpack_require__(1966);
     },
     async submitRequest() {
       this.request_submitting = true;
-      console.warn('Answer', this.answer);
-      console.warn('Type Answer', this.typeanswer);
-      console.warn('typeId', this.typeId);
-      console.warn(this.requestType, 'wtf');
-      console.warn(this.questions.findIndex(e => e.type === (this.isTask ? 'select_tasktype' : 'select_projecttype')));
-      console.warn(this.questions);
       const payload = {
         title: `${this.requestType?.title}`,
         [`${this.isTask ? 'task' : 'project'}_type_id`]: this.requestType?.id
@@ -401,4 +395,4 @@ runtime_auto_import_default()(QuickRequestFormvue_type_script_lang_js, 'componen
 /***/ })
 
 }]);
-//# sourceMappingURL=789.04842234.js.map
+//# sourceMappingURL=210.b9d50279.js.map

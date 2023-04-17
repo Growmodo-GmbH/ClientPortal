@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[229],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[221],{
 
-/***/ 6229:
+/***/ 9221:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(6646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/TextArea2.vue?vue&type=template&id=43282fa7
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/TextArea2.vue?vue&type=template&id=7d1bdb50
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_q_editor = (0,vue_esm_bundler/* resolveComponent */.up)("q-editor");
@@ -22,24 +22,38 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     autofocus: _ctx.autofocus,
     dense: _ctx.dense,
     ref: "descriptionEditorRef",
-    onPaste: _cache[0] || (_cache[0] = e => _ctx.pastePlainText(e, _ctx.$refs['descriptionEditorRef'])),
+    modelValue: _ctx.internalModel,
+    "onUpdate:modelValue": _cache[0] || (_cache[0] = $event => _ctx.internalModel = $event),
+    onPaste: _cache[1] || (_cache[1] = e => _ctx.pastePlainText(e, _ctx.$refs['descriptionEditorRef'])),
     placeholder: "Write something...",
     rules: [val => _ctx.required ? !!val || '' : true],
     height: `${_ctx.rows * 10}px`,
     toolbar: [[{
+      // label: 'Font',
+      icon: _ctx.$q.iconSet.editor.font,
+      list: 'no-icons',
+      options: ['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'code', 'p']
+    }, {
+      // label: 'Formatting',
+      icon: _ctx.$q.iconSet.editor.formatting,
+      list: 'only-icons',
+      options: ['bold', 'italic', 'strike', 'underline']
+    }, {
+      // label: 'Align',
       icon: _ctx.$q.iconSet.editor.align,
       fixedLabel: true,
       list: 'only-icons',
       options: ['left', 'center', 'right', 'justify']
-    }], [{
-      label: _ctx.$q.lang.editor.formatting,
-      icon: _ctx.$q.iconSet.editor.formatting,
-      list: 'no-icons',
-      options: ['p', 'h5', 'h6', 'code']
-    }], ['bold', 'italic', 'underline'], ['link', 'quote'], ['unordered', 'ordered', 'outdent', 'indent'], ['undo', 'redo']]
-  }, null, 8, ["autofocus", "dense", "rules", "height", "toolbar"]);
+    }, {
+      // label: 'List and Indent',
+      icon: _ctx.$q.iconSet.editor.unorderedList,
+      fixedLabel: true,
+      list: 'only-icons',
+      options: ['unordered', 'ordered', 'outdent', 'indent']
+    }]]
+  }, null, 8, ["autofocus", "dense", "modelValue", "rules", "height", "toolbar"]);
 }
-;// CONCATENATED MODULE: ./src/components/Helpers/TextArea2.vue?vue&type=template&id=43282fa7
+;// CONCATENATED MODULE: ./src/components/Helpers/TextArea2.vue?vue&type=template&id=7d1bdb50
 
 // EXTERNAL MODULE: ./src/mixins/index.js + 7 modules
 var mixins = __webpack_require__(3458);
@@ -49,6 +63,11 @@ var mixins = __webpack_require__(3458);
 /* harmony default export */ const TextArea2vue_type_script_lang_js = ((0,vue_esm_bundler/* defineComponent */.aZ)({
   name: 'TextArea2',
   mixins: [mixins/* Editor_Mixin */.kE],
+  data() {
+    return {
+      internalModel: ''
+    };
+  },
   props: {
     autofocus: {
       type: Boolean,
@@ -94,4 +113,4 @@ runtime_auto_import_default()(TextArea2vue_type_script_lang_js, 'components', {Q
 /***/ })
 
 }]);
-//# sourceMappingURL=229.76c59e38.js.map
+//# sourceMappingURL=221.1f2b6ff1.js.map

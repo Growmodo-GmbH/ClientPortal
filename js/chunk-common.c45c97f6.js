@@ -2067,7 +2067,7 @@ var functions = __webpack_require__(1966);
 // EXTERNAL MODULE: ./src/components/Helpers/SelectBrandType.vue + 4 modules
 var SelectBrandType = __webpack_require__(9438);
 // EXTERNAL MODULE: ./src/components/Helpers/InputWebsite.vue + 4 modules
-var InputWebsite = __webpack_require__(9212);
+var InputWebsite = __webpack_require__(7696);
 // EXTERNAL MODULE: ./src/components/Helpers/FilesUploader.vue + 4 modules
 var FilesUploader = __webpack_require__(2252);
 // EXTERNAL MODULE: ./src/components/Helpers/SelectFont.vue + 4 modules
@@ -4212,7 +4212,7 @@ runtime_auto_import_default()(InputTextFieldvue_type_script_lang_js, 'components
 
 /***/ }),
 
-/***/ 9212:
+/***/ 7696:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -4225,7 +4225,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(6646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/InputWebsite.vue?vue&type=template&id=23860502
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/InputWebsite.vue?vue&type=template&id=647fe9fa
 
 const _hoisted_1 = {
   class: "text-body2 text-primary-500"
@@ -4238,8 +4238,14 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     outlined: "",
     "hide-bottom-space": "",
     dense: _ctx.dense,
+    modelValue: _ctx.internalModel,
+    "onUpdate:modelValue": _cache[0] || (_cache[0] = $event => _ctx.internalModel = $event),
     placeholder: "www.yourwebsite.com",
-    rules: [val => _ctx.required ? _ctx.testURL(val, false) || '' : _ctx.testURL(val)],
+    rules: [val => _ctx.checker.input({
+      value: val ? `https://${val}` : val,
+      nomsg: true,
+      type: 'url'
+    }, 500, !_ctx.required)],
     class: (0,vue_esm_bundler/* normalizeClass */.C_)({
       ['input-split']: _ctx.split
     })
@@ -4249,11 +4255,14 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       class: "q-ml-sm"
     })]),
     _: 1
-  }, 8, ["autofocus", "dense", "rules", "class"]);
+  }, 8, ["autofocus", "dense", "modelValue", "rules", "class"]);
 }
-;// CONCATENATED MODULE: ./src/components/Helpers/InputWebsite.vue?vue&type=template&id=23860502
+;// CONCATENATED MODULE: ./src/components/Helpers/InputWebsite.vue?vue&type=template&id=647fe9fa
 
+// EXTERNAL MODULE: ./src/assets/scripts/functions.js + 1 modules
+var functions = __webpack_require__(1966);
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/InputWebsite.vue?vue&type=script&lang=js
+
 
 /* harmony default export */ const InputWebsitevue_type_script_lang_js = ((0,vue_esm_bundler/* defineComponent */.aZ)({
   name: 'InputWebsite',
@@ -4279,16 +4288,11 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       default: true
     }
   },
-  methods: {
-    testURL(url_string, optional = true) {
-      if (!url_string && optional) return true;
-      try {
-        new URL(`https://${url_string}`);
-        return true;
-      } catch (e) {
-        return false;
-      }
-    }
+  data() {
+    return {
+      checker: functions.checker,
+      internalModel: ''
+    };
   }
 }));
 ;// CONCATENATED MODULE: ./src/components/Helpers/InputWebsite.vue?vue&type=script&lang=js
@@ -6944,4 +6948,4 @@ runtime_auto_import_default()(CustomDropdownvue_type_script_lang_js, 'components
 /***/ })
 
 }]);
-//# sourceMappingURL=chunk-common.79db2987.js.map
+//# sourceMappingURL=chunk-common.c45c97f6.js.map

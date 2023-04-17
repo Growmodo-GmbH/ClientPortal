@@ -475,7 +475,7 @@ const routes = [{
   }]
 }, {
   path: '/quick-request/:quickRequestType',
-  component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(789)]).then(__webpack_require__.bind(__webpack_require__, 7789))
+  component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(210)]).then(__webpack_require__.bind(__webpack_require__, 5210))
 }, {
   path: '/signup',
   children: [{
@@ -1450,8 +1450,8 @@ function objectCopy(obj) {
 function inputValidate(toResolve, timeout = 1000, forceNoError = false) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      if (forceNoError) resolve(true);else if (checkIfObject(toResolve)) {
-        if (toResolve.type && typeof toResolve.value !== undefined) {
+      if (checkIfObject(toResolve)) {
+        if (forceNoError && !toResolve.value) resolve(true);else if (toResolve.type && typeof toResolve.value !== undefined) {
           const val = String(toResolve.value);
           switch (toResolve.type.toLowerCase()) {
             case 'url':
@@ -5556,7 +5556,7 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.9.0","descripti
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"48":"e73a4687","64":"79db2987","79":"9998e7aa","94":"18cdee3c","95":"9dc3ee7f","175":"69f16547","191":"29167568","229":"76c59e38","255":"67559438","335":"88a1448c","378":"f29c4238","386":"f0ae4ec2","397":"13d28c30","404":"edc765be","405":"1f53fc09","422":"28a0ceb4","474":"19456c61","480":"7c3ce231","484":"6ca2881e","493":"0b2cea49","507":"4142185f","539":"0e99bcae","563":"f7b160fe","620":"83a173fa","661":"0369e753","712":"c0733c7c","713":"63f547f5","737":"b8810320","757":"be6acc0a","775":"fc0b618f","785":"8e332919","789":"04842234","791":"70b4efb1","870":"750e8441","909":"dc17e0fe","966":"d3f206d9","991":"90122fec"}[chunkId] + ".js";
+/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"48":"7946f576","64":"c45c97f6","79":"9998e7aa","94":"18cdee3c","95":"9dc3ee7f","175":"69f16547","191":"29167568","210":"b9d50279","221":"1f2b6ff1","255":"67559438","335":"88a1448c","378":"f29c4238","386":"f0ae4ec2","397":"13d28c30","404":"edc765be","405":"1f53fc09","422":"28a0ceb4","474":"19456c61","480":"7c3ce231","484":"6ca2881e","493":"0b2cea49","507":"4142185f","539":"0e99bcae","563":"f7b160fe","574":"2373a422","620":"83a173fa","661":"efa66e0e","712":"dfbbb521","713":"63f547f5","737":"b8810320","757":"be6acc0a","775":"fc0b618f","785":"8e332919","791":"ea05be61","909":"dc17e0fe","966":"d3f206d9","991":"90122fec"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -5824,4 +5824,4 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.9.0","descripti
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.85d7bf87.js.map
+//# sourceMappingURL=app.a171b6a6.js.map
