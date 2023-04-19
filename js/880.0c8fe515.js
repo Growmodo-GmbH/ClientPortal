@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[246],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[880],{
 
-/***/ 22246:
+/***/ 38880:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Forms/Form_ServerConfig.vue?vue&type=template&id=4fec8142
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Forms/Form_ServerConfig.vue?vue&type=template&id=3bc371e3
 
 const _hoisted_1 = {
   class: "row q-pt-md"
@@ -191,7 +191,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/components/Forms/Form_ServerConfig.vue?vue&type=template&id=4fec8142
+;// CONCATENATED MODULE: ./src/components/Forms/Form_ServerConfig.vue?vue&type=template&id=3bc371e3
 
 // EXTERNAL MODULE: ./node_modules/quasar/src/composables/use-quasar.js
 var use_quasar = __webpack_require__(19302);
@@ -278,7 +278,7 @@ var fn_store = __webpack_require__(85487);
       this.request_response = response?.data || {};
       const success = this.request_response.success;
       if (success) {
-        if (this.server.url?.endsWith('/')) this.server.url = this.server.url.slice(0, -1);
+        if (this.server.host?.endsWith('/')) this.server.host = this.server.host.slice(0, -1);
         try {
           const {
             success,
@@ -286,9 +286,6 @@ var fn_store = __webpack_require__(85487);
             url
           } = this.input_host_info;
           if (success) {
-            // Details
-            this.server.$api = api;
-            this.server.$url = url;
             // Save Settings
             fn_store/* default.setAPIHost */.Z.setAPIHost(this.server.host);
           } else {
@@ -307,7 +304,7 @@ var fn_store = __webpack_require__(85487);
         }
       }
       // Emit Response
-      console.warn('emit', success ? 'success' : 'failed');
+      if (true) console[success ? 'info' : 'error']('API Test', success ? 'Success' : 'Failed', ':', this.request_response, this.server);
       this.$emit(success ? 'success' : 'failed', this.request_response, this.server);
     },
     async testServerHost() {
@@ -404,4 +401,4 @@ runtime_auto_import_default()(Form_ServerConfigvue_type_script_lang_js, 'compone
 /***/ })
 
 }]);
-//# sourceMappingURL=246.00ee8f74.js.map
+//# sourceMappingURL=880.0c8fe515.js.map
