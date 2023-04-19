@@ -124,6 +124,7 @@ __webpack_require__.d(actions_namespaceObject, {
   "formatPlatformIconSrc": () => (formatPlatformIconSrc),
   "getBrandCategories": () => (getBrandCategories),
   "getCompanyTypes": () => (getCompanyTypes),
+  "getDynamicQuestion": () => (getDynamicQuestion),
   "getExternalLinks": () => (getExternalLinks),
   "getInvitedUserRoles": () => (getInvitedUserRoles),
   "getPlatformInfo": () => (getPlatformInfo),
@@ -780,6 +781,20 @@ async function getSingleProjects(projectId, params = {}, orgId) {
     if (!orgId) return;
   }
   const url = `/organizations/${orgId}/projects/${projectId}`;
+  return await apis.api.get(url, {
+    params
+  }).then(res => {
+    const data = res.data || {};
+    fn_store/* default.addAPICache */.Z.addAPICache(url, data);
+    return data;
+  }).catch(e => {
+    const cache_data = fn_store/* default.getAPICache */.Z.getAPICache(url);
+    return cache_data || e;
+  });
+}
+async function getDynamicQuestion(questionId, params = {}) {
+  if (!questionId) return {};
+  const url = `/dynamic-question/${questionId}`;
   return await apis.api.get(url, {
     params
   }).then(res => {
@@ -5669,7 +5684,7 @@ runtime_auto_import_default()(TextArea1vue_type_script_lang_js, 'components', {Q
 
 /***/ }),
 
-/***/ 69789:
+/***/ 57410:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 
@@ -5682,7 +5697,7 @@ __webpack_require__.d(__webpack_exports__, {
 var es_array_push = __webpack_require__(69665);
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Requests/TaskProjectList.vue?vue&type=template&id=a27c1556
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Requests/TaskProjectList.vue?vue&type=template&id=6ada71de
 
 
 const _hoisted_1 = {
@@ -6036,9 +6051,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               _: 2
             }, 1024)) : _r.name === 'task_priority' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_badge, {
               key: 1,
-              class: (0,vue_esm_bundler/* normalizeClass */.C_)([`badge-${_r.value === 'Urgent' ? 'negative' : _r.value === 'Low' ? 'blue' : _r.value === 'Medium' ? 'warning' : 'grey'}`, "badge"])
+              class: (0,vue_esm_bundler/* normalizeClass */.C_)([`badge-${_r.value == 'urgent' ? 'negative' : _r.value == 'low' ? 'blue' : _r.value == 'medium' ? 'warning' : 'grey'}`, "badge"])
             }, {
-              default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)((0,vue_esm_bundler/* toDisplayString */.zw)(_r.value), 1)]),
+              default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)((0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.capitalize(_r?.value || '')), 1)]),
               _: 2
             }, 1032, ["class"])) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("span", {
               key: 2,
@@ -6169,12 +6184,14 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/components/Requests/TaskProjectList.vue?vue&type=template&id=a27c1556
+;// CONCATENATED MODULE: ./src/components/Requests/TaskProjectList.vue?vue&type=template&id=6ada71de
 
 // EXTERNAL MODULE: ./node_modules/quasar/src/utils/date.js
 var date = __webpack_require__(54170);
 // EXTERNAL MODULE: ./node_modules/quasar/src/utils/debounce.js
 var debounce = __webpack_require__(60899);
+// EXTERNAL MODULE: ./node_modules/quasar/src/utils/format.js
+var format = __webpack_require__(30321);
 // EXTERNAL MODULE: ./node_modules/pinia/dist/pinia.mjs + 1 modules
 var pinia = __webpack_require__(11872);
 // EXTERNAL MODULE: ./src/stores/growmodo/index.js + 3 modules
@@ -6183,10 +6200,7 @@ var growmodo = __webpack_require__(72393);
 var user = __webpack_require__(33701);
 // EXTERNAL MODULE: ./src/components/Helpers/CardIconBox.vue + 4 modules
 var CardIconBox = __webpack_require__(16122);
-// EXTERNAL MODULE: ./src/assets/scripts/functions.js + 1 modules
-var functions = __webpack_require__(1966);
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Requests/TaskProjectList.vue?vue&type=script&lang=js
-
 
 
 
@@ -6201,11 +6215,14 @@ var functions = __webpack_require__(1966);
   data() {
     return {
       tableTab: 'tasks',
+      capitalize: format["default"].capitalize,
       pagination: {
         descending: true,
         page: 1,
         rowsPerPage: 10,
-        rowsNumber: 0
+        rowsNumber: 0,
+        sortBy: 'updated_at',
+        descending: true
       },
       tableLoading: false,
       listTableDense: true,
@@ -6229,9 +6246,7 @@ var functions = __webpack_require__(1966);
     this.onRequestDelayed = (0,debounce/* default */.Z)(this.onRequest, 1000);
     this.onRequest({
       pagination: this.pagination,
-      filter: {
-        search: this.searchQuery
-      }
+      filter: this.searchQuery
     });
   },
   computed: {
@@ -6330,9 +6345,7 @@ var functions = __webpack_require__(1966);
         this.tableLoading = true;
         this.onRequest({
           pagination: this.pagination,
-          filter: {
-            search: this.searchQuery
-          }
+          filter: this.searchQuery
         });
       }
     },
@@ -6341,9 +6354,16 @@ var functions = __webpack_require__(1966);
         this.tableLoading = true;
         this.onRequest({
           pagination: this.pagination,
-          filter: {
-            search: this.searchQuery
-          }
+          filter: this.searchQuery
+        });
+      }
+    },
+    ['pagination.page']: {
+      async handler(val) {
+        this.tableLoading = true;
+        this.onRequest({
+          pagination: this.pagination,
+          filter: this.searchQuery
         });
       }
     }
@@ -6351,20 +6371,22 @@ var functions = __webpack_require__(1966);
   methods: {
     ...(0,pinia/* mapActions */.nv)(growmodo/* default */.Z, ['getTasks', 'getProjects']),
     getItemPriority(itemId) {
-      const q = this.getItemById(itemId)?.dynamic_questions || [];
-      const q_info = q.filter(_ => _.title === 'Priority')?.[0];
-      if (true) {
-        if (itemId % 2 == 0) {
-          return 'Urgent';
-        } else if (itemId % 3 == 0) {
-          return 'Low';
-        } else if (itemId % 5 == 0) {
-          return 'Medium';
-        } else {
-          return 'High';
-        }
-      }
-      return q_info?.['answer']?.[0];
+      const questionTypeInfo = (this.isTask ? this.getTaskInfo(itemId) : this.getProjectInfo(itemId)) || {};
+      const itemInfo = this.getItemById(itemId);
+      const dynamicQuestions = questionTypeInfo?.dynamic_questions || [];
+      const dynamicAnswers = itemInfo?.dynamic_questions || [];
+      const q_info = dynamicQuestions.filter(_ => _.title == 'Priority')?.[0];
+      const ans_info = dynamicAnswers.filter(_ => _.id == q_info?.id)?.[0];
+      const answer = ans_info?.['answer']?.[0];
+      return answer?.alternative_answer || answer?.value;
+    },
+    getTaskInfo(taskId) {
+      const taskInfo = this.getItemById(taskId);
+      return this.taskDirectory[taskInfo.task_type_id];
+    },
+    getProjectInfo(projectId) {
+      const projectInfo = this.getItemById(projectId);
+      return this.projectDirectory[projectInfo.project_type_id];
     },
     getItemIndexById(id) {
       return this.orgSelectedItems.findIndex(e => e.id === id);
@@ -6372,10 +6394,8 @@ var functions = __webpack_require__(1966);
     getItemById(id) {
       return this.orgSelectedItems[this.getItemIndexById(id)];
     },
-    filterMethod(dataArray, filter) {
-      return filter && (0,functions.checkIfObject)(filter) && Object.values(filter).join('') ? filter?.search ? (0,functions.searchInObjectArray)(dataArray, filter?.search, ['title']) : dataArray : dataArray.slice();
-    },
-    onRequest(props) {
+    async onRequest(props) {
+      this.tableLoading = true;
       const {
         page,
         rowsPerPage,
@@ -6383,61 +6403,35 @@ var functions = __webpack_require__(1966);
         descending
       } = props.pagination;
       const filter = props.filter;
-      this.tableLoading = true;
 
-      // emulate server
-      setTimeout(async () => {
-        // update rowsCount with appropriate value
-        this.pagination.rowsNumber = this.getRowsNumberCount(filter);
-
-        // get all rows if "All" (0) is selected
-        const fetchCount = rowsPerPage === 0 ? this.pagination.rowsNumber : rowsPerPage;
-
-        // calculate starting row of data
-        const startRow = (page - 1) * rowsPerPage;
-
-        // fetch data from "server"
-        const returnedData = await this.fetchFromServer(startRow, fetchCount, filter, sortBy, descending);
-
-        // clear out existing data and add new
-        this.orgTmpItems.splice(0, this.orgTmpItems.length, ...returnedData);
-
-        // don't forget to update local pagination object
-        this.pagination.page = page;
-        this.pagination.rowsPerPage = rowsPerPage;
-        this.pagination.sortBy = sortBy;
-        this.pagination.descending = descending;
-
-        // ...and turn of loading indicator
-        this.tableLoading = false;
-      }, 750);
-    },
-    // Search
-    async fetchFromServer(startRow, count, filter, sortBy, descending) {
-      const response = await this[this.isTask ? 'getTasks' : 'getProjects']({
-        brand_id: this.brand_id || undefined
-        // search: filter?.search || undefined, // Search bug - lowercase checking
+      // fetch data from "server"
+      const returnedData = await this.fetchFromServer({
+        brand_id: this.brand_id || undefined,
+        search: filter || undefined,
+        per_page: rowsPerPage || -1,
+        sort_by: sortBy || undefined,
+        page: page || undefined,
+        sort: descending ? 'DESC' : 'ASC'
       });
 
+      // clear out existing data and add new
+      this.orgTmpItems.splice(0, this.orgTmpItems.length, ...returnedData);
+
+      // don't forget to update local pagination object
+      if (this.pagination.page !== page) this.pagination.page = page;
+      if (this.pagination.rowsPerPage !== rowsPerPage) this.pagination.rowsPerPage = rowsPerPage;
+      if (this.pagination.sortBy !== sortBy) this.pagination.sortBy = sortBy;
+      if (this.pagination.descending !== descending) this.pagination.descending = descending;
+
+      // ...and turn of loading indicator
+      this.tableLoading = false;
+    },
+    async fetchFromServer(query_props = {}) {
+      const response = await this[this.isTask ? 'getTasks' : 'getProjects'](query_props);
+      this.pagination.rowsNumber = response?.data?.total || 1;
+      this.pagination.pagesNumber = response?.data?.last_page || 1;
       this.orgSelectedItems = response.data?.data || [];
-      const data = this.filterMethod(this.orgSelectedItems, filter);
-
-      // handle sortBy
-      if (sortBy) {
-        const sortFn = sortBy === 'desc' ? descending ? (a, b) => a.name > b.name ? -1 : a.name < b.name ? 1 : 0 : (a, b) => a.name > b.name ? 1 : a.name < b.name ? -1 : 0 : descending ? (a, b) => parseFloat(b[sortBy]) - parseFloat(a[sortBy]) : (a, b) => parseFloat(a[sortBy]) - parseFloat(b[sortBy]);
-        data.sort(sortFn);
-      }
-      return data.slice(startRow, startRow + count);
-    },
-    getRowsNumberCount(filter) {
-      if (!filter || !((0,functions.checkIfObject)(filter) && Object.values(filter).join(''))) {
-        return this.orgSelectedItems.length;
-      }
-      let count = 0;
-      this.filterMethod(this.orgSelectedItems, filter).forEach(e => {
-        count++;
-      });
-      return count;
+      return this.orgSelectedItems;
     }
   }
 }));
@@ -6939,4 +6933,4 @@ runtime_auto_import_default()(CustomDropdownvue_type_script_lang_js, 'components
 /***/ })
 
 }]);
-//# sourceMappingURL=chunk-common.b08d8fc4.js.map
+//# sourceMappingURL=chunk-common.3a58084b.js.map
