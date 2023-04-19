@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[880],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[806],{
 
-/***/ 38880:
+/***/ 97806:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Forms/Form_ServerConfig.vue?vue&type=template&id=3bc371e3
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Forms/Form_ServerConfig.vue?vue&type=template&id=745950e2
 
 const _hoisted_1 = {
   class: "row q-pt-md"
@@ -191,7 +191,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/components/Forms/Form_ServerConfig.vue?vue&type=template&id=3bc371e3
+;// CONCATENATED MODULE: ./src/components/Forms/Form_ServerConfig.vue?vue&type=template&id=745950e2
 
 // EXTERNAL MODULE: ./node_modules/quasar/src/composables/use-quasar.js
 var use_quasar = __webpack_require__(19302);
@@ -309,8 +309,10 @@ var fn_store = __webpack_require__(85487);
     },
     async testServerHost() {
       try {
-        const url = this.server.host;
-        return await this.$api.get(url);
+        const url = `${this.server.host}/test-connect`;
+        return await this.$api.get(url, {
+          withCredentials: false
+        });
       } catch (e) {
         if (true) console.error('Server Error:', e.message);
         return {
@@ -401,4 +403,4 @@ runtime_auto_import_default()(Form_ServerConfigvue_type_script_lang_js, 'compone
 /***/ })
 
 }]);
-//# sourceMappingURL=880.0c8fe515.js.map
+//# sourceMappingURL=806.93694515.js.map
