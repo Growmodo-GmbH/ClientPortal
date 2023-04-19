@@ -5684,7 +5684,7 @@ runtime_auto_import_default()(TextArea1vue_type_script_lang_js, 'components', {Q
 
 /***/ }),
 
-/***/ 57410:
+/***/ 74540:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 
@@ -5697,7 +5697,7 @@ __webpack_require__.d(__webpack_exports__, {
 var es_array_push = __webpack_require__(69665);
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Requests/TaskProjectList.vue?vue&type=template&id=6ada71de
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Requests/TaskProjectList.vue?vue&type=template&id=3a5bcb5e
 
 
 const _hoisted_1 = {
@@ -6110,7 +6110,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         dense: "",
         outline: "",
         "no-caps": "",
-        disable: scope.isFirstPage,
+        disable: _ctx.tableLoading || scope.isFirstPage,
         onClick: scope.prevPage,
         class: (0,vue_esm_bundler/* normalizeClass */.C_)(["rounded q-px-md slide-hover button-gm-outline-dark text-body1 font-medium button-sm", {
           [scope.isFirstPage ? 'text-primary-500' : 'text-primary']: true,
@@ -6143,7 +6143,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         dense: "",
         outline: "",
         "no-caps": "",
-        disable: scope.isLastPage,
+        disable: _ctx.tableLoading || scope.isLastPage,
         onClick: scope.nextPage,
         class: (0,vue_esm_bundler/* normalizeClass */.C_)(["rounded q-px-md slide-hover button-gm-outline-dark text-body1 font-medium button-sm", {
           [scope.isLastPage ? 'text-primary-500' : 'text-primary']: true,
@@ -6184,7 +6184,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/components/Requests/TaskProjectList.vue?vue&type=template&id=6ada71de
+;// CONCATENATED MODULE: ./src/components/Requests/TaskProjectList.vue?vue&type=template&id=3a5bcb5e
 
 // EXTERNAL MODULE: ./node_modules/quasar/src/utils/date.js
 var date = __webpack_require__(54170);
@@ -6933,4 +6933,4 @@ runtime_auto_import_default()(CustomDropdownvue_type_script_lang_js, 'components
 /***/ })
 
 }]);
-//# sourceMappingURL=chunk-common.3a58084b.js.map
+//# sourceMappingURL=chunk-common.910eca81.js.map
