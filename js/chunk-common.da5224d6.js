@@ -2092,7 +2092,7 @@ var ColorPickerCard = __webpack_require__(46520);
 // EXTERNAL MODULE: ./src/components/Helpers/CardIconBox.vue + 4 modules
 var CardIconBox = __webpack_require__(16122);
 // EXTERNAL MODULE: ./src/components/Helpers/TextArea1.vue + 4 modules
-var TextArea1 = __webpack_require__(7248);
+var TextArea1 = __webpack_require__(44799);
 // EXTERNAL MODULE: ./src/mixins/index.js + 7 modules
 var mixins = __webpack_require__(93458);
 // EXTERNAL MODULE: ./node_modules/quasar/src/utils/colors.js
@@ -5605,7 +5605,7 @@ runtime_auto_import_default()(UploadSlotvue_type_script_lang_js, 'components', {
 
 /***/ }),
 
-/***/ 7248:
+/***/ 44799:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -5618,7 +5618,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/TextArea1.vue?vue&type=template&id=477144cc
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/TextArea1.vue?vue&type=template&id=1199861c
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_q_input = (0,vue_esm_bundler/* resolveComponent */.up)("q-input");
@@ -5629,12 +5629,12 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     rows: "15",
     type: "textarea",
     "hide-bottom-space": "",
-    placeholder: "Write something...",
+    placeholder: _ctx.placeholder,
     class: "rounded text-body2 input-white",
     rules: [val => _ctx.required ? !!val || '' : true]
-  }, null, 8, ["autofocus", "dense", "rules"]);
+  }, null, 8, ["autofocus", "dense", "placeholder", "rules"]);
 }
-;// CONCATENATED MODULE: ./src/components/Helpers/TextArea1.vue?vue&type=template&id=477144cc
+;// CONCATENATED MODULE: ./src/components/Helpers/TextArea1.vue?vue&type=template&id=1199861c
 
 // EXTERNAL MODULE: ./src/mixins/index.js + 7 modules
 var mixins = __webpack_require__(93458);
@@ -5656,6 +5656,10 @@ var mixins = __webpack_require__(93458);
     dense: {
       type: Boolean,
       default: true
+    },
+    placeholder: {
+      type: String,
+      default: 'Write something...'
     }
   }
 }));
@@ -5684,7 +5688,7 @@ runtime_auto_import_default()(TextArea1vue_type_script_lang_js, 'components', {Q
 
 /***/ }),
 
-/***/ 74540:
+/***/ 9357:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 
@@ -5697,7 +5701,7 @@ __webpack_require__.d(__webpack_exports__, {
 var es_array_push = __webpack_require__(69665);
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Requests/TaskProjectList.vue?vue&type=template&id=3a5bcb5e
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Requests/TaskProjectList.vue?vue&type=template&id=215f2a18
 
 
 const _hoisted_1 = {
@@ -6184,7 +6188,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/components/Requests/TaskProjectList.vue?vue&type=template&id=3a5bcb5e
+;// CONCATENATED MODULE: ./src/components/Requests/TaskProjectList.vue?vue&type=template&id=215f2a18
 
 // EXTERNAL MODULE: ./node_modules/quasar/src/utils/date.js
 var date = __webpack_require__(54170);
@@ -6270,48 +6274,47 @@ var CardIconBox = __webpack_require__(16122);
         align: 'left',
         field: row => row.id,
         format: val => val,
-        sortable: true,
-        sort: (a, b) => parseInt(a, 10) - parseInt(b, 10)
+        sortable: true
+        // sort: (a, b) => parseInt(a, 10) - parseInt(b, 10),
       }, {
-        name: 'brand',
+        name: 'brand_id',
         label: 'Brand',
         align: 'left',
         field: row => row.brand_id,
         format: val => this.selectedOrgBrands?.[val]?.brand_name,
-        sortable: true,
-        sort: (a, b) => parseInt(a, 10) - parseInt(b, 10)
+        sortable: false,
+        sort: false
       }, {
         name: 'task_priority',
         label: 'Task Priority',
         align: 'left',
         field: row => row.id,
         format: val => this.getItemPriority(val),
-        sortable: true,
-        sort: (a, b) => parseInt(a, 10) - parseInt(b, 10)
+        sortable: false
       }, {
-        name: 'task_type',
+        name: 'task_type_id',
         label: 'Category',
         align: 'left',
         field: row => row.task_type_id,
         format: val => Object.values(this.taskDirectory_Categories)?.filter(e => e.id === val)?.[0]?.title,
-        sortable: true,
-        sort: (a, b) => parseInt(a, 10) - parseInt(b, 10)
+        sortable: true
+        // sort: (a, b) => parseInt(a, 10) - parseInt(b, 10),
       }, {
         name: 'created_at',
         label: 'Created On',
         align: 'left',
         field: row => row.created_at || 1,
         format: val => `${date/* default.formatDate */.ZP.formatDate(val, 'MMM D, YYYY')}`,
-        sortable: true,
-        sort: (a, b) => parseInt(a, 10) - parseInt(b, 10)
+        sortable: true
+        // sort: (a, b) => parseInt(a, 10) - parseInt(b, 10),
       }, {
-        name: 'created_at',
+        name: 'requested_by_id',
         label: 'Created By',
         align: 'left',
         field: row => row.requestor?.id === this.user.id ? 'me' : `${row.requestor?.firstname} ${row.requestor?.lastname}`,
         format: val => val,
-        sortable: true,
-        sort: (a, b) => parseInt(a, 10) - parseInt(b, 10)
+        sortable: true
+        // sort: (a, b) => parseInt(a, 10) - parseInt(b, 10),
       }] : [{
         name: 'title',
         required: true,
@@ -6933,4 +6936,4 @@ runtime_auto_import_default()(CustomDropdownvue_type_script_lang_js, 'components
 /***/ })
 
 }]);
-//# sourceMappingURL=chunk-common.910eca81.js.map
+//# sourceMappingURL=chunk-common.da5224d6.js.map

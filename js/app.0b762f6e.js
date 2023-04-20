@@ -570,10 +570,10 @@ const routes = [{
   path: '/request',
   children: [{
     path: 'task/:taskId',
-    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(962)]).then(__webpack_require__.bind(__webpack_require__, 55962))
+    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(522)]).then(__webpack_require__.bind(__webpack_require__, 78522))
   }, {
     path: 'project/:projectId',
-    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(962)]).then(__webpack_require__.bind(__webpack_require__, 55962))
+    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(522)]).then(__webpack_require__.bind(__webpack_require__, 78522))
   }]
 }, {
   path: '/quick-request/:quickRequestType',
@@ -5684,7 +5684,7 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.9.3","descripti
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"48":"6d50b47e","64":"910eca81","79":"1cd02aeb","94":"98bf89f2","175":"70cf88a0","191":"6aa08c2d","255":"6754cfd2","308":"8f221411","335":"39b85c03","337":"f15ffbc9","386":"41ead471","404":"07977e3a","405":"61f5fb24","422":"89a30506","474":"a0134c57","480":"4a9c623a","484":"267a2dd2","493":"61538084","507":"11e6f354","517":"31a133ce","539":"add1c8a9","563":"d24d3b4d","620":"a32a9cb4","634":"d9fa1717","661":"bf290cc0","712":"e56fafa7","713":"ae45a7bf","722":"cb27a808","737":"d8680879","745":"f67c576e","757":"4d79db45","775":"a84a93fb","785":"3f6f066c","799":"8b1f0849","909":"1cb0108e","962":"926d9e4d","966":"3b24cfdd","991":"f65af01b"}[chunkId] + ".js";
+/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"48":"6d50b47e","64":"da5224d6","79":"1cd02aeb","94":"98bf89f2","175":"70cf88a0","191":"6aa08c2d","226":"aa08ee09","255":"6754cfd2","308":"8f221411","335":"39b85c03","337":"f15ffbc9","386":"41ead471","404":"07977e3a","405":"61f5fb24","422":"89a30506","474":"a0134c57","484":"267a2dd2","493":"61538084","507":"11e6f354","517":"31a133ce","522":"dc6bba6b","539":"add1c8a9","563":"d24d3b4d","620":"a32a9cb4","634":"d9fa1717","661":"bf290cc0","712":"75512b9d","713":"fcec8bc1","722":"cb27a808","737":"d8680879","745":"555283fc","757":"4d79db45","775":"a84a93fb","785":"3f6f066c","799":"8b1f0849","909":"1cb0108e","966":"3b24cfdd","991":"f65af01b"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -5952,4 +5952,4 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.9.3","descripti
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.dee9cf30.js.map
+//# sourceMappingURL=app.0b762f6e.js.map

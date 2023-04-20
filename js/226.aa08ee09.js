@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[480],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[226],{
 
-/***/ 32480:
+/***/ 95226:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,10 +14,14 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/CheckboxSelect.vue?vue&type=template&id=2b269da0
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/CheckboxSelect.vue?vue&type=template&id=1335bd82
 
 const _hoisted_1 = {
   class: "row q-col-gutter-md q-pb-md"
+};
+const _hoisted_2 = {
+  key: 0,
+  class: "text-caption text-primary-500"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_q_checkbox = (0,vue_esm_bundler/* resolveComponent */.up)("q-checkbox");
@@ -30,15 +34,17 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       modelValue: _ctx.modelValue,
       "onUpdate:modelValue": _cache[0] || (_cache[0] = $event => _ctx.modelValue = $event),
       val: opt,
-      label: opt.label,
       name: _ctx.name || undefined,
       color: opt.color || 'secondary',
-      class: "field-select text-body1 font-medium rounded bg-none text-primary-500 q-py-sm q-pl-sm full-width flex-label",
+      class: "field-select text-body1 font-medium rounded bg-none text-primary-500 q-py-sm q-pl-sm full-width flex-label full-height",
       rules: [val => _ctx.required ? !!val || '' : true]
-    }, null, 8, ["modelValue", "val", "label", "name", "color", "rules"])]);
+    }, {
+      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)((0,vue_esm_bundler/* toDisplayString */.zw)(opt.label) + " ", 1), opt?.description ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_2, (0,vue_esm_bundler/* toDisplayString */.zw)(opt?.description), 1)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)]),
+      _: 2
+    }, 1032, ["modelValue", "val", "name", "color", "rules"])]);
   }), 128))]);
 }
-;// CONCATENATED MODULE: ./src/components/Helpers/CheckboxSelect.vue?vue&type=template&id=2b269da0
+;// CONCATENATED MODULE: ./src/components/Helpers/CheckboxSelect.vue?vue&type=template&id=1335bd82
 
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/CheckboxSelect.vue?vue&type=script&lang=js
 
@@ -107,4 +113,4 @@ runtime_auto_import_default()(CheckboxSelectvue_type_script_lang_js, 'components
 /***/ })
 
 }]);
-//# sourceMappingURL=480.4a9c623a.js.map
+//# sourceMappingURL=226.aa08ee09.js.map

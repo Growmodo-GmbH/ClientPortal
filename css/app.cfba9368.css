@@ -3743,6 +3743,23 @@
   height: 44px !important;
 }
 
+.q-table thead > tr > th.sortable > .q-table__sort-icon {
+  padding: 1px;
+  border-radius: 50%;
+  color: #737373;
+}
+
+.q-table thead > tr > th.sortable > .q-table__sort-icon:hover {
+  color: #121212;
+  background-color: #d6d6d6;
+}
+
+.q-table thead > tr > th.sorted > .q-table__sort-icon {
+  padding: 1px;
+  border-radius: 50%;
+  color: #525252;
+}
+
 [dir="ltr"] .q-table th:first-child,
 [dir="ltr"] .q-table td:first-child {
   padding-left: 32px !important;
@@ -6135,4 +6152,4 @@ p:last-child {
   border-radius: 50%;
 }
 
-/*# sourceMappingURL=app.8aedc334.css.map*/
+/*# sourceMappingURL=app.cfba9368.css.map*/
