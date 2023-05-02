@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[702],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[325],{
 
-/***/ 76702:
+/***/ 8325:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Request/RequestForm.vue?vue&type=template&id=3c8b56c6
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Request/RequestForm.vue?vue&type=template&id=7191ebec
 
 const _hoisted_1 = {
   class: "q-pt-sm q-mt-xs q-pb-xl q-px-lg"
@@ -532,7 +532,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/Request/RequestForm.vue?vue&type=template&id=3c8b56c6
+;// CONCATENATED MODULE: ./src/pages/Request/RequestForm.vue?vue&type=template&id=7191ebec
 
 // EXTERNAL MODULE: ./src/components/GrowmodoTextIcon.vue + 4 modules
 var GrowmodoTextIcon = __webpack_require__(2788);
@@ -649,7 +649,8 @@ var fn_store = __webpack_require__(85487);
       this.request_submitting = true;
       const payload = {
         title: this.requestInfo.title,
-        [`${this.isTask ? 'task' : 'project'}_type_id`]: this.requestInfo.tags[0],
+        [`${this.isTask ? 'task' : 'project'}_type_id`]: this.requestInfo.tags?.[0],
+        [`${this.isTask ? 'task' : 'project'}_id`]: this.requestInfo.id,
         dynamic_questions: this.answer
       };
       const response = this.isTask ? await this.requestTask(payload) : await this.requestProject(payload);
@@ -746,9 +747,6 @@ var fn_store = __webpack_require__(85487);
     gotoStep(step_no) {
       this.$refs?.['formStepper']?.goTo?.(step_no);
     },
-    doTest(a, b, c) {
-      console.log(a, b, c);
-    },
     goTo_Directory(model) {
       if (!model) model = this.isTask ? 'task' : 'project';
       // Open Directory
@@ -836,4 +834,4 @@ runtime_auto_import_default()(RequestFormvue_type_script_lang_js, 'components', 
 /***/ })
 
 }]);
-//# sourceMappingURL=702.ab671150.js.map
+//# sourceMappingURL=325.44af1c0c.js.map

@@ -531,7 +531,7 @@ const routes = [{
         path: 'task',
         children: [{
           path: ':taskId',
-          component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(188)]).then(__webpack_require__.bind(__webpack_require__, 66188))
+          component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(758)]).then(__webpack_require__.bind(__webpack_require__, 11758))
         }]
       }, {
         path: 'project',
@@ -570,14 +570,14 @@ const routes = [{
   path: '/request',
   children: [{
     path: 'task/:taskId',
-    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(702)]).then(__webpack_require__.bind(__webpack_require__, 76702))
+    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(325)]).then(__webpack_require__.bind(__webpack_require__, 8325))
   }, {
     path: 'project/:projectId',
-    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(702)]).then(__webpack_require__.bind(__webpack_require__, 76702))
+    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(325)]).then(__webpack_require__.bind(__webpack_require__, 8325))
   }]
 }, {
   path: '/quick-request/:quickRequestType',
-  component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(700)]).then(__webpack_require__.bind(__webpack_require__, 16700))
+  component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(685)]).then(__webpack_require__.bind(__webpack_require__, 82685))
 }, {
   path: '/signup',
   children: [{
@@ -5696,7 +5696,7 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.9.5","descripti
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"48":"f7931455","64":"e31491e9","78":"d96441aa","79":"b5cb8520","94":"158688f7","175":"be2dcf4a","188":"4992d528","214":"df96432b","246":"4fd35b23","259":"d290fd51","273":"72d8851e","287":"af24f1ee","308":"619aa812","386":"41ead471","395":"4fc93971","404":"07977e3a","405":"61f5fb24","422":"89a30506","474":"7d388eb1","493":"9f7bb3bf","507":"11e6f354","539":"b1290077","563":"d24d3b4d","592":"7e01a2ba","620":"a32a9cb4","661":"dd9b9523","700":"fa021eba","702":"ab671150","712":"d2fe555b","713":"fcec8bc1","715":"48f3073a","722":"214caedb","737":"d8680879","775":"a84a93fb","785":"cd2bf9ad","815":"2b2c890c","935":"9cac99f8","966":"9f889f7f","991":"f65af01b"}[chunkId] + ".js";
+/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"48":"f7931455","64":"e31491e9","78":"d96441aa","79":"b5cb8520","94":"158688f7","175":"be2dcf4a","214":"df96432b","246":"4fd35b23","259":"d290fd51","273":"72d8851e","287":"af24f1ee","308":"619aa812","325":"44af1c0c","386":"41ead471","395":"4fc93971","404":"07977e3a","405":"61f5fb24","422":"89a30506","474":"7d388eb1","493":"9f7bb3bf","507":"11e6f354","539":"b1290077","563":"d24d3b4d","592":"7e01a2ba","620":"a32a9cb4","661":"dd9b9523","685":"33eea8ac","712":"d2fe555b","713":"fcec8bc1","715":"48f3073a","722":"214caedb","737":"d8680879","758":"9716daa0","775":"a84a93fb","785":"cd2bf9ad","815":"2b2c890c","935":"9cac99f8","966":"9f889f7f","991":"f65af01b"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -5964,4 +5964,4 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.9.5","descripti
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.459d0ed7.js.map
+//# sourceMappingURL=app.b6abc568.js.map

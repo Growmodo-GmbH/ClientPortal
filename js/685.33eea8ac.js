@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[700],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[685],{
 
-/***/ 16700:
+/***/ 82685:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Request/QuickRequestForm.vue?vue&type=template&id=154c93d8
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Request/QuickRequestForm.vue?vue&type=template&id=1784ebde
 
 const _hoisted_1 = {
   class: "col-12 q-pb-lg fit self-start"
@@ -223,7 +223,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/Request/QuickRequestForm.vue?vue&type=template&id=154c93d8
+;// CONCATENATED MODULE: ./src/pages/Request/QuickRequestForm.vue?vue&type=template&id=1784ebde
 
 // EXTERNAL MODULE: ./node_modules/pinia/dist/pinia.mjs + 1 modules
 var pinia = __webpack_require__(11872);
@@ -303,8 +303,9 @@ var functions = __webpack_require__(1966);
     async submitRequest() {
       this.request_submitting = true;
       const payload = {
-        title: `Quick Request - ${this.requestType?.title}`,
-        [`${this.isTask ? 'task' : 'project'}_type_id`]: this.requestType?.id,
+        title: `Quick Request - ${this.requestType.title}`,
+        [`${this.isTask ? 'task' : 'project'}_type_id`]: this.requestType.tags?.[0],
+        [`${this.isTask ? 'task' : 'project'}_type_id`]: this.requestType.id,
         dynamic_questions: this.answer
       };
       const response = this.isTask ? await this.requestTask(payload) : await this.requestProject(payload);
@@ -382,4 +383,4 @@ runtime_auto_import_default()(QuickRequestFormvue_type_script_lang_js, 'componen
 /***/ })
 
 }]);
-//# sourceMappingURL=700.fa021eba.js.map
+//# sourceMappingURL=685.33eea8ac.js.map
