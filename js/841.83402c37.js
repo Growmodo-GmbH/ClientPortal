@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[403],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[841],{
 
-/***/ 15403:
+/***/ 98841:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Request/QuickRequestForm.vue?vue&type=template&id=3073723c
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Request/QuickRequestForm.vue?vue&type=template&id=06c93041
 
 const _hoisted_1 = {
   class: "col-12 q-pb-lg fit self-start"
@@ -223,7 +223,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/Request/QuickRequestForm.vue?vue&type=template&id=3073723c
+;// CONCATENATED MODULE: ./src/pages/Request/QuickRequestForm.vue?vue&type=template&id=06c93041
 
 // EXTERNAL MODULE: ./node_modules/pinia/dist/pinia.mjs + 1 modules
 var pinia = __webpack_require__(11872);
@@ -233,7 +233,10 @@ var growmodo = __webpack_require__(72393);
 var app = __webpack_require__(39);
 // EXTERNAL MODULE: ./src/assets/scripts/functions.js + 1 modules
 var functions = __webpack_require__(1966);
+// EXTERNAL MODULE: ./src/mixins/index.js + 7 modules
+var mixins = __webpack_require__(93458);
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Request/QuickRequestForm.vue?vue&type=script&lang=js
+
 
 
 
@@ -243,8 +246,9 @@ var functions = __webpack_require__(1966);
   name: 'QuickRequest',
   components: {
     CardIconBox: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.resolve(/* import() */).then(__webpack_require__.bind(__webpack_require__, 16122))),
-    DynamicQuestions: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 499).then(__webpack_require__.bind(__webpack_require__, 77499)))
+    DynamicQuestions: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 766).then(__webpack_require__.bind(__webpack_require__, 72766)))
   },
+  mixins: [mixins/* RequestOptions_Mixin */.Tt],
   data() {
     return {
       request: {},
@@ -267,10 +271,7 @@ var functions = __webpack_require__(1966);
     },
     showSkeleton() {
       return !this.questions.length;
-      // ||
-      // Object.keys(this.answer).length !== this.questions.length
     },
-
     typeId() {
       const id = this.questions.findIndex(e => e.type === (this.isTask ? 'select_tasktype' : 'select_projecttype'));
       return this.questions[id];
@@ -302,12 +303,12 @@ var functions = __webpack_require__(1966);
     },
     async submitRequest() {
       this.request_submitting = true;
-      const payload = {
+      const payload = this.formatDynamicAnswersPayload({
         title: `Quick Request - ${this.requestType.title}`,
         [`${this.isTask ? 'task' : 'project'}_id`]: this.requestType.id,
         [`${this.isTask ? 'task' : 'project'}_type_id`]: this.requestType.tags?.[0],
         dynamic_questions: this.answer
-      };
+      });
       const response = this.isTask ? await this.requestTask(payload) : await this.requestProject(payload);
       const message = (0,functions.extractErrorMessageString)(response?.message);
       if (response.success) {
@@ -383,4 +384,4 @@ runtime_auto_import_default()(QuickRequestFormvue_type_script_lang_js, 'componen
 /***/ })
 
 }]);
-//# sourceMappingURL=403.003bba58.js.map
+//# sourceMappingURL=841.83402c37.js.map

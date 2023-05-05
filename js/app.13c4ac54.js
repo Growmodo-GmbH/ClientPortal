@@ -570,14 +570,14 @@ const routes = [{
   path: '/request',
   children: [{
     path: 'task/:taskId',
-    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(41)]).then(__webpack_require__.bind(__webpack_require__, 49041))
+    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(460)]).then(__webpack_require__.bind(__webpack_require__, 76460))
   }, {
     path: 'project/:projectId',
-    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(41)]).then(__webpack_require__.bind(__webpack_require__, 49041))
+    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(460)]).then(__webpack_require__.bind(__webpack_require__, 76460))
   }]
 }, {
   path: '/quick-request/:quickRequestType',
-  component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(403)]).then(__webpack_require__.bind(__webpack_require__, 15403))
+  component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(841)]).then(__webpack_require__.bind(__webpack_require__, 98841))
 }, {
   path: '/signup',
   children: [{
@@ -1887,10 +1887,10 @@ function removeEmptyTags(html) {
  * @returns {String} clean HTML string
  */
 function cleanMarkup(html) {
-  console.log(html);
   const replaced = html.replace(/<\/?span([^>]*)>/gi, '') // Remove span tags.
   .replace(/ style="[^"]+"/gi, '') // Remove all style attributes.
-  .replace(/<(\/)?div>/gi, '<$1p>') // Replace all divs with paragraphs.
+  .replace(/<\/?div([^>]*)>/gi, '') // Remove p tags.
+  .replace(/<\/?p([^>]*)>/gi, '') // Remove p tags.
   .replace(/<p><([ou]l)>/gi, '<$1>') // Remove all paragraphs surrounding a list
   .replace(/<\/([ou]l)><\/p>/gi, '</$1>');
   return removeEmptyTags(replaced); // Remove all empty tag pairs.
@@ -3697,6 +3697,7 @@ var user = __webpack_require__(33701);
   }
 });
 ;// CONCATENATED MODULE: ./src/mixins/RequestOptions.js
+
 /* harmony default export */ const RequestOptions = ({
   data() {
     return {
@@ -3856,6 +3857,20 @@ var user = __webpack_require__(33701);
         required: true
       }]
     };
+  },
+  methods: {
+    formatDynamicAnswersPayload(payload) {
+      if (!payload?.dynamic_questions) return payload;
+      Object.keys(payload.dynamic_questions).forEach(id => {
+        let val1 = payload.dynamic_questions[id].value;
+        let val2 = payload.dynamic_questions[id].alternative_answer;
+        if (typeof val1 === 'string') val1 = (0,functions.cleanMarkup)(val1);
+        if (typeof val2 === 'string') val2 = (0,functions.cleanMarkup)(val2);
+        payload.dynamic_questions[id].value = val1;
+        payload.dynamic_questions[id].alternative_answer = val2;
+      });
+      return payload;
+    }
   }
 });
 ;// CONCATENATED MODULE: ./src/mixins/DynamicQuestions.js
@@ -5729,7 +5744,7 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.9.5","descripti
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"41":"041ec76f","48":"82e8947f","64":"80ddce96","78":"0f28aa47","79":"ce87ab6e","94":"5e9f2895","175":"7a507e88","214":"df96432b","246":"4fd35b23","259":"2df25fce","273":"72d8851e","287":"3dd197ac","308":"daa7b15c","386":"41ead471","403":"003bba58","404":"07977e3a","405":"61f5fb24","422":"89a30506","474":"603f7ccc","493":"43186408","499":"38477fc3","507":"11e6f354","539":"574361db","563":"d24d3b4d","592":"7e01a2ba","620":"a32a9cb4","661":"24847e16","712":"98954ac0","713":"fcec8bc1","722":"f7ce4330","737":"d8680879","775":"a84a93fb","785":"16404988","815":"ef3e8521","849":"4dfc0492","894":"ac7c1409","935":"cac0fa57","966":"d1ab28c6","991":"f65af01b"}[chunkId] + ".js";
+/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"48":"82e8947f","64":"80ddce96","78":"0f28aa47","79":"ce87ab6e","94":"5e9f2895","175":"7a507e88","214":"df96432b","246":"4fd35b23","259":"2df25fce","273":"72d8851e","287":"3dd197ac","308":"daa7b15c","386":"41ead471","404":"07977e3a","405":"61f5fb24","422":"89a30506","460":"1790592e","474":"603f7ccc","493":"43186408","507":"11e6f354","539":"574361db","563":"d24d3b4d","592":"7e01a2ba","620":"a32a9cb4","661":"24847e16","712":"98954ac0","713":"fcec8bc1","722":"f7ce4330","737":"d8680879","766":"a8c5094c","775":"a84a93fb","785":"16404988","815":"ef3e8521","841":"83402c37","849":"4dfc0492","894":"ac7c1409","935":"cac0fa57","966":"d1ab28c6","991":"f65af01b"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -5997,4 +6012,4 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.9.5","descripti
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.80031718.js.map
+//# sourceMappingURL=app.13c4ac54.js.map

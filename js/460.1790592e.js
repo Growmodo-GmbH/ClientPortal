@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[41],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[460],{
 
-/***/ 49041:
+/***/ 76460:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Request/RequestForm.vue?vue&type=template&id=8ecf8b60
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Request/RequestForm.vue?vue&type=template&id=65f8b79a
 
 const _hoisted_1 = {
   class: "q-pt-sm q-mt-xs q-pb-xl q-px-lg"
@@ -532,7 +532,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/Request/RequestForm.vue?vue&type=template&id=8ecf8b60
+;// CONCATENATED MODULE: ./src/pages/Request/RequestForm.vue?vue&type=template&id=65f8b79a
 
 // EXTERNAL MODULE: ./src/components/GrowmodoTextIcon.vue + 4 modules
 var GrowmodoTextIcon = __webpack_require__(2788);
@@ -566,7 +566,7 @@ var fn_store = __webpack_require__(85487);
   components: {
     GrowmodoTextIcon: GrowmodoTextIcon/* default */.Z,
     CardIconBox: CardIconBox["default"],
-    DynamicQuestions: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 499).then(__webpack_require__.bind(__webpack_require__, 77499)))
+    DynamicQuestions: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 766).then(__webpack_require__.bind(__webpack_require__, 72766)))
   },
   data() {
     return {
@@ -594,10 +594,7 @@ var fn_store = __webpack_require__(85487);
       return (this.isTask ? this.taskDirectory[this.taskRouteId] : this.projectDirectory[this.projectRouteId]) || {};
     },
     showSkeleton() {
-      return !this.dynamic_questions_array.length ||
-      // Object.keys(this.answer).length !==
-      //   this.dynamic_questions_array.length ||
-      this.step === -1;
+      return !this.dynamic_questions_array.length || this.step === -1;
     },
     dynamic_questions_array() {
       return this.requestInfo.questions || [];
@@ -647,12 +644,12 @@ var fn_store = __webpack_require__(85487);
     async submitRequest() {
       if (!this.validateData()) return;
       this.request_submitting = true;
-      const payload = {
+      const payload = this.formatDynamicAnswersPayload({
         title: this.requestInfo.title,
         [`${this.isTask ? 'task' : 'project'}_id`]: this.requestInfo.id,
         [`${this.isTask ? 'task' : 'project'}_type_id`]: this.requestInfo.tags?.[0],
         dynamic_questions: this.answer
-      };
+      });
       const response = this.isTask ? await this.requestTask(payload) : await this.requestProject(payload);
       const message = (0,functions.extractErrorMessageString)(response?.message);
       if (response.success) {
@@ -834,4 +831,4 @@ runtime_auto_import_default()(RequestFormvue_type_script_lang_js, 'components', 
 /***/ })
 
 }]);
-//# sourceMappingURL=41.041ec76f.js.map
+//# sourceMappingURL=460.1790592e.js.map
