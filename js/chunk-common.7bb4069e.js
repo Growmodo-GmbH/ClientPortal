@@ -5694,7 +5694,7 @@ runtime_auto_import_default()(TextArea1vue_type_script_lang_js, 'components', {Q
 
 /***/ }),
 
-/***/ 9357:
+/***/ 10450:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 
@@ -5707,7 +5707,7 @@ __webpack_require__.d(__webpack_exports__, {
 var es_array_push = __webpack_require__(69665);
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Requests/TaskProjectList.vue?vue&type=template&id=215f2a18
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Requests/TaskProjectList.vue?vue&type=template&id=4ad0af60
 
 
 const _hoisted_1 = {
@@ -5749,35 +5749,36 @@ const _hoisted_11 = {
 const _hoisted_12 = {
   class: "text-right"
 };
-const _hoisted_13 = {
+const _hoisted_13 = ["onClick"];
+const _hoisted_14 = {
   class: "q-gutter-sm text-right"
 };
-const _hoisted_14 = {
+const _hoisted_15 = {
   key: 0,
   class: "q-py-md row full-width items-center justify-center q-col-gutter-sm q-virtual-scroll--skip"
 };
-const _hoisted_15 = {
+const _hoisted_16 = {
   class: "q-py-md row full-width items-center justify-between q-col-gutter-sm q-virtual-scroll--skip"
 };
-const _hoisted_16 = {
+const _hoisted_17 = {
   class: "full-width text-center"
 };
-const _hoisted_17 = {
+const _hoisted_18 = {
   class: "full-width row flex-center text-primary-500"
 };
-const _hoisted_18 = {
+const _hoisted_19 = {
   key: 1,
   class: "text-body2 text-primary-500 font-medium"
 };
-const _hoisted_19 = {
+const _hoisted_20 = {
   key: 2,
   class: "text-body2 text-primary-500 font-medium"
 };
-const _hoisted_20 = {
+const _hoisted_21 = {
   key: 0,
   class: "full-width row flex-center text-primary-500 q-pt-sm"
 };
-const _hoisted_21 = {
+const _hoisted_22 = {
   class: "q-pl-xs"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -5793,6 +5794,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_q_card_section = (0,vue_esm_bundler/* resolveComponent */.up)("q-card-section");
   const _component_q_linear_progress = (0,vue_esm_bundler/* resolveComponent */.up)("q-linear-progress");
   const _component_q_th = (0,vue_esm_bundler/* resolveComponent */.up)("q-th");
+  const _component_tooltip_pro = (0,vue_esm_bundler/* resolveComponent */.up)("tooltip-pro");
   const _component_q_tr = (0,vue_esm_bundler/* resolveComponent */.up)("q-tr");
   const _component_q_skeleton = (0,vue_esm_bundler/* resolveComponent */.up)("q-skeleton");
   const _component_q_td = (0,vue_esm_bundler/* resolveComponent */.up)("q-td");
@@ -5876,9 +5878,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       },
       selection: "multiple",
       pagination: _ctx.pagination,
-      "onUpdate:pagination": _cache[8] || (_cache[8] = $event => _ctx.pagination = $event),
+      "onUpdate:pagination": _cache[9] || (_cache[9] = $event => _ctx.pagination = $event),
       selected: _ctx.selectedFiles,
-      "onUpdate:selected": _cache[9] || (_cache[9] = $event => _ctx.selectedFiles = $event),
+      "onUpdate:selected": _cache[10] || (_cache[10] = $event => _ctx.selectedFiles = $event),
       "visible-columns": _ctx.visibleColumns,
       onRequest: _ctx.onRequest
     }, {
@@ -5915,7 +5917,21 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             "auto-width": i === 1 && i !== scope.cols.length - 1,
             style: (0,vue_esm_bundler/* normalizeStyle */.j5)(i === 0 ? 'padding-left: 0' : '')
           }, {
-            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("span", _hoisted_9, (0,vue_esm_bundler/* toDisplayString */.zw)(col.label), 1)]),
+            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("span", _hoisted_9, [(0,vue_esm_bundler/* createTextVNode */.Uk)((0,vue_esm_bundler/* toDisplayString */.zw)(col.label) + " ", 1), col.name === 'brand' && _ctx.filter_brand_id && (!_ctx.brand_id || _ctx.brand_id !== _ctx.filter_brand_id) ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_btn, {
+              key: 0,
+              flat: "",
+              round: "",
+              size: "xs",
+              icon: "icon-x-close",
+              class: "hover-text-negative",
+              onClick: _cache[4] || (_cache[4] = $event => _ctx.filter_brand_id = 0)
+            }, {
+              default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_tooltip_pro, null, {
+                default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)("Remove filter")]),
+                _: 1
+              })]),
+              _: 1
+            })) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)])]),
             _: 2
           }, 1032, ["props", "auto-width", "style"]);
         }), 128)), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_th, {
@@ -6053,7 +6069,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                 class: (0,vue_esm_bundler/* normalizeClass */.C_)(["cursor-pointer", {
                   'font-medium': i === 0
                 }]),
-                onClick: $event => _ctx.$router.push(`/brands/${_ctx.brand_id || scope.row.brand_id}/${_ctx.tableTab === 'tasks' ? 'task' : 'project'}/${scope.row?.id}`)
+                onClick: $event => _ctx.$router.push(`/brands/${_ctx.filter_brand_id || scope.row.brand_id}/${_ctx.tableTab === 'tasks' ? 'task' : 'project'}/${scope.row?.id}`)
               }, {
                 default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("span", null, (0,vue_esm_bundler/* toDisplayString */.zw)(_r.value), 1)]),
                 _: 2
@@ -6065,8 +6081,14 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             }, {
               default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)((0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.capitalize(_r?.value || '')), 1)]),
               _: 2
-            }, 1032, ["class"])) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("span", {
+            }, 1032, ["class"])) : _r.name === 'brand' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("span", {
               key: 2,
+              class: (0,vue_esm_bundler/* normalizeClass */.C_)(["text-body2 text-primary-500 cursor-pointer", {
+                'font-medium': i === 0
+              }]),
+              onClick: $event => _ctx.filter_brand_id = scope.row.brand_id
+            }, (0,vue_esm_bundler/* toDisplayString */.zw)(_r.value), 11, _hoisted_13)) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("span", {
+              key: 3,
               class: (0,vue_esm_bundler/* normalizeClass */.C_)(["text-body2 text-primary-500", {
                 'font-medium': i === 0
               }])
@@ -6080,7 +6102,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             "padding-bottom": "18px"
           }
         }, {
-          default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_13, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+          default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_14, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
             flat: "",
             round: "",
             size: "sm",
@@ -6089,7 +6111,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               ['hover-text-negative']: !_ctx.tableLoading
             }),
             disable: _ctx.tableLoading,
-            onClick: _cache[4] || (_cache[4] = (0,vue_esm_bundler/* withModifiers */.iM)(() => {}, ["prevent"]))
+            onClick: _cache[5] || (_cache[5] = (0,vue_esm_bundler/* withModifiers */.iM)(() => {}, ["prevent"]))
           }, {
             default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
               name: "icon-trash-01",
@@ -6101,12 +6123,12 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         }, 1032, ["class"])], 64))]),
         _: 2
       }, 1032, ["props", "class"])]),
-      bottom: (0,vue_esm_bundler/* withCtx */.w5)(scope => [_ctx.$q.screen.lt.xs || _ctx.$q.screen.xs ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_14, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_pagination, {
+      bottom: (0,vue_esm_bundler/* withCtx */.w5)(scope => [_ctx.$q.screen.lt.xs || _ctx.$q.screen.xs ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_15, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_pagination, {
         flat: "",
         unelevated: "",
         "boundary-numbers": "",
         modelValue: _ctx.pagination.page,
-        "onUpdate:modelValue": _cache[5] || (_cache[5] = $event => _ctx.pagination.page = $event),
+        "onUpdate:modelValue": _cache[6] || (_cache[6] = $event => _ctx.pagination.page = $event),
         disable: _ctx.tableLoading,
         color: "transparent",
         "text-color": "primary-500",
@@ -6114,7 +6136,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         "active-text-color": "primary-700",
         max: scope.pagesNumber,
         "max-pages": 6
-      }, null, 8, ["modelValue", "disable", "max"])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_15, [(0,vue_esm_bundler/* createElementVNode */._)("div", {
+      }, null, 8, ["modelValue", "disable", "max"])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_16, [(0,vue_esm_bundler/* createElementVNode */._)("div", {
         class: (0,vue_esm_bundler/* normalizeClass */.C_)(["text-left", _ctx.$q.screen.gt.xs ? 'col-2' : 'col-6'])
       }, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
         dense: "",
@@ -6139,7 +6161,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         unelevated: "",
         "boundary-numbers": "",
         modelValue: _ctx.pagination.page,
-        "onUpdate:modelValue": _cache[6] || (_cache[6] = $event => _ctx.pagination.page = $event),
+        "onUpdate:modelValue": _cache[7] || (_cache[7] = $event => _ctx.pagination.page = $event),
         disable: _ctx.tableLoading,
         color: "transparent",
         "text-color": "primary-500",
@@ -6170,23 +6192,23 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       "no-data": (0,vue_esm_bundler/* withCtx */.w5)(({
         icon,
         message
-      }) => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_16, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_17, [_ctx.tableLoading || _ctx.searchQuery ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_icon, {
+      }) => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_17, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_18, [_ctx.tableLoading || _ctx.searchQuery ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_icon, {
         key: 0,
         size: "sm",
         class: "q-pr-sm",
         color: _ctx.tableLoading ? 'secondary' : 'negative',
         name: _ctx.tableLoading ? 'icon-download-cloud-01' : _ctx.searchQuery ? 'icon-filter-funnel-01' : icon
-      }, null, 8, ["color", "name"])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.tableLoading ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("span", _hoisted_18, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.searchQuery && !_ctx.tableLoading ? 'No tasks found.' : message), 1)) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("span", _hoisted_19, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.searchQuery && !_ctx.tableLoading ? 'No tasks found.' : `You have no ${_ctx.tableTab === 'tasks' ? 'tasks' : 'projects'} yet.`), 1))]), !_ctx.tableLoading && !_ctx.searchQuery ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_20, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+      }, null, 8, ["color", "name"])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.tableLoading ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("span", _hoisted_19, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.searchQuery && !_ctx.tableLoading ? 'No tasks found.' : message), 1)) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("span", _hoisted_20, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.searchQuery && !_ctx.tableLoading ? 'No tasks found.' : `You have no ${_ctx.tableTab === 'tasks' ? 'tasks' : 'projects'} yet.`), 1))]), !_ctx.tableLoading && !_ctx.searchQuery ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_21, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
         "no-caps": "",
         unelevated: "",
         class: "button-sm",
         color: "primary",
-        onClick: _cache[7] || (_cache[7] = $event => _ctx.$root.toggleRequest(_ctx.tableTab === 'tasks' ? 'task' : 'project'))
+        onClick: _cache[8] || (_cache[8] = $event => _ctx.$root.toggleRequest(_ctx.tableTab === 'tasks' ? 'task' : 'project'))
       }, {
         default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
           name: "icon-plus",
           size: "20px"
-        }), (0,vue_esm_bundler/* createElementVNode */._)("span", _hoisted_21, "Add " + (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.tableTab === 'tasks' ? 'Task' : 'Project'), 1)]),
+        }), (0,vue_esm_bundler/* createElementVNode */._)("span", _hoisted_22, "Add " + (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.tableTab === 'tasks' ? 'Task' : 'Project'), 1)]),
         _: 1
       })])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)])]),
       _: 1
@@ -6194,7 +6216,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/components/Requests/TaskProjectList.vue?vue&type=template&id=215f2a18
+;// CONCATENATED MODULE: ./src/components/Requests/TaskProjectList.vue?vue&type=template&id=4ad0af60
 
 // EXTERNAL MODULE: ./node_modules/quasar/src/utils/date.js
 var date = __webpack_require__(54170);
@@ -6241,7 +6263,8 @@ var CardIconBox = __webpack_require__(16122);
       orgTmpItems: [],
       onRequestDelayed: null,
       searchQuery: '',
-      orgSelectedItems: []
+      orgSelectedItems: [],
+      filter_brand_id: 0
     };
   },
   props: {
@@ -6253,6 +6276,7 @@ var CardIconBox = __webpack_require__(16122);
   async mounted() {
     this.visibleColumns = this.columns.map(c => c.name) // Get all the column names
     .filter(e => !['id', 'task_priority'].includes(e)); // Hide some columns initially
+    if (this.brand_id) this.filter_brand_id = this.brand_id;
     this.onRequestDelayed = (0,debounce/* default */.Z)(this.onRequest, 1000);
     this.onRequest({
       pagination: this.pagination,
@@ -6283,11 +6307,11 @@ var CardIconBox = __webpack_require__(16122);
         sortable: true
         // sort: (a, b) => parseInt(a, 10) - parseInt(b, 10),
       }, {
-        name: 'brand_id',
+        name: 'brand',
         label: 'Brand',
         align: 'left',
-        field: row => row.brand_id,
-        format: val => this.selectedOrgBrands?.[val]?.brand_name,
+        field: row => row.brand,
+        format: val => val?.brand_name || this.selectedOrgBrands?.[val]?.brand_name,
         sortable: false,
         sort: false
       }, {
@@ -6349,6 +6373,29 @@ var CardIconBox = __webpack_require__(16122);
     }
   },
   watch: {
+    brand_id: {
+      async handler(val) {
+        if (val) this.filter_brand_id = val;
+      }
+    },
+    filter_brand_id: {
+      async handler(val) {
+        this.tableLoading = true;
+        this.onRequest({
+          pagination: this.pagination,
+          filter: this.searchQuery
+        });
+      }
+    },
+    tableTab: {
+      async handler(val) {
+        this.tableLoading = true;
+        this.onRequest({
+          pagination: this.pagination,
+          filter: this.searchQuery
+        });
+      }
+    },
     tableTab: {
       async handler(val) {
         this.tableLoading = true;
@@ -6415,7 +6462,7 @@ var CardIconBox = __webpack_require__(16122);
 
       // fetch data from "server"
       const returnedData = await this.fetchFromServer({
-        brand_id: this.brand_id || undefined,
+        brand_id: this.filter_brand_id || undefined,
         search: filter || undefined,
         per_page: rowsPerPage || -1,
         sort_by: sortBy || undefined,
@@ -6942,4 +6989,4 @@ runtime_auto_import_default()(CustomDropdownvue_type_script_lang_js, 'components
 /***/ })
 
 }]);
-//# sourceMappingURL=chunk-common.80ddce96.js.map
+//# sourceMappingURL=chunk-common.7bb4069e.js.map

@@ -531,7 +531,7 @@ const routes = [{
         path: 'task',
         children: [{
           path: ':taskId',
-          component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(894)]).then(__webpack_require__.bind(__webpack_require__, 37894))
+          component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(163)]).then(__webpack_require__.bind(__webpack_require__, 30143))
         }]
       }, {
         path: 'project',
@@ -577,7 +577,7 @@ const routes = [{
   }]
 }, {
   path: '/quick-request/:quickRequestType',
-  component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(841)]).then(__webpack_require__.bind(__webpack_require__, 98841))
+  component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(543)]).then(__webpack_require__.bind(__webpack_require__, 10543))
 }, {
   path: '/signup',
   children: [{
@@ -1887,10 +1887,16 @@ function removeEmptyTags(html) {
  * @returns {String} clean HTML string
  */
 function cleanMarkup(html) {
-  const replaced = html.replace(/<\/?span([^>]*)>/gi, '') // Remove span tags.
-  .replace(/ style="[^"]+"/gi, '') // Remove all style attributes.
-  .replace(/<\/?div([^>]*)>/gi, '') // Remove p tags.
-  .replace(/<\/?p([^>]*)>/gi, '') // Remove p tags.
+  const replaced = html.replace(/ style="[^"]+"/gi, '') // Remove all style attributes.
+  .replace(/ class="[^"]+"/gi, '') // Remove all class attributes.
+  .replace(/<\/p><p>/gi, '</p><br><p>') // Add br on p.
+  .replace(/<\/div><div>/gi, '</div><br><div>') // Add br on div.
+  .replace(/<\/p><div>/gi, '</p><br><div>') // Add br on p - div.
+  .replace(/<\/div><p>/gi, '</div><br><p>') // Add br on div - p.
+  .replace(/<\/?span([^>]*)>/gi, '') // Remove span tags.
+  .replace(/<\/?div([^>]*)>/gi, '') // Remove div tags.
+  .replace(/<\/?p ([^>]*)>/gi, '') // Remove p with attributes.
+  .replace(/<\/?p>/gi, '') // Remove p tags.
   .replace(/<p><([ou]l)>/gi, '<$1>') // Remove all paragraphs surrounding a list
   .replace(/<\/([ou]l)><\/p>/gi, '</$1>');
   return removeEmptyTags(replaced); // Remove all empty tag pairs.
@@ -3699,165 +3705,6 @@ var user = __webpack_require__(33701);
 ;// CONCATENATED MODULE: ./src/mixins/RequestOptions.js
 
 /* harmony default export */ const RequestOptions = ({
-  data() {
-    return {
-      testQuestions: [{
-        id: 177,
-        title: 'Sample radio_or_textarea',
-        question: 'This is a sample question with radio_or_textarea',
-        type: 'radio_or_textarea',
-        required: true,
-        options: [{
-          label: 'Blank',
-          value: 'blank'
-        }, {
-          label: 'Create a Staging',
-          value: 'staging'
-        }],
-        alternative_if: 'blank'
-      }, {
-        id: 16,
-        title: 'Sample textarea1',
-        question: 'This is a sample question with textarea1',
-        type: 'textarea1',
-        required: false
-      }, {
-        id: 30,
-        title: 'Sample textarea2',
-        question: 'This is a sample question with textarea2',
-        type: 'textarea2',
-        required: true
-      }, {
-        id: 22,
-        title: 'Sample textfield',
-        question: 'This is a sample question with textfield',
-        type: 'textfield',
-        required: true
-      }, {
-        id: 101,
-        title: 'Sample Checkbox',
-        question: 'This is a sample question with Checkbox',
-        type: 'checkbox',
-        required: true,
-        options: [{
-          label: 'Option 1',
-          value: 'Value 1'
-        }, {
-          label: 'Option 2',
-          value: 'Value 2'
-        }, {
-          label: 'Option 3',
-          value: 'Value 3'
-        }, {
-          label: 'Option 4',
-          value: 'Value 4'
-        }]
-      }, {
-        id: 102,
-        title: 'Sample select',
-        question: 'This is a sample question with select',
-        type: 'select',
-        required: true,
-        options: [{
-          label: 'Option 1',
-          value: 'Value 1'
-        }, {
-          label: 'Option 2',
-          value: 'Value 2'
-        }, {
-          label: 'Option 3',
-          value: 'Value 3'
-        }, {
-          label: 'Option 4',
-          value: 'Value 4'
-        }]
-      }, {
-        id: 103,
-        title: 'Sample select_multiple',
-        question: 'This is a sample question with select_multiple',
-        type: 'select_multiple',
-        required: true,
-        options: [{
-          label: 'Option 1',
-          value: 'Value 1'
-        }, {
-          label: 'Option 2',
-          value: 'Value 2'
-        }, {
-          label: 'Option 3',
-          value: 'Value 3'
-        }, {
-          label: 'Option 4',
-          value: 'Value 4'
-        }]
-      }, {
-        id: 104,
-        title: 'Sample input_phone',
-        question: 'This is a sample question with input_phone',
-        type: 'input_phone',
-        required: true
-      }, {
-        id: 105,
-        title: 'Sample url',
-        question: 'This is a sample question with url',
-        type: 'url',
-        required: true
-      }, {
-        id: 31,
-        title: 'Sample radio',
-        question: 'This is a sample question with radio',
-        type: 'radio',
-        required: true,
-        options: [{
-          label: 'Urgent',
-          value: 'Urgent',
-          color: 'negative'
-        }, {
-          label: 'High',
-          value: 'High',
-          color: 'purple-5'
-        }, {
-          label: 'Medium',
-          value: 'Medium',
-          color: 'indigo-5'
-        }, {
-          label: 'Low',
-          value: 'Low',
-          color: 'green-5'
-        }]
-      }, {
-        id: 24,
-        title: 'Sample select_platform',
-        question: 'This is a sample question with select_platform',
-        type: 'select_platform',
-        required: true
-      }, {
-        id: 15,
-        title: 'Sample video_walkthrough',
-        question: 'This is a sample question with video_walkthrough',
-        type: 'video_walkthrough',
-        required: false
-      }, {
-        id: 72,
-        title: 'Sample select_brand',
-        question: 'This is a sample question with select_brand',
-        type: 'select_brand',
-        required: true
-      }, {
-        id: 87,
-        title: 'Sample upload_single',
-        question: 'This is a sample question with upload_single',
-        type: 'upload_single',
-        required: true
-      }, {
-        id: 92,
-        title: 'Sample upload_multiple',
-        question: 'This is a sample question with upload_multiple',
-        type: 'upload_multiple',
-        required: true
-      }]
-    };
-  },
   methods: {
     formatDynamicAnswersPayload(payload) {
       if (!payload?.dynamic_questions) return payload;
@@ -5744,7 +5591,7 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.9.5","descripti
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"48":"82e8947f","64":"80ddce96","78":"0f28aa47","79":"ce87ab6e","94":"5e9f2895","175":"7a507e88","214":"df96432b","246":"4fd35b23","259":"2df25fce","273":"72d8851e","287":"3dd197ac","308":"daa7b15c","386":"41ead471","404":"07977e3a","405":"61f5fb24","422":"89a30506","460":"1790592e","474":"603f7ccc","493":"43186408","507":"11e6f354","539":"574361db","563":"d24d3b4d","592":"7e01a2ba","620":"a32a9cb4","661":"24847e16","712":"98954ac0","713":"fcec8bc1","722":"f7ce4330","737":"d8680879","766":"a8c5094c","775":"a84a93fb","785":"16404988","815":"ef3e8521","841":"83402c37","849":"4dfc0492","894":"ac7c1409","935":"cac0fa57","966":"d1ab28c6","991":"f65af01b"}[chunkId] + ".js";
+/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"48":"82e8947f","64":"7bb4069e","78":"0f28aa47","79":"ce87ab6e","94":"5e9f2895","163":"513844d7","175":"7a507e88","214":"df96432b","246":"4fd35b23","259":"2df25fce","273":"72d8851e","287":"3dd197ac","308":"daa7b15c","386":"41ead471","404":"07977e3a","405":"61f5fb24","422":"89a30506","460":"1790592e","474":"603f7ccc","493":"43186408","507":"11e6f354","539":"574361db","543":"7b5bcee7","563":"d24d3b4d","592":"7e01a2ba","620":"a32a9cb4","661":"24847e16","712":"6fdc840d","713":"3b0048ea","722":"f7ce4330","737":"d8680879","766":"a8c5094c","775":"a84a93fb","785":"16404988","815":"ef3e8521","849":"4dfc0492","935":"cac0fa57","966":"d1ab28c6","991":"f65af01b"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -6012,4 +5859,4 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.9.5","descripti
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.13c4ac54.js.map
+//# sourceMappingURL=app.71baa601.js.map

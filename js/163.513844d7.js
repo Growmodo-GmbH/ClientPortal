@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[894],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[163],{
 
-/***/ 37894:
+/***/ 30143:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -16,7 +16,7 @@ __webpack_require__.d(__webpack_exports__, {
 var es_array_push = __webpack_require__(69665);
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Brands/TaskOverview.vue?vue&type=template&id=58771c44
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Brands/TaskOverview.vue?vue&type=template&id=0185b491
 
 
 const _hoisted_1 = {
@@ -61,7 +61,7 @@ const _hoisted_12 = {
 const _hoisted_13 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("span", {
   class: "q-pl-xs"
 }, "Save Changes", -1);
-const _hoisted_14 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("br", null, null, -1);
+const _hoisted_14 = ["id"];
 const _hoisted_15 = {
   class: "items-center flex text-negative font-medium q-gutter-x-sm"
 };
@@ -73,30 +73,50 @@ const _hoisted_17 = {
   key: 1,
   class: "q-pt-sm"
 };
-const _hoisted_18 = {
-  key: 0
-};
+const _hoisted_18 = ["id"];
 const _hoisted_19 = {
-  key: 1
+  key: 0
 };
 const _hoisted_20 = {
-  key: 0
-};
-const _hoisted_21 = ["innerHTML"];
-const _hoisted_22 = {
   key: 1
 };
-const _hoisted_23 = {
+const _hoisted_21 = ["id"];
+const _hoisted_22 = {
   key: 0
 };
+const _hoisted_23 = ["innerHTML"];
 const _hoisted_24 = {
   key: 1
 };
-const _hoisted_25 = {
+const _hoisted_25 = ["id"];
+const _hoisted_26 = {
+  key: 0
+};
+const _hoisted_27 = {
+  key: 1
+};
+const _hoisted_28 = ["id"];
+const _hoisted_29 = {
   key: 0,
   class: "row items-center justify-start q-col-gutter-md"
 };
-const _hoisted_26 = {
+const _hoisted_30 = {
+  key: 1
+};
+const _hoisted_31 = ["id"];
+const _hoisted_32 = {
+  key: 0
+};
+const _hoisted_33 = ["innerHTML"];
+const _hoisted_34 = {
+  key: 1
+};
+const _hoisted_35 = ["id"];
+const _hoisted_36 = {
+  key: 0
+};
+const _hoisted_37 = ["innerHTML"];
+const _hoisted_38 = {
   key: 1
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -185,7 +205,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       }, {
         default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_splitter, {
           modelValue: _ctx.splitterModel,
-          "onUpdate:modelValue": _cache[11] || (_cache[11] = $event => _ctx.splitterModel = $event),
+          "onUpdate:modelValue": _cache[15] || (_cache[15] = $event => _ctx.splitterModel = $event),
           unit: "px",
           id: "mainSplitter",
           ref: "mainSplitter",
@@ -218,7 +238,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             class: "text-body1 q-pb-xl"
           }, {
             default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
-              class: "q-pa-none font-medium text-h5"
+              class: "q-px-none q-pt-none q-pb-md font-medium text-h5"
             }, {
               default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_10, [(0,vue_esm_bundler/* createTextVNode */.Uk)(" Task Overview "), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_space), !_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_11, [_ctx.documentReady ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_btn, {
                 key: 0,
@@ -276,15 +296,17 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                 _: 1
               })]))])]),
               _: 1
-            }), ((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(_ctx.overviewData, (data, i) => {
-              return (0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, {
-                key: data
-              }, [(0,vue_esm_bundler/* createElementVNode */._)("div", null, (0,vue_esm_bundler/* toDisplayString */.zw)(data), 1), _hoisted_14, data.question?.title.toLowerCase() == 'warning' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_card_section, {
-                key: 0,
-                id: _ctx.overviewIds[i],
-                class: "q-px-none q-pb-md"
+            }), ((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(_ctx.answers, (data, i) => {
+              return (0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_card_section, {
+                key: data,
+                class: "q-px-none q-pt-none q-pb-lg",
+                "q-id": i,
+                "q-info": JSON.stringify(data)
               }, {
-                default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card, {
+                default: (0,vue_esm_bundler/* withCtx */.w5)(() => [data.question?.title.toLowerCase() == 'warning' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
+                  key: 0,
+                  id: _ctx.overviewIds[i]
+                }, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card, {
                   flat: "",
                   class: "rounded bg-color q-pa-md"
                 }, {
@@ -303,41 +325,34 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                     "onUpdate:modelValue": $event => data.value = $event
                   }, null, 8, ["modelValue", "onUpdate:modelValue"])]))]),
                   _: 2
-                }, 1024)]),
-                _: 2
-              }, 1032, ["id"])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), ['textarea1'].includes(data.type) ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_card_section, {
-                key: 1,
-                id: _ctx.overviewIds[i],
-                class: "q-px-none"
-              }, {
-                default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", {
+                }, 1024)], 8, _hoisted_14)) : ['textarea1'].includes(data.question.type) ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
+                  key: 1,
+                  id: _ctx.overviewIds[i]
+                }, [(0,vue_esm_bundler/* createElementVNode */._)("div", {
                   class: "q-pb-md font-medium text-subtitle1 target-clickable-id",
                   onClick: _cache[6] || (_cache[6] = () => _ctx.noTitleClick ? void 0 : _ctx.clickScrollEvent('target_audience'))
-                }, (0,vue_esm_bundler/* toDisplayString */.zw)(data.question?.title), 1), !_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_18, [((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(data.value.split('\n'), sentence => {
+                }, (0,vue_esm_bundler/* toDisplayString */.zw)(data.question?.title), 1), !_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_19, [((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(data.value.split('\n'), sentence => {
                   return (0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("p", {
                     key: sentence
                   }, (0,vue_esm_bundler/* toDisplayString */.zw)(sentence), 1);
-                }), 128))])) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_19, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_input, {
+                }), 128))])) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_20, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_input, {
                   dense: "",
                   outlined: "",
                   type: "textarea",
                   class: "rounded",
                   modelValue: data.value,
                   "onUpdate:modelValue": $event => data.value = $event
-                }, null, 8, ["modelValue", "onUpdate:modelValue"])]))]),
-                _: 2
-              }, 1032, ["id"])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), ['textarea2'].includes(data.type) ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_card_section, {
-                key: 2,
-                id: _ctx.overviewIds[i],
-                class: "q-px-none hover-visibility"
-              }, {
-                default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", {
+                }, null, 8, ["modelValue", "onUpdate:modelValue"])]))], 8, _hoisted_18)) : ['textarea2'].includes(data.question.type) ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
+                  key: 2,
+                  id: _ctx.overviewIds[i],
+                  class: "hover-visibility"
+                }, [(0,vue_esm_bundler/* createElementVNode */._)("div", {
                   class: "q-pb-md font-medium text-subtitle1 target-clickable-id",
                   onClick: _cache[7] || (_cache[7] = () => _ctx.noTitleClick ? void 0 : _ctx.clickScrollEvent('description'))
-                }, (0,vue_esm_bundler/* toDisplayString */.zw)(data.question?.title), 1), !_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_20, [(0,vue_esm_bundler/* createElementVNode */._)("div", {
+                }, (0,vue_esm_bundler/* toDisplayString */.zw)(data.question?.title), 1), !_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_22, [(0,vue_esm_bundler/* createElementVNode */._)("div", {
                   class: "raw-html",
                   innerHTML: data.value
-                }, null, 8, _hoisted_21)])) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_22, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_editor, {
+                }, null, 8, _hoisted_23)])) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_24, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_editor, {
                   ref_for: true,
                   ref: "descriptionEditorRef",
                   onPaste: _cache[8] || (_cache[8] = e => _ctx.pastePlainText(e, _ctx.$refs['descriptionEditorRef'])),
@@ -356,38 +371,30 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                     list: 'no-icons',
                     options: ['p', 'h5', 'h6', 'code']
                   }], ['bold', 'italic', 'underline'], ['link', 'quote'], ['unordered', 'ordered', 'outdent', 'indent'], ['undo', 'redo']]
-                }, null, 8, ["modelValue", "onUpdate:modelValue", "placeholder", "toolbar"])]))]),
-                _: 2
-              }, 1032, ["id"])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), ['video_walkthrough'].includes(data.type) ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_card_section, {
-                key: 3,
-                id: _ctx.overviewIds[i],
-                class: "q-px-none"
-              }, {
-                default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", {
+                }, null, 8, ["modelValue", "onUpdate:modelValue", "placeholder", "toolbar"])]))], 8, _hoisted_21)) : ['video_walkthrough'].includes(data.question.type) ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
+                  key: 3,
+                  id: _ctx.overviewIds[i]
+                }, [(0,vue_esm_bundler/* createElementVNode */._)("div", {
                   class: "q-pb-md font-medium text-subtitle1 target-clickable-id",
                   onClick: _cache[9] || (_cache[9] = () => _ctx.noTitleClick ? void 0 : _ctx.clickScrollEvent('video_walkthrough'))
-                }, (0,vue_esm_bundler/* toDisplayString */.zw)(data.question?.title), 1), !_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_23, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_video, {
+                }, (0,vue_esm_bundler/* toDisplayString */.zw)(data.question?.title), 1), !_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_26, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_video, {
                   ratio: 16 / 9,
                   class: "rounded fit",
                   title: data.question?.title,
                   src: _ctx.loomURLShare2Embed(data.value)
-                }, null, 8, ["title", "src"])])) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_24, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_input, {
+                }, null, 8, ["title", "src"])])) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_27, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_input, {
                   dense: "",
                   outlined: "",
                   class: "rounded",
                   modelValue: data.value,
                   "onUpdate:modelValue": $event => data.value = $event
-                }, null, 8, ["modelValue", "onUpdate:modelValue"])]))]),
-                _: 2
-              }, 1032, ["id"])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), ['upload_single', 'upload_multiple'].includes(data.type) ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_card_section, {
-                key: 4,
-                id: _ctx.overviewIds[i],
-                class: "q-px-none"
-              }, {
-                default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", {
+                }, null, 8, ["modelValue", "onUpdate:modelValue"])]))], 8, _hoisted_25)) : ['upload_single', 'upload_multiple'].includes(data.question.type) ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
+                  key: 4,
+                  id: _ctx.overviewIds[i]
+                }, [(0,vue_esm_bundler/* createElementVNode */._)("div", {
                   class: "q-pb-md font-medium text-subtitle1 target-clickable-id",
                   onClick: _cache[10] || (_cache[10] = () => _ctx.noTitleClick ? void 0 : _ctx.clickScrollEvent('resources'))
-                }, (0,vue_esm_bundler/* toDisplayString */.zw)(data.question?.title), 1), !_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_25, [((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(4, i => {
+                }, (0,vue_esm_bundler/* toDisplayString */.zw)(data.question?.title), 1), !_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_29, [((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(4, i => {
                   return (0,vue_esm_bundler/* createElementVNode */._)("div", {
                     key: i,
                     ratio: 1,
@@ -399,9 +406,67 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                     "spinner-color": "secondary",
                     alt: `Image-${i}`
                   }, null, 8, ["src", "alt"])]);
-                }), 64))])) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_26, "Edit / Upload Files"))]),
+                }), 64))])) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_30, "Edit / Upload Files"))], 8, _hoisted_28)) : typeof data.value === 'object' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
+                  key: 5,
+                  id: _ctx.overviewIds[i],
+                  class: "hover-visibility"
+                }, [(0,vue_esm_bundler/* createElementVNode */._)("div", {
+                  class: "q-pb-md font-medium text-subtitle1 target-clickable-id",
+                  onClick: _cache[11] || (_cache[11] = () => _ctx.noTitleClick ? void 0 : _ctx.clickScrollEvent('description'))
+                }, (0,vue_esm_bundler/* toDisplayString */.zw)(data.question?.title), 1), !_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_32, [(0,vue_esm_bundler/* createElementVNode */._)("div", {
+                  class: "raw-html",
+                  innerHTML: data.value
+                }, null, 8, _hoisted_33)])) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_34, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_editor, {
+                  ref_for: true,
+                  ref: "descriptionEditorRef",
+                  onPaste: _cache[12] || (_cache[12] = e => _ctx.pastePlainText(e, _ctx.$refs['descriptionEditorRef'])),
+                  modelValue: data.value,
+                  "onUpdate:modelValue": $event => data.value = $event,
+                  placeholder: data.placeholder,
+                  height: "250px",
+                  toolbar: [[{
+                    icon: _ctx.$q.iconSet.editor.align,
+                    fixedLabel: true,
+                    list: 'only-icons',
+                    options: ['left', 'center', 'right', 'justify']
+                  }], [{
+                    label: _ctx.$q.lang.editor.formatting,
+                    icon: _ctx.$q.iconSet.editor.formatting,
+                    list: 'no-icons',
+                    options: ['p', 'h5', 'h6', 'code']
+                  }], ['bold', 'italic', 'underline'], ['link', 'quote'], ['unordered', 'ordered', 'outdent', 'indent'], ['undo', 'redo']]
+                }, null, 8, ["modelValue", "onUpdate:modelValue", "placeholder", "toolbar"])]))], 8, _hoisted_31)) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
+                  key: 6,
+                  id: _ctx.overviewIds[i],
+                  class: "hover-visibility"
+                }, [(0,vue_esm_bundler/* createElementVNode */._)("div", {
+                  class: "q-pb-md font-medium text-subtitle1 target-clickable-id",
+                  onClick: _cache[13] || (_cache[13] = () => _ctx.noTitleClick ? void 0 : _ctx.clickScrollEvent('description'))
+                }, (0,vue_esm_bundler/* toDisplayString */.zw)(data.question?.title), 1), !_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_36, [(0,vue_esm_bundler/* createElementVNode */._)("div", {
+                  class: "raw-html",
+                  innerHTML: data.value
+                }, null, 8, _hoisted_37)])) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_38, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_editor, {
+                  ref_for: true,
+                  ref: "descriptionEditorRef",
+                  onPaste: _cache[14] || (_cache[14] = e => _ctx.pastePlainText(e, _ctx.$refs['descriptionEditorRef'])),
+                  modelValue: data.value,
+                  "onUpdate:modelValue": $event => data.value = $event,
+                  placeholder: data.placeholder,
+                  height: "250px",
+                  toolbar: [[{
+                    icon: _ctx.$q.iconSet.editor.align,
+                    fixedLabel: true,
+                    list: 'only-icons',
+                    options: ['left', 'center', 'right', 'justify']
+                  }], [{
+                    label: _ctx.$q.lang.editor.formatting,
+                    icon: _ctx.$q.iconSet.editor.formatting,
+                    list: 'no-icons',
+                    options: ['p', 'h5', 'h6', 'code']
+                  }], ['bold', 'italic', 'underline'], ['link', 'quote'], ['unordered', 'ordered', 'outdent', 'indent'], ['undo', 'redo']]
+                }, null, 8, ["modelValue", "onUpdate:modelValue", "placeholder", "toolbar"])]))], 8, _hoisted_35))]),
                 _: 2
-              }, 1032, ["id"])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 64);
+              }, 1032, ["q-id", "q-info"]);
             }), 128))]),
             _: 1
           })]),
@@ -416,12 +481,12 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       visible: _ctx.showLightBox,
       imgs: _ctx.lightboxImages,
       index: _ctx.lightboxIndex,
-      onHide: _cache[12] || (_cache[12] = $event => _ctx.showLightBox = false)
+      onHide: _cache[16] || (_cache[16] = $event => _ctx.showLightBox = false)
     }, null, 8, ["visible", "imgs", "index"])]),
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/Brands/TaskOverview.vue?vue&type=template&id=58771c44
+;// CONCATENATED MODULE: ./src/pages/Brands/TaskOverview.vue?vue&type=template&id=0185b491
 
 // EXTERNAL MODULE: ./node_modules/pinia/dist/pinia.mjs + 1 modules
 var pinia = __webpack_require__(11872);
@@ -512,6 +577,9 @@ const {
     },
     taskId() {
       return this.$route.params?.taskId;
+    },
+    answers() {
+      return this.taskInfo?.answers || {};
     },
     dynamicAnswers() {
       return Object.values(this.taskInfo?.answers || {});
@@ -675,4 +743,4 @@ runtime_auto_import_default()(TaskOverviewvue_type_script_lang_js, 'components',
 /***/ })
 
 }]);
-//# sourceMappingURL=894.ac7c1409.js.map
+//# sourceMappingURL=163.513844d7.js.map
