@@ -543,7 +543,7 @@ const routes = [{
     }]
   }, {
     path: 'files',
-    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(639)]).then(__webpack_require__.bind(__webpack_require__, 42639))
+    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(357)]).then(__webpack_require__.bind(__webpack_require__, 87357))
   }, {
     path: 'help',
     component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(775)]).then(__webpack_require__.bind(__webpack_require__, 43775))
@@ -582,16 +582,16 @@ const routes = [{
   path: '/signup',
   children: [{
     path: '',
-    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(686)]).then(__webpack_require__.bind(__webpack_require__, 1686))
+    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(411)]).then(__webpack_require__.bind(__webpack_require__, 70411))
   }, {
     path: 'verify/:signup_token',
-    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(686)]).then(__webpack_require__.bind(__webpack_require__, 1686))
+    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(411)]).then(__webpack_require__.bind(__webpack_require__, 70411))
   }]
 }, {
   path: '/invitation',
   children: [{
     path: ':invite_token',
-    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(686)]).then(__webpack_require__.bind(__webpack_require__, 1686))
+    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(411)]).then(__webpack_require__.bind(__webpack_require__, 70411))
   }]
 }, {
   path: '/checkout',
@@ -5682,7 +5682,7 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.10.0","descript
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"23":"2a340d42","64":"a3f15169","78":"9eed5ead","100":"bb658e95","141":"5acd5142","155":"1a4ced92","158":"8b285220","214":"8f0cb02c","246":"e921dc55","259":"47cb776f","287":"d2140953","365":"48b5efeb","402":"34be4fce","404":"488a2d21","405":"9d269a50","422":"554e49a1","435":"66d62362","467":"d4414cca","472":"f95f298f","474":"18c0a73d","493":"9fa10b86","507":"06c129d1","539":"75970f1c","543":"642591c7","550":"64abb022","563":"48162dbb","591":"7d46bb39","620":"b4ce45b0","639":"e17fd5e2","663":"b421f177","686":"cb48c7e2","713":"a13d54af","722":"3f648149","737":"3ca07ea4","775":"0242cdfe","815":"de63122c","869":"ef3ce50c","932":"3500ef98","935":"87fb5c36","966":"33efe15e","991":"5a3c8065"}[chunkId] + ".js";
+/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"23":"2a340d42","64":"79cf83f0","78":"9eed5ead","100":"bb658e95","141":"5acd5142","155":"1a4ced92","158":"8b285220","214":"8f0cb02c","246":"e2970f69","259":"47cb776f","287":"d2140953","357":"17f4c529","365":"32514cd3","402":"34be4fce","404":"488a2d21","405":"9d269a50","411":"6d478f34","422":"554e49a1","435":"98a076f8","467":"d4414cca","472":"e01e5f82","474":"18c0a73d","493":"9fa10b86","507":"06c129d1","539":"75970f1c","543":"642591c7","550":"64abb022","563":"48162dbb","591":"7d46bb39","620":"b4ce45b0","663":"b421f177","713":"962b380f","722":"3f648149","737":"3ca07ea4","775":"0242cdfe","815":"de63122c","869":"ef3ce50c","932":"3500ef98","935":"87fb5c36","966":"33efe15e","991":"5a3c8065"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -5950,4 +5950,4 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.10.0","descript
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.b5ecd855.js.map
+//# sourceMappingURL=app.983c3f2d.js.map

@@ -2087,7 +2087,7 @@ var SelectBrandType = __webpack_require__(9438);
 // EXTERNAL MODULE: ./src/components/Helpers/InputWebsite.vue + 4 modules
 var InputWebsite = __webpack_require__(97696);
 // EXTERNAL MODULE: ./src/components/Helpers/FilesUploader.vue + 4 modules
-var FilesUploader = __webpack_require__(65400);
+var FilesUploader = __webpack_require__(11288);
 // EXTERNAL MODULE: ./src/components/Helpers/SelectFont.vue + 4 modules
 var SelectFont = __webpack_require__(32548);
 // EXTERNAL MODULE: ./src/components/Helpers/ColorPickerCard.vue + 9 modules
@@ -3414,7 +3414,7 @@ runtime_auto_import_default()(ColorPickerCardvue_type_script_lang_js, 'component
 
 /***/ }),
 
-/***/ 65400:
+/***/ 11288:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -3427,7 +3427,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/FilesUploader.vue?vue&type=template&id=d08844dc
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/FilesUploader.vue?vue&type=template&id=66abb8d2
 
 const _hoisted_1 = {
   class: "full-width"
@@ -3602,7 +3602,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 3
   }, 8, ["multiple", "onStart", "onFinish", "onAdded", "onRemoved", "onUploaded", "onRejected", "onFactoryFailed", "onFailed", "class"]);
 }
-;// CONCATENATED MODULE: ./src/components/Helpers/FilesUploader.vue?vue&type=template&id=d08844dc
+;// CONCATENATED MODULE: ./src/components/Helpers/FilesUploader.vue?vue&type=template&id=66abb8d2
 
 // EXTERNAL MODULE: ./src/components/Helpers/CardIconBox.vue + 4 modules
 var CardIconBox = __webpack_require__(16122);
@@ -3681,6 +3681,9 @@ var mixins = __webpack_require__(93458);
   },
   methods: {
     ...(0,pinia/* mapActions */.nv)(helpers/* default */.Z, ['deleteFile']),
+    reset() {
+      this.$refs['modelRef']?.reset?.();
+    },
     startEvent() {
       if (true) console.log('Upload startEvent');
     },
@@ -5489,7 +5492,7 @@ runtime_auto_import_default()(TextArea1vue_type_script_lang_js, 'components', {Q
 
 /***/ }),
 
-/***/ 12940:
+/***/ 22128:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 
@@ -5502,7 +5505,7 @@ __webpack_require__.d(__webpack_exports__, {
 var es_array_push = __webpack_require__(69665);
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Requests/TaskProjectList.vue?vue&type=template&id=4ba5c72d
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Requests/TaskProjectList.vue?vue&type=template&id=4fbe7758
 
 
 const _hoisted_1 = {
@@ -6002,7 +6005,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       }, {
         default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
           name: "icon-plus",
-          size: "20px"
+          size: "16px"
         }), (0,vue_esm_bundler/* createElementVNode */._)("span", _hoisted_22, "Add " + (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.tableTab === 'tasks' ? 'Task' : 'Project'), 1)]),
         _: 1
       })])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)])]),
@@ -6011,7 +6014,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/components/Requests/TaskProjectList.vue?vue&type=template&id=4ba5c72d
+;// CONCATENATED MODULE: ./src/components/Requests/TaskProjectList.vue?vue&type=template&id=4fbe7758
 
 // EXTERNAL MODULE: ./node_modules/quasar/src/utils/date.js
 var date = __webpack_require__(54170);
@@ -6797,4 +6800,4 @@ runtime_auto_import_default()(CustomDropdownvue_type_script_lang_js, 'components
 /***/ })
 
 }]);
-//# sourceMappingURL=chunk-common.a3f15169.js.map
+//# sourceMappingURL=chunk-common.79cf83f0.js.map

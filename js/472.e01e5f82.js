@@ -1309,7 +1309,7 @@ var ColorPickerCard = __webpack_require__(46520);
 // EXTERNAL MODULE: ./src/components/Helpers/SelectBrandType.vue + 4 modules
 var SelectBrandType = __webpack_require__(9438);
 // EXTERNAL MODULE: ./src/components/Helpers/FilesUploader.vue + 4 modules
-var FilesUploader = __webpack_require__(65400);
+var FilesUploader = __webpack_require__(11288);
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/ImageLoader.vue?vue&type=template&id=def4ed60
 
 const ImageLoadervue_type_template_id_def4ed60_hoisted_1 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
@@ -1602,7 +1602,7 @@ var mixins = __webpack_require__(93458);
 // EXTERNAL MODULE: ./src/stores/fn.store.js
 var fn_store = __webpack_require__(85487);
 // EXTERNAL MODULE: ./src/components/Requests/TaskProjectList.vue + 4 modules
-var TaskProjectList = __webpack_require__(12940);
+var TaskProjectList = __webpack_require__(22128);
 // EXTERNAL MODULE: ./src/components/Helpers/InputWebsite.vue + 4 modules
 var InputWebsite = __webpack_require__(97696);
 // EXTERNAL MODULE: ./src/components/Helpers/TextArea1.vue + 4 modules
@@ -2186,4 +2186,4 @@ runtime_auto_import_default()(BrandOverviewvue_type_script_lang_js, 'components'
 /***/ })
 
 }]);
-//# sourceMappingURL=472.f95f298f.js.map
+//# sourceMappingURL=472.e01e5f82.js.map

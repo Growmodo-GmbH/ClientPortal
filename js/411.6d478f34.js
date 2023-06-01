@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[686],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[411],{
 
-/***/ 1686:
+/***/ 70411:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Misc/SignupPage.vue?vue&type=template&id=30a61092
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Misc/SignupPage.vue?vue&type=template&id=78b9185f
 
 const _hoisted_1 = {
   key: 0,
@@ -73,7 +73,7 @@ const _hoisted_15 = {
 };
 const _hoisted_16 = {
   key: 0,
-  class: "text-grey font-medium"
+  class: "text-grey font-medium text-body1"
 };
 const _hoisted_17 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
   class: "text-center padding-8y"
@@ -480,13 +480,15 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             _: 1
           }), !_ctx.signup_token && !_ctx.invite_token && !_ctx.selectedOrgIsCancelled && !_ctx.isOrgPending && !_ctx.$root.selectedOrgIsExpired ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_card_section, {
             key: 0,
-            class: "text-center text-subtitle1"
+            class: "text-center text-h6 text-primary-500"
           }, {
             default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)(" Did not receive verification link? "), !_ctx.isVerificationReady ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("span", _hoisted_16, " Resend in " + (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.verificationReadyInSec) + " second" + (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.verificationReadyInSec > 1 ? 's' : ''), 1)) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("span", {
               key: 1,
-              class: "cursor-pointer text-secondary font-medium",
+              class: "cursor-pointer text-secondary font-medium text-body1",
               onClick: _cache[1] || (_cache[1] = (...args) => _ctx.resendVerificationLink && _ctx.resendVerificationLink(...args))
-            }, " Resend Verification Link "))]),
+            }, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+              name: "icon-arrow-narrow-right"
+            }), (0,vue_esm_bundler/* createTextVNode */.Uk)(" Resend Verification Link ")]))]),
             _: 1
           })) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)]),
           _: 1
@@ -757,7 +759,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   })) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true);
 }
-;// CONCATENATED MODULE: ./src/pages/Misc/SignupPage.vue?vue&type=template&id=30a61092
+;// CONCATENATED MODULE: ./src/pages/Misc/SignupPage.vue?vue&type=template&id=78b9185f
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.push.js
 var es_array_push = __webpack_require__(69665);
@@ -827,7 +829,6 @@ var mixins = __webpack_require__(93458);
   watch: {
     formStep: {
       async handler(val) {
-        console.warn(this.isOrgPending);
         if (val > 1 && !this.isOrgPending) this.rightDrawer = false;else this.rightDrawer = true;
       }
     },
@@ -1248,4 +1249,4 @@ runtime_auto_import_default()(SignupPagevue_type_script_lang_js, 'components', {
 /***/ })
 
 }]);
-//# sourceMappingURL=686.cb48c7e2.js.map
+//# sourceMappingURL=411.6d478f34.js.map
