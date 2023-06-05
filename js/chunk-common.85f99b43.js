@@ -2527,7 +2527,7 @@ runtime_auto_import_default()(CreateNewBrandvue_type_script_lang_js, 'components
 
 /***/ }),
 
-/***/ 89263:
+/***/ 43344:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 
@@ -2538,7 +2538,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Dialogs/RenameFolderFile.vue?vue&type=template&id=67481e4b
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Dialogs/RenameFolderFile.vue?vue&type=template&id=233426e4
 
 const _hoisted_1 = {
   key: 0,
@@ -2634,7 +2634,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/components/Dialogs/RenameFolderFile.vue?vue&type=template&id=67481e4b
+;// CONCATENATED MODULE: ./src/components/Dialogs/RenameFolderFile.vue?vue&type=template&id=233426e4
 
 // EXTERNAL MODULE: ./node_modules/pinia/dist/pinia.mjs + 1 modules
 var pinia = __webpack_require__(11872);
@@ -2675,7 +2675,7 @@ var functions = __webpack_require__(1966);
       newFileName: '',
       submitting: false,
       submitted: false,
-      filename_pattern: /^([a-zA-Z0-9 \._-]+){1}$/
+      filename_pattern: /^([a-zA-Z0-9 \(\)\._-]+){1}$/
     };
   },
   computed: {
@@ -4005,7 +4005,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 ;// CONCATENATED MODULE: ./src/components/Helpers/ImageLoader.vue?vue&type=template&id=44dcd2aa
 
 // EXTERNAL MODULE: ./src/components/Dialogs/RenameFolderFile.vue + 4 modules
-var RenameFolderFile = __webpack_require__(89263);
+var RenameFolderFile = __webpack_require__(43344);
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/ImageLoader.vue?vue&type=script&lang=js
 
 
@@ -7105,4 +7105,4 @@ runtime_auto_import_default()(CustomDropdownvue_type_script_lang_js, 'components
 /***/ })
 
 }]);
-//# sourceMappingURL=chunk-common.7407e8b3.js.map
+//# sourceMappingURL=chunk-common.85f99b43.js.map

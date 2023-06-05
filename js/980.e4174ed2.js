@@ -1284,7 +1284,7 @@ var TextArea1 = __webpack_require__(44799);
 // EXTERNAL MODULE: ./src/components/Helpers/DynamicButton.vue + 4 modules
 var DynamicButton = __webpack_require__(46784);
 // EXTERNAL MODULE: ./src/components/Dialogs/RenameFolderFile.vue + 4 modules
-var RenameFolderFile = __webpack_require__(89263);
+var RenameFolderFile = __webpack_require__(43344);
 // EXTERNAL MODULE: ./src/components/Helpers/SelectFont.vue + 4 modules
 var SelectFont = __webpack_require__(54420);
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/Format/DisplayString.vue?vue&type=template&id=06bc589f
@@ -1886,4 +1886,4 @@ runtime_auto_import_default()(BrandOverviewvue_type_script_lang_js, 'components'
 /***/ })
 
 }]);
-//# sourceMappingURL=980.2b1dc8e5.js.map
+//# sourceMappingURL=980.e4174ed2.js.map

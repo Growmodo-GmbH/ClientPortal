@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[193],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[322],{
 
-/***/ 14193:
+/***/ 38322:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/FilesPage.vue?vue&type=template&id=a0c021de
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/FilesPage.vue?vue&type=template&id=a7643530
 
 const _hoisted_1 = {
   class: "font-medium text-h5 text-primary-700"
@@ -114,6 +114,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_q_skeleton = (0,vue_esm_bundler/* resolveComponent */.up)("q-skeleton");
   const _component_q_td = (0,vue_esm_bundler/* resolveComponent */.up)("q-td");
   const _component_CardIconBox = (0,vue_esm_bundler/* resolveComponent */.up)("CardIconBox");
+  const _component_tooltip_pro = (0,vue_esm_bundler/* resolveComponent */.up)("tooltip-pro");
   const _component_q_list = (0,vue_esm_bundler/* resolveComponent */.up)("q-list");
   const _component_q_menu = (0,vue_esm_bundler/* resolveComponent */.up)("q-menu");
   const _component_q_pagination = (0,vue_esm_bundler/* resolveComponent */.up)("q-pagination");
@@ -289,7 +290,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               default: (0,vue_esm_bundler/* withCtx */.w5)(() => [((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(_ctx.parentsPath, (d, i) => {
                 return (0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_breadcrumbs_el, {
                   key: d + i,
-                  label: i === 0 ? 'Organization Files' : d.label,
+                  label: i === 0 ? !_ctx.ownerFilter ? 'Organization Files' : _ctx.ownerFilter === 'me' ? 'Your Files' : 'Delivered Files' : d.label,
                   class: (0,vue_esm_bundler/* normalizeClass */.C_)(["text-body2 rounded letter-space-normal hover-text-secondary cursor-pointer", {
                     ['text-secondary']: d.value == _ctx.folder_id || !_ctx.folder_id && _ctx.parentsPath.length <= 1
                   }]),
@@ -443,8 +444,14 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                   _: 2
                 }, 1024), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, null, {
                   default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("span", {
-                    class: (0,vue_esm_bundler/* normalizeClass */.C_)(i === 0 ? 'font-medium' : '')
-                  }, (0,vue_esm_bundler/* toDisplayString */.zw)(_r.value), 3)]),
+                    class: "font-medium text-ellipssis",
+                    style: (0,vue_esm_bundler/* normalizeStyle */.j5)(`max-width: ${_ctx.fieldnameMaxWidth}px`)
+                  }, [(0,vue_esm_bundler/* createTextVNode */.Uk)((0,vue_esm_bundler/* toDisplayString */.zw)(_r.value) + " ", 1), _ctx.$q.screen.lt.lg && _r.value.length > 20 || _ctx.$q.screen.lt.md && _r.value.length > 10 ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_tooltip_pro, {
+                    key: 0
+                  }, {
+                    default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)((0,vue_esm_bundler/* toDisplayString */.zw)(_r.value), 1)]),
+                    _: 2
+                  }, 1024)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 4)]),
                   _: 2
                 }, 1024), !scope.row.uploading ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_menu, {
                   key: 0,
@@ -838,7 +845,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/FilesPage.vue?vue&type=template&id=a0c021de
+;// CONCATENATED MODULE: ./src/pages/FilesPage.vue?vue&type=template&id=a7643530
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.push.js
 var es_array_push = __webpack_require__(69665);
@@ -863,7 +870,7 @@ var uid = __webpack_require__(50796);
 // EXTERNAL MODULE: ./src/components/Helpers/FilesUploader.vue + 4 modules
 var FilesUploader = __webpack_require__(11288);
 // EXTERNAL MODULE: ./src/components/Dialogs/RenameFolderFile.vue + 4 modules
-var RenameFolderFile = __webpack_require__(89263);
+var RenameFolderFile = __webpack_require__(43344);
 // EXTERNAL MODULE: ./src/mixins/index.js + 7 modules
 var mixins = __webpack_require__(93458);
 // EXTERNAL MODULE: ./src/stores/fn.store.js
@@ -997,6 +1004,9 @@ const {
   },
   computed: {
     ...(0,pinia/* mapState */.rn)(user/* default */.Z, ['user', 'selectedOrg', 'selectedOrgFiles', 'selectedOrgUsers', 'selectedOrgBrands']),
+    fieldnameMaxWidth() {
+      return this.$q.screen.lt.sm ? 100 : this.$q.screen.lt.md ? 150 : this.$q.screen.lt.lg ? 225 : this.$q.screen.lt.xl ? 300 : 350;
+    },
     selected_files_only() {
       return this.selectedFiles.filter(e => !e.folder);
     },
@@ -1443,4 +1453,4 @@ runtime_auto_import_default()(FilesPagevue_type_script_lang_js, 'components', {Q
 /***/ })
 
 }]);
-//# sourceMappingURL=193.59e9d263.js.map
+//# sourceMappingURL=322.e5aa6963.js.map

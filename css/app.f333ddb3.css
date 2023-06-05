@@ -3598,6 +3598,11 @@
 .word-break {
   word-wrap: break-word;
 }
+
+.text-ellipssis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
 .shadows-sm {
   box-shadow: 0px 1px 2px rgba(115, 115, 115, 0.06), 0px 1px 3px rgba(115, 115, 115, 0.1);
 }
@@ -6200,4 +6205,4 @@ pre {
   border-radius: 50%;
 }
 
-/*# sourceMappingURL=app.dd71de14.css.map*/
+/*# sourceMappingURL=app.f333ddb3.css.map*/
