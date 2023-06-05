@@ -132,7 +132,7 @@ __webpack_require__.d(actions_namespaceObject, {
   "getProjectCategories": () => (getProjectCategories),
   "getProjectDirectory": () => (getProjectDirectory),
   "getProjects": () => (getProjects),
-  "getSingleProjects": () => (getSingleProjects),
+  "getSingleProject": () => (getSingleProject),
   "getSingleTask": () => (getSingleTask),
   "getSubscription_BillingTypes": () => (getSubscription_BillingTypes),
   "getSubscription_Talents": () => (getSubscription_Talents),
@@ -774,7 +774,7 @@ async function getProjects(params = {}, orgId) {
     return cache_data || e;
   });
 }
-async function getSingleProjects(projectId, params = {}, orgId) {
+async function getSingleProject(projectId, params = {}, orgId) {
   if (!orgId) {
     const user = (0,stores_user/* default */.Z)();
     orgId = user.activeOrgID;
@@ -7105,4 +7105,4 @@ runtime_auto_import_default()(CustomDropdownvue_type_script_lang_js, 'components
 /***/ })
 
 }]);
-//# sourceMappingURL=chunk-common.85f99b43.js.map
+//# sourceMappingURL=chunk-common.4eb679e6.js.map

@@ -531,19 +531,19 @@ const routes = [{
         path: 'task',
         children: [{
           path: ':taskId',
-          component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(118)]).then(__webpack_require__.bind(__webpack_require__, 66118))
+          component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(922)]).then(__webpack_require__.bind(__webpack_require__, 13922))
         }]
       }, {
         path: 'project',
         children: [{
           path: ':projectId',
-          component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(365)]).then(__webpack_require__.bind(__webpack_require__, 94365))
+          component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(331)]).then(__webpack_require__.bind(__webpack_require__, 16331))
         }]
       }]
     }]
   }, {
     path: 'files',
-    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(322)]).then(__webpack_require__.bind(__webpack_require__, 38322))
+    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(213)]).then(__webpack_require__.bind(__webpack_require__, 70213))
   }, {
     path: 'help',
     component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(775)]).then(__webpack_require__.bind(__webpack_require__, 43775))
@@ -5640,7 +5640,7 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.10.1","descript
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"23":"12907713","64":"85f99b43","78":"3df136e2","100":"bb658e95","118":"4195b693","141":"424ac9dd","142":"898b9f2e","207":"7a1fb223","214":"8f0cb02c","246":"e2970f69","259":"77bc9073","287":"bca771cd","322":"e5aa6963","363":"1dd57da8","365":"0d613528","404":"488a2d21","405":"9d269a50","411":"25ea6397","422":"554e49a1","423":"45fbe758","435":"e56be872","474":"74f1c9f7","493":"056cfa2b","507":"06c129d1","539":"1cc84b83","543":"04d84cf6","563":"48162dbb","591":"4c2ac6ba","620":"b4ce45b0","663":"b421f177","713":"962b380f","722":"3f648149","737":"3ca07ea4","775":"0242cdfe","815":"87adc666","869":"ef3ce50c","932":"3500ef98","935":"6abd2e50","940":"c73ab6ca","966":"70df5b13","980":"e4174ed2"}[chunkId] + ".js";
+/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"23":"12907713","64":"4eb679e6","78":"3df136e2","100":"bb658e95","141":"424ac9dd","142":"898b9f2e","207":"7a1fb223","213":"c474a38f","214":"8f0cb02c","246":"e2970f69","259":"77bc9073","287":"bca771cd","331":"6c8e1063","363":"1dd57da8","404":"488a2d21","405":"9d269a50","411":"25ea6397","422":"554e49a1","423":"45fbe758","435":"e56be872","474":"74f1c9f7","493":"056cfa2b","507":"06c129d1","539":"1cc84b83","543":"04d84cf6","563":"48162dbb","591":"4c2ac6ba","620":"b4ce45b0","663":"b421f177","713":"962b380f","722":"3f648149","737":"3ca07ea4","775":"0242cdfe","815":"87adc666","869":"ef3ce50c","922":"0cd7eb74","932":"3500ef98","935":"6abd2e50","940":"c73ab6ca","966":"70df5b13","980":"e4174ed2"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -5908,4 +5908,4 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.10.1","descript
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.504e422c.js.map
+//# sourceMappingURL=app.9de5b483.js.map

@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[118],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[922],{
 
-/***/ 66118:
+/***/ 13922:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -16,7 +16,7 @@ __webpack_require__.d(__webpack_exports__, {
 var es_array_push = __webpack_require__(69665);
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Brands/TaskOverview.vue?vue&type=template&id=2c0a2152
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Brands/TaskOverview.vue?vue&type=template&id=863ea42c
 
 
 const _hoisted_1 = {
@@ -492,7 +492,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/Brands/TaskOverview.vue?vue&type=template&id=2c0a2152
+;// CONCATENATED MODULE: ./src/pages/Brands/TaskOverview.vue?vue&type=template&id=863ea42c
 
 // EXTERNAL MODULE: ./node_modules/pinia/dist/pinia.mjs + 1 modules
 var pinia = __webpack_require__(11872);
@@ -638,7 +638,7 @@ const {
     updateAnswers() {
       const answers = this.taskInfo?.answers || {};
       const formatedAnswers = {};
-      for (const id of Object.keys(this.taskInfo?.answers)) {
+      for (const id of Object.keys(this.taskInfo?.answers || {})) {
         formatedAnswers[id] = {
           ...answers[id]
         };
@@ -654,8 +654,8 @@ const {
           let img = e.querySelector('img');
           this.lightboxImages.push({
             src: img.src,
-            title: img.title,
-            alt: img.alt
+            title: e.getAttribute('file-name'),
+            alt: e.getAttribute('file-name')
           });
           e.onclick = () => {
             this.lightboxIndex = i;
@@ -769,4 +769,4 @@ runtime_auto_import_default()(TaskOverviewvue_type_script_lang_js, 'components',
 /***/ })
 
 }]);
-//# sourceMappingURL=118.4195b693.js.map
+//# sourceMappingURL=922.0cd7eb74.js.map
