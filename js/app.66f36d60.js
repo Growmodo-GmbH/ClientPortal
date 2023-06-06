@@ -510,7 +510,7 @@ var vue_router = __webpack_require__(28339);
 ;// CONCATENATED MODULE: ./src/router/routes.js
 const routes = [{
   path: '/',
-  component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(722)]).then(__webpack_require__.bind(__webpack_require__, 84722)),
+  component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(614)]).then(__webpack_require__.bind(__webpack_require__, 85614)),
   children: [{
     path: '',
     component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(100)]).then(__webpack_require__.bind(__webpack_require__, 98239))
@@ -526,7 +526,7 @@ const routes = [{
       path: ':brandId',
       children: [{
         path: '',
-        component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(980)]).then(__webpack_require__.bind(__webpack_require__, 5894))
+        component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(453)]).then(__webpack_require__.bind(__webpack_require__, 89653))
       }, {
         path: 'task',
         children: [{
@@ -543,7 +543,7 @@ const routes = [{
     }]
   }, {
     path: 'files',
-    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(213)]).then(__webpack_require__.bind(__webpack_require__, 70213))
+    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(512)]).then(__webpack_require__.bind(__webpack_require__, 71512))
   }, {
     path: 'help',
     component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(775)]).then(__webpack_require__.bind(__webpack_require__, 43775))
@@ -582,16 +582,16 @@ const routes = [{
   path: '/signup',
   children: [{
     path: '',
-    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(411)]).then(__webpack_require__.bind(__webpack_require__, 70411))
+    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(723)]).then(__webpack_require__.bind(__webpack_require__, 61723))
   }, {
     path: 'verify/:signup_token',
-    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(411)]).then(__webpack_require__.bind(__webpack_require__, 70411))
+    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(723)]).then(__webpack_require__.bind(__webpack_require__, 61723))
   }]
 }, {
   path: '/invitation',
   children: [{
     path: ':invite_token',
-    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(411)]).then(__webpack_require__.bind(__webpack_require__, 70411))
+    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(723)]).then(__webpack_require__.bind(__webpack_require__, 61723))
   }]
 }, {
   path: '/checkout',
@@ -2226,7 +2226,7 @@ __webpack_require__.r(__webpack_exports__);
     // Check if saved token exist
     // And router path is not /auth
     // Also not a public path
-    src_stores_fn_store__WEBPACK_IMPORTED_MODULE_3__/* ["default"].getAuth */ .Z.getAuth() && to.path !== '/auth' && src_assets_config__WEBPACK_IMPORTED_MODULE_2__/* ["default"].noLoginPath.includes */ .Z.noLoginPath.includes(to.path)) {
+    src_stores_fn_store__WEBPACK_IMPORTED_MODULE_3__/* ["default"].getAuth */ .Z.getAuth() && to.path !== '/auth' && src_assets_config__WEBPACK_IMPORTED_MODULE_2__/* ["default"].noLoginPath.includes */ .Z.noLoginPath.includes(to.path) && !( true && to.query.debugging)) {
       const new_route = {
         path: to.query?.redirect ? decodeURIComponent(to.query?.redirect) : '/'
       };
@@ -2235,7 +2235,7 @@ __webpack_require__.r(__webpack_exports__);
     // Check if no saved token
     // And router path is not /auth
     // Also not a public path
-    !src_stores_fn_store__WEBPACK_IMPORTED_MODULE_3__/* ["default"].getAuth */ .Z.getAuth() && to.path !== '/auth' && !checkPathPublicPattern(to.path)) {
+    !src_stores_fn_store__WEBPACK_IMPORTED_MODULE_3__/* ["default"].getAuth */ .Z.getAuth() && to.path !== '/auth' && !checkPathPublicPattern(to.path) && !( true && to.query.debugging)) {
       const pathUri = to.fullPath;
       const redirect = pathUri ? to.query?.redirect ? to.query?.redirect : pathUri : undefined;
       const new_route = {
@@ -5055,9 +5055,9 @@ async function getOrgBrands(saveState = true, orgId = this.activeOrgID, params =
     return cache_data || e;
   });
 }
-function removeBrandFile(brandId, file, orgId = this.activeOrgID) {
+function removeBrandFile(brandId, file, target_path, orgId = this.activeOrgID) {
   if (!brandId || !file || !orgId) return;
-  const uploadedFiles = this.organizationBrands?.[orgId]?.[brandId]?.['uploads'];
+  const uploadedFiles = this.organizationBrands?.[orgId]?.[brandId]?.[target_path];
   if (uploadedFiles) {
     const fileIndex = uploadedFiles.findIndex(e => file.isSkeleton ? e.isSkeleton && e.file_info?.__key === file.file_info?.__key : e.id === file.id);
     if (fileIndex !== -1) uploadedFiles?.splice?.(fileIndex, 1);
@@ -5640,7 +5640,7 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.10.1","descript
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"23":"12907713","64":"4eb679e6","78":"3df136e2","100":"bb658e95","141":"424ac9dd","142":"898b9f2e","207":"7a1fb223","213":"c474a38f","214":"8f0cb02c","246":"e2970f69","259":"77bc9073","287":"bca771cd","331":"6c8e1063","363":"1dd57da8","404":"488a2d21","405":"9d269a50","411":"25ea6397","422":"554e49a1","423":"45fbe758","435":"e56be872","474":"74f1c9f7","493":"056cfa2b","507":"06c129d1","539":"1cc84b83","543":"04d84cf6","563":"48162dbb","591":"4c2ac6ba","620":"b4ce45b0","663":"b421f177","713":"962b380f","722":"3f648149","737":"3ca07ea4","775":"0242cdfe","815":"87adc666","869":"ef3ce50c","922":"0cd7eb74","932":"3500ef98","935":"6abd2e50","940":"c73ab6ca","966":"70df5b13","980":"e4174ed2"}[chunkId] + ".js";
+/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"23":"12907713","64":"f6a0edee","78":"3df136e2","100":"bb658e95","141":"424ac9dd","142":"0aeae0e7","207":"05a44a26","214":"8f0cb02c","246":"e2970f69","259":"77bc9073","287":"bca771cd","331":"6c8e1063","363":"1dd57da8","404":"488a2d21","405":"9d269a50","422":"554e49a1","423":"45fbe758","435":"e56be872","453":"59122a09","474":"74f1c9f7","493":"056cfa2b","507":"06c129d1","512":"0a7be100","539":"1cc84b83","543":"04d84cf6","563":"48162dbb","591":"4c2ac6ba","614":"059da711","620":"b4ce45b0","663":"b421f177","713":"962b380f","723":"0cb83938","737":"3ca07ea4","775":"0242cdfe","815":"87adc666","869":"ef3ce50c","922":"0cd7eb74","932":"3500ef98","935":"6abd2e50","940":"c73ab6ca","966":"70df5b13"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -5649,7 +5649,7 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.10.1","descript
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.miniCssF = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "css/" + chunkId + "." + {"23":"bf699673","100":"ab9c8a9d","207":"ab9c8a9d","259":"ab9c8a9d","980":"ab9c8a9d"}[chunkId] + ".css";
+/******/ 			return "css/" + chunkId + "." + {"23":"bf699673","100":"92a1c822","207":"92a1c822","259":"92a1c822","453":"92a1c822"}[chunkId] + ".css";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -5793,7 +5793,7 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.10.1","descript
 /******/ 		};
 /******/ 		
 /******/ 		__webpack_require__.f.miniCss = (chunkId, promises) => {
-/******/ 			var cssChunks = {"23":1,"100":1,"207":1,"259":1,"980":1};
+/******/ 			var cssChunks = {"23":1,"100":1,"207":1,"259":1,"453":1};
 /******/ 			if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 			else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 				promises.push(installedCssChunks[chunkId] = loadStylesheet(chunkId).then(() => {
@@ -5908,4 +5908,4 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.10.1","descript
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.9de5b483.js.map
+//# sourceMappingURL=app.66f36d60.js.map

@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[980],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[453],{
 
-/***/ 5894:
+/***/ 89653:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -16,7 +16,7 @@ __webpack_require__.d(__webpack_exports__, {
 var es_array_push = __webpack_require__(69665);
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Brands/BrandOverview.vue?vue&type=template&id=5c4eeed8
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Brands/BrandOverview.vue?vue&type=template&id=279549bb
 
 
 const _hoisted_1 = {
@@ -888,7 +888,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                 }, 1024)]),
                 _: 2
               }, 1024)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 2), [[vue_esm_bundler/* vShow */.F8, _ctx.editing]])], 8, _hoisted_50)])]);
-            }), 128))]))], 2)], 2)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), !_ctx.isBrandArchived && _ctx.reactiveDisplayBrand.fonts?.length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_52, [(0,vue_esm_bundler/* createElementVNode */._)("div", {
+            }), 128))]))], 2)], 2)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.reactiveDisplayBrand.fonts?.length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_52, [(0,vue_esm_bundler/* createElementVNode */._)("div", {
               class: (0,vue_esm_bundler/* normalizeClass */.C_)({
                 ['q-mt-sm']: _ctx.editing
               })
@@ -1053,7 +1053,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               thumbnail: "icon-image-03",
               onUploaded: _cache[32] || (_cache[32] = e => _ctx.uploadedEvent(e, 'logo')),
               onFailed: _cache[33] || (_cache[33] = e => _ctx.failedEvent(e, 'logo'))
-            }, null, 8, ["factory", "note", "removedFile"])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), !_ctx.isBrandArchived && _ctx.reactiveDisplayBrand.graphics?.length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
+            }, null, 8, ["factory", "note", "removedFile"])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.reactiveDisplayBrand.graphics?.length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
               key: _ctx.reactiveDisplayBrand.graphics?.length,
               class: (0,vue_esm_bundler/* normalizeClass */.C_)(["row items-center justify-start q-col-gutter-md scroll", {
                 ['q-mt-sm']: _ctx.editing
@@ -1097,7 +1097,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               thumbnail: "icon-image-03",
               onUploaded: _cache[37] || (_cache[37] = e => _ctx.uploadedEvent(e, 'icons')),
               onFailed: _cache[38] || (_cache[38] = e => _ctx.failedEvent(e, 'icons'))
-            }, null, 8, ["factory", "note", "removedFile"])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), !_ctx.isBrandArchived && _ctx.reactiveDisplayBrand.icons?.length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
+            }, null, 8, ["factory", "note", "removedFile"])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.reactiveDisplayBrand.icons?.length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
               key: _ctx.reactiveDisplayBrand.icons?.length,
               class: (0,vue_esm_bundler/* normalizeClass */.C_)(["row items-center justify-start q-col-gutter-sm scroll", {
                 ['q-mt-sm']: _ctx.editing
@@ -1145,7 +1145,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               thumbnail: "icon-image-03",
               onUploaded: _cache[42] || (_cache[42] = e => _ctx.uploadedEvent(e, 'images')),
               onFailed: _cache[43] || (_cache[43] = e => _ctx.failedEvent(e, 'images'))
-            }, null, 8, ["factory", "note", "removedFile"])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), !_ctx.isBrandArchived && _ctx.reactiveDisplayBrand.images?.length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
+            }, null, 8, ["factory", "note", "removedFile"])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.reactiveDisplayBrand.images?.length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
               key: _ctx.reactiveDisplayBrand.images?.length,
               class: (0,vue_esm_bundler/* normalizeClass */.C_)(["row items-center justify-start q-col-gutter-md scroll", {
                 ['q-mt-sm']: _ctx.editing
@@ -1243,7 +1243,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/Brands/BrandOverview.vue?vue&type=template&id=5c4eeed8
+;// CONCATENATED MODULE: ./src/pages/Brands/BrandOverview.vue?vue&type=template&id=279549bb
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.unshift.js
 var es_array_unshift = __webpack_require__(86890);
@@ -1270,7 +1270,7 @@ var SelectBrandType = __webpack_require__(9438);
 // EXTERNAL MODULE: ./src/components/Helpers/FilesUploader.vue + 4 modules
 var FilesUploader = __webpack_require__(11288);
 // EXTERNAL MODULE: ./src/components/Helpers/ImageLoader.vue + 4 modules
-var ImageLoader = __webpack_require__(27536);
+var ImageLoader = __webpack_require__(12308);
 // EXTERNAL MODULE: ./src/mixins/index.js + 7 modules
 var mixins = __webpack_require__(93458);
 // EXTERNAL MODULE: ./src/stores/fn.store.js
@@ -1401,13 +1401,7 @@ const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(DisplayStringvu
     this.$root.setMeta({
       title: this.title
     });
-    this.getSingleBrand(this.brand_id).then(res => {
-      if (res?.success) {
-        this.localBrandInfo = res.data || {};
-      }
-    }).finally(() => {
-      this.updateLightBox();
-    });
+    this.getBrandInfo();
     if (this.route_tab) this.brandTab = this.route_tab;
   },
   computed: {
@@ -1501,6 +1495,23 @@ const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(DisplayStringvu
   methods: {
     ...(0,pinia/* mapActions */.nv)(helpers/* default */.Z, ['deleteFile', 'getSocialInfo', 'formatMediaPlatformIconSrc']),
     ...(0,pinia/* mapActions */.nv)(user/* default */.Z, ['getSingleBrand', 'updateBrand', 'updateBrandColors', 'updateBrandSocial', 'updateBrandGoogleFonts', 'removeBrandFile', 'updateOrgBrand', 'updateBrandAvatar']),
+    addUploadToTargetBrand(data, target_key) {
+      this.updateOrgBrand(this.brandInfo?.id, data, {
+        key: target_key
+      }, this.selectedOrg?.id);
+    },
+    getBrandInfo() {
+      this.getSingleBrand(this.brand_id).then(res => {
+        if (res?.success) {
+          this.localBrandInfo = res.data || {};
+        }
+      }).finally(() => {
+        this.updateLightBox();
+        this.updateLocalBrand();
+        console.warn('this.localBrandInfo', this.localBrandInfo);
+        console.warn('this.reactiveDisplayBrand', this.reactiveDisplayBrand);
+      });
+    },
     updateLocalBrand() {
       const clonedBrand = (0,functions.objectCopy)(this.brandInfo);
       if (!(0,functions.checkIfObject)(clonedBrand.social_accounts)) clonedBrand.social_accounts = {};
@@ -1605,7 +1616,7 @@ const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(DisplayStringvu
       }
       if (file.isSkeleton || response?.success) {
         let delkey, indexToRemove;
-        this.removeBrandFile(this.brand_id, file);
+        this.removeBrandFile(this.brand_id, file, target, this.selectedOrg?.id);
         if (file.isSkeleton) {
           // Delete skeleton
           indexToRemove = this.brand[target].findIndex(e => e.file_info?.__key === file.file_info?.__key);
@@ -1710,6 +1721,8 @@ const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(DisplayStringvu
           if (file_info?.id) {
             const uploadedTempIndex = this.brand[target].findIndex(e => e.isSkeleton && e.file_info?.__key === file.__key);
             this.brand[target].splice(uploadedTempIndex, 1, file_info);
+            // Update Brand
+            this.addUploadToTargetBrand(this.brand[target], target);
           }
         });
       }
@@ -1886,4 +1899,4 @@ runtime_auto_import_default()(BrandOverviewvue_type_script_lang_js, 'components'
 /***/ })
 
 }]);
-//# sourceMappingURL=980.e4174ed2.js.map
+//# sourceMappingURL=453.59122a09.js.map

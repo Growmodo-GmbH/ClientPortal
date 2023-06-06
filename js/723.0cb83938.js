@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[411],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[723],{
 
-/***/ 70411:
+/***/ 61723:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Misc/SignupPage.vue?vue&type=template&id=78b9185f
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Misc/SignupPage.vue?vue&type=template&id=5bb86292
 
 const _hoisted_1 = {
   key: 0,
@@ -256,7 +256,7 @@ const _hoisted_68 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("
   class: "text-body1 font-medium text-uppercase text-secondary letter-space-normal"
 }, " ALL INCLUSIVE ", -1);
 const _hoisted_69 = {
-  class: "relative-position"
+  class: "flex flex-center"
 };
 const _hoisted_70 = {
   class: "text-h3 font-medium"
@@ -345,7 +345,10 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_SelectRoles = (0,vue_esm_bundler/* resolveComponent */.up)("SelectRoles");
   const _component_SelectEmployeeCount = (0,vue_esm_bundler/* resolveComponent */.up)("SelectEmployeeCount");
   const _component_InputWebsite = (0,vue_esm_bundler/* resolveComponent */.up)("InputWebsite");
-  const _component_SelectOption = (0,vue_esm_bundler/* resolveComponent */.up)("SelectOption");
+  const _component_q_item_label = (0,vue_esm_bundler/* resolveComponent */.up)("q-item-label");
+  const _component_q_item_section = (0,vue_esm_bundler/* resolveComponent */.up)("q-item-section");
+  const _component_q_item = (0,vue_esm_bundler/* resolveComponent */.up)("q-item");
+  const _component_q_select = (0,vue_esm_bundler/* resolveComponent */.up)("q-select");
   const _component_q_separator = (0,vue_esm_bundler/* resolveComponent */.up)("q-separator");
   const _component_q_badge = (0,vue_esm_bundler/* resolveComponent */.up)("q-badge");
   const _component_q_radio = (0,vue_esm_bundler/* resolveComponent */.up)("q-radio");
@@ -355,7 +358,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_q_page_container = (0,vue_esm_bundler/* resolveComponent */.up)("q-page-container");
   const _component_q_layout = (0,vue_esm_bundler/* resolveComponent */.up)("q-layout");
   const _directive_ripple = (0,vue_esm_bundler/* resolveDirective */.Q2)("ripple");
-  return !_ctx.getAuth() ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_layout, {
+  return !_ctx.getAuth() || _ctx.debugging ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_layout, {
     key: 0,
     view: "LHh lpR lFf"
   }, {
@@ -364,11 +367,11 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       modelValue: _ctx.rightDrawer,
       "onUpdate:modelValue": _cache[0] || (_cache[0] = $event => _ctx.rightDrawer = $event),
       side: "right",
-      class: (0,vue_esm_bundler/* normalizeClass */.C_)(_ctx.signupVerifyEmailStatus || _ctx.currentUserIsNotVerified || _ctx.isOrgPending || _ctx.selectedOrgIsCancelled || _ctx.$root.selectedOrgIsExpired ? 'bg-color text-primary' : 'bg-primary text-white'),
-      width: _ctx.signupVerifyEmailStatus || _ctx.currentUserIsNotVerified || _ctx.isOrgPending || _ctx.selectedOrgIsCancelled || _ctx.$root.selectedOrgIsExpired ? 630 : 430,
-      breakpoint: _ctx.signupVerifyEmailStatus || _ctx.currentUserIsNotVerified || _ctx.isOrgPending || _ctx.selectedOrgIsCancelled || _ctx.$root.selectedOrgIsExpired ? 1080 : 800
+      class: (0,vue_esm_bundler/* normalizeClass */.C_)(_ctx.signupVerifyEmailStatus || _ctx.loc_currentUserIsNotVerified || _ctx.isOrgPending || _ctx.loc_selectedOrgIsCancelled || _ctx.loc_selectedOrgIsExpired ? 'bg-color text-primary' : 'bg-primary text-white'),
+      width: _ctx.signupVerifyEmailStatus || _ctx.loc_currentUserIsNotVerified || _ctx.isOrgPending || _ctx.loc_selectedOrgIsCancelled || _ctx.loc_selectedOrgIsExpired ? 630 : 430,
+      breakpoint: _ctx.signupVerifyEmailStatus || _ctx.loc_currentUserIsNotVerified || _ctx.isOrgPending || _ctx.loc_selectedOrgIsCancelled || _ctx.loc_selectedOrgIsExpired ? 1080 : 800
     }, {
-      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_ctx.signupVerifyEmailStatus || _ctx.currentUserIsNotVerified || _ctx.isOrgPending || _ctx.selectedOrgIsCancelled || _ctx.$root.selectedOrgIsExpired ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_1, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_img, {
+      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_ctx.signupVerifyEmailStatus || _ctx.loc_currentUserIsNotVerified || _ctx.isOrgPending || _ctx.loc_selectedOrgIsCancelled || _ctx.loc_selectedOrgIsExpired ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_1, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_img, {
         src: "/images/ScreenMockup.png",
         class: "q-ml-xl overflow-hidden",
         "img-class": "border-add border-primary border-xl rounded-left",
@@ -401,10 +404,10 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         padding: "",
         class: "container flex flex-center"
       }, {
-        default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_ctx.formStep > 1 && !_ctx.isOrgPending && !_ctx.selectedOrgIsCancelled && !_ctx.$root.selectedOrgIsExpired ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_4, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_GrowmodoTextIcon, {
+        default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_ctx.formStep > 1 && !_ctx.isOrgPending && !_ctx.loc_selectedOrgIsCancelled && !_ctx.loc_selectedOrgIsExpired ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_4, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_GrowmodoTextIcon, {
           class: "cursor-pointer q-px-xs q-py-sm",
           onClick: _ctx.back2home
-        }, null, 8, ["onClick"])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.signupVerifyEmailStatus || _ctx.currentUserIsNotVerified || _ctx.isOrgPending || _ctx.selectedOrgIsCancelled || _ctx.$root.selectedOrgIsExpired ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_5, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_6, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+        }, null, 8, ["onClick"])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.signupVerifyEmailStatus || _ctx.loc_currentUserIsNotVerified || _ctx.isOrgPending || _ctx.loc_selectedOrgIsCancelled || _ctx.loc_selectedOrgIsExpired ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_5, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_6, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
           outline: "",
           "no-caps": "",
           unelevated: "",
@@ -429,12 +432,12 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
             class: "text-center"
           }, {
-            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_ctx.selectedOrgIsCancelled ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_icon, {
+            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_ctx.loc_selectedOrgIsCancelled ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_icon, {
               key: 0,
               name: "icon-cancel",
               color: "secondary",
               size: "5em"
-            })) : _ctx.isOrgPending || _ctx.$root.selectedOrgIsExpired ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_icon, {
+            })) : _ctx.isOrgPending || _ctx.loc_selectedOrgIsExpired ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_icon, {
               key: 1,
               name: "icon-pending",
               color: "secondary",
@@ -453,13 +456,13 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
             class: "text-center"
           }, {
-            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_7, [_ctx.selectedOrgIsCancelled ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, {
+            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_7, [_ctx.loc_selectedOrgIsCancelled ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, {
               key: 0
-            }, [(0,vue_esm_bundler/* createTextVNode */.Uk)(" Subscription is Cancelled ")], 64)) : _ctx.$root.selectedOrgIsExpired ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, {
+            }, [(0,vue_esm_bundler/* createTextVNode */.Uk)(" Subscription is Cancelled ")], 64)) : _ctx.loc_selectedOrgIsExpired ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, {
               key: 1
             }, [(0,vue_esm_bundler/* createTextVNode */.Uk)(" Subscription is Expired ")], 64)) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, {
               key: 2
-            }, [(0,vue_esm_bundler/* createTextVNode */.Uk)((0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.isOrgPending ? 'Account is status is pending' : _ctx.signup_token || _ctx.invite_token ? 'Verifying your email' : `We've sent you a verification email`), 1)], 64))]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_8, [_ctx.selectedOrgIsCancelled || _ctx.$root.selectedOrgIsExpired ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, {
+            }, [(0,vue_esm_bundler/* createTextVNode */.Uk)((0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.isOrgPending ? 'Account is status is pending' : _ctx.signup_token || _ctx.invite_token ? 'Verifying your email' : `We've sent you a verification email`), 1)], 64))]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_8, [_ctx.loc_selectedOrgIsCancelled || _ctx.loc_selectedOrgIsExpired ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, {
               key: 0
             }, [(0,vue_esm_bundler/* createTextVNode */.Uk)(" Please contact our accounts team for immediate concerns. "), (0,vue_esm_bundler/* withDirectives */.wy)((0,vue_esm_bundler/* createElementVNode */._)("div", null, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_9, [(0,vue_esm_bundler/* createTextVNode */.Uk)(" Company Name: "), (0,vue_esm_bundler/* createElementVNode */._)("span", _hoisted_10, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.selectedOrg.title), 1)]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_11, [(0,vue_esm_bundler/* createTextVNode */.Uk)(" Subscription End: "), (0,vue_esm_bundler/* createElementVNode */._)("span", _hoisted_12, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.formatDate(_ctx.selectedOrgSubscription.subscription_end, 'MMMM DD, YYYY')), 1)]), _ctx.selectedOrgSubscription.cancelled_at ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_13, [(0,vue_esm_bundler/* createTextVNode */.Uk)(" Subscription Cancelled: "), (0,vue_esm_bundler/* createElementVNode */._)("span", _hoisted_14, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.formatDate(_ctx.selectedOrgSubscription.cancelled_at, 'MMMM DD, YYYY')), 1)])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 512), [[vue_esm_bundler/* vShow */.F8, false]]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_15, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
               outlineme: "",
@@ -478,7 +481,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               key: 1
             }, [(0,vue_esm_bundler/* createTextVNode */.Uk)((0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.isOrgPending ? 'Please check again when your account has been activated. Thank you!' : _ctx.signup_token || _ctx.invite_token ? 'Please wait, you will be redirected in a while.' : `Click the verification link to continue the onboarding process.`), 1)], 64))])]),
             _: 1
-          }), !_ctx.signup_token && !_ctx.invite_token && !_ctx.selectedOrgIsCancelled && !_ctx.isOrgPending && !_ctx.$root.selectedOrgIsExpired ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_card_section, {
+          }), !_ctx.signup_token && !_ctx.invite_token && !_ctx.loc_selectedOrgIsCancelled && !_ctx.isOrgPending && !_ctx.loc_selectedOrgIsExpired ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_card_section, {
             key: 0,
             class: "text-center text-h6 text-primary-500"
           }, {
@@ -504,7 +507,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             contracted: _ctx.$q.screen.lt.md,
             ref: "formStepper",
             color: "secondary",
-            class: (0,vue_esm_bundler/* normalizeClass */.C_)(["full-width max-640", _ctx.formStep > 1 && !_ctx.isOrgPending || !_ctx.currentUserIsNotVerified ? 'q-pt-xl' : '']),
+            class: (0,vue_esm_bundler/* normalizeClass */.C_)(["full-width max-640", _ctx.formStep > 1 && !_ctx.isOrgPending || !_ctx.loc_currentUserIsNotVerified ? 'q-pt-xl' : '']),
             "done-icon": "icon-tick text-h4",
             "done-color": "secondary text-secondary",
             "active-icon": "icon-circle-01 text-body2",
@@ -631,19 +634,37 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                 default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
                   class: "row items-center justify-between q-col-gutter-x-sm q-col-gutter-y-sm card-padding"
                 }, {
-                  default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_66, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_67, [_hoisted_68, (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_69, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_70, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.talentSelect?.label || 'Select Talent'), 1), (0,vue_esm_bundler/* createVNode */.Wm)(_component_SelectOption, {
-                    autofocus: true,
-                    dense: false,
-                    initModel: _ctx.talentSelect,
+                  default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_66, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_67, [_hoisted_68, (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_69, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_select, {
+                    autofocus: "",
+                    outlined: "",
+                    "hide-bottom-space": "",
+                    "option-value": "value",
+                    "option-label": "label",
+                    class: "rounded text-body2 input-white text-primary no-border no-box-shadow",
+                    "popup-content-class": "bg-white rounded-bottom",
+                    "input-class": "text-body1 letter-space-normal text-primary",
+                    options: _ctx.select_subscription_Talents,
                     modelValue: _ctx.talentSelect,
                     "onUpdate:modelValue": _cache[12] || (_cache[12] = $event => _ctx.talentSelect = $event),
-                    class: "no-border no-box-shadow absolute-center",
-                    selection: _ctx.select_subscription_Talents,
-                    required: true,
-                    style: {
-                      "opacity": "0"
-                    }
-                  }, null, 8, ["initModel", "modelValue", "selection"])])])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_71, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_72, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_73, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+                    rules: [val => !!val || '']
+                  }, {
+                    option: (0,vue_esm_bundler/* withCtx */.w5)(scope => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item, (0,vue_esm_bundler/* mergeProps */.dG)({
+                      clickable: ""
+                    }, scope.itemProps, {
+                      class: [scope.selected ? 'bg-accent text-secondary' : 'text-primary', "hover-text-secondary hover-bg-accent"]
+                    }), {
+                      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, null, {
+                        default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_label, null, {
+                          default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)((0,vue_esm_bundler/* toDisplayString */.zw)(scope.opt?.label || scope.opt), 1)]),
+                          _: 2
+                        }, 1024)]),
+                        _: 2
+                      }, 1024)]),
+                      _: 2
+                    }, 1040, ["class"])]),
+                    selected: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("span", _hoisted_70, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.talentSelect?.label || 'Select Talents'), 1)]),
+                    _: 1
+                  }, 8, ["options", "modelValue", "rules"])])])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_71, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_72, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_73, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
                     name: "icon-infinity",
                     size: "20px",
                     color: "secondary"
@@ -759,7 +780,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   })) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true);
 }
-;// CONCATENATED MODULE: ./src/pages/Misc/SignupPage.vue?vue&type=template&id=78b9185f
+;// CONCATENATED MODULE: ./src/pages/Misc/SignupPage.vue?vue&type=template&id=5bb86292
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.push.js
 var es_array_push = __webpack_require__(69665);
@@ -795,14 +816,13 @@ var mixins = __webpack_require__(93458);
   mixins: [mixins/* GeoPermission_Mixin */.Sf],
   components: {
     GrowmodoTextIcon: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 64).then(__webpack_require__.bind(__webpack_require__, 43708))),
-    SelectCompanyType: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64)]).then(__webpack_require__.bind(__webpack_require__, 70227))),
+    SelectCompanyType: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 64).then(__webpack_require__.bind(__webpack_require__, 70227))),
     InputWebsite: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 64).then(__webpack_require__.bind(__webpack_require__, 97696))),
     InputPassword: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 64).then(__webpack_require__.bind(__webpack_require__, 41620))),
-    SelectCountry: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64)]).then(__webpack_require__.bind(__webpack_require__, 37056))),
-    SelectRoles: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64)]).then(__webpack_require__.bind(__webpack_require__, 65034))),
-    SelectEmployeeCount: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64)]).then(__webpack_require__.bind(__webpack_require__, 41640))),
-    GrowmodoTestimonials: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(932)]).then(__webpack_require__.bind(__webpack_require__, 97932))),
-    SelectOption: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(363)]).then(__webpack_require__.bind(__webpack_require__, 38363)))
+    SelectCountry: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 64).then(__webpack_require__.bind(__webpack_require__, 37056))),
+    SelectRoles: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 64).then(__webpack_require__.bind(__webpack_require__, 65034))),
+    SelectEmployeeCount: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 64).then(__webpack_require__.bind(__webpack_require__, 41640))),
+    GrowmodoTestimonials: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(932)]).then(__webpack_require__.bind(__webpack_require__, 97932)))
   },
   data() {
     return {
@@ -844,7 +864,7 @@ var mixins = __webpack_require__(93458);
         }, 100);
       }
     },
-    currentUserIsNotVerified: {
+    loc_currentUserIsNotVerified: {
       async handler(val) {
         setTimeout(() => {
           this.stepperHeaderElements = this.$refs?.['formStepper']?.$el?.firstChild?.childNodes;
@@ -879,7 +899,7 @@ var mixins = __webpack_require__(93458);
             });
             this.goToSignup();
           }
-          this.signupVerifyEmailStatus = false;
+          this.signupVerifyEmailStatus = this.debugging === 'VerifyEmail' ? true : false;
         }
       }
     },
@@ -900,7 +920,7 @@ var mixins = __webpack_require__(93458);
         if (val && this.user?.token) {
           if (this.signupStep && !isNaN(this.signupStep)) {
             this.prefillForm();
-            this.signupVerifyEmailStatus = false;
+            this.signupVerifyEmailStatus = this.debugging === 'VerifyEmail' ? true : false;
             this.formStep = this.signupStep;
             if (val == 2) setTimeout(this.askGeoPermission, 500);
           }
@@ -920,7 +940,7 @@ var mixins = __webpack_require__(93458);
             this.prefillForm();
           } else if (!this.init_step) {
             // Set the Status
-            this.signupVerifyEmailStatus = false;
+            this.signupVerifyEmailStatus = this.debugging === 'VerifyEmail' ? true : false;
             this.goToSignup();
           }
         }
@@ -929,7 +949,7 @@ var mixins = __webpack_require__(93458);
     select_subscription_Talents: {
       async handler(val) {
         if (val?.length) {
-          if (!this.talentSelect) this.talentSelect = this.select_subscription_Talents[0];
+          if (!this.talentSelect) this.talentSelect = this.select_subscription_Talents[0].value;
         }
       }
     }
@@ -940,8 +960,20 @@ var mixins = __webpack_require__(93458);
     select_subscription_Talents() {
       return Object.values(this.subscription_Talents).filter(e => e?.value > 0);
     },
+    debugging() {
+      return this.$DEV_MODE ? this.$route.query?.debugging : null;
+    },
     isOrgPending() {
-      return this.checkoutRedirect ? false : this.selectedOrgAccountPending;
+      return this.debugging === 'Pending' || (this.checkoutRedirect ? false : this.selectedOrgAccountPending);
+    },
+    loc_currentUserIsNotVerified() {
+      return this.debugging === 'UserNotVerified' || this.currentUserIsNotVerified;
+    },
+    loc_selectedOrgIsCancelled() {
+      return this.debugging === 'SubsCancelled' || this.selectedOrgIsCancelled;
+    },
+    loc_selectedOrgIsExpired() {
+      return this.debugging === 'SubsExpired' || this.$root.selectedOrgIsExpired;
     },
     listCompanyTypes() {
       return Object.values(this.companyTypes);
@@ -963,7 +995,7 @@ var mixins = __webpack_require__(93458);
   },
   async mounted() {
     if (!this.talentSelect) this.talentSelect = this.select_subscription_Talents[0];
-    if (!fn_store/* default.getAuth */.Z.getAuth()) {
+    if (!fn_store/* default.getAuth */.Z.getAuth() || this.debugging) {
       this.prefillForm();
       this.$root.setMeta({
         title: this.title
@@ -986,10 +1018,10 @@ var mixins = __webpack_require__(93458);
     ...(0,pinia/* mapActions */.nv)(growmodo/* default */.Z, ['planPriceCalculator']),
     ...(0,pinia/* mapActions */.nv)(user/* default */.Z, ['signupStep1', 'signupStep2', 'signupStep3', 'onSignupStep', 'signupVerifyEmail', 'signupResendEmailVerify', 'acceptInvitation', 'getUserRole', 'resendEmailInvitation']),
     async initialize() {
-      if (fn_store/* default.getAuth */.Z.getAuth()) {
+      if (fn_store/* default.getAuth */.Z.getAuth() && !this.debugging) {
         this.$router.replace('/');
       } else {
-        // Signup or Invite
+        // Signup or Invite or Debugging
         const invite_token = this.$route.params?.invite_token;
         if (invite_token) {
           this.invite_token = invite_token;
@@ -1059,7 +1091,7 @@ var mixins = __webpack_require__(93458);
           }
         });
       } else {
-        this.signupVerifyEmailStatus = false;
+        this.signupVerifyEmailStatus = this.debugging === 'VerifyEmail' ? true : false;
         this.$q.notify({
           icon: 'icon-alert-triangle',
           iconColor: 'negative',
@@ -1205,6 +1237,14 @@ var QStepper = __webpack_require__(8225);
 var QStep = __webpack_require__(46017);
 // EXTERNAL MODULE: ./node_modules/quasar/src/components/input/QInput.js + 2 modules
 var QInput = __webpack_require__(66611);
+// EXTERNAL MODULE: ./node_modules/quasar/src/components/select/QSelect.js + 2 modules
+var QSelect = __webpack_require__(67887);
+// EXTERNAL MODULE: ./node_modules/quasar/src/components/item/QItem.js
+var QItem = __webpack_require__(490);
+// EXTERNAL MODULE: ./node_modules/quasar/src/components/item/QItemSection.js
+var QItemSection = __webpack_require__(76749);
+// EXTERNAL MODULE: ./node_modules/quasar/src/components/item/QItemLabel.js
+var QItemLabel = __webpack_require__(33115);
 // EXTERNAL MODULE: ./node_modules/quasar/src/components/separator/QSeparator.js
 var QSeparator = __webpack_require__(50926);
 // EXTERNAL MODULE: ./node_modules/quasar/src/components/radio/QRadio.js
@@ -1243,10 +1283,14 @@ const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(SignupPagevue_t
 
 
 
-runtime_auto_import_default()(SignupPagevue_type_script_lang_js, 'components', {QLayout: QLayout/* default */.Z,QDrawer: QDrawer/* default */.Z,QImg: QImg/* default */.Z,QCard: QCard/* default */.Z,QPageContainer: QPageContainer/* default */.Z,QPage: QPage/* default */.Z,QBtn: QBtn/* default */.Z,QIcon: QIcon/* default */.Z,QCardSection: QCardSection/* default */.Z,QSpinnerHourglass: QSpinnerHourglass/* default */.Z,QForm: QForm/* default */.Z,QStepper: QStepper/* default */.Z,QStep: QStep/* default */.Z,QInput: QInput/* default */.Z,QSeparator: QSeparator/* default */.Z,QRadio: QRadio/* default */.Z,QBadge: QBadge/* default */.Z});runtime_auto_import_default()(SignupPagevue_type_script_lang_js, 'directives', {Ripple: Ripple/* default */.Z});
+
+
+
+
+runtime_auto_import_default()(SignupPagevue_type_script_lang_js, 'components', {QLayout: QLayout/* default */.Z,QDrawer: QDrawer/* default */.Z,QImg: QImg/* default */.Z,QCard: QCard/* default */.Z,QPageContainer: QPageContainer/* default */.Z,QPage: QPage/* default */.Z,QBtn: QBtn/* default */.Z,QIcon: QIcon/* default */.Z,QCardSection: QCardSection/* default */.Z,QSpinnerHourglass: QSpinnerHourglass/* default */.Z,QForm: QForm/* default */.Z,QStepper: QStepper/* default */.Z,QStep: QStep/* default */.Z,QInput: QInput/* default */.Z,QSelect: QSelect/* default */.Z,QItem: QItem/* default */.Z,QItemSection: QItemSection/* default */.Z,QItemLabel: QItemLabel/* default */.Z,QSeparator: QSeparator/* default */.Z,QRadio: QRadio/* default */.Z,QBadge: QBadge/* default */.Z});runtime_auto_import_default()(SignupPagevue_type_script_lang_js, 'directives', {Ripple: Ripple/* default */.Z});
 
 
 /***/ })
 
 }]);
-//# sourceMappingURL=411.25ea6397.js.map
+//# sourceMappingURL=723.0cb83938.js.map

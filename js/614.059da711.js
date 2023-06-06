@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[722],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[614],{
 
-/***/ 84722:
+/***/ 85614:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -16,7 +16,7 @@ __webpack_require__.d(__webpack_exports__, {
 var es_array_push = __webpack_require__(69665);
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/layouts/MainLayout.vue?vue&type=template&id=3b4e43b9
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/layouts/MainLayout.vue?vue&type=template&id=7ea8ff58
 
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -66,7 +66,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             unelevated: "",
             direction: "up",
             modelValue: _ctx.devTools,
-            "onUpdate:modelValue": _cache[2] || (_cache[2] = $event => _ctx.devTools = $event),
+            "onUpdate:modelValue": _cache[6] || (_cache[6] = $event => _ctx.devTools = $event),
             padding: "sm",
             color: "primary",
             icon: "icon-growmodo",
@@ -92,6 +92,30 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               color: "primary",
               onClick: _cache[1] || (_cache[1] = $event => _ctx.userNotOnBoard = true),
               label: "Onboarding",
+              class: "rounded"
+            }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_fab_action, {
+              "label-position": "left",
+              color: "primary",
+              onClick: _cache[2] || (_cache[2] = $event => _ctx.$router.push('/signup?debugging=Pending')),
+              label: "Signup Pending",
+              class: "rounded"
+            }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_fab_action, {
+              "label-position": "left",
+              color: "primary",
+              onClick: _cache[3] || (_cache[3] = $event => _ctx.$router.push('/signup?debugging=UserNotVerified')),
+              label: "Signup Unverified",
+              class: "rounded"
+            }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_fab_action, {
+              "label-position": "left",
+              color: "primary",
+              onClick: _cache[4] || (_cache[4] = $event => _ctx.$router.push('/signup?debugging=SubsCancelled')),
+              label: "Subscription Cancelled",
+              class: "rounded"
+            }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_fab_action, {
+              "label-position": "left",
+              color: "primary",
+              onClick: _cache[5] || (_cache[5] = $event => _ctx.$router.push('/signup?debugging=SubsExpired')),
+              label: "Subscription Expired",
               class: "rounded"
             })]),
             _: 1
@@ -123,7 +147,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               color: 'accent'
             },
             class: "bg-primary text-white hover-bg-secondary q-pa-sm",
-            onClick: _cache[3] || (_cache[3] = $event => _ctx.$root.toggleMainDrawer())
+            onClick: _cache[7] || (_cache[7] = $event => _ctx.$root.toggleMainDrawer())
           }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_tooltip_pro, {
             delay: 150,
             offset: [10, 10],
@@ -142,14 +166,14 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       persistent: _ctx.startOnBoarding,
       maximized: _ctx.startOnBoarding,
       modelValue: _ctx.userNotOnBoard,
-      "onUpdate:modelValue": _cache[5] || (_cache[5] = $event => _ctx.userNotOnBoard = $event)
+      "onUpdate:modelValue": _cache[9] || (_cache[9] = $event => _ctx.userNotOnBoard = $event)
     }, {
       default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_OnBoarding, {
         noclose: "",
         onStart: _ctx.initializeOnBoarding,
         class: "rounded",
         style: (0,vue_esm_bundler/* normalizeStyle */.j5)(_ctx.startOnBoarding ? '' : 'width: 980px; max-width: 80vw'),
-        onExit: _cache[4] || (_cache[4] = () => {
+        onExit: _cache[8] || (_cache[8] = () => {
           _ctx.userNotOnBoard = false;
           _ctx.startOnBoarding = false;
         })
@@ -157,7 +181,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       _: 1
     }, 8, ["persistent", "maximized", "modelValue"]), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_dialog, {
       modelValue: _ctx.$root.dialogRequestUpgrade,
-      "onUpdate:modelValue": _cache[6] || (_cache[6] = $event => _ctx.$root.dialogRequestUpgrade = $event)
+      "onUpdate:modelValue": _cache[10] || (_cache[10] = $event => _ctx.$root.dialogRequestUpgrade = $event)
     }, {
       default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_dynamic_dialog_confirmation, (0,vue_esm_bundler/* mergeProps */.dG)({
         width: "375px"
@@ -165,7 +189,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       _: 1
     }, 8, ["modelValue"]), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_dialog, {
       modelValue: _ctx.$root.upgradePlan,
-      "onUpdate:modelValue": _cache[8] || (_cache[8] = $event => _ctx.$root.upgradePlan = $event),
+      "onUpdate:modelValue": _cache[12] || (_cache[12] = $event => _ctx.$root.upgradePlan = $event),
       "transition-show": "scale",
       "transition-hide": "scale",
       "transition-duration": 300
@@ -175,12 +199,12 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         style: (0,vue_esm_bundler/* normalizeStyle */.j5)([{
           "width": "700px"
         }, _ctx.$q.screen.xs && _ctx.$q.screen.lt.sm ? 'max-width: 95vw;' : 'max-width: 80vw']),
-        onRequestChanges: _cache[7] || (_cache[7] = $event => _ctx.$root.upgradePlan = false)
+        onRequestChanges: _cache[11] || (_cache[11] = $event => _ctx.$root.upgradePlan = false)
       }, null, 8, ["style"])]),
       _: 1
     }, 8, ["modelValue"]), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_dialog, {
       modelValue: _ctx.$root.redirect.confirmation,
-      "onUpdate:modelValue": _cache[9] || (_cache[9] = $event => _ctx.$root.redirect.confirmation = $event),
+      "onUpdate:modelValue": _cache[13] || (_cache[13] = $event => _ctx.$root.redirect.confirmation = $event),
       "transition-show": "scale",
       "transition-hide": "scale",
       "transition-duration": 300
@@ -197,7 +221,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/layouts/MainLayout.vue?vue&type=template&id=3b4e43b9
+;// CONCATENATED MODULE: ./src/layouts/MainLayout.vue?vue&type=template&id=7ea8ff58
 
 // EXTERNAL MODULE: ./node_modules/quasar/src/plugins/LoadingBar.js + 1 modules
 var LoadingBar = __webpack_require__(5917);
@@ -327,4 +351,4 @@ runtime_auto_import_default()(MainLayoutvue_type_script_lang_js, 'components', {
 /***/ })
 
 }]);
-//# sourceMappingURL=722.3f648149.js.map
+//# sourceMappingURL=614.059da711.js.map
