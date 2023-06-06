@@ -526,7 +526,7 @@ const routes = [{
       path: ':brandId',
       children: [{
         path: '',
-        component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(453)]).then(__webpack_require__.bind(__webpack_require__, 89653))
+        component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(540)]).then(__webpack_require__.bind(__webpack_require__, 48351))
       }, {
         path: 'task',
         children: [{
@@ -582,16 +582,16 @@ const routes = [{
   path: '/signup',
   children: [{
     path: '',
-    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(723)]).then(__webpack_require__.bind(__webpack_require__, 61723))
+    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(582)]).then(__webpack_require__.bind(__webpack_require__, 19582))
   }, {
     path: 'verify/:signup_token',
-    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(723)]).then(__webpack_require__.bind(__webpack_require__, 61723))
+    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(582)]).then(__webpack_require__.bind(__webpack_require__, 19582))
   }]
 }, {
   path: '/invitation',
   children: [{
     path: ':invite_token',
-    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(723)]).then(__webpack_require__.bind(__webpack_require__, 61723))
+    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(582)]).then(__webpack_require__.bind(__webpack_require__, 19582))
   }]
 }, {
   path: '/checkout',
@@ -5150,7 +5150,9 @@ async function updateBrandAvatar(fileId, brandId, orgId = this.activeOrgID) {
     avatar: fileId
   }).then(res => {
     const data = res.data;
-    if (data.success) this.updateOrgBrand(brandId, data.data, {}, orgId);
+    if (data.success) this.updateOrgBrand(brandId, data.data?.avatar || {}, {
+      key: 'avatar'
+    }, orgId);
     return data;
   }).catch(e => {
     return e;
@@ -5640,7 +5642,7 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.10.1","descript
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"23":"12907713","64":"f6a0edee","78":"3df136e2","100":"bb658e95","141":"424ac9dd","142":"0aeae0e7","207":"05a44a26","214":"8f0cb02c","246":"e2970f69","259":"77bc9073","287":"bca771cd","331":"6c8e1063","363":"1dd57da8","404":"488a2d21","405":"9d269a50","422":"554e49a1","423":"45fbe758","435":"e56be872","453":"59122a09","474":"74f1c9f7","493":"056cfa2b","507":"06c129d1","512":"0a7be100","539":"1cc84b83","543":"04d84cf6","563":"48162dbb","591":"4c2ac6ba","614":"059da711","620":"b4ce45b0","663":"b421f177","713":"962b380f","723":"0cb83938","737":"3ca07ea4","775":"0242cdfe","815":"87adc666","869":"ef3ce50c","922":"0cd7eb74","932":"3500ef98","935":"6abd2e50","940":"c73ab6ca","966":"70df5b13"}[chunkId] + ".js";
+/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"23":"12907713","64":"f6a0edee","78":"3df136e2","100":"bb658e95","141":"424ac9dd","142":"0aeae0e7","207":"05a44a26","214":"8f0cb02c","246":"e2970f69","259":"77bc9073","287":"bca771cd","331":"6c8e1063","363":"1dd57da8","404":"488a2d21","405":"9d269a50","422":"554e49a1","423":"45fbe758","435":"e56be872","474":"74f1c9f7","493":"056cfa2b","507":"06c129d1","512":"0a7be100","539":"1cc84b83","540":"718ec0f8","543":"04d84cf6","563":"48162dbb","582":"3503abf5","591":"4c2ac6ba","614":"059da711","620":"b4ce45b0","663":"b421f177","713":"962b380f","737":"3ca07ea4","775":"0242cdfe","815":"87adc666","869":"ef3ce50c","922":"0cd7eb74","932":"3500ef98","935":"6abd2e50","940":"c73ab6ca","966":"70df5b13"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -5649,7 +5651,7 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.10.1","descript
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.miniCssF = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "css/" + chunkId + "." + {"23":"bf699673","100":"92a1c822","207":"92a1c822","259":"92a1c822","453":"92a1c822"}[chunkId] + ".css";
+/******/ 			return "css/" + chunkId + "." + {"23":"bf699673","100":"036b2a79","207":"036b2a79","259":"036b2a79","540":"036b2a79"}[chunkId] + ".css";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -5793,7 +5795,7 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.10.1","descript
 /******/ 		};
 /******/ 		
 /******/ 		__webpack_require__.f.miniCss = (chunkId, promises) => {
-/******/ 			var cssChunks = {"23":1,"100":1,"207":1,"259":1,"453":1};
+/******/ 			var cssChunks = {"23":1,"100":1,"207":1,"259":1,"540":1};
 /******/ 			if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 			else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 				promises.push(installedCssChunks[chunkId] = loadStylesheet(chunkId).then(() => {
@@ -5908,4 +5910,4 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.10.1","descript
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.66f36d60.js.map
+//# sourceMappingURL=app.f607c730.js.map

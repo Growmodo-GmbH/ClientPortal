@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[723],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[582],{
 
-/***/ 61723:
+/***/ 19582:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Misc/SignupPage.vue?vue&type=template&id=5bb86292
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Misc/SignupPage.vue?vue&type=template&id=4adc26f0
 
 const _hoisted_1 = {
   key: 0,
@@ -462,7 +462,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               key: 1
             }, [(0,vue_esm_bundler/* createTextVNode */.Uk)(" Subscription is Expired ")], 64)) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, {
               key: 2
-            }, [(0,vue_esm_bundler/* createTextVNode */.Uk)((0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.isOrgPending ? 'Account is status is pending' : _ctx.signup_token || _ctx.invite_token ? 'Verifying your email' : `We've sent you a verification email`), 1)], 64))]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_8, [_ctx.loc_selectedOrgIsCancelled || _ctx.loc_selectedOrgIsExpired ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, {
+            }, [(0,vue_esm_bundler/* createTextVNode */.Uk)((0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.isOrgPending ? 'Account status is pending' : _ctx.signup_token || _ctx.invite_token ? 'Verifying your email' : `We've sent you a verification email`), 1)], 64))]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_8, [_ctx.loc_selectedOrgIsCancelled || _ctx.loc_selectedOrgIsExpired ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, {
               key: 0
             }, [(0,vue_esm_bundler/* createTextVNode */.Uk)(" Please contact our accounts team for immediate concerns. "), (0,vue_esm_bundler/* withDirectives */.wy)((0,vue_esm_bundler/* createElementVNode */._)("div", null, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_9, [(0,vue_esm_bundler/* createTextVNode */.Uk)(" Company Name: "), (0,vue_esm_bundler/* createElementVNode */._)("span", _hoisted_10, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.selectedOrg.title), 1)]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_11, [(0,vue_esm_bundler/* createTextVNode */.Uk)(" Subscription End: "), (0,vue_esm_bundler/* createElementVNode */._)("span", _hoisted_12, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.formatDate(_ctx.selectedOrgSubscription.subscription_end, 'MMMM DD, YYYY')), 1)]), _ctx.selectedOrgSubscription.cancelled_at ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_13, [(0,vue_esm_bundler/* createTextVNode */.Uk)(" Subscription Cancelled: "), (0,vue_esm_bundler/* createElementVNode */._)("span", _hoisted_14, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.formatDate(_ctx.selectedOrgSubscription.cancelled_at, 'MMMM DD, YYYY')), 1)])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 512), [[vue_esm_bundler/* vShow */.F8, false]]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_15, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
               outlineme: "",
@@ -780,7 +780,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   })) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true);
 }
-;// CONCATENATED MODULE: ./src/pages/Misc/SignupPage.vue?vue&type=template&id=5bb86292
+;// CONCATENATED MODULE: ./src/pages/Misc/SignupPage.vue?vue&type=template&id=4adc26f0
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.push.js
 var es_array_push = __webpack_require__(69665);
@@ -1293,4 +1293,4 @@ runtime_auto_import_default()(SignupPagevue_type_script_lang_js, 'components', {
 /***/ })
 
 }]);
-//# sourceMappingURL=723.0cb83938.js.map
+//# sourceMappingURL=582.3503abf5.js.map
