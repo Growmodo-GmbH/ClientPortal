@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[512],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[989],{
 
-/***/ 71512:
+/***/ 1989:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/FilesPage.vue?vue&type=template&id=5a7749fb
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/FilesPage.vue?vue&type=template&id=b8940a54
 
 const _hoisted_1 = {
   class: "font-medium text-h5 text-primary-700"
@@ -854,7 +854,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/FilesPage.vue?vue&type=template&id=5a7749fb
+;// CONCATENATED MODULE: ./src/pages/FilesPage.vue?vue&type=template&id=b8940a54
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.push.js
 var es_array_push = __webpack_require__(69665);
@@ -1190,8 +1190,8 @@ const {
       let indexToDelete = -1;
       if (!isNaN(file?.id) && (await this.deleteAction(file))) {
         indexToDelete = this.orgFiles.findIndex(e => e.id == file.id);
-      } else {
-        indexToDelete = this.orgFiles.findIndex(e => e.file_info?.__key === file.file_info?.__key);
+      } else if (file.file_info) {
+        indexToDelete = this.orgFiles.findIndex(e => e.file_info && e.file_info?.__key === file.file_info?.__key);
       }
       const {
         rowsNumber,
@@ -1462,4 +1462,4 @@ runtime_auto_import_default()(FilesPagevue_type_script_lang_js, 'components', {Q
 /***/ })
 
 }]);
-//# sourceMappingURL=512.0a7be100.js.map
+//# sourceMappingURL=989.5cb6aadf.js.map

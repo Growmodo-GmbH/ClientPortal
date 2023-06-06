@@ -543,7 +543,7 @@ const routes = [{
     }]
   }, {
     path: 'files',
-    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(512)]).then(__webpack_require__.bind(__webpack_require__, 71512))
+    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(989)]).then(__webpack_require__.bind(__webpack_require__, 1989))
   }, {
     path: 'help',
     component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(775)]).then(__webpack_require__.bind(__webpack_require__, 43775))
@@ -5642,7 +5642,7 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.10.1","descript
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"23":"12907713","64":"f6a0edee","78":"3df136e2","100":"bb658e95","141":"424ac9dd","142":"0aeae0e7","207":"05a44a26","214":"8f0cb02c","246":"e2970f69","259":"77bc9073","287":"bca771cd","331":"6c8e1063","363":"1dd57da8","404":"488a2d21","405":"9d269a50","422":"554e49a1","423":"45fbe758","435":"e56be872","474":"74f1c9f7","493":"056cfa2b","507":"06c129d1","512":"0a7be100","539":"1cc84b83","540":"718ec0f8","543":"04d84cf6","563":"48162dbb","582":"3503abf5","591":"4c2ac6ba","614":"059da711","620":"b4ce45b0","663":"b421f177","713":"962b380f","737":"3ca07ea4","775":"0242cdfe","815":"87adc666","869":"ef3ce50c","922":"0cd7eb74","932":"3500ef98","935":"6abd2e50","940":"c73ab6ca","966":"70df5b13"}[chunkId] + ".js";
+/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"23":"12907713","64":"f6a0edee","78":"3df136e2","100":"bb658e95","141":"424ac9dd","142":"0aeae0e7","207":"05a44a26","214":"8f0cb02c","246":"e2970f69","259":"77bc9073","287":"bca771cd","331":"6c8e1063","363":"1dd57da8","404":"488a2d21","405":"9d269a50","422":"554e49a1","423":"45fbe758","435":"e56be872","474":"74f1c9f7","493":"056cfa2b","507":"06c129d1","539":"1cc84b83","540":"718ec0f8","543":"04d84cf6","563":"48162dbb","582":"3503abf5","591":"4c2ac6ba","614":"059da711","620":"b4ce45b0","663":"b421f177","713":"962b380f","737":"3ca07ea4","775":"0242cdfe","815":"87adc666","869":"ef3ce50c","922":"0cd7eb74","932":"3500ef98","935":"6abd2e50","940":"c73ab6ca","966":"70df5b13","989":"5cb6aadf"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -5910,4 +5910,4 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.10.1","descript
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.f607c730.js.map
+//# sourceMappingURL=app.02069ba2.js.map
