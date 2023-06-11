@@ -121,6 +121,8 @@ __webpack_require__.d(getters_namespaceObject, {
 var actions_namespaceObject = {};
 __webpack_require__.r(actions_namespaceObject);
 __webpack_require__.d(actions_namespaceObject, {
+  "deleteSingleProject": () => (deleteSingleProject),
+  "deleteSingleTask": () => (deleteSingleTask),
   "formatPlatformIconSrc": () => (formatPlatformIconSrc),
   "getBrandCategories": () => (getBrandCategories),
   "getCompanyTypes": () => (getCompanyTypes),
@@ -754,6 +756,20 @@ async function getSingleTask(taskId, params = {}, orgId) {
     return cache_data || e;
   });
 }
+async function deleteSingleTask(taskId, orgId) {
+  if (!orgId) {
+    const user = (0,stores_user/* default */.Z)();
+    orgId = user.activeOrgID;
+    if (!orgId) return;
+  }
+  const url = `/organizations/${orgId}/tasks/${taskId}`;
+  return await apis.api["delete"](url).then(res => {
+    const data = res.data || {};
+    return data;
+  }).catch(e => {
+    return e;
+  });
+}
 
 // Get Projects
 async function getProjects(params = {}, orgId) {
@@ -790,6 +806,20 @@ async function getSingleProject(projectId, params = {}, orgId) {
   }).catch(e => {
     const cache_data = fn_store/* default.getAPICache */.Z.getAPICache(url);
     return cache_data || e;
+  });
+}
+async function deleteSingleProject(projectId, orgId) {
+  if (!orgId) {
+    const user = (0,stores_user/* default */.Z)();
+    orgId = user.activeOrgID;
+    if (!orgId) return;
+  }
+  const url = `/organizations/${orgId}/projects/${projectId}`;
+  return await apis.api["delete"](url).then(res => {
+    const data = res.data || {};
+    return data;
+  }).catch(e => {
+    return e;
   });
 }
 async function getDynamicQuestion(questionId, params = {}) {
@@ -5802,7 +5832,7 @@ runtime_auto_import_default()(TextArea1vue_type_script_lang_js, 'components', {Q
 
 /***/ }),
 
-/***/ 22128:
+/***/ 76944:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 
@@ -5815,7 +5845,7 @@ __webpack_require__.d(__webpack_exports__, {
 var es_array_push = __webpack_require__(69665);
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Requests/TaskProjectList.vue?vue&type=template&id=4fbe7758
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Requests/TaskProjectList.vue?vue&type=template&id=e66d1f32
 
 
 const _hoisted_1 = {
@@ -5907,9 +5937,13 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_q_skeleton = (0,vue_esm_bundler/* resolveComponent */.up)("q-skeleton");
   const _component_q_td = (0,vue_esm_bundler/* resolveComponent */.up)("q-td");
   const _component_CardIconBox = (0,vue_esm_bundler/* resolveComponent */.up)("CardIconBox");
+  const _component_q_list = (0,vue_esm_bundler/* resolveComponent */.up)("q-list");
+  const _component_q_menu = (0,vue_esm_bundler/* resolveComponent */.up)("q-menu");
   const _component_q_badge = (0,vue_esm_bundler/* resolveComponent */.up)("q-badge");
   const _component_q_pagination = (0,vue_esm_bundler/* resolveComponent */.up)("q-pagination");
   const _component_q_table = (0,vue_esm_bundler/* resolveComponent */.up)("q-table");
+  const _component_dynamic_dialog_confirmation = (0,vue_esm_bundler/* resolveComponent */.up)("dynamic-dialog-confirmation");
+  const _component_q_dialog = (0,vue_esm_bundler/* resolveComponent */.up)("q-dialog");
   const _component_q_card = (0,vue_esm_bundler/* resolveComponent */.up)("q-card");
   return (0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_card, {
     flat: "",
@@ -5926,9 +5960,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           flat: "",
           "no-caps": "",
           class: (0,vue_esm_bundler/* normalizeClass */.C_)(["hover-text-secondary", {
-            'bg-accent': _ctx.tableTab === 'tasks'
+            'bg-accent': _ctx.isTask
           }]),
-          color: _ctx.tableTab === 'tasks' ? 'secondary' : 'primary-600',
+          color: _ctx.isTask ? 'secondary' : 'primary-600',
           onClick: _cache[0] || (_cache[0] = $event => _ctx.tableTab = 'tasks')
         }, {
           default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_hoisted_2]),
@@ -5939,9 +5973,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           flat: "",
           "no-caps": "",
           class: (0,vue_esm_bundler/* normalizeClass */.C_)(["hover-text-secondary", {
-            'bg-accent': _ctx.tableTab === 'projects'
+            'bg-accent': !_ctx.isTask
           }]),
-          color: _ctx.tableTab === 'projects' ? 'secondary' : 'primary-600',
+          color: !_ctx.isTask ? 'secondary' : 'primary-600',
           onClick: _cache[1] || (_cache[1] = $event => _ctx.tableTab = 'projects')
         }, {
           default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_hoisted_3]),
@@ -6170,18 +6204,113 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                 class: "q-pr-sm"
               }, {
                 default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_CardIconBox, {
-                  icon: (_ctx.tableTab === 'tasks' ? _ctx.taskDirectory[scope.row?.task_id]?.icon : _ctx.projectDirectory[scope.row?.project_id]?.icon) || 'icon-browser'
+                  icon: (_ctx.isTask ? _ctx.taskDirectory[scope.row?.task_id]?.icon : _ctx.projectDirectory[scope.row?.project_id]?.icon) || 'icon-browser'
                 }, null, 8, ["icon"])]),
                 _: 2
               }, 1024), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, {
                 class: (0,vue_esm_bundler/* normalizeClass */.C_)(["cursor-pointer", {
                   'font-medium': i === 0
                 }]),
-                onClick: $event => _ctx.$router.push(`/brands/${_ctx.filter_brand_id || scope.row.brand_id}/${_ctx.tableTab === 'tasks' ? 'task' : 'project'}/${scope.row?.id}`)
+                onClick: $event => _ctx.$router.push(`/brands/${_ctx.filter_brand_id || scope.row.brand_id}/${_ctx.isTask ? 'task' : 'project'}/${scope.row?.id}`)
               }, {
                 default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("span", null, (0,vue_esm_bundler/* toDisplayString */.zw)(_r.value), 1)]),
                 _: 2
-              }, 1032, ["class", "onClick"])]),
+              }, 1032, ["class", "onClick"]), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_menu, {
+                "auto-close": "",
+                "context-menu": ""
+              }, {
+                default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_list, {
+                  separator: ""
+                }, {
+                  default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item, {
+                    clickable: "",
+                    class: "hover-text-secondary",
+                    to: `/brands/${_ctx.filter_brand_id || scope.row.brand_id}/${_ctx.isTask ? 'task' : 'project'}/${scope.row?.id}`
+                  }, {
+                    default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, {
+                      side: "",
+                      class: "q-pr-sm"
+                    }, {
+                      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+                        name: "icon-folder",
+                        size: "xs"
+                      })]),
+                      _: 1
+                    }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, null, {
+                      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)("Open")]),
+                      _: 1
+                    })]),
+                    _: 2
+                  }, 1032, ["to"]), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item, {
+                    clickable: "",
+                    class: "hover-text-secondary",
+                    onClick: $event => _ctx.openURL(`/brands/${_ctx.filter_brand_id || scope.row.brand_id}/${_ctx.isTask ? 'task' : 'project'}/${scope.row?.id}`)
+                  }, {
+                    default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, {
+                      side: "",
+                      class: "q-pr-sm"
+                    }, {
+                      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+                        name: "icon-link-external-01",
+                        size: "xs"
+                      })]),
+                      _: 1
+                    }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, null, {
+                      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)("Open in New Tab")]),
+                      _: 1
+                    })]),
+                    _: 2
+                  }, 1032, ["onClick"]), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item, {
+                    clickable: "",
+                    class: "text-negative hover-text-negative",
+                    onClick: () => {
+                      _ctx.openDeleteDialog = true;
+                      _ctx.itemToDelete = scope?.row;
+                    }
+                  }, {
+                    default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, {
+                      side: "",
+                      class: "q-pr-sm"
+                    }, {
+                      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+                        name: "icon-trash-01",
+                        size: "xs",
+                        color: "negative"
+                      })]),
+                      _: 1
+                    }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, null, {
+                      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)("Delete")]),
+                      _: 1
+                    })]),
+                    _: 2
+                  }, 1032, ["onClick"]), _ctx.selectedFiles?.length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_item, {
+                    key: 0,
+                    clickable: "",
+                    class: "text-negative hover-text-negative",
+                    onClick: _cache[5] || (_cache[5] = () => {
+                      _ctx.openMultiDeleteDialog = true;
+                    })
+                  }, {
+                    default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, {
+                      side: "",
+                      class: "q-pr-sm"
+                    }, {
+                      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+                        name: "icon-trash-01",
+                        size: "xs",
+                        color: "negative"
+                      })]),
+                      _: 1
+                    }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, null, {
+                      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)(" Delete Selected (" + (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.selectedFiles?.length) + " file" + (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.selectedFiles?.length > 1 ? 's' : '') + ")", 1)]),
+                      _: 1
+                    })]),
+                    _: 1
+                  })) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)]),
+                  _: 2
+                }, 1024)]),
+                _: 2
+              }, 1024)]),
               _: 2
             }, 1024)) : _r.name === 'task_priority' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_badge, {
               key: 1,
@@ -6219,14 +6348,17 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               ['hover-text-negative']: !_ctx.tableLoading
             }),
             disable: _ctx.tableLoading,
-            onClick: _cache[5] || (_cache[5] = (0,vue_esm_bundler/* withModifiers */.iM)(() => {}, ["prevent"]))
+            onClick: (0,vue_esm_bundler/* withModifiers */.iM)(() => {
+              _ctx.itemToDelete = scope.row;
+              _ctx.openDeleteDialog = true;
+            }, ["prevent"])
           }, {
             default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
               name: "icon-trash-01",
               size: "20px"
             })]),
-            _: 1
-          }, 8, ["class", "disable"])])]),
+            _: 2
+          }, 1032, ["class", "disable", "onClick"])])]),
           _: 2
         }, 1032, ["class"])], 64))]),
         _: 2
@@ -6306,25 +6438,47 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         class: "q-pr-sm",
         color: _ctx.tableLoading ? 'secondary' : 'negative',
         name: _ctx.tableLoading ? 'icon-download-cloud-01' : _ctx.searchQuery ? 'icon-filter-funnel-01' : icon
-      }, null, 8, ["color", "name"])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.tableLoading ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("span", _hoisted_19, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.searchQuery && !_ctx.tableLoading ? 'No tasks found.' : message), 1)) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("span", _hoisted_20, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.searchQuery && !_ctx.tableLoading ? 'No tasks found.' : `You have no ${_ctx.tableTab === 'tasks' ? 'tasks' : 'projects'} yet.`), 1))]), !_ctx.tableLoading && !_ctx.searchQuery ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_21, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+      }, null, 8, ["color", "name"])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.tableLoading ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("span", _hoisted_19, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.searchQuery && !_ctx.tableLoading ? 'No tasks found.' : message), 1)) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("span", _hoisted_20, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.searchQuery && !_ctx.tableLoading ? 'No tasks found.' : `You have no ${_ctx.isTask ? 'tasks' : 'projects'} yet.`), 1))]), !_ctx.tableLoading && !_ctx.searchQuery ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_21, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
         "no-caps": "",
         unelevated: "",
         class: "button-sm",
         color: "primary",
-        onClick: _cache[8] || (_cache[8] = $event => _ctx.$root.toggleRequest(_ctx.tableTab === 'tasks' ? 'task' : 'project'))
+        onClick: _cache[8] || (_cache[8] = $event => _ctx.$root.toggleRequest(_ctx.isTask ? 'task' : 'project'))
       }, {
         default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
           name: "icon-plus",
           size: "16px"
-        }), (0,vue_esm_bundler/* createElementVNode */._)("span", _hoisted_22, "Add " + (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.tableTab === 'tasks' ? 'Task' : 'Project'), 1)]),
+        }), (0,vue_esm_bundler/* createElementVNode */._)("span", _hoisted_22, "Add " + (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.isTask ? 'Task' : 'Project'), 1)]),
         _: 1
       })])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)])]),
       _: 1
-    }, 8, ["rows", "columns", "loading", "dense", "pagination", "selected", "visible-columns", "onRequest"])]),
+    }, 8, ["rows", "columns", "loading", "dense", "pagination", "selected", "visible-columns", "onRequest"]), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_dialog, {
+      modelValue: _ctx.openMultiDeleteDialog,
+      "onUpdate:modelValue": _cache[11] || (_cache[11] = $event => _ctx.openMultiDeleteDialog = $event)
+    }, {
+      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_dynamic_dialog_confirmation, (0,vue_esm_bundler/* mergeProps */.dG)({
+        ..._ctx.$root.messagesDialogs.confirmDelete,
+        messageTitle: `Confirm to delete ${_ctx.selectedFiles?.length} ${_ctx.isTask ? 'task' : 'project'}${_ctx.selectedFiles?.length > 1 ? 's' : ''}?`
+      }, {
+        onOkay: _ctx.deleteSelectedItems
+      }), null, 16, ["onOkay"])]),
+      _: 1
+    }, 8, ["modelValue"]), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_dialog, {
+      modelValue: _ctx.openDeleteDialog,
+      "onUpdate:modelValue": _cache[13] || (_cache[13] = $event => _ctx.openDeleteDialog = $event)
+    }, {
+      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_dynamic_dialog_confirmation, (0,vue_esm_bundler/* mergeProps */.dG)({
+        ..._ctx.$root.messagesDialogs.confirmDelete,
+        messageTitle: `Confirm to delete ${_ctx.itemToDelete?.title}?`
+      }, {
+        onOkay: _cache[12] || (_cache[12] = $event => _ctx.deleteAction(_ctx.itemToDelete))
+      }), null, 16)]),
+      _: 1
+    }, 8, ["modelValue"])]),
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/components/Requests/TaskProjectList.vue?vue&type=template&id=4fbe7758
+;// CONCATENATED MODULE: ./src/components/Requests/TaskProjectList.vue?vue&type=template&id=e66d1f32
 
 // EXTERNAL MODULE: ./node_modules/quasar/src/utils/date.js
 var date = __webpack_require__(54170);
@@ -6332,6 +6486,8 @@ var date = __webpack_require__(54170);
 var debounce = __webpack_require__(60899);
 // EXTERNAL MODULE: ./node_modules/quasar/src/utils/format.js
 var format = __webpack_require__(30321);
+// EXTERNAL MODULE: ./node_modules/quasar/src/utils/open-url.js
+var open_url = __webpack_require__(33752);
 // EXTERNAL MODULE: ./node_modules/pinia/dist/pinia.mjs + 1 modules
 var pinia = __webpack_require__(11872);
 // EXTERNAL MODULE: ./src/stores/growmodo/index.js + 3 modules
@@ -6371,7 +6527,11 @@ var CardIconBox = __webpack_require__(16122);
       onRequestDelayed: null,
       searchQuery: '',
       orgSelectedItems: [],
-      filter_brand_id: 0
+      filter_brand_id: 0,
+      openDeleteDialog: false,
+      openMultiDeleteDialog: false,
+      itemToDelete: null,
+      openURL: open_url/* default */.Z
     };
   },
   props: {
@@ -6391,7 +6551,7 @@ var CardIconBox = __webpack_require__(16122);
     });
   },
   computed: {
-    ...(0,pinia/* mapState */.rn)(user/* default */.Z, ['user', 'selectedOrgBrands']),
+    ...(0,pinia/* mapState */.rn)(user/* default */.Z, ['user', 'selectedOrg', 'selectedOrgBrands']),
     ...(0,pinia/* mapState */.rn)(growmodo/* default */.Z, ['taskDirectory', 'taskDirectory_Categories', 'projectDirectory', 'projectDirectory_Categories']),
     isTask() {
       return this.tableTab === 'tasks';
@@ -6532,7 +6692,8 @@ var CardIconBox = __webpack_require__(16122);
     }
   },
   methods: {
-    ...(0,pinia/* mapActions */.nv)(growmodo/* default */.Z, ['getTasks', 'getProjects']),
+    ...(0,pinia/* mapActions */.nv)(growmodo/* default */.Z, ['getTasks', 'getProjects', 'deleteSingleTask', 'deleteSingleProject']),
+    ...(0,pinia/* mapActions */.nv)(user/* default */.Z, ['isOrgAdmin', 'isOrgOwner']),
     getItemPriority(itemId) {
       const questionTypeInfo = (this.isTask ? this.getTaskInfo(itemId) : this.getProjectInfo(itemId)) || {};
       const itemInfo = this.getItemById(itemId);
@@ -6556,6 +6717,33 @@ var CardIconBox = __webpack_require__(16122);
     },
     getItemById(id) {
       return this.orgSelectedItems[this.getItemIndexById(id)];
+    },
+    async deleteSelectedItems() {
+      if (this.selectedFiles?.length) {
+        for (const file of this.selectedFiles) {
+          this.deleteAction(file);
+        }
+      }
+    },
+    async deleteAction(item) {
+      const itemId = item?.id;
+      if (!itemId || item.requested_by_id !== this.user.id || !this.isOrgOwner() || !this.isOrgAdmin()) return;
+      const response = await this[this.isTask ? 'deleteSingleTask' : 'deleteSingleProject'](itemId, this.selectedOrg?.id);
+      if (response.success) {
+        this.selectedFiles = this.selectedFiles.filter(e => e.id != itemId);
+        let indexToDelete = this.orgTmpItems.findIndex(e => e.id === itemId);
+        if (indexToDelete !== -1) this.orgTmpItems.splice(indexToDelete, 1);
+        this.$q.notify({
+          icon: 'icon-check-circle-broken',
+          message: `${this.isTask ? 'Task' : 'Project'} has been deleted.`
+        });
+      } else {
+        this.$q.notify({
+          icon: 'icon-alert-triangle',
+          iconColor: 'negative',
+          message: `Failed to delete ${this.isTask ? 'task' : 'project'}!`
+        });
+      }
     },
     async fetchFromServer(query_props = {}) {
       const response = await this[this.isTask ? 'getTasks' : 'getProjects'](query_props);
@@ -6650,12 +6838,18 @@ var QTh = __webpack_require__(21682);
 var QTd = __webpack_require__(67220);
 // EXTERNAL MODULE: ./node_modules/quasar/src/components/skeleton/QSkeleton.js
 var QSkeleton = __webpack_require__(57133);
+// EXTERNAL MODULE: ./node_modules/quasar/src/components/menu/QMenu.js
+var QMenu = __webpack_require__(56362);
+// EXTERNAL MODULE: ./node_modules/quasar/src/components/item/QList.js
+var QList = __webpack_require__(13246);
 // EXTERNAL MODULE: ./node_modules/quasar/src/components/badge/QBadge.js
 var QBadge = __webpack_require__(20990);
 // EXTERNAL MODULE: ./node_modules/quasar/src/components/virtual-scroll/QVirtualScroll.js + 1 modules
 var QVirtualScroll = __webpack_require__(52482);
 // EXTERNAL MODULE: ./node_modules/quasar/src/components/pagination/QPagination.js
 var QPagination = __webpack_require__(80996);
+// EXTERNAL MODULE: ./node_modules/quasar/src/components/dialog/QDialog.js
+var QDialog = __webpack_require__(32074);
 // EXTERNAL MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/runtime.auto-import.js
 var runtime_auto_import = __webpack_require__(69984);
 var runtime_auto_import_default = /*#__PURE__*/__webpack_require__.n(runtime_auto_import);
@@ -6689,7 +6883,10 @@ const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(TaskProjectList
 
 
 
-runtime_auto_import_default()(TaskProjectListvue_type_script_lang_js, 'components', {QCard: QCard/* default */.Z,QCardSection: QCardSection/* default */.Z,QBtnGroup: QBtnGroup/* default */.Z,QBtn: QBtn/* default */.Z,QSeparator: QSeparator/* default */.Z,QInput: QInput/* default */.Z,QIcon: QIcon/* default */.Z,QSelect: QSelect/* default */.Z,QItem: QItem/* default */.Z,QItemSection: QItemSection/* default */.Z,QItemLabel: QItemLabel/* default */.Z,QTable: QTable/* default */.Z,QLinearProgress: QLinearProgress/* default */.Z,QTr: QTr/* default */.Z,QTh: QTh/* default */.Z,QTd: QTd/* default */.Z,QSkeleton: QSkeleton/* default */.ZP,QBadge: QBadge/* default */.Z,QVirtualScroll: QVirtualScroll/* default */.Z,QPagination: QPagination/* default */.Z});
+
+
+
+runtime_auto_import_default()(TaskProjectListvue_type_script_lang_js, 'components', {QCard: QCard/* default */.Z,QCardSection: QCardSection/* default */.Z,QBtnGroup: QBtnGroup/* default */.Z,QBtn: QBtn/* default */.Z,QSeparator: QSeparator/* default */.Z,QInput: QInput/* default */.Z,QIcon: QIcon/* default */.Z,QSelect: QSelect/* default */.Z,QItem: QItem/* default */.Z,QItemSection: QItemSection/* default */.Z,QItemLabel: QItemLabel/* default */.Z,QTable: QTable/* default */.Z,QLinearProgress: QLinearProgress/* default */.Z,QTr: QTr/* default */.Z,QTh: QTh/* default */.Z,QTd: QTd/* default */.Z,QSkeleton: QSkeleton/* default */.ZP,QMenu: QMenu/* default */.Z,QList: QList/* default */.Z,QBadge: QBadge/* default */.Z,QVirtualScroll: QVirtualScroll/* default */.Z,QPagination: QPagination/* default */.Z,QDialog: QDialog/* default */.Z});
 
 
 /***/ }),
@@ -7110,4 +7307,4 @@ runtime_auto_import_default()(CustomDropdownvue_type_script_lang_js, 'components
 /***/ })
 
 }]);
-//# sourceMappingURL=chunk-common.bdcad5c3.js.map
+//# sourceMappingURL=chunk-common.15ab4568.js.map
