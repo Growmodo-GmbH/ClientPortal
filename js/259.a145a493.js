@@ -166,7 +166,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.push.js
 var es_array_push = __webpack_require__(69665);
 // EXTERNAL MODULE: ./src/components/Brands/BrandsList.vue + 4 modules
-var BrandsList = __webpack_require__(24960);
+var BrandsList = __webpack_require__(86934);
 // EXTERNAL MODULE: ./src/assets/scripts/functions.js + 1 modules
 var functions = __webpack_require__(1966);
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Brands/BrandsPage.vue?vue&type=script&lang=js
@@ -290,4 +290,4 @@ runtime_auto_import_default()(BrandsPagevue_type_script_lang_js, 'components', {
 /***/ })
 
 }]);
-//# sourceMappingURL=259.41a1ba36.js.map
+//# sourceMappingURL=259.a145a493.js.map

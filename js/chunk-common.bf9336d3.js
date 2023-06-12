@@ -852,7 +852,7 @@ async function getDynamicQuestion(questionId, params = {}) {
 
 /***/ }),
 
-/***/ 24960:
+/***/ 86934:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 
@@ -865,7 +865,7 @@ __webpack_require__.d(__webpack_exports__, {
 var es_array_push = __webpack_require__(69665);
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Brands/BrandsList.vue?vue&type=template&id=1dd968c5
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Brands/BrandsList.vue?vue&type=template&id=1427a30b
 
 
 const _hoisted_1 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
@@ -948,9 +948,12 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             class: (0,vue_esm_bundler/* normalizeClass */.C_)(_ctx.gridClass)
           }, [(0,vue_esm_bundler/* withDirectives */.wy)(((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_card, {
             flat: "",
+            tag: "a",
             bordered: "",
-            class: "card-quicklinks brand full-height slide-hover row items-center hover-border-secondary",
-            onClick: $event => _ctx.$router.push('/brands/' + brand.id)
+            clickable: "",
+            class: "card-quicklinks brand full-height slide-hover row items-center hover-border-secondary text-primary",
+            href: `/brands/${brand.id}`,
+            onClick: (0,vue_esm_bundler/* withModifiers */.iM)($event => _ctx.$router.push('/brands/' + brand.id), ["prevent"])
           }, {
             default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
               class: "self-start full-width q-px-lg q-pt-lg q-pb-md"
@@ -1065,7 +1068,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               _: 2
             }, 1032, ["to", "href"])]),
             _: 2
-          }, 1032, ["onClick"])), [[_directive_ripple, void 0, "accent"]])], 2)]),
+          }, 1032, ["href", "onClick"])), [[_directive_ripple, void 0, "accent"]])], 2)]),
           _: 2
         }, 1024);
       }), 128))]),
@@ -1102,7 +1105,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/components/Brands/BrandsList.vue?vue&type=template&id=1dd968c5
+;// CONCATENATED MODULE: ./src/components/Brands/BrandsList.vue?vue&type=template&id=1427a30b
 
 // EXTERNAL MODULE: ./node_modules/quasar/src/utils/debounce.js
 var debounce = __webpack_require__(60899);
@@ -5832,7 +5835,7 @@ runtime_auto_import_default()(TextArea1vue_type_script_lang_js, 'components', {Q
 
 /***/ }),
 
-/***/ 76944:
+/***/ 91253:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 
@@ -5841,12 +5844,9 @@ __webpack_require__.d(__webpack_exports__, {
   "Z": () => (/* binding */ TaskProjectList)
 });
 
-// EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.push.js
-var es_array_push = __webpack_require__(69665);
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Requests/TaskProjectList.vue?vue&type=template&id=e66d1f32
-
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Requests/TaskProjectList.vue?vue&type=template&id=12788b61
 
 const _hoisted_1 = {
   class: "col-12 col-md-6"
@@ -6194,7 +6194,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           }, {
             default: (0,vue_esm_bundler/* withCtx */.w5)(() => [i === 0 ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_item, {
               key: 0,
-              class: "text-body2 q-pa-none"
+              clickable: "",
+              class: "text-body2 q-pa-none hover-bg-transparent",
+              to: `/brands/${_ctx.filter_brand_id || scope.row.brand_id}/${_ctx.isTask ? 'task' : 'project'}/${scope.row?.id}`
             }, {
               default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, {
                 avatar: "",
@@ -6210,12 +6212,11 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               }, 1024), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, {
                 class: (0,vue_esm_bundler/* normalizeClass */.C_)(["cursor-pointer", {
                   'font-medium': i === 0
-                }]),
-                onClick: $event => _ctx.$router.push(`/brands/${_ctx.filter_brand_id || scope.row.brand_id}/${_ctx.isTask ? 'task' : 'project'}/${scope.row?.id}`)
+                }])
               }, {
                 default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("span", null, (0,vue_esm_bundler/* toDisplayString */.zw)(_r.value), 1)]),
                 _: 2
-              }, 1032, ["class", "onClick"]), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_menu, {
+              }, 1032, ["class"]), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_menu, {
                 "auto-close": "",
                 "context-menu": ""
               }, {
@@ -6232,19 +6233,20 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                       class: "q-pr-sm"
                     }, {
                       default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
-                        name: "icon-folder",
+                        name: "icon-browser",
                         size: "xs"
                       })]),
                       _: 1
                     }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, null, {
-                      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)("Open")]),
+                      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)("View")]),
                       _: 1
                     })]),
                     _: 2
                   }, 1032, ["to"]), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item, {
                     clickable: "",
                     class: "hover-text-secondary",
-                    onClick: $event => _ctx.openURL(`/brands/${_ctx.filter_brand_id || scope.row.brand_id}/${_ctx.isTask ? 'task' : 'project'}/${scope.row?.id}`)
+                    to: `/brands/${_ctx.filter_brand_id || scope.row.brand_id}/${_ctx.isTask ? 'task' : 'project'}/${scope.row?.id}`,
+                    target: "_blank"
                   }, {
                     default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, {
                       side: "",
@@ -6256,11 +6258,11 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                       })]),
                       _: 1
                     }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, null, {
-                      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)("Open in New Tab")]),
+                      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)("View in New Tab")]),
                       _: 1
                     })]),
                     _: 2
-                  }, 1032, ["onClick"]), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item, {
+                  }, 1032, ["to"]), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item, {
                     clickable: "",
                     class: "text-negative hover-text-negative",
                     onClick: () => {
@@ -6312,7 +6314,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                 _: 2
               }, 1024)]),
               _: 2
-            }, 1024)) : _r.name === 'task_priority' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_badge, {
+            }, 1032, ["to"])) : _r.name === 'task_priority' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_badge, {
               key: 1,
               class: (0,vue_esm_bundler/* normalizeClass */.C_)([`badge-${_r.value == 'urgent' ? 'negative' : _r.value == 'low' ? 'blue' : _r.value == 'medium' ? 'warning' : 'grey'}`, "badge"])
             }, {
@@ -6478,7 +6480,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/components/Requests/TaskProjectList.vue?vue&type=template&id=e66d1f32
+;// CONCATENATED MODULE: ./src/components/Requests/TaskProjectList.vue?vue&type=template&id=12788b61
 
 // EXTERNAL MODULE: ./node_modules/quasar/src/utils/date.js
 var date = __webpack_require__(54170);
@@ -7307,4 +7309,4 @@ runtime_auto_import_default()(CustomDropdownvue_type_script_lang_js, 'components
 /***/ })
 
 }]);
-//# sourceMappingURL=chunk-common.15ab4568.js.map
+//# sourceMappingURL=chunk-common.bf9336d3.js.map
