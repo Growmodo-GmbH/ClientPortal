@@ -5170,6 +5170,22 @@
   border-radius: 50%;
 }
 
+.cursor-wait {
+  cursor: wait;
+}
+
+.cursor-help {
+  cursor: help;
+}
+
+.cursor-grab {
+  cursor: grab;
+}
+
+.cursor-grabbing {
+  cursor: grabbing;
+}
+
 .negative-margin-1 {
   margin-top: -8px;
 }
@@ -6205,4 +6221,4 @@ pre {
   border-radius: 50%;
 }
 
-/*# sourceMappingURL=app.f333ddb3.css.map*/
+/*# sourceMappingURL=app.bd66e7bc.css.map*/

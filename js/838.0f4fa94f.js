@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[142],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[838],{
 
-/***/ 64142:
+/***/ 65838:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/DynamicAnswers.vue?vue&type=template&id=e6957cec
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/DynamicAnswers.vue?vue&type=template&id=f691bb0c
 
 const _hoisted_1 = {
   class: "full-width"
@@ -25,33 +25,34 @@ const _hoisted_2 = {
 };
 const _hoisted_3 = ["innerHTML"];
 const _hoisted_4 = ["innerHTML"];
-const _hoisted_5 = {
+const _hoisted_5 = ["href"];
+const _hoisted_6 = {
   class: "q-px-sm q-py-xs"
 };
-const _hoisted_6 = {
+const _hoisted_7 = {
   key: 1
 };
-const _hoisted_7 = ["href"];
 const _hoisted_8 = ["href"];
 const _hoisted_9 = ["href"];
-const _hoisted_10 = {
+const _hoisted_10 = ["href"];
+const _hoisted_11 = {
   class: "col-3"
 };
-const _hoisted_11 = {
+const _hoisted_12 = {
   class: "hover-text-secondary overflow-hidden",
   style: {
     "text-overflow": "ellipsis"
   }
 };
-const _hoisted_12 = {
+const _hoisted_13 = {
   key: 1,
   class: "row items-center q-col-gutter-lg"
 };
-const _hoisted_13 = ["href"];
-const _hoisted_14 = {
+const _hoisted_14 = ["href"];
+const _hoisted_15 = {
   class: "col-3"
 };
-const _hoisted_15 = {
+const _hoisted_16 = {
   class: "hover-text-secondary overflow-hidden",
   style: {
     "text-overflow": "ellipsis"
@@ -109,17 +110,20 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     class: (0,vue_esm_bundler/* normalizeClass */.C_)({
       ['qt-select_platform']: _ctx.qtype === 'select_platform'
     })
+  }, [(0,vue_esm_bundler/* createElementVNode */._)("a", {
+    href: _ctx.platforms[_ctx.answer]?.url,
+    target: "_blank"
   }, [_ctx.platforms?.[_ctx.answer] ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_badge, {
     key: 0,
     class: "badge badge-blue full-height"
   }, {
-    default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_5, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+    default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_6, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
       name: `img:${_ctx.platforms[_ctx.answer]?.icon}`,
       size: "md",
       class: "q-pr-sm"
     }, null, 8, ["name"]), (0,vue_esm_bundler/* createElementVNode */._)("span", null, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.platforms[_ctx.answer]?.title), 1)])]),
     _: 1
-  })) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_6, (0,vue_esm_bundler/* toDisplayString */.zw)(typeof _ctx.answer === 'string' ? _ctx.capitalize(_ctx.answer) : _ctx.answer), 1))], 2)) : _ctx.qtype === 'video_walkthrough' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_video, {
+  })) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_7, (0,vue_esm_bundler/* toDisplayString */.zw)(typeof _ctx.answer === 'string' ? _ctx.capitalize(_ctx.answer) : _ctx.answer), 1))], 8, _hoisted_5)], 2)) : _ctx.qtype === 'video_walkthrough' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_video, {
     key: 8,
     ratio: 16 / 9,
     class: (0,vue_esm_bundler/* normalizeClass */.C_)(["rounded fit", {
@@ -160,7 +164,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     key: 0,
     href: `//${_ctx.answer}`,
     target: "_blank"
-  }, "https://" + (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.answer), 9, _hoisted_7)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 2)) : _ctx.qtype === 'phone' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
+  }, "https://" + (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.answer), 9, _hoisted_8)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 2)) : _ctx.qtype === 'phone' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
     key: 15,
     class: (0,vue_esm_bundler/* normalizeClass */.C_)({
       ['qt-phone']: _ctx.qtype === 'phone'
@@ -168,7 +172,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   }, [_ctx.answer ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("a", {
     key: 0,
     href: `tel:${_ctx.formatPhone(_ctx.answer)}`
-  }, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.formatPhone(_ctx.answer)), 9, _hoisted_8)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 2)) : _ctx.qtype === 'upload_single' || _ctx.qtype === 'upload_multiple' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
+  }, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.formatPhone(_ctx.answer)), 9, _hoisted_9)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 2)) : _ctx.qtype === 'upload_single' || _ctx.qtype === 'upload_multiple' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
     key: 16,
     class: (0,vue_esm_bundler/* normalizeClass */.C_)(["row items-center q-col-gutter-lg", {
       ['qt-upload_single']: _ctx.qtype === 'upload_single',
@@ -188,9 +192,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       target: "_blank",
       class: "row items-center q-col-gutter-sm cursor-pointer text-primary",
       href: _ctx.download_url
-    }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_10, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_CardIconBox, {
+    }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_11, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_CardIconBox, {
       icon: _ctx.getFileTypeIcon(ans.name)
-    }, null, 8, ["icon"])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_11, (0,vue_esm_bundler/* toDisplayString */.zw)(ans.name), 1)], 8, _hoisted_9))], 2);
+    }, null, 8, ["icon"])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_12, (0,vue_esm_bundler/* toDisplayString */.zw)(ans.name), 1)], 8, _hoisted_10))], 2);
   }), 128))], 2)) : _ctx.qtype === 'website_content' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
     key: 17,
     class: (0,vue_esm_bundler/* normalizeClass */.C_)({
@@ -201,7 +205,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     class: (0,vue_esm_bundler/* normalizeClass */.C_)({
       ['q-pb-md']: _ctx.answer.uploads?.length
     })
-  }, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.answer.info), 3)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.answer.uploads?.length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_12, [((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(_ctx.answer.uploads, ans => {
+  }, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.answer.info), 3)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.answer.uploads?.length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_13, [((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(_ctx.answer.uploads, ans => {
     return (0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
       key: ans,
       class: (0,vue_esm_bundler/* normalizeClass */.C_)(["col-12", {
@@ -215,12 +219,12 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       target: "_blank",
       class: "row items-center q-col-gutter-sm cursor-pointer text-primary",
       href: _ctx.download_url
-    }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_14, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_CardIconBox, {
+    }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_15, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_CardIconBox, {
       icon: _ctx.getFileTypeIcon(ans.name)
-    }, null, 8, ["icon"])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_15, (0,vue_esm_bundler/* toDisplayString */.zw)(ans.name), 1)], 8, _hoisted_13))], 2);
+    }, null, 8, ["icon"])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_16, (0,vue_esm_bundler/* toDisplayString */.zw)(ans.name), 1)], 8, _hoisted_14))], 2);
   }), 128))])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 2)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 512)), [[vue_esm_bundler/* vShow */.F8, !_ctx.hideAnswerForAlternativeQuestionTypes.includes(_ctx.aqtype) && !(_ctx.qtype === 'select_platform' && _ctx.aqtype === 'textfield' && _ctx.answer === 'other')]]);
 }
-;// CONCATENATED MODULE: ./src/components/DynamicAnswers.vue?vue&type=template&id=e6957cec
+;// CONCATENATED MODULE: ./src/components/DynamicAnswers.vue?vue&type=template&id=f691bb0c
 
 // EXTERNAL MODULE: ./src/assets/scripts/functions.js + 1 modules
 var functions = __webpack_require__(1966);
@@ -332,4 +336,4 @@ runtime_auto_import_default()(DynamicAnswersvue_type_script_lang_js, 'components
 /***/ })
 
 }]);
-//# sourceMappingURL=142.6bcfbcd8.js.map
+//# sourceMappingURL=838.0f4fa94f.js.map

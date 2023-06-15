@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[706],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[89],{
 
-/***/ 36706:
+/***/ 13089:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/FilesPage.vue?vue&type=template&id=7c8641e0
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/FilesPage.vue?vue&type=template&id=041a722e
 
 const _hoisted_1 = {
   class: "font-medium text-h5 text-primary-700"
@@ -145,7 +145,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       _: 1
     }), (0,vue_esm_bundler/* createElementVNode */._)("div", {
       class: (0,vue_esm_bundler/* normalizeClass */.C_)(["rounded q-my-lg", {
-        ['cursor-not-allowed']: !_ctx.route_folder_id || !_ctx.folder_id || _ctx.parentsPath.length <= 1
+        ['cursor-wait']: _ctx.tableLoading,
+        ['cursor-not-allowed']: !_ctx.tableLoading && (!_ctx.route_folder_id || !_ctx.folder_id || _ctx.parentsPath.length <= 1)
       }]),
       onClick: _cache[0] || (_cache[0] = (0,vue_esm_bundler/* withModifiers */.iM)(e => {
         if (!_ctx.route_folder_id || !_ctx.folder_id || _ctx.parentsPath.length <= 1) {
@@ -856,7 +857,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/FilesPage.vue?vue&type=template&id=7c8641e0
+;// CONCATENATED MODULE: ./src/pages/FilesPage.vue?vue&type=template&id=041a722e
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.push.js
 var es_array_push = __webpack_require__(69665);
@@ -879,7 +880,7 @@ var open_url = __webpack_require__(33752);
 // EXTERNAL MODULE: ./node_modules/quasar/src/utils/uid.js
 var uid = __webpack_require__(50796);
 // EXTERNAL MODULE: ./src/components/Helpers/FilesUploader.vue + 4 modules
-var FilesUploader = __webpack_require__(23564);
+var FilesUploader = __webpack_require__(33635);
 // EXTERNAL MODULE: ./src/components/Dialogs/RenameFolderFile.vue + 4 modules
 var RenameFolderFile = __webpack_require__(43344);
 // EXTERNAL MODULE: ./src/mixins/index.js + 7 modules
@@ -1464,4 +1465,4 @@ runtime_auto_import_default()(FilesPagevue_type_script_lang_js, 'components', {Q
 /***/ })
 
 }]);
-//# sourceMappingURL=706.4659bf5c.js.map
+//# sourceMappingURL=89.987b1f8d.js.map

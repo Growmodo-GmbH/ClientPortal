@@ -162,7 +162,7 @@ var mixins = __webpack_require__(93458);
   mixins: [mixins/* GeoPermission_Mixin */.Sf],
   components: {
     RequestOptions: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(737)]).then(__webpack_require__.bind(__webpack_require__, 68737))),
-    DirectoryLayout: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(493)]).then(__webpack_require__.bind(__webpack_require__, 96493))),
+    DirectoryLayout: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(832)]).then(__webpack_require__.bind(__webpack_require__, 96493))),
     Form_ServerConfig: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(935)]).then(__webpack_require__.bind(__webpack_require__, 25935)))
   },
   data() {
@@ -531,19 +531,19 @@ const routes = [{
         path: 'task',
         children: [{
           path: ':taskId',
-          component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(922)]).then(__webpack_require__.bind(__webpack_require__, 13922))
+          component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(493)]).then(__webpack_require__.bind(__webpack_require__, 10493))
         }]
       }, {
         path: 'project',
         children: [{
           path: ':projectId',
-          component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(331)]).then(__webpack_require__.bind(__webpack_require__, 16331))
+          component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(714)]).then(__webpack_require__.bind(__webpack_require__, 23714))
         }]
       }]
     }]
   }, {
     path: 'files',
-    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(706)]).then(__webpack_require__.bind(__webpack_require__, 36706))
+    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(89)]).then(__webpack_require__.bind(__webpack_require__, 13089))
   }, {
     path: 'help',
     component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(775)]).then(__webpack_require__.bind(__webpack_require__, 43775))
@@ -1084,7 +1084,7 @@ app(vue_esm_bundler/* createApp */.ri, quasar_user_options).then(app => {
 /* harmony export */ });
 /* harmony import */ var quasar_src_plugins_LocalStorage_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(63703);
 
-const pkjson = {"name":"growmodo_hub","version":"0.10.2-dev","description":"Growmodo, GmbH","productName":"Growmodo Hub","author":{"name":"Growmodo, GmbH","url":"https://www.growmodo.com"},"author.name":"Growmodo, GmbH","author.url":"https://www.growmodo.com","private":true,"theme_color":"#2b67ff","background_color":"#fcfcfd"};
+const pkjson = {"name":"growmodo_hub","version":"0.10.3-dev","description":"Growmodo, GmbH","productName":"Growmodo Hub","author":{"name":"Growmodo, GmbH","url":"https://www.growmodo.com"},"author.name":"Growmodo, GmbH","author.url":"https://www.growmodo.com","private":true,"theme_color":"#2b67ff","background_color":"#fcfcfd"};
 
 /**
  * Application Meta Data
@@ -3642,7 +3642,6 @@ var html2pdf_default = /*#__PURE__*/__webpack_require__.n(html2pdf);
     },
     async generateElement4PDF(ids, withFooter = false) {
       const element = document.createElement('div');
-      console.log(ids);
       for (const id of ids) {
         let el = document.getElementById(id);
         if (!el) continue;
@@ -5504,7 +5503,7 @@ runtime_auto_import_default()(DynamicButtonvue_type_script_lang_js, 'components'
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.10.2","description":"Growmodo, GmbH","productName":"Growmodo Hub","author":{"name":"Growmodo, GmbH","url":"https://www.growmodo.com"},"private":true,"scripts":{"help":"Please check package.json for available scripts.","dev:only":"npm run icon-font:watch & quasar dev --","dev:only:pwa":"npm run icon-font:watch & quasar dev -m pwa --","dev":"npm run dev:only --","dev:low":"npm run dev -- --host localhost:8080 --api api.growmodo.dev/api","dev:local":"npm run dev -- --host localhost:8080 --api localhost/api","dev:hub":"npm run dev -- --host hub.growmodo.dev --api api.growmodo.dev/api","dev:pwa":"npm run dev:only:pwa --","build:only":"quasar build -m pwa --protect --","build:only:dev":"quasar build -m pwa --protect --debug --","build":"npm run format; npm run build:only --","build:dev":"npm run build:only:dev --","build:local":"npm run build -- --host localhost:8080 --api localhost/api","build:hub":"npm run build -- --host hub.growmodo.com  --api api.growmodo.com/api","build:hub:dev":"npm run build -- --host hub.growmodo.dev --api api.growmodo.dev/api","lint":"eslint --ext .js,.vue ./ --","format":"prettier --write \\"**/*.{js,vue,scss,html,md,json}\\" --ignore-path .prettierignore --","test":"echo \\"See package.json => scripts for available tests.\\" && exit 0","icon-font":"fantasticon -c .fantasticonrc.js --debug","icon-fixer":"oslllo-svg-fixer -s src/svg-tmp -d src/svg-all/custom --show-progress --strict-destination","icon-genie":"icongenie generate --skip-trim --svg-color 121212 --quality 10 -i ./public/favicon.png","icon-font:watch":"watch \'npm run icon-font\' src/svg-icons","test:unit:ui":"majestic","test:unit":"jest --updateSnapshot","test:unit:ci":"jest --ci","test:unit:coverage":"jest --coverage","test:unit:watch":"jest --watch","test:unit:watchAll":"jest --watchAll","serve:test:coverage":"quasar serve test/jest/coverage/lcov-report/ --port 8788","concurrently:dev:jest":"concurrently \\"quasar dev\\" \\"jest --watch\\"","test:e2e":"cross-env NODE_ENV=test start-test \\"quasar dev\\" http-get://localhost:8080 \\"cypress open\\"","test:e2e:ci":"cross-env NODE_ENV=test start-test \\"quasar dev\\" http-get://localhost:8080 \\"cypress run\\"","test:component":"cross-env NODE_ENV=test cypress open-ct","test:component:ci":"cross-env NODE_ENV=test cypress run-ct"},"dependencies":{"@quasar/cli":"^2.2.1","@quasar/extras":"^1.16.4","algoliasearch":"^4.14.2","axios":"^0.21.1","date-fns":"^2.29.2","html2pdf.js":"^0.10.1","instantsearch.js":"^4.49.0","jszip":"^3.10.1","number-to-words":"^1.2.4","per-country":"^1.1.1","pinia":"^2.0.21","quasar":"^2.12.0","vue":"^3.0.0","vue-easy-lightbox":"^1.9.0","vue-i18n":"^9.3.0-beta.3","vue-instantsearch":"^4.6.0","vue-router":"^4.0.0"},"devDependencies":{"@babel/eslint-parser":"^7.13.14","@quasar/app-webpack":"^3.9.2","@quasar/icongenie":"^2.5.4","@quasar/quasar-app-extension-testing":"^2.0.4","@quasar/quasar-app-extension-testing-e2e-cypress":"^4.2.1","@quasar/quasar-app-extension-testing-unit-jest":"^2.2.5","@squoosh/lib":"^0.4.0","eslint":"^8.28.0","eslint-config-prettier":"^8.1.0","eslint-plugin-cypress":"^2.11.3","eslint-plugin-jest":"^25.7.0","eslint-plugin-vue":"^9.0.0","eslint-webpack-plugin":"^3.1.1","fantasticon":"^2.0.0","image-minimizer-webpack-plugin":"^3.8.0","imagemin":"^8.0.1","imagemin-webp":"^7.0.0","javascript-obfuscator":"^4.0.0","majestic":"^1.7.0","oslllo-svg-fixer":"^2.1.2","prettier":"^2.5.1","watch":"^0.13.0","webpack-obfuscator":"^3.5.1","workbox-webpack-plugin":"^6.5.4"},"browserslist":["last 10 Chrome versions","last 10 Firefox versions","last 4 Edge versions","last 7 Safari versions","last 8 Android versions","last 8 ChromeAndroid versions","last 8 FirefoxAndroid versions","last 10 iOS versions","last 5 Opera versions"],"engines":{"node":"^16 || ^14.19","npm":">= 6.13","yarn":">= 1.21"}}');
+module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.10.3","description":"Growmodo, GmbH","productName":"Growmodo Hub","author":{"name":"Growmodo, GmbH","url":"https://www.growmodo.com"},"private":true,"scripts":{"help":"Please check package.json for available scripts.","dev:only":"npm run icon-font:watch & quasar dev --","dev:only:pwa":"npm run icon-font:watch & quasar dev -m pwa --","dev":"npm run dev:only --","dev:low":"npm run dev -- --host localhost:8080 --api api.growmodo.dev/api","dev:local":"npm run dev -- --host localhost:8080 --api localhost/api","dev:hub":"npm run dev -- --host hub.growmodo.dev --api api.growmodo.dev/api","dev:pwa":"npm run dev:only:pwa --","build:only":"quasar build -m pwa --protect --","build:only:dev":"quasar build -m pwa --protect --debug --","build":"npm run format; npm run build:only --","build:dev":"npm run build:only:dev --","build:local":"npm run build -- --host localhost:8080 --api localhost/api","build:hub":"npm run build -- --host hub.growmodo.com  --api api.growmodo.com/api","build:hub:dev":"npm run build -- --host hub.growmodo.dev --api api.growmodo.dev/api","lint":"eslint --ext .js,.vue ./ --","format":"prettier --write \\"**/*.{js,vue,scss,html,md,json}\\" --ignore-path .prettierignore --","test":"echo \\"See package.json => scripts for available tests.\\" && exit 0","icon-font":"fantasticon -c .fantasticonrc.js --debug","icon-fixer":"oslllo-svg-fixer -s src/svg-tmp -d src/svg-all/custom --show-progress --strict-destination","icon-genie":"icongenie generate --skip-trim --svg-color 121212 --quality 10 -i ./public/favicon.png","icon-font:watch":"watch \'npm run icon-font\' src/svg-icons","test:unit:ui":"majestic","test:unit":"jest --updateSnapshot","test:unit:ci":"jest --ci","test:unit:coverage":"jest --coverage","test:unit:watch":"jest --watch","test:unit:watchAll":"jest --watchAll","serve:test:coverage":"quasar serve test/jest/coverage/lcov-report/ --port 8788","concurrently:dev:jest":"concurrently \\"quasar dev\\" \\"jest --watch\\"","test:e2e":"cross-env NODE_ENV=test start-test \\"quasar dev\\" http-get://localhost:8080 \\"cypress open\\"","test:e2e:ci":"cross-env NODE_ENV=test start-test \\"quasar dev\\" http-get://localhost:8080 \\"cypress run\\"","test:component":"cross-env NODE_ENV=test cypress open-ct","test:component:ci":"cross-env NODE_ENV=test cypress run-ct"},"dependencies":{"@quasar/cli":"^2.2.1","@quasar/extras":"^1.16.4","algoliasearch":"^4.14.2","axios":"^0.21.1","date-fns":"^2.29.2","html2pdf.js":"^0.10.1","instantsearch.js":"^4.49.0","jszip":"^3.10.1","number-to-words":"^1.2.4","per-country":"^1.1.1","pinia":"^2.0.21","quasar":"^2.12.0","vue":"^3.0.0","vue-easy-lightbox":"^1.9.0","vue-i18n":"^9.3.0-beta.3","vue-instantsearch":"^4.6.0","vue-router":"^4.0.0"},"devDependencies":{"@babel/eslint-parser":"^7.13.14","@quasar/app-webpack":"^3.9.2","@quasar/icongenie":"^2.5.4","@quasar/quasar-app-extension-testing":"^2.0.4","@quasar/quasar-app-extension-testing-e2e-cypress":"^4.2.1","@quasar/quasar-app-extension-testing-unit-jest":"^2.2.5","@squoosh/lib":"^0.4.0","eslint":"^8.28.0","eslint-config-prettier":"^8.1.0","eslint-plugin-cypress":"^2.11.3","eslint-plugin-jest":"^25.7.0","eslint-plugin-vue":"^9.0.0","eslint-webpack-plugin":"^3.1.1","fantasticon":"^2.0.0","image-minimizer-webpack-plugin":"^3.8.0","imagemin":"^8.0.1","imagemin-webp":"^7.0.0","javascript-obfuscator":"^4.0.0","majestic":"^1.7.0","oslllo-svg-fixer":"^2.1.2","prettier":"^2.5.1","watch":"^0.13.0","webpack-obfuscator":"^3.5.1","workbox-webpack-plugin":"^6.5.4"},"browserslist":["last 10 Chrome versions","last 10 Firefox versions","last 4 Edge versions","last 7 Safari versions","last 8 Android versions","last 8 ChromeAndroid versions","last 8 FirefoxAndroid versions","last 10 iOS versions","last 5 Opera versions"],"engines":{"node":"^16 || ^14.19","npm":">= 6.13","yarn":">= 1.21"}}');
 
 /***/ })
 
@@ -5642,7 +5641,7 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.10.2","descript
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"23":"091ff72a","64":"bf9336d3","100":"6f118073","141":"fd91d61c","142":"6bcfbcd8","207":"a9210f75","214":"d28c0448","246":"29e3ffb1","259":"a145a493","287":"45103895","331":"6255481f","363":"08451009","404":"5889cf3e","405":"6ec6b2f9","422":"ab65ab44","423":"50fa7170","435":"647d8dac","474":"f0d398c0","493":"22dda4a4","507":"89a79670","539":"33f4b114","540":"50713237","543":"1af9d9a6","563":"9951f409","582":"185918da","591":"56f49949","614":"18c3e9d9","620":"d0ab4b4c","663":"aec58bcb","706":"4659bf5c","713":"827c1faa","737":"aeba13f8","774":"1705cfb7","775":"7e19b7e8","815":"69b1787c","869":"c405d68d","922":"588a78aa","932":"a906507a","935":"83807e4c","940":"099f1fa3","966":"58e255b1"}[chunkId] + ".js";
+/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"23":"091ff72a","64":"b35237f2","89":"987b1f8d","100":"6f118073","141":"d351ad59","207":"a9210f75","208":"974496a4","214":"d28c0448","246":"8f859014","259":"a145a493","287":"45103895","363":"08451009","404":"5889cf3e","405":"6ec6b2f9","422":"ab65ab44","423":"50fa7170","474":"f0d398c0","493":"b85521fe","507":"89a79670","539":"33f4b114","540":"36b920e7","543":"886da393","563":"9951f409","582":"185918da","591":"56f49949","614":"18c3e9d9","620":"d0ab4b4c","663":"aec58bcb","713":"827c1faa","714":"df338d4e","737":"aeba13f8","774":"1705cfb7","775":"7e19b7e8","815":"69b1787c","832":"a248887f","838":"0f4fa94f","869":"c405d68d","895":"a3f6ff1f","932":"a906507a","935":"83807e4c","966":"58e255b1"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -5910,4 +5909,4 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.10.2","descript
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.31e5391f.js.map
+//# sourceMappingURL=app.9160c7a0.js.map

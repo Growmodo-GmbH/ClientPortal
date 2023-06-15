@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[435],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[208],{
 
-/***/ 99435:
+/***/ 8208:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/DynamicQuestions.vue?vue&type=template&id=37bd475a
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/DynamicQuestions.vue?vue&type=template&id=a2381a64
 
 const _hoisted_1 = {
   key: 0
@@ -93,29 +93,32 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     name: 'question-' + _ctx.dynamic_questions.id
   }, null, 8, ["autofocus", "initModel", "modelValue", "selection", "required", "name"])) : _ctx.dynamic_questions.type === 'radio' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_RadioSelect, {
     key: 5,
+    autofocus: _ctx.autofocus,
     dense: false,
     initModel: _ctx.answer.value,
     selection: _ctx.dynamic_questions.options,
     required: _ctx.dynamic_questions.required,
     name: 'question-' + _ctx.dynamic_questions.id,
     onUpdated: _cache[5] || (_cache[5] = v => _ctx.answer.value = v)
-  }, null, 8, ["initModel", "selection", "required", "name"])) : _ctx.dynamic_questions.type === 'checkbox' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_CheckboxSelect, {
+  }, null, 8, ["autofocus", "initModel", "selection", "required", "name"])) : _ctx.dynamic_questions.type === 'checkbox' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_CheckboxSelect, {
     key: 6,
+    autofocus: _ctx.autofocus,
     dense: false,
     initModel: _ctx.answer.value,
     selection: _ctx.dynamic_questions.options,
     required: _ctx.dynamic_questions.required,
     name: 'question-' + _ctx.dynamic_questions.id,
     onUpdated: _cache[6] || (_cache[6] = v => _ctx.answer.value = v)
-  }, null, 8, ["initModel", "selection", "required", "name"])) : _ctx.dynamic_questions.type === 'select_platform' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_SelectPlatforms, {
+  }, null, 8, ["autofocus", "initModel", "selection", "required", "name"])) : _ctx.dynamic_questions.type === 'select_platform' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_SelectPlatforms, {
     key: 7,
+    autofocus: _ctx.autofocus,
     dense: false,
     initModel: _ctx.answer.value,
     required: _ctx.dynamic_questions.required,
     platforms: _ctx.platforms,
     name: 'question-' + _ctx.dynamic_questions.id,
     onUpdated: _cache[7] || (_cache[7] = v => _ctx.answer.value = v)
-  }, null, 8, ["initModel", "required", "platforms", "name"])) : _ctx.dynamic_questions.type === 'video_walkthrough' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_InputVideoWalkthrough, {
+  }, null, 8, ["autofocus", "initModel", "required", "platforms", "name"])) : _ctx.dynamic_questions.type === 'video_walkthrough' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_InputVideoWalkthrough, {
     key: 8,
     autofocus: _ctx.autofocus,
     dense: false,
@@ -167,14 +170,14 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     required: _ctx.dynamic_questions.required
   }, null, 8, ["modelValue", "initModel", "required"])) : _ctx.dynamic_questions.type === 'select_projecttype' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_SelectTaskProjectType, {
     key: 13,
-    autofocus: false,
+    autofocus: _ctx.autofocus,
     dense: false,
     type: "project",
     modelValue: _ctx.answer.value,
     "onUpdate:modelValue": _cache[16] || (_cache[16] = $event => _ctx.answer.value = $event),
     initModel: _ctx.answer.value,
     required: _ctx.dynamic_questions.required
-  }, null, 8, ["modelValue", "initModel", "required"])) : _ctx.dynamic_questions.type === 'url' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_InputWebsite, {
+  }, null, 8, ["autofocus", "modelValue", "initModel", "required"])) : _ctx.dynamic_questions.type === 'url' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_InputWebsite, {
     key: 14,
     autofocus: _ctx.autofocus,
     dense: false,
@@ -199,8 +202,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     autofocus: _ctx.autofocus,
     dense: false,
     multiple: _ctx.dynamic_questions.type === 'upload_multiple',
+    withItems: _ctx.withItems,
     temporary: "",
-    withItems: "",
     miniItems: "",
     "max-file-size": "10000000",
     note: _ctx.question?.options?.note || '',
@@ -218,13 +221,13 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     removedFile: _ctx.fileRemovedFile,
     initSlots: _ctx.fileInitSlots,
     thumbnail: _ctx.fileThumbnail
-  }, null, 8, ["autofocus", "multiple", "note", "accept", "factory", "removedFile", "initSlots", "thumbnail"])) : _ctx.dynamic_questions.type === 'website_content' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_WebsiteContent, {
+  }, null, 8, ["autofocus", "multiple", "withItems", "note", "accept", "factory", "removedFile", "initSlots", "thumbnail"])) : _ctx.dynamic_questions.type === 'website_content' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_WebsiteContent, {
     key: 17,
     autofocus: _ctx.autofocus,
     dense: false,
     multiple: true,
+    withItems: _ctx.withItems,
     temporary: "",
-    withItems: "",
     miniItems: "",
     "max-file-size": "10000000",
     note: _ctx.question?.options?.note || '',
@@ -245,9 +248,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     initSlots: _ctx.fileInitSlots,
     thumbnail: _ctx.fileThumbnail,
     description: _ctx.description
-  }, null, 8, ["autofocus", "note", "accept", "checked", "factory", "removedFile", "initSlots", "thumbnail", "description"])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 64));
+  }, null, 8, ["autofocus", "withItems", "note", "accept", "checked", "factory", "removedFile", "initSlots", "thumbnail", "description"])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 64));
 }
-;// CONCATENATED MODULE: ./src/components/DynamicQuestions.vue?vue&type=template&id=37bd475a
+;// CONCATENATED MODULE: ./src/components/DynamicQuestions.vue?vue&type=template&id=a2381a64
 
 // EXTERNAL MODULE: ./src/mixins/index.js + 7 modules
 var mixins = __webpack_require__(93458);
@@ -265,7 +268,7 @@ var functions = __webpack_require__(1966);
     SelectBrand: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(207)]).then(__webpack_require__.bind(__webpack_require__, 40037))),
     SelectPlatforms: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(214)]).then(__webpack_require__.bind(__webpack_require__, 36214))),
     RadioSelect: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 423).then(__webpack_require__.bind(__webpack_require__, 98423))),
-    CheckboxSelect: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 940).then(__webpack_require__.bind(__webpack_require__, 70940))),
+    CheckboxSelect: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 895).then(__webpack_require__.bind(__webpack_require__, 44895))),
     InputTextField: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 64).then(__webpack_require__.bind(__webpack_require__, 5403))),
     TextArea1: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 64).then(__webpack_require__.bind(__webpack_require__, 44799))),
     TextArea2: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(663)]).then(__webpack_require__.bind(__webpack_require__, 56663))),
@@ -273,7 +276,7 @@ var functions = __webpack_require__(1966);
     SelectOption: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(363)]).then(__webpack_require__.bind(__webpack_require__, 38363))),
     InputWebsite: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 64).then(__webpack_require__.bind(__webpack_require__, 97696))),
     InputPhoneNumber: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64)]).then(__webpack_require__.bind(__webpack_require__, 67488))),
-    FileUploader: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64)]).then(__webpack_require__.bind(__webpack_require__, 23564))),
+    FileUploader: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64)]).then(__webpack_require__.bind(__webpack_require__, 33635))),
     SelectCategoryType: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(815)]).then(__webpack_require__.bind(__webpack_require__, 98815))),
     SelectTaskProjectType: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(287)]).then(__webpack_require__.bind(__webpack_require__, 94287))),
     WebsiteContent: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 246).then(__webpack_require__.bind(__webpack_require__, 1246)))
@@ -310,6 +313,10 @@ var functions = __webpack_require__(1966);
     description: {
       type: String,
       default: ''
+    },
+    withItems: {
+      type: Boolean,
+      default: true
     },
     fileRemovedFile: {},
     fileFactory: {},
@@ -376,4 +383,4 @@ runtime_auto_import_default()(DynamicQuestionsvue_type_script_lang_js, 'componen
 /***/ })
 
 }]);
-//# sourceMappingURL=435.647d8dac.js.map
+//# sourceMappingURL=208.974496a4.js.map

@@ -145,7 +145,9 @@ __webpack_require__.d(actions_namespaceObject, {
   "getUserRoles": () => (getUserRoles),
   "planPriceCalculator": () => (planPriceCalculator),
   "requestProject": () => (requestProject),
-  "requestTask": () => (requestTask)
+  "requestTask": () => (requestTask),
+  "updateRequestProject": () => (updateRequestProject),
+  "updateRequestTask": () => (updateRequestTask)
 });
 
 // EXTERNAL MODULE: ./node_modules/pinia/dist/pinia.mjs + 1 modules
@@ -703,6 +705,23 @@ async function requestTask(payload, orgId) {
     return e;
   });
 }
+
+// Update Task Request
+async function updateRequestTask(payload, taskId, orgId) {
+  if (!orgId) {
+    const user = (0,stores_user/* default */.Z)();
+    orgId = user.activeOrgID;
+    if (!orgId) return;
+  }
+  const url = `/organizations/${orgId}/tasks/${taskId}`;
+  return await apis.api.put(url, payload).then(res => {
+    const data = res.data || {};
+    return data;
+  }).catch(e => {
+    return e;
+  });
+}
+
 // Project Request
 async function requestProject(payload, orgId) {
   if (!orgId) {
@@ -712,6 +731,22 @@ async function requestProject(payload, orgId) {
   }
   const url = `/organizations/${orgId}/projects`;
   return await apis.api.post(url, payload).then(res => {
+    const data = res.data || {};
+    return data;
+  }).catch(e => {
+    return e;
+  });
+}
+
+// Update Project Request
+async function updateRequestProject(payload, projectId, orgId) {
+  if (!orgId) {
+    const user = (0,stores_user/* default */.Z)();
+    orgId = user.activeOrgID;
+    if (!orgId) return;
+  }
+  const url = `/organizations/${orgId}/projects/${projectId}`;
+  return await apis.api.put(url, payload).then(res => {
     const data = res.data || {};
     return data;
   }).catch(e => {
@@ -2120,7 +2155,7 @@ var SelectBrandType = __webpack_require__(9438);
 // EXTERNAL MODULE: ./src/components/Helpers/InputWebsite.vue + 4 modules
 var InputWebsite = __webpack_require__(97696);
 // EXTERNAL MODULE: ./src/components/Helpers/FilesUploader.vue + 4 modules
-var FilesUploader = __webpack_require__(23564);
+var FilesUploader = __webpack_require__(33635);
 // EXTERNAL MODULE: ./src/components/Helpers/SelectFont.vue + 4 modules
 var SelectFont = __webpack_require__(54420);
 // EXTERNAL MODULE: ./src/components/Helpers/ColorPickerCard.vue + 9 modules
@@ -3447,7 +3482,7 @@ runtime_auto_import_default()(ColorPickerCardvue_type_script_lang_js, 'component
 
 /***/ }),
 
-/***/ 23564:
+/***/ 33635:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -3460,7 +3495,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/FilesUploader.vue?vue&type=template&id=40397ade
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/FilesUploader.vue?vue&type=template&id=4566351d
 
 const _hoisted_1 = ["onClick"];
 const _hoisted_2 = {
@@ -3500,13 +3535,13 @@ const _hoisted_10 = {
   class: "text-primary-400 text-body2"
 };
 const _hoisted_11 = {
-  class: "row items-center q-col-gutter-sm"
+  class: "row items-center q-col-gutter-lg"
 };
 const _hoisted_12 = {
-  class: "col-10"
+  class: "col-grow"
 };
 const _hoisted_13 = {
-  class: "col-2 text-right"
+  class: "col-auto text-right"
 };
 const _hoisted_14 = {
   key: 2,
@@ -3583,7 +3618,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_7, [typeof _ctx.thumbnail === 'boolean' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("img", {
               key: 0,
               ratio: 1,
-              src: file.path && !_ctx.temporary ? `${_ctx.$cdn_host}/${file.path}` : file.__img.src,
+              src: file.path && !_ctx.temporary ? `${_ctx.$cdn_host}/${file.path}` : file.download_url || file.__img.src,
               style: {
                 "width": "30px",
                 "height": "unset"
@@ -3601,7 +3636,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_label, {
               class: "full-width ellipsis"
             }, {
-              default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_9, (0,vue_esm_bundler/* toDisplayString */.zw)(file.name), 1), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_10, (0,vue_esm_bundler/* toDisplayString */.zw)(file.__sizeLabel), 1)]),
+              default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_9, (0,vue_esm_bundler/* toDisplayString */.zw)(file.name), 1), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_10, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.humanStorageSize(Number(file.file_size || file.size || 0)) || file.__sizeLabel), 1)]),
               _: 2
             }, 1024), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_11, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_12, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_linear_progress, {
               size: "sm",
@@ -3635,7 +3670,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 3
   }, 8, ["multiple", "onStart", "onFinish", "onAdded", "onRemoved", "onUploaded", "onRejected", "onFactoryFailed", "onFailed", "class"]);
 }
-;// CONCATENATED MODULE: ./src/components/Helpers/FilesUploader.vue?vue&type=template&id=40397ade
+;// CONCATENATED MODULE: ./src/components/Helpers/FilesUploader.vue?vue&type=template&id=4566351d
 
 // EXTERNAL MODULE: ./src/components/Helpers/CardIconBox.vue + 4 modules
 var CardIconBox = __webpack_require__(16122);
@@ -3647,6 +3682,8 @@ var helpers = __webpack_require__(51976);
 var user = __webpack_require__(33701);
 // EXTERNAL MODULE: ./src/mixins/index.js + 7 modules
 var mixins = __webpack_require__(93458);
+// EXTERNAL MODULE: ./node_modules/quasar/src/utils/format.js
+var format = __webpack_require__(30321);
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/FilesUploader.vue?vue&type=script&lang=js
 
 
@@ -3654,6 +3691,10 @@ var mixins = __webpack_require__(93458);
 
 
 
+
+const {
+  humanStorageSize
+} = format["default"];
 /* harmony default export */ const FilesUploadervue_type_script_lang_js = ((0,vue_esm_bundler/* defineComponent */.aZ)({
   name: 'FileUploader',
   mixins: [
@@ -3696,7 +3737,8 @@ var mixins = __webpack_require__(93458);
   },
   data() {
     return {
-      toDelete: null
+      toDelete: null,
+      humanStorageSize
     };
   },
   computed: {
@@ -7309,4 +7351,4 @@ runtime_auto_import_default()(CustomDropdownvue_type_script_lang_js, 'components
 /***/ })
 
 }]);
-//# sourceMappingURL=chunk-common.bf9336d3.js.map
+//# sourceMappingURL=chunk-common.b35237f2.js.map
