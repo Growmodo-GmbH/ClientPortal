@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[714],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[267],{
 
-/***/ 23714:
+/***/ 38267:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -16,7 +16,7 @@ __webpack_require__.d(__webpack_exports__, {
 var es_array_push = __webpack_require__(69665);
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Brands/ProjectOverview.vue?vue&type=template&id=4f96714d
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Brands/ProjectOverview.vue?vue&type=template&id=6ae6d75a
 
 
 const _hoisted_1 = {
@@ -242,7 +242,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                 icon: "icon-printer",
                 class: "text-primary-500 hover-text-secondary",
                 disable: !_ctx.documentReady || _ctx.convertingPDF,
-                onClick: _cache[1] || (_cache[1] = $event => _ctx.exportToPDF(`TASK-${_ctx.projectInfo?.title}-${_ctx.brandInfo.brand_name}`, ['overview-title', ..._ctx.overviewIds]))
+                onClick: _cache[1] || (_cache[1] = $event => _ctx.exportToPDF(`PROJECT-${_ctx.projectInfo?.title}-${_ctx.brandInfo.brand_name}`, ['overview-title', ..._ctx.overviewIds]))
               }, {
                 default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_tooltip_pro, {
                   anchor: `${_ctx.$q.screen.lt.md ? 'center left' : 'bottom middle'}`,
@@ -416,7 +416,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/Brands/ProjectOverview.vue?vue&type=template&id=4f96714d
+;// CONCATENATED MODULE: ./src/pages/Brands/ProjectOverview.vue?vue&type=template&id=6ae6d75a
 
 // EXTERNAL MODULE: ./node_modules/pinia/dist/pinia.mjs + 1 modules
 var pinia = __webpack_require__(11872);
@@ -648,7 +648,7 @@ const {
             success: true
           };
           formatedAnswers[id].temp_files = [];
-          if (question.type.startsWith('upload_') || question.type === 'website_content') {
+          if (question.type.startsWith('upload_')) {
             const filesVal = [];
             for (const file of formatedAnswers[id]?.value) {
               filesVal.push({
@@ -658,8 +658,18 @@ const {
             }
             this.addUploadToModel('uploads', `upload${id}`, filesVal, `upload${id}`);
             formatedAnswers[id].value = formatedAnswers[id].value.map(e => e.id);
+          } else if (question.type === 'website_content') {
+            const filesVal = [];
+            for (const file of formatedAnswers[id]?.value?.uploads) {
+              filesVal.push({
+                ...pre_file,
+                ...file
+              });
+            }
+            this.addUploadToModel('uploads', `upload${id}`, filesVal, `upload${id}`);
+            formatedAnswers[id].value.uploads = formatedAnswers[id].value.uploads.map(e => e.id);
           }
-          if (question.alternative_type.startsWith('upload_') || question.alternative_type === 'website_content') {
+          if (question.alternative_type.startsWith('upload_')) {
             const filesVal = [];
             for (const file of formatedAnswers[id]?.alternative_answer) {
               filesVal.push({
@@ -669,6 +679,16 @@ const {
             }
             this.addUploadToModel('uploads', `upload${id}`, filesVal, `upload${id}`);
             formatedAnswers[id].alternative_answer = formatedAnswers[id].alternative_answer.map(e => e.id);
+          } else if (question.alternative_type === 'website_content') {
+            const filesVal = [];
+            for (const file of formatedAnswers[id]?.alternative_answer?.uploads) {
+              filesVal.push({
+                ...pre_file,
+                ...file
+              });
+            }
+            this.addUploadToModel('uploads', `upload${id}`, filesVal, `upload${id}`);
+            formatedAnswers[id].alternative_answer.uploads = formatedAnswers[id].alternative_answer.uploads.map(e => e.id);
           }
         }
         // Remove question
@@ -799,4 +819,4 @@ runtime_auto_import_default()(ProjectOverviewvue_type_script_lang_js, 'component
 /***/ })
 
 }]);
-//# sourceMappingURL=714.7f713f92.js.map
+//# sourceMappingURL=267.d8f7d9c7.js.map
