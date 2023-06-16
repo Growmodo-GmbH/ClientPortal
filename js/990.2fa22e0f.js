@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[246],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[990],{
 
-/***/ 1246:
+/***/ 46990:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/WebsiteContent.vue?vue&type=template&id=360b40b2
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/WebsiteContent.vue?vue&type=template&id=f987341a
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_FileUploader = (0,vue_esm_bundler/* resolveComponent */.up)("FileUploader");
@@ -42,7 +42,6 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     initSlots: _ctx.initSlots,
     thumbnail: _ctx.thumbnail
   }, null, 8, ["autofocus", "dense", "temporary", "withItems", "miniItems", "multiple", "note", "accept", "factory", "removedFile", "initSlots", "thumbnail"]), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_checkbox, {
-    autofocus: "",
     modelValue: _ctx.checkboxModel,
     "onUpdate:modelValue": [_cache[3] || (_cache[3] = $event => _ctx.checkboxModel = $event), _cache[4] || (_cache[4] = val => _ctx.$emit('checked', val[0]))],
     val: _ctx.description || _ctx.desc,
@@ -53,7 +52,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   }, 8, ["modelValue", "val"])], 64);
 }
-;// CONCATENATED MODULE: ./src/components/Helpers/WebsiteContent.vue?vue&type=template&id=360b40b2
+;// CONCATENATED MODULE: ./src/components/Helpers/WebsiteContent.vue?vue&type=template&id=f987341a
 
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/WebsiteContent.vue?vue&type=script&lang=js
 
@@ -153,4 +152,4 @@ runtime_auto_import_default()(WebsiteContentvue_type_script_lang_js, 'components
 /***/ })
 
 }]);
-//# sourceMappingURL=246.8f859014.js.map
+//# sourceMappingURL=990.2fa22e0f.js.map

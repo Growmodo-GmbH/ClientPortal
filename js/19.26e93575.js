@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[826],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[19],{
 
-/***/ 94826:
+/***/ 73019:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/DynamicAnswers.vue?vue&type=template&id=1c49f7f6
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/DynamicAnswers.vue?vue&type=template&id=76edccd2
 
 const _hoisted_1 = {
   class: "full-width"
@@ -190,7 +190,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       class: (0,vue_esm_bundler/* normalizeClass */.C_)(["col-12", {
         ['col-sm-6']: _ctx.answer.length > 1
       }])
-    }, [_ctx.checkFileExtensions(ans.name, _ctx.$config.supportedDisplayImage) ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_ImageLoader, {
+    }, [_ctx.checkIfObject(ans) && _ctx.checkFileExtensions(ans.name, _ctx.$config.supportedDisplayImage) ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_ImageLoader, {
       key: 0,
       ratio: _ctx.qtype === 'upload_single' ? undefined : 1,
       file: ans
@@ -212,13 +212,13 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     class: (0,vue_esm_bundler/* normalizeClass */.C_)({
       ['q-pb-md']: _ctx.answer.uploads?.length
     })
-  }, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.answer.info), 3)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.answer.uploads?.length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_14, [((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(_ctx.answer.uploads, ans => {
+  }, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.answer.info), 3)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.answer.uploads?.length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_14, [((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(_ctx.answer.uploads || [], ans => {
     return (0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
       key: ans,
       class: (0,vue_esm_bundler/* normalizeClass */.C_)(["col-12", {
         ['col-sm-6']: _ctx.answer.uploads?.length > 1
       }])
-    }, [_ctx.checkFileExtensions(ans.name, _ctx.$config.supportedDisplayImage) ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_ImageLoader, {
+    }, [_ctx.checkIfObject(ans) && _ctx.checkFileExtensions(ans.name, _ctx.$config.supportedDisplayImage) ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_ImageLoader, {
       key: 0,
       file: ans
     }, null, 8, ["file"])) : _ctx.checkIfObject(ans) ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("a", {
@@ -231,7 +231,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     }, null, 8, ["icon"])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_17, (0,vue_esm_bundler/* toDisplayString */.zw)(ans.name), 1)], 8, _hoisted_15)) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_18, "File: " + (0,vue_esm_bundler/* toDisplayString */.zw)(ans), 1))], 2);
   }), 128))])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 2)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 512)), [[vue_esm_bundler/* vShow */.F8, !_ctx.hideAnswerForAlternativeQuestionTypes.includes(_ctx.aqtype) && !(_ctx.qtype === 'select_platform' && _ctx.aqtype === 'textfield' && _ctx.answer === 'other')]]);
 }
-;// CONCATENATED MODULE: ./src/components/DynamicAnswers.vue?vue&type=template&id=1c49f7f6
+;// CONCATENATED MODULE: ./src/components/DynamicAnswers.vue?vue&type=template&id=76edccd2
 
 // EXTERNAL MODULE: ./src/assets/scripts/functions.js + 1 modules
 var functions = __webpack_require__(1966);
@@ -344,4 +344,4 @@ runtime_auto_import_default()(DynamicAnswersvue_type_script_lang_js, 'components
 /***/ })
 
 }]);
-//# sourceMappingURL=826.c3957ae6.js.map
+//# sourceMappingURL=19.26e93575.js.map
