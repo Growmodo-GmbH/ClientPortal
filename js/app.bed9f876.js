@@ -5032,7 +5032,7 @@ async function getOrgBrands(saveState = true, orgId = this.activeOrgID, params =
   return await apis.api.get(url, {
     params
   }).then(res => {
-    const data = res.data;
+    const data = res?.data;
     if (data.success && saveState) {
       const brands = data.data?.data || [];
       for (const brand of brands) {
@@ -5043,7 +5043,7 @@ async function getOrgBrands(saveState = true, orgId = this.activeOrgID, params =
     return data;
   }).catch(e => {
     const cache_data = fn_store/* default.getAPICache */.Z.getAPICache(url);
-    const brands_cache = data.data?.data || [];
+    const brands_cache = cache_data.data?.data || [];
     for (const brand of brands_cache) {
       this.organizationBrands[orgId][brand.id] = brand;
     }
@@ -5905,4 +5905,4 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.10.3","descript
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.d5d10f45.js.map
+//# sourceMappingURL=app.bed9f876.js.map
