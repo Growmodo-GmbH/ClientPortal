@@ -162,7 +162,7 @@ var mixins = __webpack_require__(93458);
   mixins: [mixins/* GeoPermission_Mixin */.Sf],
   components: {
     RequestOptions: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(737)]).then(__webpack_require__.bind(__webpack_require__, 68737))),
-    DirectoryLayout: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(832)]).then(__webpack_require__.bind(__webpack_require__, 96493))),
+    DirectoryLayout: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(493)]).then(__webpack_require__.bind(__webpack_require__, 96493))),
     Form_ServerConfig: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(935)]).then(__webpack_require__.bind(__webpack_require__, 25935)))
   },
   data() {
@@ -531,7 +531,7 @@ const routes = [{
         path: 'task',
         children: [{
           path: ':taskId',
-          component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(493)]).then(__webpack_require__.bind(__webpack_require__, 10493))
+          component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(484)]).then(__webpack_require__.bind(__webpack_require__, 99484))
         }]
       }, {
         path: 'project',
@@ -5641,7 +5641,7 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.10.3","descript
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"23":"091ff72a","64":"b35237f2","89":"987b1f8d","100":"6f118073","141":"d351ad59","207":"a9210f75","208":"974496a4","214":"d28c0448","246":"8f859014","259":"a145a493","287":"45103895","363":"08451009","404":"5889cf3e","405":"6ec6b2f9","422":"ab65ab44","423":"50fa7170","474":"f0d398c0","493":"b85521fe","507":"89a79670","539":"33f4b114","540":"36b920e7","543":"886da393","563":"9951f409","582":"185918da","591":"56f49949","614":"18c3e9d9","620":"d0ab4b4c","663":"aec58bcb","713":"827c1faa","714":"df338d4e","737":"aeba13f8","774":"1705cfb7","775":"7e19b7e8","815":"69b1787c","832":"a248887f","838":"0f4fa94f","869":"c405d68d","895":"a3f6ff1f","932":"a906507a","935":"83807e4c","966":"58e255b1"}[chunkId] + ".js";
+/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"23":"091ff72a","64":"b35237f2","89":"987b1f8d","100":"6f118073","141":"d351ad59","207":"a9210f75","208":"974496a4","214":"d28c0448","246":"8f859014","259":"a145a493","287":"45103895","363":"08451009","404":"5889cf3e","405":"6ec6b2f9","422":"ab65ab44","423":"50fa7170","474":"f0d398c0","484":"84ff1ea5","493":"22dda4a4","507":"89a79670","539":"33f4b114","540":"36b920e7","543":"886da393","563":"9951f409","582":"185918da","591":"56f49949","614":"18c3e9d9","620":"d0ab4b4c","663":"aec58bcb","713":"827c1faa","714":"bd49111c","737":"aeba13f8","774":"1705cfb7","775":"7e19b7e8","815":"69b1787c","826":"c3957ae6","869":"c405d68d","895":"a3f6ff1f","932":"a906507a","935":"83807e4c","966":"58e255b1"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -5909,4 +5909,4 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.10.3","descript
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.9160c7a0.js.map
+//# sourceMappingURL=app.23a75ac8.js.map

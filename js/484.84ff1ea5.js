@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[714],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[484],{
 
-/***/ 23714:
+/***/ 99484:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -9,14 +9,14 @@ __webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ ProjectOverview)
+  "default": () => (/* binding */ TaskOverview)
 });
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.push.js
 var es_array_push = __webpack_require__(69665);
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Brands/ProjectOverview.vue?vue&type=template&id=4f96714d
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Brands/TaskOverview.vue?vue&type=template&id=e5364444
 
 
 const _hoisted_1 = {
@@ -156,16 +156,16 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             class: "q-py-xs q-px-sm rounded cursor-pointer hover-text-secondary text-primary-500 font-medium",
             to: `/brands/${_ctx.brandId}`
           }, null, 8, ["to"]), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_breadcrumbs_el, {
-            label: "Project Overview",
+            label: "Task Overview",
             class: "text-secondary bg-accent q-py-xs q-px-sm rounded font-medium"
           })]),
           _: 1
-        }), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_6, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_7, [!_ctx.projectInfo.title ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_spinner, {
+        }), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_6, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_7, [!_ctx.taskInfo.title ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_spinner, {
           key: 0,
           color: "secondary",
           size: "sm",
           class: "q-mr-sm"
-        })) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), (0,vue_esm_bundler/* createElementVNode */._)("span", _hoisted_8, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.projectInfo.title || 'Loading project...'), 1), _ctx.projectInfo.title ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_badge, {
+        })) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), (0,vue_esm_bundler/* createElementVNode */._)("span", _hoisted_8, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.taskInfo.title || 'Loading task...'), 1), _ctx.taskInfo.title ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_badge, {
           key: 1,
           class: "badge badge-blue cursor-pointer",
           onClick: _cache[0] || (_cache[0] = $event => _ctx.$router.push(`/brands/${_ctx.brandId}`))
@@ -187,7 +187,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           "before-class": `sticky sticky-menu-top${_ctx.$q.screen.lt.sm ? ' hidden  ' : ''}`,
           "after-class": "overflow-view"
         }, {
-          before: (0,vue_esm_bundler/* withCtx */.w5)(() => [_ctx.projectInfo.title ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_card, {
+          before: (0,vue_esm_bundler/* withCtx */.w5)(() => [_ctx.taskInfo.title ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_card, {
             key: 0,
             flat: "",
             class: "q-gutter-sm"
@@ -226,7 +226,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               height: "2rem"
             })]);
           }), 64))]),
-          after: (0,vue_esm_bundler/* withCtx */.w5)(() => [_ctx.projectInfo.title ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_card, {
+          after: (0,vue_esm_bundler/* withCtx */.w5)(() => [_ctx.taskInfo.title ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_card, {
             key: 0,
             flat: "",
             class: "text-body1 q-pb-xl"
@@ -234,7 +234,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
               class: "q-px-none q-pt-none q-pb-md font-medium text-h5"
             }, {
-              default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_10, [(0,vue_esm_bundler/* createTextVNode */.Uk)(" Project Overview "), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_space), !_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_11, [_ctx.documentReady ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_btn, {
+              default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_10, [(0,vue_esm_bundler/* createTextVNode */.Uk)(" Task Overview "), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_space), !_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_11, [_ctx.documentReady ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_btn, {
                 key: 0,
                 flat: "",
                 round: "",
@@ -242,7 +242,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                 icon: "icon-printer",
                 class: "text-primary-500 hover-text-secondary",
                 disable: !_ctx.documentReady || _ctx.convertingPDF,
-                onClick: _cache[1] || (_cache[1] = $event => _ctx.exportToPDF(`TASK-${_ctx.projectInfo?.title}-${_ctx.brandInfo.brand_name}`, ['overview-title', ..._ctx.overviewIds]))
+                onClick: _cache[1] || (_cache[1] = $event => _ctx.exportToPDF(`TASK-${_ctx.taskInfo?.title}-${_ctx.brandInfo.brand_name}`, ['overview-title', ..._ctx.overviewIds]))
               }, {
                 default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_tooltip_pro, {
                   anchor: `${_ctx.$q.screen.lt.md ? 'center left' : 'bottom middle'}`,
@@ -416,7 +416,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/Brands/ProjectOverview.vue?vue&type=template&id=4f96714d
+;// CONCATENATED MODULE: ./src/pages/Brands/TaskOverview.vue?vue&type=template&id=e5364444
 
 // EXTERNAL MODULE: ./node_modules/pinia/dist/pinia.mjs + 1 modules
 var pinia = __webpack_require__(11872);
@@ -432,7 +432,7 @@ var format = __webpack_require__(30321);
 var functions = __webpack_require__(1966);
 // EXTERNAL MODULE: ./src/mixins/index.js + 7 modules
 var mixins = __webpack_require__(93458);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Brands/ProjectOverview.vue?vue&type=script&lang=js
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Brands/TaskOverview.vue?vue&type=script&lang=js
 
 
 
@@ -446,16 +446,16 @@ const {
     return document.getElementById(id);
   };
 
-/* harmony default export */ const ProjectOverviewvue_type_script_lang_js = ((0,vue_esm_bundler/* defineComponent */.aZ)({
-  name: 'ProjectOverview',
+/* harmony default export */ const TaskOverviewvue_type_script_lang_js = ((0,vue_esm_bundler/* defineComponent */.aZ)({
+  name: 'TaskOverview',
   mixins: [mixins/* RequestOptions_Mixin */.Tt, mixins/* FileUploader_Mixin */.GU, mixins/* Export_Task_Project_Mixin */.uZ, mixins/* Helpers_Mixin */.h2],
   components: {
     DynamicQuestions: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 208).then(__webpack_require__.bind(__webpack_require__, 8208))),
-    DynamicAnswers: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(838)]).then(__webpack_require__.bind(__webpack_require__, 65838)))
+    DynamicAnswers: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(826)]).then(__webpack_require__.bind(__webpack_require__, 94826)))
   },
   data() {
     return {
-      title: 'Project Overview',
+      title: 'Task Overview',
       showLightBox: false,
       lightboxIndex: 0,
       lightboxImages: [],
@@ -469,7 +469,7 @@ const {
       avatarNameAbbr: functions.avatarNameAbbr,
       urlShareToEmbed: functions.urlShareToEmbed,
       scrollHandler: (0,debounce/* default */.Z)(this.scrollHandlerOrig, 100),
-      projectInfo: {},
+      taskInfo: {},
       clickScroll: false,
       answer: (0,vue_esm_bundler/* ref */.iH)({}),
       uploads: (0,vue_esm_bundler/* ref */.iH)({}),
@@ -483,8 +483,8 @@ const {
     this.$root.setMeta({
       title: this.title
     });
-    const response = await this.getSingleProject(this.projectId);
-    if (response?.success) this.projectInfo = response.data;
+    const response = await this.getSingleTask(this.taskId);
+    if (response?.success) this.taskInfo = response.data;
     this.tabSectionId = this.hashId;
     this.updateLightBox();
     this.$nextTick(() => {
@@ -495,7 +495,7 @@ const {
     this.updateAnswers();
   },
   computed: {
-    ...(0,pinia/* mapState */.rn)(growmodo/* default */.Z, ['projectDirectory']),
+    ...(0,pinia/* mapState */.rn)(growmodo/* default */.Z, ['taskDirectory']),
     brandAvatar() {
       return this.brandInfo.avatar || {};
     },
@@ -505,11 +505,11 @@ const {
     brandId() {
       return this.$route.params?.brandId;
     },
-    projectId() {
-      return this.$route.params?.projectId;
+    taskId() {
+      return this.$route.params?.taskId;
     },
     answers() {
-      return this.projectInfo?.answers || {};
+      return this.taskInfo?.answers || {};
     },
     visibleAnswers() {
       const res = {};
@@ -521,7 +521,7 @@ const {
       return res;
     },
     dynamicAnswers() {
-      return Object.values(this.projectInfo?.answers || {});
+      return Object.values(this.taskInfo?.answers || {});
     },
     overviewData() {
       return this.dynamicAnswers.filter(e => e.question?.show_in_overview);
@@ -530,10 +530,10 @@ const {
       return this.overviewData.map(e => `question_${e.question?.id}`);
     },
     brandInfo() {
-      return this.projectInfo.brand || {};
+      return this.taskInfo.brand || {};
     },
     requestInfo() {
-      return this.projectDirectory[this.projectInfo?.project_id] || {};
+      return this.taskDirectory[this.taskInfo?.task_id] || {};
     },
     allSections() {
       return this.overviewData.map((e, i) => ({
@@ -559,17 +559,17 @@ const {
     }
   },
   methods: {
-    ...(0,pinia/* mapActions */.nv)(growmodo/* default */.Z, ['getSingleProject', 'updateRequestProject']),
+    ...(0,pinia/* mapActions */.nv)(growmodo/* default */.Z, ['getSingleTask', 'updateRequestTask']),
     async submitUpdate() {
-      this.updateRequestProject(this.answer, this.projectInfo?.id).then(res => {
+      this.updateRequestTask(this.answer, this.taskInfo?.id).then(res => {
         if (res.success) {
-          this.projectInfo = res.data;
+          this.taskInfo = res.data;
           this.editing = false;
         } else {
           this.$q.notify({
             icon: 'icon-alert-triangle',
             iconColor: 'negative',
-            message: 'An error occured while updating the project!'
+            message: 'An error occured while updating the task!'
           });
         }
       });
@@ -633,9 +633,9 @@ const {
     },
     updateAnswers() {
       this.uploads = {};
-      const answers = this.projectInfo?.answers || {};
+      const answers = this.taskInfo?.answers || {};
       const formatedAnswers = {};
-      for (const id of Object.keys(this.projectInfo?.answers || {})) {
+      for (const id of Object.keys(this.taskInfo?.answers || {})) {
         formatedAnswers[id] = {
           ...answers[id]
         };
@@ -648,7 +648,7 @@ const {
             success: true
           };
           formatedAnswers[id].temp_files = [];
-          if (question.type.startsWith('upload_') || question.type === 'website_content') {
+          if (question.type.startsWith('upload_')) {
             const filesVal = [];
             for (const file of formatedAnswers[id]?.value) {
               filesVal.push({
@@ -658,8 +658,18 @@ const {
             }
             this.addUploadToModel('uploads', `upload${id}`, filesVal, `upload${id}`);
             formatedAnswers[id].value = formatedAnswers[id].value.map(e => e.id);
+          } else if (question.type === 'website_content') {
+            const filesVal = [];
+            for (const file of formatedAnswers[id]?.value?.uploads) {
+              filesVal.push({
+                ...pre_file,
+                ...file
+              });
+            }
+            this.addUploadToModel('uploads', `upload${id}`, filesVal, `upload${id}`);
+            formatedAnswers[id].value.uploads = formatedAnswers[id].value.uploads.map(e => e.id);
           }
-          if (question.alternative_type.startsWith('upload_') || question.alternative_type === 'website_content') {
+          if (question.alternative_type.startsWith('upload_')) {
             const filesVal = [];
             for (const file of formatedAnswers[id]?.alternative_answer) {
               filesVal.push({
@@ -669,6 +679,16 @@ const {
             }
             this.addUploadToModel('uploads', `upload${id}`, filesVal, `upload${id}`);
             formatedAnswers[id].alternative_answer = formatedAnswers[id].alternative_answer.map(e => e.id);
+          } else if (question.alternative_type === 'website_content') {
+            const filesVal = [];
+            for (const file of formatedAnswers[id]?.alternative_answer?.uploads) {
+              filesVal.push({
+                ...pre_file,
+                ...file
+              });
+            }
+            this.addUploadToModel('uploads', `upload${id}`, filesVal, `upload${id}`);
+            formatedAnswers[id].alternative_answer.uploads = formatedAnswers[id].alternative_answer.uploads.map(e => e.id);
           }
         }
         // Remove question
@@ -732,7 +752,7 @@ const {
     }
   }
 }));
-;// CONCATENATED MODULE: ./src/pages/Brands/ProjectOverview.vue?vue&type=script&lang=js
+;// CONCATENATED MODULE: ./src/pages/Brands/TaskOverview.vue?vue&type=script&lang=js
  
 // EXTERNAL MODULE: ./node_modules/vue-loader/dist/exportHelper.js
 var exportHelper = __webpack_require__(11639);
@@ -769,15 +789,15 @@ var Ripple = __webpack_require__(51722);
 // EXTERNAL MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/runtime.auto-import.js
 var runtime_auto_import = __webpack_require__(69984);
 var runtime_auto_import_default = /*#__PURE__*/__webpack_require__.n(runtime_auto_import);
-;// CONCATENATED MODULE: ./src/pages/Brands/ProjectOverview.vue
+;// CONCATENATED MODULE: ./src/pages/Brands/TaskOverview.vue
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(ProjectOverviewvue_type_script_lang_js, [['render',render]])
+const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(TaskOverviewvue_type_script_lang_js, [['render',render]])
 
-/* harmony default export */ const ProjectOverview = (__exports__);
+/* harmony default export */ const TaskOverview = (__exports__);
 ;
 
 
@@ -793,10 +813,10 @@ const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(ProjectOverview
 
 
 
-runtime_auto_import_default()(ProjectOverviewvue_type_script_lang_js, 'components', {QPage: QPage/* default */.Z,QCard: QCard/* default */.Z,QAvatar: QAvatar/* default */.Z,QIcon: QIcon/* default */.Z,QBreadcrumbs: QBreadcrumbs/* default */.Z,QBreadcrumbsEl: QBreadcrumbsEl/* default */.Z,QSpinner: QSpinner/* default */.Z,QBadge: QBadge/* default */.Z,QSplitter: QSplitter/* default */.Z,QBtn: QBtn/* default */.Z,QSkeleton: QSkeleton/* default */.ZP,QCardSection: QCardSection/* default */.Z,QSpace: QSpace/* default */.Z,QScrollObserver: QScrollObserver/* default */.Z});runtime_auto_import_default()(ProjectOverviewvue_type_script_lang_js, 'directives', {Ripple: Ripple/* default */.Z});
+runtime_auto_import_default()(TaskOverviewvue_type_script_lang_js, 'components', {QPage: QPage/* default */.Z,QCard: QCard/* default */.Z,QAvatar: QAvatar/* default */.Z,QIcon: QIcon/* default */.Z,QBreadcrumbs: QBreadcrumbs/* default */.Z,QBreadcrumbsEl: QBreadcrumbsEl/* default */.Z,QSpinner: QSpinner/* default */.Z,QBadge: QBadge/* default */.Z,QSplitter: QSplitter/* default */.Z,QBtn: QBtn/* default */.Z,QSkeleton: QSkeleton/* default */.ZP,QCardSection: QCardSection/* default */.Z,QSpace: QSpace/* default */.Z,QScrollObserver: QScrollObserver/* default */.Z});runtime_auto_import_default()(TaskOverviewvue_type_script_lang_js, 'directives', {Ripple: Ripple/* default */.Z});
 
 
 /***/ })
 
 }]);
-//# sourceMappingURL=714.df338d4e.js.map
+//# sourceMappingURL=484.84ff1ea5.js.map
