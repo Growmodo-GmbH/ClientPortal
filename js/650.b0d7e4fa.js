@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[19],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[650],{
 
-/***/ 73019:
+/***/ 78650:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/DynamicAnswers.vue?vue&type=template&id=76edccd2
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/DynamicAnswers.vue?vue&type=template&id=c8847900
 
 const _hoisted_1 = {
   class: "full-width"
@@ -70,7 +70,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_q_video = (0,vue_esm_bundler/* resolveComponent */.up)("q-video");
   const _component_ImageLoader = (0,vue_esm_bundler/* resolveComponent */.up)("ImageLoader");
   const _component_CardIconBox = (0,vue_esm_bundler/* resolveComponent */.up)("CardIconBox");
-  return (0,vue_esm_bundler/* withDirectives */.wy)(((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_1, [!_ctx.answer || _ctx.answer?.length < 1 ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_2, " - ")) : _ctx.qtype === 'textarea1' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
+  return (0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_1, [!_ctx.answer || _ctx.answer?.length < 1 ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_2, " - ")) : _ctx.qtype === 'textarea1' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
     key: 1,
     class: (0,vue_esm_bundler/* normalizeClass */.C_)(["raw-html", {
       ['qt-textarea1']: _ctx.qtype === 'textarea1'
@@ -229,9 +229,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_16, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_CardIconBox, {
       icon: _ctx.getFileTypeIcon(ans.name)
     }, null, 8, ["icon"])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_17, (0,vue_esm_bundler/* toDisplayString */.zw)(ans.name), 1)], 8, _hoisted_15)) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_18, "File: " + (0,vue_esm_bundler/* toDisplayString */.zw)(ans), 1))], 2);
-  }), 128))])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 2)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 512)), [[vue_esm_bundler/* vShow */.F8, !_ctx.hideAnswerForAlternativeQuestionTypes.includes(_ctx.aqtype) && !(_ctx.qtype === 'select_platform' && _ctx.aqtype === 'textfield' && _ctx.answer === 'other')]]);
+  }), 128))])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 2)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)]);
 }
-;// CONCATENATED MODULE: ./src/components/DynamicAnswers.vue?vue&type=template&id=76edccd2
+;// CONCATENATED MODULE: ./src/components/DynamicAnswers.vue?vue&type=template&id=c8847900
 
 // EXTERNAL MODULE: ./src/assets/scripts/functions.js + 1 modules
 var functions = __webpack_require__(1966);
@@ -289,7 +289,6 @@ var ImageLoader = __webpack_require__(12308);
       checkIfObject: functions.checkIfObject,
       urlShareToEmbed: functions.urlShareToEmbed,
       capitalize: format["default"].capitalize,
-      hideAnswerForAlternativeQuestionTypes: ['url'],
       checkFileExtensions: functions.checkFileExtensions,
       getFileTypeIcon: functions.getFileTypeIcon
     };
@@ -344,4 +343,4 @@ runtime_auto_import_default()(DynamicAnswersvue_type_script_lang_js, 'components
 /***/ })
 
 }]);
-//# sourceMappingURL=19.26e93575.js.map
+//# sourceMappingURL=650.b0d7e4fa.js.map

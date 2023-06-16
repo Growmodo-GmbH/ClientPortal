@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[484],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[419],{
 
-/***/ 99484:
+/***/ 5419:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -16,7 +16,7 @@ __webpack_require__.d(__webpack_exports__, {
 var es_array_push = __webpack_require__(69665);
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Brands/TaskOverview.vue?vue&type=template&id=e5364444
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Brands/TaskOverview.vue?vue&type=template&id=6e7e3847
 
 
 const _hoisted_1 = {
@@ -416,7 +416,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/Brands/TaskOverview.vue?vue&type=template&id=e5364444
+;// CONCATENATED MODULE: ./src/pages/Brands/TaskOverview.vue?vue&type=template&id=6e7e3847
 
 // EXTERNAL MODULE: ./node_modules/pinia/dist/pinia.mjs + 1 modules
 var pinia = __webpack_require__(11872);
@@ -451,7 +451,7 @@ const {
   mixins: [mixins/* RequestOptions_Mixin */.Tt, mixins/* FileUploader_Mixin */.GU, mixins/* Export_Task_Project_Mixin */.uZ, mixins/* Helpers_Mixin */.h2],
   components: {
     DynamicQuestions: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 208).then(__webpack_require__.bind(__webpack_require__, 8208))),
-    DynamicAnswers: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(19)]).then(__webpack_require__.bind(__webpack_require__, 73019)))
+    DynamicAnswers: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(650)]).then(__webpack_require__.bind(__webpack_require__, 78650)))
   },
   data() {
     return {
@@ -633,7 +633,7 @@ const {
     },
     updateAnswers() {
       this.uploads = {};
-      const answers = this.taskInfo?.answers || {};
+      const answers = (0,functions.objectCopy)(this.taskInfo?.answers) || {};
       const formatedAnswers = {};
       for (const id of Object.keys(this.taskInfo?.answers || {})) {
         formatedAnswers[id] = {
@@ -660,13 +660,16 @@ const {
             formatedAnswers[id].value = formatedAnswers[id].value.map(e => e.id);
           } else if (question.type === 'website_content') {
             const filesVal = [];
+            console.warn('formated 1', formatedAnswers[id]?.value?.uploads);
             for (const file of formatedAnswers[id]?.value?.uploads) {
+              console.warn('loop', file);
               filesVal.push({
                 ...pre_file,
                 ...file
               });
             }
             this.addUploadToModel('uploads', `upload${id}`, filesVal, `upload${id}`);
+            console.warn('content:', filesVal);
             formatedAnswers[id].value.uploads = formatedAnswers[id].value.uploads.map(e => e.id);
           }
           if (question.alternative_type.startsWith('upload_')) {
@@ -819,4 +822,4 @@ runtime_auto_import_default()(TaskOverviewvue_type_script_lang_js, 'components',
 /***/ })
 
 }]);
-//# sourceMappingURL=484.a3b2998b.js.map
+//# sourceMappingURL=419.40bc91e7.js.map

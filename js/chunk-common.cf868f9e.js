@@ -71,6 +71,7 @@ async function init_Signup() {
 }
 async function init_LoggedIn() {
   this.init();
+  actions_user.getOrgBrands(true, actions_user.activeOrgID);
   actions_growmodo.getPlatforms();
   actions_user.getOrgUsers();
   actions_growmodo.getTaskCategories();
@@ -80,6 +81,7 @@ async function init_LoggedIn() {
 }
 async function init_RequestForm() {
   this.init();
+  actions_user.getOrgBrands(true, actions_user.activeOrgID);
   actions_growmodo.getPlatforms();
   actions_user.getOrgUsers();
   actions_growmodo.getTaskCategories();
@@ -7351,4 +7353,4 @@ runtime_auto_import_default()(CustomDropdownvue_type_script_lang_js, 'components
 /***/ })
 
 }]);
-//# sourceMappingURL=chunk-common.b35237f2.js.map
+//# sourceMappingURL=chunk-common.cf868f9e.js.map

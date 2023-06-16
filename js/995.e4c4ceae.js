@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[267],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[995],{
 
-/***/ 38267:
+/***/ 67995:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -16,7 +16,7 @@ __webpack_require__.d(__webpack_exports__, {
 var es_array_push = __webpack_require__(69665);
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Brands/ProjectOverview.vue?vue&type=template&id=6ae6d75a
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Brands/ProjectOverview.vue?vue&type=template&id=3b49d307
 
 
 const _hoisted_1 = {
@@ -416,7 +416,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/Brands/ProjectOverview.vue?vue&type=template&id=6ae6d75a
+;// CONCATENATED MODULE: ./src/pages/Brands/ProjectOverview.vue?vue&type=template&id=3b49d307
 
 // EXTERNAL MODULE: ./node_modules/pinia/dist/pinia.mjs + 1 modules
 var pinia = __webpack_require__(11872);
@@ -451,7 +451,7 @@ const {
   mixins: [mixins/* RequestOptions_Mixin */.Tt, mixins/* FileUploader_Mixin */.GU, mixins/* Export_Task_Project_Mixin */.uZ, mixins/* Helpers_Mixin */.h2],
   components: {
     DynamicQuestions: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 208).then(__webpack_require__.bind(__webpack_require__, 8208))),
-    DynamicAnswers: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(19)]).then(__webpack_require__.bind(__webpack_require__, 73019)))
+    DynamicAnswers: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(650)]).then(__webpack_require__.bind(__webpack_require__, 78650)))
   },
   data() {
     return {
@@ -633,7 +633,7 @@ const {
     },
     updateAnswers() {
       this.uploads = {};
-      const answers = this.projectInfo?.answers || {};
+      const answers = (0,functions.objectCopy)(this.taskInfo?.answers) || {};
       const formatedAnswers = {};
       for (const id of Object.keys(this.projectInfo?.answers || {})) {
         formatedAnswers[id] = {
@@ -819,4 +819,4 @@ runtime_auto_import_default()(ProjectOverviewvue_type_script_lang_js, 'component
 /***/ })
 
 }]);
-//# sourceMappingURL=267.d8f7d9c7.js.map
+//# sourceMappingURL=995.e4c4ceae.js.map

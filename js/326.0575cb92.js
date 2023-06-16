@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[493],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[326],{
 
-/***/ 96493:
+/***/ 61326:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Requests/DirectoryLayout.vue?vue&type=template&id=423a7914
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Requests/DirectoryLayout.vue?vue&type=template&id=2ae50154
 
 const _hoisted_1 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("span", {
   class: "text-body1 font-medium text-white q-pl-xs"
@@ -454,7 +454,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/components/Requests/DirectoryLayout.vue?vue&type=template&id=423a7914
+;// CONCATENATED MODULE: ./src/components/Requests/DirectoryLayout.vue?vue&type=template&id=2ae50154
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.push.js
 var es_array_push = __webpack_require__(69665);
@@ -629,7 +629,7 @@ var CardIconBox = __webpack_require__(16122);
           this.itemsList.push(e);
         });
         done();
-      }, 1000);
+      }, 250);
     },
     logKey({
       val,
@@ -778,4 +778,4 @@ runtime_auto_import_default()(DirectoryLayoutvue_type_script_lang_js, 'component
 /***/ })
 
 }]);
-//# sourceMappingURL=493.22dda4a4.js.map
+//# sourceMappingURL=326.0575cb92.js.map
