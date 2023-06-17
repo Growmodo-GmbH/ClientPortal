@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[713],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[639],{
 
-/***/ 10713:
+/***/ 22639:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/RequestsPage.vue?vue&type=template&id=32f0336c
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/RequestsPage.vue?vue&type=template&id=5cf2daca
 
 const _hoisted_1 = {
   class: "font-medium text-h5 text-primary-700"
@@ -23,7 +23,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_q_toolbar_title = (0,vue_esm_bundler/* resolveComponent */.up)("q-toolbar-title");
   const _component_q_toolbar = (0,vue_esm_bundler/* resolveComponent */.up)("q-toolbar");
   const _component_q_card = (0,vue_esm_bundler/* resolveComponent */.up)("q-card");
-  const _component_TaskProjectList = (0,vue_esm_bundler/* resolveComponent */.up)("TaskProjectList");
+  const _component_TaskProjectRequests = (0,vue_esm_bundler/* resolveComponent */.up)("TaskProjectRequests");
   const _component_q_page = (0,vue_esm_bundler/* resolveComponent */.up)("q-page");
   return (0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_page, {
     padding: "",
@@ -44,23 +44,23 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         _: 1
       })]),
       _: 1
-    }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_TaskProjectList, {
+    }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_TaskProjectRequests, {
       class: "q-my-lg"
     })]),
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/RequestsPage.vue?vue&type=template&id=32f0336c
+;// CONCATENATED MODULE: ./src/pages/RequestsPage.vue?vue&type=template&id=5cf2daca
 
-// EXTERNAL MODULE: ./src/components/Requests/TaskProjectList.vue + 4 modules
-var TaskProjectList = __webpack_require__(91253);
+// EXTERNAL MODULE: ./src/components/Requests/TaskProjectRequests.vue + 4 modules
+var TaskProjectRequests = __webpack_require__(47659);
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/RequestsPage.vue?vue&type=script&lang=js
 
 
 /* harmony default export */ const RequestsPagevue_type_script_lang_js = ((0,vue_esm_bundler/* defineComponent */.aZ)({
   name: 'RequestsPage',
   components: {
-    TaskProjectList: TaskProjectList/* default */.Z
+    TaskProjectRequests: TaskProjectRequests/* default */.Z
   },
   data() {
     return {
@@ -108,4 +108,4 @@ runtime_auto_import_default()(RequestsPagevue_type_script_lang_js, 'components',
 /***/ })
 
 }]);
-//# sourceMappingURL=713.827c1faa.js.map
+//# sourceMappingURL=639.abdd2975.js.map

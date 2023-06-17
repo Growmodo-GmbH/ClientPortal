@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[540],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[674],{
 
-/***/ 48351:
+/***/ 71900:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -16,7 +16,7 @@ __webpack_require__.d(__webpack_exports__, {
 var es_array_push = __webpack_require__(69665);
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Brands/BrandOverview.vue?vue&type=template&id=16e1b4ad
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Brands/BrandOverview.vue?vue&type=template&id=7d59c3e1
 
 
 const _hoisted_1 = {
@@ -278,7 +278,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_q_list = (0,vue_esm_bundler/* resolveComponent */.up)("q-list");
   const _component_q_menu = (0,vue_esm_bundler/* resolveComponent */.up)("q-menu");
   const _component_q_tab_panels = (0,vue_esm_bundler/* resolveComponent */.up)("q-tab-panels");
-  const _component_TaskProjectList = (0,vue_esm_bundler/* resolveComponent */.up)("TaskProjectList");
+  const _component_TaskProjectRequests = (0,vue_esm_bundler/* resolveComponent */.up)("TaskProjectRequests");
   const _component_RenameFolderFile = (0,vue_esm_bundler/* resolveComponent */.up)("RenameFolderFile");
   const _component_q_dialog = (0,vue_esm_bundler/* resolveComponent */.up)("q-dialog");
   const _component_dynamic_dialog_confirmation = (0,vue_esm_bundler/* resolveComponent */.up)("dynamic-dialog-confirmation");
@@ -1210,7 +1210,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         _: 1
       })]),
       _: 1
-    }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_TaskProjectList, {
+    }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_TaskProjectRequests, {
       brand_id: _ctx.brand_id,
       class: "q-my-lg"
     }, null, 8, ["brand_id"]), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_dialog, {
@@ -1243,7 +1243,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/Brands/BrandOverview.vue?vue&type=template&id=16e1b4ad
+;// CONCATENATED MODULE: ./src/pages/Brands/BrandOverview.vue?vue&type=template&id=7d59c3e1
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.unshift.js
 var es_array_unshift = __webpack_require__(86890);
@@ -1275,8 +1275,8 @@ var ImageLoader = __webpack_require__(12308);
 var mixins = __webpack_require__(93458);
 // EXTERNAL MODULE: ./src/stores/fn.store.js
 var fn_store = __webpack_require__(85487);
-// EXTERNAL MODULE: ./src/components/Requests/TaskProjectList.vue + 4 modules
-var TaskProjectList = __webpack_require__(91253);
+// EXTERNAL MODULE: ./src/components/Requests/TaskProjectRequests.vue + 4 modules
+var TaskProjectRequests = __webpack_require__(47659);
 // EXTERNAL MODULE: ./src/components/Helpers/InputWebsite.vue + 4 modules
 var InputWebsite = __webpack_require__(97696);
 // EXTERNAL MODULE: ./src/components/Helpers/TextArea1.vue + 4 modules
@@ -1355,7 +1355,7 @@ const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(DisplayStringvu
   name: 'BrandOverview',
   mixins: [mixins/* FileUploader_Mixin */.GU, mixins/* Helpers_Mixin */.h2],
   components: {
-    TaskProjectList: TaskProjectList/* default */.Z,
+    TaskProjectRequests: TaskProjectRequests/* default */.Z,
     CardIconBox: CardIconBox["default"],
     ColorPickerCard: ColorPickerCard/* default */.Z,
     SelectBrandType: SelectBrandType/* default */.Z,
@@ -1897,4 +1897,4 @@ runtime_auto_import_default()(BrandOverviewvue_type_script_lang_js, 'components'
 /***/ })
 
 }]);
-//# sourceMappingURL=540.36b920e7.js.map
+//# sourceMappingURL=674.6600c256.js.map
