@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[650],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[569],{
 
-/***/ 78650:
+/***/ 61569:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/DynamicAnswers.vue?vue&type=template&id=c8847900
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/DynamicAnswers.vue?vue&type=template&id=b7949dfa
 
 const _hoisted_1 = {
   class: "full-width"
@@ -220,8 +220,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       }])
     }, [_ctx.checkIfObject(ans) && _ctx.checkFileExtensions(ans.name, _ctx.$config.supportedDisplayImage) ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_ImageLoader, {
       key: 0,
+      ratio: _ctx.answer.uploads?.length === 1 ? undefined : 1,
       file: ans
-    }, null, 8, ["file"])) : _ctx.checkIfObject(ans) ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("a", {
+    }, null, 8, ["ratio", "file"])) : _ctx.checkIfObject(ans) ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("a", {
       key: 1,
       target: "_blank",
       class: "row items-center q-col-gutter-sm cursor-pointer text-primary",
@@ -231,7 +232,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     }, null, 8, ["icon"])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_17, (0,vue_esm_bundler/* toDisplayString */.zw)(ans.name), 1)], 8, _hoisted_15)) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_18, "File: " + (0,vue_esm_bundler/* toDisplayString */.zw)(ans), 1))], 2);
   }), 128))])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 2)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)]);
 }
-;// CONCATENATED MODULE: ./src/components/DynamicAnswers.vue?vue&type=template&id=c8847900
+;// CONCATENATED MODULE: ./src/components/DynamicAnswers.vue?vue&type=template&id=b7949dfa
 
 // EXTERNAL MODULE: ./src/assets/scripts/functions.js + 1 modules
 var functions = __webpack_require__(1966);
@@ -246,7 +247,7 @@ var growmodo = __webpack_require__(72393);
 // EXTERNAL MODULE: ./src/stores/user/index.js + 3 modules
 var user = __webpack_require__(33701);
 // EXTERNAL MODULE: ./src/components/Helpers/ImageLoader.vue + 4 modules
-var ImageLoader = __webpack_require__(12308);
+var ImageLoader = __webpack_require__(11905);
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/DynamicAnswers.vue?vue&type=script&lang=js
 
 
@@ -343,4 +344,4 @@ runtime_auto_import_default()(DynamicAnswersvue_type_script_lang_js, 'components
 /***/ })
 
 }]);
-//# sourceMappingURL=650.b0d7e4fa.js.map
+//# sourceMappingURL=569.8f85d916.js.map

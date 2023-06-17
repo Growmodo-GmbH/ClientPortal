@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[674],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[471],{
 
-/***/ 71900:
+/***/ 28106:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -16,7 +16,7 @@ __webpack_require__.d(__webpack_exports__, {
 var es_array_push = __webpack_require__(69665);
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Brands/BrandOverview.vue?vue&type=template&id=7d59c3e1
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Brands/BrandOverview.vue?vue&type=template&id=477e3bc4
 
 
 const _hoisted_1 = {
@@ -178,74 +178,86 @@ const _hoisted_48 = {
   class: "text-body1 font-medium text-primary-500 col-12 flex items-center q-pb-md"
 };
 const _hoisted_49 = {
+  class: "row items-center justify-start q-col-gutter-sm scroll",
+  style: {
+    "max-height": "340px"
+  }
+};
+const _hoisted_50 = {
   class: "fit hover-visibility"
 };
-const _hoisted_50 = ["href"];
-const _hoisted_51 = {
+const _hoisted_51 = ["href"];
+const _hoisted_52 = {
   class: "col-3"
 };
-const _hoisted_52 = {
+const _hoisted_53 = {
   key: 2
 };
-const _hoisted_53 = {
+const _hoisted_54 = {
   class: "text-body1 font-medium text-primary-500 col-12 flex items-center q-pb-md"
 };
-const _hoisted_54 = {
+const _hoisted_55 = {
+  class: "row items-center justify-start q-col-gutter-sm scroll",
+  style: {
+    "max-height": "340px"
+  }
+};
+const _hoisted_56 = {
   class: "fit hover-visibility"
 };
-const _hoisted_55 = ["href"];
-const _hoisted_56 = ["onClick"];
-const _hoisted_57 = ["onClick"];
-const _hoisted_58 = {
-  key: 0,
-  class: "q-pb-md"
-};
-const _hoisted_59 = {
-  key: 0,
-  class: "q-pb-md"
-};
+const _hoisted_57 = ["href"];
+const _hoisted_58 = ["onClick"];
+const _hoisted_59 = ["onClick"];
 const _hoisted_60 = {
   key: 0,
   class: "q-pb-md"
 };
 const _hoisted_61 = {
   key: 0,
-  class: "q-col-gutter-md"
+  class: "q-pb-md"
 };
 const _hoisted_62 = {
   key: 0,
-  class: "row items-center justify-start q-col-gutter-xs"
+  class: "q-pb-md"
 };
 const _hoisted_63 = {
-  class: "col-12 col-sm-3 font-medium text-primary-700"
+  key: 0,
+  class: "q-col-gutter-md"
 };
 const _hoisted_64 = {
-  class: "row items-center q-gutter-x-sm"
+  key: 0,
+  class: "row items-center justify-start q-col-gutter-xs"
 };
 const _hoisted_65 = {
-  class: "col-12 col-sm-9"
+  class: "col-12 col-sm-3 font-medium text-primary-700"
 };
 const _hoisted_66 = {
+  class: "row items-center q-gutter-x-sm"
+};
+const _hoisted_67 = {
+  class: "col-12 col-sm-9"
+};
+const _hoisted_68 = {
   key: 1
 };
-const _hoisted_67 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("span", {
+const _hoisted_69 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("span", {
   class: "font-medium"
 }, " No social media accounts. ", -1);
-const _hoisted_68 = [_hoisted_67];
-const _hoisted_69 = {
+const _hoisted_70 = [_hoisted_69];
+const _hoisted_71 = {
   key: 1,
   class: "row items-center justify-start q-col-gutter-xs q-col-gutter-sm"
 };
-const _hoisted_70 = {
+const _hoisted_72 = {
   class: "col-12 col-sm-3 font-medium text-primary-700"
 };
-const _hoisted_71 = {
+const _hoisted_73 = {
   class: "row items-center q-gutter-x-sm"
 };
-const _hoisted_72 = {
+const _hoisted_74 = {
   class: "col-12 col-sm-9"
 };
-const _hoisted_73 = {
+const _hoisted_75 = {
   class: "text-primary-700 text-body2"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -598,7 +610,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               onUploaded: _cache[14] || (_cache[14] = e => _ctx.uploadedEvent(e, 'logo')),
               onFailed: _cache[15] || (_cache[15] = e => _ctx.failedEvent(e, 'logo'))
             }, null, 8, ["factory", "note", "removedFile"])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.reactiveDisplayBrand.logo?.length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
-              key: _ctx.reactiveDisplayBrand.logo?.length,
+              key: 1,
               class: (0,vue_esm_bundler/* normalizeClass */.C_)(["row items-center justify-start q-col-gutter-md scroll", {
                 ['q-mt-sm']: _ctx.editing
               }]),
@@ -691,9 +703,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                 class: "card-icon q-pa-xs"
               }), _hoisted_45]),
               _: 1
-            }, 8, ["onClick"])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), ((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(_ctx.currentBrandColors, (colorKey, i) => {
+            }, 8, ["onClick"])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), ((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(_ctx.reactiveDisplayBrand.colors, (value, colorKey, i) => {
               return (0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
-                key: `${colorKey}${i}`,
+                key: `${colorKey}${value}${i}`,
                 class: "col-12 col-sm-6 col-md-3"
               }, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_slide_item, {
                 class: "rounded",
@@ -779,21 +791,15 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             }, {
               default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)((0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.reactiveDisplayBrand.googlefonts?.length), 1)]),
               _: 1
-            })]), ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
-              key: _ctx.reactiveDisplayBrand.googlefonts?.length,
-              class: "row items-center justify-start q-col-gutter-sm scroll",
-              style: {
-                "max-height": "340px"
-              }
-            }, [((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(_ctx.reactiveDisplayBrand.googlefonts, font => {
+            })]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_49, [((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(_ctx.reactiveDisplayBrand.googlefonts, font => {
               return (0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
                 key: font,
                 class: "col-12 col-sm-6 col-md-3 rounded overflow-hidden"
-              }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_49, [(0,vue_esm_bundler/* createElementVNode */._)("a", {
+              }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_50, [(0,vue_esm_bundler/* createElementVNode */._)("a", {
                 target: "_blank",
                 class: "row items-center q-col-gutter-sm cursor-pointer text-primary",
                 href: `https://fonts.google.com/specimen/${font}`
-              }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_51, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_CardIconBox, {
+              }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_52, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_CardIconBox, {
                 icon: "icon-type-square"
               })]), (0,vue_esm_bundler/* createElementVNode */._)("div", {
                 class: (0,vue_esm_bundler/* normalizeClass */.C_)(["hover-text-secondary overflow-hidden", {
@@ -887,12 +893,12 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                   _: 2
                 }, 1024)]),
                 _: 2
-              }, 1024)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 2), [[vue_esm_bundler/* vShow */.F8, _ctx.editing]])], 8, _hoisted_50)])]);
-            }), 128))]))], 2)], 2)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.reactiveDisplayBrand.fonts?.length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_52, [(0,vue_esm_bundler/* createElementVNode */._)("div", {
+              }, 1024)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 2), [[vue_esm_bundler/* vShow */.F8, _ctx.editing]])], 8, _hoisted_51)])]);
+            }), 128))])], 2)], 2)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.reactiveDisplayBrand.fonts?.length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_53, [(0,vue_esm_bundler/* createElementVNode */._)("div", {
               class: (0,vue_esm_bundler/* normalizeClass */.C_)({
                 ['q-mt-sm']: _ctx.editing
               })
-            }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_53, [(0,vue_esm_bundler/* createTextVNode */.Uk)(" Uploaded Fonts "), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_badge, {
+            }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_54, [(0,vue_esm_bundler/* createTextVNode */.Uk)(" Uploaded Fonts "), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_badge, {
               class: "q-ml-sm",
               color: "accent",
               "text-color": "secondary",
@@ -900,17 +906,11 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             }, {
               default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)((0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.reactiveDisplayBrand.fonts?.length), 1)]),
               _: 1
-            })]), ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
-              key: _ctx.reactiveDisplayBrand.fonts?.length,
-              class: "row items-center justify-start q-col-gutter-sm scroll",
-              style: {
-                "max-height": "340px"
-              }
-            }, [((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(_ctx.reactiveDisplayBrand.fonts, file => {
+            })]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_55, [((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(_ctx.reactiveDisplayBrand.fonts, file => {
               return (0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
                 key: file,
                 class: "col-12 col-sm-6 col-md-3 rounded overflow-hidden"
-              }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_54, [(0,vue_esm_bundler/* createElementVNode */._)("a", {
+              }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_56, [(0,vue_esm_bundler/* createElementVNode */._)("a", {
                 target: "_blank",
                 href: file.download_url,
                 onClick: _cache[30] || (_cache[30] = (0,vue_esm_bundler/* withModifiers */.iM)(() => {}, ["prevent"])),
@@ -923,7 +923,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               }, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_CardIconBox, {
                 useSpinner: file.isSkeleton,
                 icon: file.isSkeleton ? 'icon-upload-cloud-01' : 'icon-type-square'
-              }, null, 8, ["useSpinner", "icon"])], 8, _hoisted_56), (0,vue_esm_bundler/* createElementVNode */._)("div", {
+              }, null, 8, ["useSpinner", "icon"])], 8, _hoisted_58), (0,vue_esm_bundler/* createElementVNode */._)("div", {
                 class: (0,vue_esm_bundler/* normalizeClass */.C_)(["hover-text-secondary overflow-hidden", {
                   ['text-primary-700']: file.isSkeleton,
                   [`col${_ctx.editing ? '-7' : ''}`]: true
@@ -932,7 +932,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                   "text-overflow": "ellipsis"
                 },
                 onClick: (0,vue_esm_bundler/* withModifiers */.iM)($event => file.isSkeleton ? void 0 : _ctx.$downloadItem(file.download_url, file.name), ["prevent"])
-              }, (0,vue_esm_bundler/* toDisplayString */.zw)(file.name), 11, _hoisted_57), (0,vue_esm_bundler/* withDirectives */.wy)((0,vue_esm_bundler/* createElementVNode */._)("div", {
+              }, (0,vue_esm_bundler/* toDisplayString */.zw)(file.name), 11, _hoisted_59), (0,vue_esm_bundler/* withDirectives */.wy)((0,vue_esm_bundler/* createElementVNode */._)("div", {
                 class: (0,vue_esm_bundler/* normalizeClass */.C_)(["row q-col-gutter-x-sm justify-end", {
                   [`col${_ctx.editing ? '-2' : 'auto'}`]: true
                 }])
@@ -1031,14 +1031,14 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                   _: 2
                 }, 1024)]),
                 _: 2
-              }, 1024)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 2), [[vue_esm_bundler/* vShow */.F8, _ctx.editing]])], 10, _hoisted_55)])]);
-            }), 128))]))], 2)])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)]),
+              }, 1024)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 2), [[vue_esm_bundler/* vShow */.F8, _ctx.editing]])], 10, _hoisted_57)])]);
+            }), 128))])], 2)])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)]),
             _: 1
           }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_tab_panel, {
             name: "graphics",
             class: "q-pa-none"
           }, {
-            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [!_ctx.isBrandArchived && (_ctx.editing || !_ctx.reactiveDisplayBrand.graphics?.length) ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_58, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_FileUploader, {
+            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [!_ctx.isBrandArchived && (_ctx.editing || !_ctx.reactiveDisplayBrand.graphics?.length) ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_60, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_FileUploader, {
               ref: "graphics",
               "max-file-size": "10000000",
               factory: files => _ctx.factoryFn(files, 'graphics'),
@@ -1051,10 +1051,10 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                 _ctx.addTempSkeleton(files, 'graphics');
               }),
               thumbnail: "icon-image-03",
-              onUploaded: _cache[32] || (_cache[32] = e => _ctx.uploadedEvent(e, 'logo')),
-              onFailed: _cache[33] || (_cache[33] = e => _ctx.failedEvent(e, 'logo'))
+              onUploaded: _cache[32] || (_cache[32] = e => _ctx.uploadedEvent(e, 'graphics')),
+              onFailed: _cache[33] || (_cache[33] = e => _ctx.failedEvent(e, 'graphics'))
             }, null, 8, ["factory", "note", "removedFile"])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.reactiveDisplayBrand.graphics?.length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
-              key: _ctx.reactiveDisplayBrand.graphics?.length,
+              key: 1,
               class: (0,vue_esm_bundler/* normalizeClass */.C_)(["row items-center justify-start q-col-gutter-md scroll", {
                 ['q-mt-sm']: _ctx.editing
               }]),
@@ -1082,7 +1082,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             name: "icons",
             class: "q-pa-none"
           }, {
-            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [!_ctx.isBrandArchived && (_ctx.editing || !_ctx.reactiveDisplayBrand.icons?.length) ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_59, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_FileUploader, {
+            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [!_ctx.isBrandArchived && (_ctx.editing || !_ctx.reactiveDisplayBrand.icons?.length) ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_61, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_FileUploader, {
               ref: "icons",
               "max-file-size": "10000000",
               factory: files => _ctx.factoryFn(files, 'icons'),
@@ -1098,7 +1098,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               onUploaded: _cache[37] || (_cache[37] = e => _ctx.uploadedEvent(e, 'icons')),
               onFailed: _cache[38] || (_cache[38] = e => _ctx.failedEvent(e, 'icons'))
             }, null, 8, ["factory", "note", "removedFile"])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.reactiveDisplayBrand.icons?.length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
-              key: _ctx.reactiveDisplayBrand.icons?.length,
+              key: 1,
               class: (0,vue_esm_bundler/* normalizeClass */.C_)(["row items-center justify-start q-col-gutter-sm scroll", {
                 ['q-mt-sm']: _ctx.editing
               }]),
@@ -1130,7 +1130,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             name: "images",
             class: "q-pa-none"
           }, {
-            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [!_ctx.isBrandArchived && (_ctx.editing || !_ctx.reactiveDisplayBrand.images?.length) ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_60, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_FileUploader, {
+            default: (0,vue_esm_bundler/* withCtx */.w5)(() => [!_ctx.isBrandArchived && (_ctx.editing || !_ctx.reactiveDisplayBrand.images?.length) ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_62, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_FileUploader, {
               ref: "images",
               "max-file-size": "10000000",
               factory: files => _ctx.factoryFn(files, 'images'),
@@ -1146,7 +1146,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               onUploaded: _cache[42] || (_cache[42] = e => _ctx.uploadedEvent(e, 'images')),
               onFailed: _cache[43] || (_cache[43] = e => _ctx.failedEvent(e, 'images'))
             }, null, 8, ["factory", "note", "removedFile"])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), _ctx.reactiveDisplayBrand.images?.length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
-              key: _ctx.reactiveDisplayBrand.images?.length,
+              key: 1,
               class: (0,vue_esm_bundler/* normalizeClass */.C_)(["row items-center justify-start q-col-gutter-md scroll", {
                 ['q-mt-sm']: _ctx.editing
               }]),
@@ -1176,17 +1176,17 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           }, {
             default: (0,vue_esm_bundler/* withCtx */.w5)(() => [!_ctx.editing ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, {
               key: 0
-            }, [Object.values(_ctx.brandInfo.social_accounts || {})?.length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_61, [((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(Object.keys(_ctx.brandInfo.social_accounts || {})?.sort?.((a, b) => a.toLowerCase() > b.toLowerCase() ? 1 : a.toLowerCase() < b.toLowerCase() ? -1 : 0), social => {
+            }, [Object.values(_ctx.brandInfo.social_accounts || {})?.length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_63, [((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(Object.keys(_ctx.brandInfo.social_accounts || {})?.sort?.((a, b) => a.toLowerCase() > b.toLowerCase() ? 1 : a.toLowerCase() < b.toLowerCase() ? -1 : 0), social => {
               return (0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, {
                 key: social
-              }, [_ctx.brandInfo.social_accounts?.[social] ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_62, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_63, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_64, [ false ? (0) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), (0,vue_esm_bundler/* createElementVNode */._)("span", null, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.capitalize(social)), 1)])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_65, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_external_link, {
+              }, [_ctx.brandInfo.social_accounts?.[social] ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_64, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_65, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_66, [ false ? (0) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), (0,vue_esm_bundler/* createElementVNode */._)("span", null, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.capitalize(social)), 1)])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_67, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_external_link, {
                 url: (_ctx.getSocialInfo(social)?.base_url || '') + '/' + _ctx.brandInfo.social_accounts?.[social],
                 icon: _ctx.formatMediaPlatformIconSrc(social)
               }, null, 8, ["url", "icon"])])])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 64);
-            }), 128))])) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_66, _hoisted_68))], 64)) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_69, [((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(Object.values(_ctx.socialMedia || {})?.sort?.((a, b) => a.platform?.toLowerCase() > b.platform?.toLowerCase() ? 1 : a.platform?.toLowerCase() < b.platform?.toLowerCase() ? -1 : 0), opt => {
+            }), 128))])) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_68, _hoisted_70))], 64)) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_71, [((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(Object.values(_ctx.socialMedia || {})?.sort?.((a, b) => a.platform?.toLowerCase() > b.platform?.toLowerCase() ? 1 : a.platform?.toLowerCase() < b.platform?.toLowerCase() ? -1 : 0), opt => {
               return (0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, {
                 key: opt.platform
-              }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_70, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_71, [ false ? (0) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), (0,vue_esm_bundler/* createElementVNode */._)("span", null, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.capitalize(opt.platform)), 1)])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_72, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_input, {
+              }, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_72, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_73, [ false ? (0) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), (0,vue_esm_bundler/* createElementVNode */._)("span", null, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.capitalize(opt.platform)), 1)])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_74, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_input, {
                 dense: "",
                 outlined: "",
                 placeholder: "username",
@@ -1196,7 +1196,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                   ['max-width']: _ctx.$q.screen.lt.sm ? '100%' : '400px'
                 })
               }, {
-                prepend: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_73, (0,vue_esm_bundler/* toDisplayString */.zw)((_ctx.getSocialInfo(opt.platform)?.base_url || '').replace('http://', '').replace('https://', '').replace('www.', '')) + (0,vue_esm_bundler/* toDisplayString */.zw)(!opt.platform.endsWith('/') ? '/' : ''), 1), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_separator, {
+                prepend: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_75, (0,vue_esm_bundler/* toDisplayString */.zw)((_ctx.getSocialInfo(opt.platform)?.base_url || '').replace('http://', '').replace('https://', '').replace('www.', '')) + (0,vue_esm_bundler/* toDisplayString */.zw)(!opt.platform.endsWith('/') ? '/' : ''), 1), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_separator, {
                   vertical: "",
                   class: "q-ml-sm"
                 })]),
@@ -1211,6 +1211,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       })]),
       _: 1
     }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_TaskProjectRequests, {
+      nofilter: "",
       brand_id: _ctx.brand_id,
       class: "q-my-lg"
     }, null, 8, ["brand_id"]), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_dialog, {
@@ -1243,7 +1244,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/Brands/BrandOverview.vue?vue&type=template&id=7d59c3e1
+;// CONCATENATED MODULE: ./src/pages/Brands/BrandOverview.vue?vue&type=template&id=477e3bc4
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.unshift.js
 var es_array_unshift = __webpack_require__(86890);
@@ -1268,15 +1269,15 @@ var ColorPickerCard = __webpack_require__(46520);
 // EXTERNAL MODULE: ./src/components/Helpers/SelectBrandType.vue + 4 modules
 var SelectBrandType = __webpack_require__(9438);
 // EXTERNAL MODULE: ./src/components/Helpers/FilesUploader.vue + 4 modules
-var FilesUploader = __webpack_require__(33635);
+var FilesUploader = __webpack_require__(38068);
 // EXTERNAL MODULE: ./src/components/Helpers/ImageLoader.vue + 4 modules
-var ImageLoader = __webpack_require__(12308);
+var ImageLoader = __webpack_require__(11905);
 // EXTERNAL MODULE: ./src/mixins/index.js + 7 modules
 var mixins = __webpack_require__(93458);
 // EXTERNAL MODULE: ./src/stores/fn.store.js
 var fn_store = __webpack_require__(85487);
 // EXTERNAL MODULE: ./src/components/Requests/TaskProjectRequests.vue + 4 modules
-var TaskProjectRequests = __webpack_require__(47659);
+var TaskProjectRequests = __webpack_require__(58092);
 // EXTERNAL MODULE: ./src/components/Helpers/InputWebsite.vue + 4 modules
 var InputWebsite = __webpack_require__(97696);
 // EXTERNAL MODULE: ./src/components/Helpers/TextArea1.vue + 4 modules
@@ -1284,7 +1285,7 @@ var TextArea1 = __webpack_require__(44799);
 // EXTERNAL MODULE: ./src/components/Helpers/DynamicButton.vue + 4 modules
 var DynamicButton = __webpack_require__(46784);
 // EXTERNAL MODULE: ./src/components/Dialogs/RenameFolderFile.vue + 4 modules
-var RenameFolderFile = __webpack_require__(43344);
+var RenameFolderFile = __webpack_require__(44755);
 // EXTERNAL MODULE: ./src/components/Helpers/SelectFont.vue + 4 modules
 var SelectFont = __webpack_require__(54420);
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Helpers/Format/DisplayString.vue?vue&type=template&id=06bc589f
@@ -1428,7 +1429,7 @@ const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(DisplayStringvu
       return (this.isBrandArchived ? this.localBrandInfo : this.editing ? this.brand : this.brandInfo) || {};
     },
     currentBrandColors() {
-      return Object.keys((this.editing ? this.brand : this.brandInfo).colors || {}).sort((a, b) => a.toLowerCase() > b.toLowerCase() ? 1 : a.toLowerCase() < b.toLowerCase() ? -1 : 0);
+      return Object.keys(this.reactiveDisplayBrand.colors || {});
     },
     brandTabEditLabel() {
       switch (this.brandTab) {
@@ -1650,20 +1651,18 @@ const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(DisplayStringvu
     },
     addNewColor() {
       this.editing = true;
-      setTimeout(() => {
-        const _ = this.brand.colors;
-        let num = 0;
-        const prefix = 'ANewColor';
-        for (const k of Object.keys(_)) {
-          if (k.startsWith(prefix)) {
-            let n = k.split(prefix)[1];
-            if (n && !isNaN(n)) {
-              num = Number(n) + 1;
-            }
+      const _ = this.reactiveDisplayBrand.colors || {};
+      let num = 0;
+      const prefix = 'ANewColor';
+      for (const k of Object.keys(_)) {
+        if (k.startsWith(prefix)) {
+          let n = k.split(prefix)[1];
+          if (n && !isNaN(n)) {
+            num = Number(n) + 1;
           }
         }
-        _[`${prefix}${num}`] = '';
-      }, 200);
+      }
+      _[`${prefix}${num}`] = '';
     },
     removeGoogleFont(font) {
       if (!this.editing) this.editing = true;
@@ -1897,4 +1896,4 @@ runtime_auto_import_default()(BrandOverviewvue_type_script_lang_js, 'components'
 /***/ })
 
 }]);
-//# sourceMappingURL=674.6600c256.js.map
+//# sourceMappingURL=471.acaef36d.js.map

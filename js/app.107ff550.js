@@ -521,12 +521,12 @@ const routes = [{
     path: 'brands',
     children: [{
       path: '',
-      component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(259)]).then(__webpack_require__.bind(__webpack_require__, 25978))
+      component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(71)]).then(__webpack_require__.bind(__webpack_require__, 99936))
     }, {
       path: ':brandId',
       children: [{
         path: '',
-        component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(674)]).then(__webpack_require__.bind(__webpack_require__, 71900))
+        component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(471)]).then(__webpack_require__.bind(__webpack_require__, 28106))
       }, {
         path: 'task',
         children: [{
@@ -766,6 +766,7 @@ var notification = __webpack_require__(2641);
 // ServiceWorkerRegistration: https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration
 
 let updateChecker;
+let autoReload = true;
 (0,register_service_worker/* register */.z)("/service-worker.js", {
   // The registrationOptions object will be passed as the second argument
   // to ServiceWorkerContainer.register()
@@ -811,50 +812,54 @@ let updateChecker;
     let title = 'App has been Updated!';
     let message = 'New content is available; please refresh.';
     if (updateChecker) clearInterval(updateChecker);
-    const {
-      productName
-    } = __webpack_require__(4147);
-    (0,notification/* displayNotification */.d)(productName + ' - ' + title, {
-      body: message
-    }).then(notif => {
-      notif.onclick = () => {
-        window.location.href = window.location.href;
-      };
-    });
-    Dialog/* default.create */.Z.create({
-      ok: {
-        label: 'Refresh',
-        rounded: true,
-        noCaps: true,
-        unelevated: true,
-        size: 'md',
-        color: 'primary',
-        icon: 'icon-refresh-cw-01',
-        class: 'font-normal rounded'
-      },
-      cancel: {
-        label: '',
-        flat: true,
-        round: true,
-        noCaps: true,
-        unelevated: true,
-        size: 'md',
-        color: 'primary',
-        icon: 'icon-x-close',
-        class: 'absolute-top-right q-ma-sm'
-      },
-      seamless: true,
-      noRouteDismiss: true,
-      transitionHide: 'slide-down',
-      transitionShow: 'slide-up',
-      title,
-      message,
-      position: 'bottom',
-      class: 'rounded q-mb-xl border-add q-pa-xs shadow-ui'
-    }).onOk(() => {
+    if (autoReload) {
       window.location.href = window.location.href;
-    });
-    if (true) console.info(message);
+    } else {
+      const {
+        productName
+      } = __webpack_require__(4147);
+      (0,notification/* displayNotification */.d)(productName + ' - ' + title, {
+        body: message
+      }).then(notif => {
+        notif.onclick = () => {
+          window.location.href = window.location.href;
+        };
+      });
+      Dialog/* default.create */.Z.create({
+        ok: {
+          label: 'Refresh',
+          rounded: true,
+          noCaps: true,
+          unelevated: true,
+          size: 'md',
+          color: 'primary',
+          icon: 'icon-refresh-cw-01',
+          class: 'font-normal rounded'
+        },
+        cancel: {
+          label: '',
+          flat: true,
+          round: true,
+          noCaps: true,
+          unelevated: true,
+          size: 'md',
+          color: 'primary',
+          icon: 'icon-x-close',
+          class: 'absolute-top-right q-ma-sm'
+        },
+        seamless: true,
+        noRouteDismiss: true,
+        transitionHide: 'slide-down',
+        transitionShow: 'slide-up',
+        title,
+        message,
+        position: 'bottom',
+        class: 'rounded q-mb-xl border-add q-pa-xs shadow-ui'
+      }).onOk(() => {
+        window.location.href = window.location.href;
+      });
+      if (true) console.info(message);
+    }
   },
   offline() {
     let message = 'Using offline mode. Some features are not available!';
@@ -3646,15 +3651,18 @@ var html2pdf_default = /*#__PURE__*/__webpack_require__.n(html2pdf);
         let el = document.getElementById(id);
         if (!el) continue;
         el = el.cloneNode(true);
-        const images = el.querySelectorAll('img');
-        // Replace all images with base64
-        for (const e of images) {
-          let newSrc = await (0,functions.getImageStringFromURL)(e.src, false);
-          e.removeAttribute('loading');
-          e.src = newSrc;
+        // Remove Loader
+        const imgsLoader = el.querySelectorAll('.q-img__loading, .q-img__image--waiting');
+        for (const e of imgsLoader) {
+          e.remove?.();
         }
-
-        // Remove all q-video; only add video url
+        // Replace Image Source with Base64
+        const imgs = el.querySelectorAll('img');
+        for (const img of imgs) {
+          let newSrc = await (0,functions.getImageStringFromURL)(img.src, false);
+          img.src = newSrc;
+        }
+        // Replace Video with URL
         const vid_wrapper = el.querySelectorAll('.q-video');
         for (const vid of vid_wrapper) {
           let video_link = document.createElement('a');
@@ -5018,7 +5026,7 @@ async function getSingleBrand(brandId, orgId = this.activeOrgID) {
     }
   }).catch(e => {
     const cache_data = fn_store/* default.getAPICache */.Z.getAPICache(url);
-    const brands_cache = data.data?.data || [];
+    const brands_cache = cache_data.data?.data || [];
     for (const brand of brands_cache) {
       this.organizationBrands[orgId][brand.id] = brand;
     }
@@ -5637,7 +5645,7 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.10.4","descript
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"23":"091ff72a","42":"010256d4","64":"8400da5e","89":"987b1f8d","100":"18987aed","141":"d351ad59","207":"a9210f75","208":"574ac9ea","214":"d28c0448","259":"a145a493","287":"45103895","321":"210571c0","326":"09dac184","363":"08451009","404":"5889cf3e","405":"6ec6b2f9","422":"ab65ab44","423":"50fa7170","474":"f0d398c0","507":"89a79670","539":"33f4b114","543":"886da393","563":"9951f409","582":"185918da","591":"56f49949","614":"18c3e9d9","620":"d0ab4b4c","639":"abdd2975","650":"b0d7e4fa","663":"aec58bcb","674":"6600c256","737":"aeba13f8","774":"1705cfb7","775":"55897a0b","815":"69b1787c","869":"c405d68d","895":"a3f6ff1f","932":"a906507a","935":"83807e4c","966":"58e255b1","990":"2fa22e0f"}[chunkId] + ".js";
+/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"23":"091ff72a","42":"4b414777","64":"1054ee44","71":"aac60537","89":"b9186e8d","100":"18987aed","141":"d351ad59","207":"a9210f75","208":"6e53d2ae","214":"d28c0448","287":"45103895","321":"b58dc478","326":"09dac184","363":"08451009","404":"5889cf3e","405":"6ec6b2f9","422":"ab65ab44","423":"50fa7170","471":"acaef36d","474":"f0d398c0","507":"89a79670","539":"33f4b114","543":"886da393","563":"9951f409","569":"8f85d916","582":"185918da","591":"56f49949","614":"18c3e9d9","620":"d0ab4b4c","639":"02b9e000","663":"aec58bcb","737":"aeba13f8","774":"1705cfb7","775":"55897a0b","815":"69b1787c","869":"c405d68d","895":"a3f6ff1f","932":"a906507a","935":"83807e4c","966":"58e255b1","990":"83f1e7bc"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -5646,7 +5654,7 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.10.4","descript
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.miniCssF = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "css/" + chunkId + "." + {"23":"bf699673","100":"8d509d06","207":"8d509d06","259":"8d509d06","674":"8d509d06"}[chunkId] + ".css";
+/******/ 			return "css/" + chunkId + "." + {"23":"bf699673","71":"616a6cb8","100":"616a6cb8","207":"616a6cb8","471":"616a6cb8"}[chunkId] + ".css";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -5790,7 +5798,7 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.10.4","descript
 /******/ 		};
 /******/ 		
 /******/ 		__webpack_require__.f.miniCss = (chunkId, promises) => {
-/******/ 			var cssChunks = {"23":1,"100":1,"207":1,"259":1,"674":1};
+/******/ 			var cssChunks = {"23":1,"71":1,"100":1,"207":1,"471":1};
 /******/ 			if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 			else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 				promises.push(installedCssChunks[chunkId] = loadStylesheet(chunkId).then(() => {
@@ -5905,4 +5913,4 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.10.4","descript
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.a9f5a172.js.map
+//# sourceMappingURL=app.107ff550.js.map

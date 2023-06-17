@@ -880,9 +880,9 @@ var open_url = __webpack_require__(33752);
 // EXTERNAL MODULE: ./node_modules/quasar/src/utils/uid.js
 var uid = __webpack_require__(50796);
 // EXTERNAL MODULE: ./src/components/Helpers/FilesUploader.vue + 4 modules
-var FilesUploader = __webpack_require__(33635);
+var FilesUploader = __webpack_require__(38068);
 // EXTERNAL MODULE: ./src/components/Dialogs/RenameFolderFile.vue + 4 modules
-var RenameFolderFile = __webpack_require__(43344);
+var RenameFolderFile = __webpack_require__(44755);
 // EXTERNAL MODULE: ./src/mixins/index.js + 7 modules
 var mixins = __webpack_require__(93458);
 // EXTERNAL MODULE: ./src/stores/fn.store.js
@@ -1465,4 +1465,4 @@ runtime_auto_import_default()(FilesPagevue_type_script_lang_js, 'components', {Q
 /***/ })
 
 }]);
-//# sourceMappingURL=89.987b1f8d.js.map
+//# sourceMappingURL=89.b9186e8d.js.map
