@@ -543,7 +543,7 @@ const routes = [{
     }]
   }, {
     path: 'files',
-    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(89)]).then(__webpack_require__.bind(__webpack_require__, 13089))
+    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(488)]).then(__webpack_require__.bind(__webpack_require__, 41488))
   }, {
     path: 'help',
     component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(775)]).then(__webpack_require__.bind(__webpack_require__, 43775))
@@ -3989,6 +3989,7 @@ var actions_namespaceObject = {};
 __webpack_require__.r(actions_namespaceObject);
 __webpack_require__.d(actions_namespaceObject, {
   "checkIfOnline": () => (checkIfOnline),
+  "createFolder": () => (createFolder),
   "deleteFile": () => (deleteFile),
   "deleteFolder": () => (deleteFolder),
   "downloadFolder": () => (downloadFolder),
@@ -4253,6 +4254,20 @@ async function getFiles(payload = {
   }).catch(e => {
     const cache_data = fn_store/* default.getAPICache */.Z.getAPICache(url);
     return cache_data || e;
+  });
+}
+async function createFolder(payload, orgId) {
+  if (!orgId) {
+    const user = (0,stores_user/* default */.Z)();
+    orgId = user.activeOrgID;
+    if (!orgId) return;
+  }
+  const url = `/folder/organizations/${orgId}`;
+  return await apis.api.post(url, payload).then(res => {
+    const data = res.data;
+    return data;
+  }).catch(e => {
+    return e;
   });
 }
 async function uploadFile(payload, orgId) {
@@ -5645,7 +5660,7 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.10.5","descript
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"23":"091ff72a","42":"4b414777","64":"1054ee44","71":"aac60537","89":"b9186e8d","100":"18987aed","141":"d351ad59","207":"a9210f75","208":"6e53d2ae","214":"d28c0448","287":"45103895","321":"b58dc478","326":"09dac184","363":"08451009","404":"5889cf3e","405":"6ec6b2f9","422":"ab65ab44","423":"50fa7170","471":"acaef36d","474":"f0d398c0","507":"89a79670","539":"33f4b114","543":"886da393","563":"9951f409","569":"8f85d916","582":"185918da","591":"56f49949","614":"18c3e9d9","620":"d0ab4b4c","639":"02b9e000","663":"aec58bcb","737":"aeba13f8","774":"1705cfb7","775":"55897a0b","815":"69b1787c","869":"c405d68d","895":"a3f6ff1f","932":"a906507a","935":"83807e4c","966":"58e255b1","990":"83f1e7bc"}[chunkId] + ".js";
+/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"23":"091ff72a","42":"4b414777","64":"39ef2250","71":"aac60537","100":"18987aed","141":"d351ad59","207":"a9210f75","208":"6e53d2ae","214":"d28c0448","287":"45103895","321":"b58dc478","326":"09dac184","363":"08451009","404":"5889cf3e","405":"6ec6b2f9","422":"ab65ab44","423":"50fa7170","471":"a436e291","474":"f0d398c0","488":"24ca9a73","507":"89a79670","539":"33f4b114","543":"886da393","563":"9951f409","582":"185918da","590":"31bb08cd","591":"56f49949","614":"18c3e9d9","620":"d0ab4b4c","639":"02b9e000","663":"aec58bcb","711":"4c416175","737":"aeba13f8","774":"1705cfb7","775":"55897a0b","815":"69b1787c","869":"c405d68d","895":"a3f6ff1f","932":"a906507a","935":"83807e4c","966":"58e255b1","990":"83f1e7bc"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -5913,4 +5928,4 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.10.5","descript
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.351cf163.js.map
+//# sourceMappingURL=app.c528602b.js.map

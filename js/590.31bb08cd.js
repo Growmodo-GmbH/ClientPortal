@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[569],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[590],{
 
-/***/ 61569:
+/***/ 95590:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/DynamicAnswers.vue?vue&type=template&id=b7949dfa
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/DynamicAnswers.vue?vue&type=template&id=5f998dc7
 
 const _hoisted_1 = {
   class: "full-width"
@@ -156,12 +156,12 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     class: (0,vue_esm_bundler/* normalizeClass */.C_)({
       ['qt-select_tasktype']: _ctx.qtype === 'select_tasktype'
     })
-  }, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.answer), 3)) : _ctx.qtype === 'select_projecttype' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
+  }, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.taskDirectory[_ctx.answer]?.title), 3)) : _ctx.qtype === 'select_projecttype' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
     key: 13,
     class: (0,vue_esm_bundler/* normalizeClass */.C_)({
       ['qt-select_projecttype']: _ctx.qtype === 'select_projecttype'
     })
-  }, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.answer), 3)) : _ctx.qtype === 'url' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
+  }, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.projectDirectory[_ctx.answer]?.title), 3)) : _ctx.qtype === 'url' ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
     key: 14,
     class: (0,vue_esm_bundler/* normalizeClass */.C_)({
       ['qt-url']: _ctx.qtype === 'url'
@@ -232,7 +232,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     }, null, 8, ["icon"])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_17, (0,vue_esm_bundler/* toDisplayString */.zw)(ans.name), 1)], 8, _hoisted_15)) : ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_18, "File: " + (0,vue_esm_bundler/* toDisplayString */.zw)(ans), 1))], 2);
   }), 128))])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)], 2)) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)]);
 }
-;// CONCATENATED MODULE: ./src/components/DynamicAnswers.vue?vue&type=template&id=b7949dfa
+;// CONCATENATED MODULE: ./src/components/DynamicAnswers.vue?vue&type=template&id=5f998dc7
 
 // EXTERNAL MODULE: ./src/assets/scripts/functions.js + 1 modules
 var functions = __webpack_require__(1966);
@@ -295,7 +295,7 @@ var ImageLoader = __webpack_require__(11905);
     };
   },
   computed: {
-    ...(0,pinia/* mapState */.rn)(growmodo/* default */.Z, ['platforms']),
+    ...(0,pinia/* mapState */.rn)(growmodo/* default */.Z, ['platforms', 'taskDirectory', 'projectDirectory']),
     ...(0,pinia/* mapState */.rn)(user/* default */.Z, ['selectedOrgBrands'])
   },
   methods: {
@@ -344,4 +344,4 @@ runtime_auto_import_default()(DynamicAnswersvue_type_script_lang_js, 'components
 /***/ })
 
 }]);
-//# sourceMappingURL=569.8f85d916.js.map
+//# sourceMappingURL=590.31bb08cd.js.map

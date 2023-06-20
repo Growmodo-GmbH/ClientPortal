@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[89],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[488],{
 
-/***/ 13089:
+/***/ 41488:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/FilesPage.vue?vue&type=template&id=041a722e
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/FilesPage.vue?vue&type=template&id=629e33d2
 
 const _hoisted_1 = {
   class: "font-medium text-h5 text-primary-700"
@@ -108,6 +108,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_q_select = (0,vue_esm_bundler/* resolveComponent */.up)("q-select");
   const _component_q_linear_progress = (0,vue_esm_bundler/* resolveComponent */.up)("q-linear-progress");
   const _component_q_breadcrumbs_el = (0,vue_esm_bundler/* resolveComponent */.up)("q-breadcrumbs-el");
+  const _component_q_list = (0,vue_esm_bundler/* resolveComponent */.up)("q-list");
+  const _component_q_menu = (0,vue_esm_bundler/* resolveComponent */.up)("q-menu");
   const _component_q_breadcrumbs = (0,vue_esm_bundler/* resolveComponent */.up)("q-breadcrumbs");
   const _component_q_th = (0,vue_esm_bundler/* resolveComponent */.up)("q-th");
   const _component_q_tr = (0,vue_esm_bundler/* resolveComponent */.up)("q-tr");
@@ -115,12 +117,11 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_q_td = (0,vue_esm_bundler/* resolveComponent */.up)("q-td");
   const _component_CardIconBox = (0,vue_esm_bundler/* resolveComponent */.up)("CardIconBox");
   const _component_tooltip_pro = (0,vue_esm_bundler/* resolveComponent */.up)("tooltip-pro");
-  const _component_q_list = (0,vue_esm_bundler/* resolveComponent */.up)("q-list");
-  const _component_q_menu = (0,vue_esm_bundler/* resolveComponent */.up)("q-menu");
   const _component_q_pagination = (0,vue_esm_bundler/* resolveComponent */.up)("q-pagination");
   const _component_q_table = (0,vue_esm_bundler/* resolveComponent */.up)("q-table");
   const _component_dynamic_dialog_confirmation = (0,vue_esm_bundler/* resolveComponent */.up)("dynamic-dialog-confirmation");
   const _component_q_dialog = (0,vue_esm_bundler/* resolveComponent */.up)("q-dialog");
+  const _component_CreateFolder = (0,vue_esm_bundler/* resolveComponent */.up)("CreateFolder");
   const _component_RenameFolderFile = (0,vue_esm_bundler/* resolveComponent */.up)("RenameFolderFile");
   const _component_image_lightbox = (0,vue_esm_bundler/* resolveComponent */.up)("image-lightbox");
   const _component_q_page = (0,vue_esm_bundler/* resolveComponent */.up)("q-page");
@@ -263,9 +264,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         },
         selection: "multiple",
         pagination: _ctx.pagination,
-        "onUpdate:pagination": _cache[9] || (_cache[9] = $event => _ctx.pagination = $event),
+        "onUpdate:pagination": _cache[13] || (_cache[13] = $event => _ctx.pagination = $event),
         selected: _ctx.selectedFiles,
-        "onUpdate:selected": _cache[10] || (_cache[10] = $event => _ctx.selectedFiles = $event),
+        "onUpdate:selected": _cache[14] || (_cache[14] = $event => _ctx.selectedFiles = $event),
         "visible-columns": _ctx.visibleColumns,
         "virtual-scroll": "",
         onRequest: _ctx.onRequest
@@ -306,7 +307,108 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                   }]),
                   onClick: (0,vue_esm_bundler/* withModifiers */.iM)($event => i === 0 ? _ctx.folder_id = '' : _ctx.folder_id === d.value ? _ctx.refreshFiles() : _ctx.folder_id = d.value || '', ["prevent"])
                 }, null, 8, ["label", "class", "onClick"]);
-              }), 128))]),
+              }), 128)), !_ctx.tableLoading && _ctx.parentsPath?.length ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_btn, {
+                key: 0,
+                flat: "",
+                round: "",
+                size: "xs",
+                color: "primary-500",
+                class: "hover-text-secondary"
+              }, {
+                default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+                  name: "icon-chevron-down",
+                  size: "xs"
+                }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_menu, {
+                  "auto-close": ""
+                }, {
+                  default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_list, null, {
+                    default: (0,vue_esm_bundler/* withCtx */.w5)(() => [!_ctx.tableLoading && _ctx.route_folder_id && _ctx.folder_id && _ctx.parentsPath.length > 1 ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_item, {
+                      key: 0,
+                      clickable: "",
+                      class: "hover-text-secondary",
+                      onClick: _cache[6] || (_cache[6] = $event => _ctx.initNewFolder(_ctx.folderInfo))
+                    }, {
+                      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, {
+                        side: "",
+                        class: "q-pr-sm"
+                      }, {
+                        default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+                          name: "icon-folder-plus",
+                          size: "xs"
+                        })]),
+                        _: 1
+                      }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, null, {
+                        default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)("New Folder")]),
+                        _: 1
+                      })]),
+                      _: 1
+                    })) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_separator), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item, {
+                      clickable: "",
+                      class: "hover-text-secondary",
+                      onClick: _cache[7] || (_cache[7] = () => {
+                        _ctx.folderfileToRename = _ctx.folderInfo;
+                        _ctx.openRenameDialog = true;
+                      })
+                    }, {
+                      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, {
+                        side: "",
+                        class: "q-pr-sm"
+                      }, {
+                        default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+                          name: "icon-edit-01",
+                          size: "xs"
+                        })]),
+                        _: 1
+                      }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, null, {
+                        default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)("Rename")]),
+                        _: 1
+                      })]),
+                      _: 1
+                    }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item, {
+                      clickable: "",
+                      class: "hover-text-secondary",
+                      onClick: _cache[8] || (_cache[8] = $event => _ctx.openURL(_ctx.folderInfo.drive_url))
+                    }, {
+                      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, {
+                        side: "",
+                        class: "q-pr-sm"
+                      }, {
+                        default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+                          name: "icon-download-02",
+                          size: "xs"
+                        })]),
+                        _: 1
+                      }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, null, {
+                        default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)("Download")]),
+                        _: 1
+                      })]),
+                      _: 1
+                    }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_separator), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item, {
+                      clickable: "",
+                      class: "hover-text-secondary",
+                      onClick: _cache[9] || (_cache[9] = $event => _ctx.copyToClipboard(`${_ctx.location.protocol}//${_ctx.location.host}${_ctx.$route.path}?folder_id=${_ctx.folderInfo.id}`, 'Url has been copied to clipboard.'))
+                    }, {
+                      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, {
+                        side: "",
+                        class: "q-pr-sm"
+                      }, {
+                        default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+                          name: "icon-link-external-01",
+                          size: "xs"
+                        })]),
+                        _: 1
+                      }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, null, {
+                        default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)("Share")]),
+                        _: 1
+                      })]),
+                      _: 1
+                    })]),
+                    _: 1
+                  })]),
+                  _: 1
+                })]),
+                _: 1
+              })) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true)]),
               _: 1
             })]),
             _: 1
@@ -571,7 +673,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                         class: "q-pr-sm"
                       }, {
                         default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
-                          name: "icon-edit-03",
+                          name: "icon-edit-01",
                           size: "xs"
                         })]),
                         _: 1
@@ -611,7 +713,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                       key: 3,
                       clickable: "",
                       class: "text-negative hover-text-negative",
-                      onClick: _cache[6] || (_cache[6] = () => {
+                      onClick: _cache[10] || (_cache[10] = () => {
                         _ctx.openMultiDeleteDialog = true;
                       })
                     }, {
@@ -729,7 +831,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           unelevated: "",
           "boundary-numbers": "",
           modelValue: _ctx.pagination.page,
-          "onUpdate:modelValue": _cache[7] || (_cache[7] = $event => _ctx.pagination.page = $event),
+          "onUpdate:modelValue": _cache[11] || (_cache[11] = $event => _ctx.pagination.page = $event),
           disable: _ctx.tableLoading,
           color: "transparent",
           "text-color": "primary-500",
@@ -762,7 +864,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           unelevated: "",
           "boundary-numbers": "",
           modelValue: _ctx.pagination.page,
-          "onUpdate:modelValue": _cache[8] || (_cache[8] = $event => _ctx.pagination.page = $event),
+          "onUpdate:modelValue": _cache[12] || (_cache[12] = $event => _ctx.pagination.page = $event),
           disable: _ctx.tableLoading,
           color: "transparent",
           "text-color": "primary-500",
@@ -818,7 +920,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       _: 1
     }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_dialog, {
       modelValue: _ctx.openMultiDeleteDialog,
-      "onUpdate:modelValue": _cache[11] || (_cache[11] = $event => _ctx.openMultiDeleteDialog = $event)
+      "onUpdate:modelValue": _cache[15] || (_cache[15] = $event => _ctx.openMultiDeleteDialog = $event)
     }, {
       default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_dynamic_dialog_confirmation, (0,vue_esm_bundler/* mergeProps */.dG)({
         ..._ctx.$root.messagesDialogs.confirmDelete,
@@ -829,22 +931,32 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       _: 1
     }, 8, ["modelValue"]), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_dialog, {
       modelValue: _ctx.openDeleteDialog,
-      "onUpdate:modelValue": _cache[13] || (_cache[13] = $event => _ctx.openDeleteDialog = $event)
+      "onUpdate:modelValue": _cache[17] || (_cache[17] = $event => _ctx.openDeleteDialog = $event)
     }, {
       default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_dynamic_dialog_confirmation, (0,vue_esm_bundler/* mergeProps */.dG)({
         ..._ctx.$root.messagesDialogs.confirmDelete,
         ..._ctx.conditionalDeleteProps(_ctx.fileToDelete)
       }, {
-        onOkay: _cache[12] || (_cache[12] = $event => _ctx.fileToDelete.folder && _ctx.fileToDelete.created_by_id === _ctx.user.id || !_ctx.fileToDelete.folder ? _ctx.deleteFilesLocally(_ctx.fileToDelete) : void 0)
+        onOkay: _cache[16] || (_cache[16] = $event => _ctx.fileToDelete.folder && _ctx.fileToDelete.created_by_id === _ctx.user.id || !_ctx.fileToDelete.folder ? _ctx.deleteFilesLocally(_ctx.fileToDelete) : void 0)
       }), null, 16)]),
       _: 1
     }, 8, ["modelValue"]), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_dialog, {
+      modelValue: _ctx.openCreateFolderDialog,
+      "onUpdate:modelValue": _cache[19] || (_cache[19] = $event => _ctx.openCreateFolderDialog = $event)
+    }, {
+      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_CreateFolder, {
+        parent_id: _ctx.folderInfo.id,
+        onClose: _cache[18] || (_cache[18] = $event => _ctx.openCreateFolderDialog = false),
+        onSuccess: _ctx.createdNewFolder
+      }, null, 8, ["parent_id", "onSuccess"])]),
+      _: 1
+    }, 8, ["modelValue"]), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_dialog, {
       modelValue: _ctx.openRenameDialog,
-      "onUpdate:modelValue": _cache[15] || (_cache[15] = $event => _ctx.openRenameDialog = $event)
+      "onUpdate:modelValue": _cache[21] || (_cache[21] = $event => _ctx.openRenameDialog = $event)
     }, {
       default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_RenameFolderFile, {
         rename: _ctx.folderfileToRename,
-        onClose: _cache[14] || (_cache[14] = $event => _ctx.openRenameDialog = false),
+        onClose: _cache[20] || (_cache[20] = $event => _ctx.openRenameDialog = false),
         onSuccess: _ctx.fileRenameUpdate
       }, null, 8, ["rename", "onSuccess"])]),
       _: 1
@@ -852,17 +964,17 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       visible: _ctx.showLightBox,
       imgs: _ctx.lightboxImages,
       index: _ctx.lightboxIndex,
-      onHide: _cache[16] || (_cache[16] = $event => _ctx.showLightBox = false)
+      onHide: _cache[22] || (_cache[22] = $event => _ctx.showLightBox = false)
     }, null, 8, ["visible", "imgs", "index"])]),
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/FilesPage.vue?vue&type=template&id=041a722e
+;// CONCATENATED MODULE: ./src/pages/FilesPage.vue?vue&type=template&id=629e33d2
 
+// EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.unshift.js
+var es_array_unshift = __webpack_require__(86890);
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.push.js
 var es_array_push = __webpack_require__(69665);
-// EXTERNAL MODULE: ./src/components/Helpers/CardIconBox.vue + 4 modules
-var CardIconBox = __webpack_require__(16122);
 // EXTERNAL MODULE: ./node_modules/pinia/dist/pinia.mjs + 1 modules
 var pinia = __webpack_require__(11872);
 // EXTERNAL MODULE: ./src/stores/user/index.js + 3 modules
@@ -879,10 +991,6 @@ var format = __webpack_require__(30321);
 var open_url = __webpack_require__(33752);
 // EXTERNAL MODULE: ./node_modules/quasar/src/utils/uid.js
 var uid = __webpack_require__(50796);
-// EXTERNAL MODULE: ./src/components/Helpers/FilesUploader.vue + 4 modules
-var FilesUploader = __webpack_require__(38068);
-// EXTERNAL MODULE: ./src/components/Dialogs/RenameFolderFile.vue + 4 modules
-var RenameFolderFile = __webpack_require__(44755);
 // EXTERNAL MODULE: ./src/mixins/index.js + 7 modules
 var mixins = __webpack_require__(93458);
 // EXTERNAL MODULE: ./src/stores/fn.store.js
@@ -890,8 +998,6 @@ var fn_store = __webpack_require__(85487);
 // EXTERNAL MODULE: ./src/assets/scripts/functions.js + 1 modules
 var functions = __webpack_require__(1966);
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/FilesPage.vue?vue&type=script&lang=js
-
-
 
 
 
@@ -909,9 +1015,10 @@ const {
 /* harmony default export */ const FilesPagevue_type_script_lang_js = ((0,vue_esm_bundler/* defineComponent */.aZ)({
   name: 'FilesPage',
   components: {
-    CardIconBox: CardIconBox["default"],
-    FileUploader: FilesUploader["default"],
-    RenameFolderFile: RenameFolderFile/* default */.Z
+    CardIconBox: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.resolve(/* import() */).then(__webpack_require__.bind(__webpack_require__, 16122))),
+    FileUploader: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64)]).then(__webpack_require__.bind(__webpack_require__, 38068))),
+    RenameFolderFile: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 64).then(__webpack_require__.bind(__webpack_require__, 44755))),
+    CreateFolder: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(64), __webpack_require__.e(711)]).then(__webpack_require__.bind(__webpack_require__, 6711)))
   },
   mixins: [
   // Uploader functions
@@ -932,6 +1039,7 @@ const {
       orgFiles: [],
       folderfileToRename: null,
       openRenameDialog: false,
+      openCreateFolderDialog: false,
       fileToDelete: null,
       openDeleteDialog: false,
       openMultiDeleteDialog: false,
@@ -942,6 +1050,7 @@ const {
         sortBy: 'updated_at',
         descending: true
       },
+      initDone: false,
       parentsPath: [],
       columns: [{
         name: 'name',
@@ -998,12 +1107,14 @@ const {
 
     this.onRequestDelayed = (0,throttle/* default */.Z)(this.onRequest, 1000);
     // Update from params
-    if (this.route_folder_id || this.route_page || this.route_search || this.route_order_by || this.route_sort_type) {
+    if (this.route_folder_id || this.route_page || this.route_search || this.route_order_by || this.route_sort_type || this.route_filter_owner) {
       if (this.route_folder_id) this.folder_id = parseInt(this.route_folder_id);
       if (this.route_page) this.pagination.page = parseInt(this.route_page);
       if (this.route_search) this.searchQuery = this.route_search;
       if (this.route_order_by) this.pagination.sortBy = this.route_order_by;
       if (this.route_sort_type) this.pagination.descending = this.route_sort_type?.toLowerCase?.() == 'desc' ? true : false;
+      if (this.route_filter_owner) this.ownerFilter = this.route_filter_owner;
+      this.initDone = true;
     } else {
       this.onRequest({
         pagination: this.pagination,
@@ -1011,6 +1122,8 @@ const {
           search: this.searchQuery,
           owner: this.ownerFilter
         }
+      }).finally(() => {
+        this.initDone = true;
       });
     }
   },
@@ -1024,6 +1137,9 @@ const {
     },
     selected_folders_only() {
       return this.selectedFiles.filter(e => e.folder);
+    },
+    route_filter_owner() {
+      return this.$route.query.filter || '';
     },
     route_folder_id() {
       return this.$route.query.folder_id || '';
@@ -1094,7 +1210,13 @@ const {
     }
   },
   methods: {
-    ...(0,pinia/* mapActions */.nv)(helpers/* default */.Z, ['uploadFile', 'getFiles']),
+    ...(0,pinia/* mapActions */.nv)(helpers/* default */.Z, ['uploadFile', 'getFiles', 'createFolder']),
+    initNewFolder(info) {
+      if (info?.id) this.openCreateFolderDialog = true;
+    },
+    createdNewFolder(responseInfo) {
+      this.orgFiles.unshift(responseInfo);
+    },
     refreshFiles(background = false) {
       this.watchRequest({}, background);
     },
@@ -1173,8 +1295,18 @@ const {
       }, 500);
     },
     fileRenameUpdate(fileInfo) {
+      // Files Table
       const indexToRename = this.orgFiles.findIndex(e => e.id == fileInfo.id);
       if (indexToRename > -1) this.orgFiles[indexToRename] = fileInfo;
+      if (this.folderfileToRename.folder) {
+        // Folder and Parents
+        if (this.folderInfo.id === fileInfo.id) this.folderInfo = fileInfo;
+        const parent_indexToRename = this.parentsPath.findIndex(e => e.value === fileInfo.id);
+        if (parent_indexToRename > -1) this.parentsPath[parent_indexToRename] = {
+          label: fileInfo.name,
+          value: fileInfo.id
+        };
+      }
       this.updateLightBox();
     },
     async deleteSelectedFiles() {
@@ -1286,6 +1418,8 @@ const {
         label: data.info?.name,
         value: data.info?.id
       });
+      this.folderInfo = data.info || {};
+      this.folderInfo.folder = true;
       return {
         response: response,
         contents: response.success ? contents : []
@@ -1334,27 +1468,31 @@ const {
       this.updateLightBox();
     },
     watchRequest(routeQuery, background = false, clearSelections = true, saveScrollPosition = true) {
-      this.$refs['filesUploader']?.reset?.();
-      if (this.onRequestDelayed) this.onRequestDelayed({
-        pagination: this.pagination,
-        filter: {
-          search: this.searchQuery,
-          owner: this.ownerFilter
+      if (true) {
+        this.$refs['filesUploader']?.reset?.();
+        if (this.onRequestDelayed) {
+          this.onRequestDelayed({
+            pagination: this.pagination,
+            filter: {
+              search: this.searchQuery,
+              owner: this.ownerFilter
+            }
+          }, background).then(() => {
+            if (clearSelections != false) this.selectedFiles = [];
+            const current_query = this.$route.query;
+            if (!(0,functions.checkIfObject)(routeQuery)) routeQuery = {};
+            this.$router.push({
+              query: {
+                ...current_query,
+                ...routeQuery
+              },
+              params: {
+                savePosition: saveScrollPosition == false ? false : true
+              }
+            });
+          });
         }
-      }, background).then(() => {
-        if (clearSelections != false) this.selectedFiles = [];
-        const current_query = this.$route.query;
-        if (!(0,functions.checkIfObject)(routeQuery)) routeQuery = {};
-        this.$router.push({
-          query: {
-            ...current_query,
-            ...routeQuery
-          },
-          params: {
-            savePosition: saveScrollPosition == false ? false : true
-          }
-        });
-      });
+      }
     }
   }
 }));
@@ -1402,14 +1540,14 @@ var QTh = __webpack_require__(21682);
 var QBreadcrumbs = __webpack_require__(72605);
 // EXTERNAL MODULE: ./node_modules/quasar/src/components/breadcrumbs/QBreadcrumbsEl.js
 var QBreadcrumbsEl = __webpack_require__(28052);
-// EXTERNAL MODULE: ./node_modules/quasar/src/components/table/QTd.js
-var QTd = __webpack_require__(67220);
-// EXTERNAL MODULE: ./node_modules/quasar/src/components/skeleton/QSkeleton.js
-var QSkeleton = __webpack_require__(57133);
 // EXTERNAL MODULE: ./node_modules/quasar/src/components/menu/QMenu.js
 var QMenu = __webpack_require__(56362);
 // EXTERNAL MODULE: ./node_modules/quasar/src/components/item/QList.js
 var QList = __webpack_require__(13246);
+// EXTERNAL MODULE: ./node_modules/quasar/src/components/table/QTd.js
+var QTd = __webpack_require__(67220);
+// EXTERNAL MODULE: ./node_modules/quasar/src/components/skeleton/QSkeleton.js
+var QSkeleton = __webpack_require__(57133);
 // EXTERNAL MODULE: ./node_modules/quasar/src/components/virtual-scroll/QVirtualScroll.js + 1 modules
 var QVirtualScroll = __webpack_require__(52482);
 // EXTERNAL MODULE: ./node_modules/quasar/src/components/pagination/QPagination.js
@@ -1459,10 +1597,10 @@ const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(FilesPagevue_ty
 
 
 
-runtime_auto_import_default()(FilesPagevue_type_script_lang_js, 'components', {QPage: QPage/* default */.Z,QCard: QCard/* default */.Z,QToolbar: QToolbar/* default */.Z,QToolbarTitle: QToolbarTitle/* default */.Z,QCardSection: QCardSection/* default */.Z,QSeparator: QSeparator/* default */.Z,QBtnGroup: QBtnGroup/* default */.Z,QBtn: QBtn/* default */.Z,QInput: QInput/* default */.Z,QIcon: QIcon/* default */.Z,QSelect: QSelect/* default */.Z,QItem: QItem/* default */.Z,QItemSection: QItemSection/* default */.Z,QItemLabel: QItemLabel/* default */.Z,QTable: QTable/* default */.Z,QLinearProgress: QLinearProgress/* default */.Z,QTr: QTr/* default */.Z,QTh: QTh/* default */.Z,QBreadcrumbs: QBreadcrumbs/* default */.Z,QBreadcrumbsEl: QBreadcrumbsEl/* default */.Z,QTd: QTd/* default */.Z,QSkeleton: QSkeleton/* default */.ZP,QMenu: QMenu/* default */.Z,QList: QList/* default */.Z,QVirtualScroll: QVirtualScroll/* default */.Z,QPagination: QPagination/* default */.Z,QDialog: QDialog/* default */.Z,QUploader: QUploader/* default */.Z});
+runtime_auto_import_default()(FilesPagevue_type_script_lang_js, 'components', {QPage: QPage/* default */.Z,QCard: QCard/* default */.Z,QToolbar: QToolbar/* default */.Z,QToolbarTitle: QToolbarTitle/* default */.Z,QCardSection: QCardSection/* default */.Z,QSeparator: QSeparator/* default */.Z,QBtnGroup: QBtnGroup/* default */.Z,QBtn: QBtn/* default */.Z,QInput: QInput/* default */.Z,QIcon: QIcon/* default */.Z,QSelect: QSelect/* default */.Z,QItem: QItem/* default */.Z,QItemSection: QItemSection/* default */.Z,QItemLabel: QItemLabel/* default */.Z,QTable: QTable/* default */.Z,QLinearProgress: QLinearProgress/* default */.Z,QTr: QTr/* default */.Z,QTh: QTh/* default */.Z,QBreadcrumbs: QBreadcrumbs/* default */.Z,QBreadcrumbsEl: QBreadcrumbsEl/* default */.Z,QMenu: QMenu/* default */.Z,QList: QList/* default */.Z,QTd: QTd/* default */.Z,QSkeleton: QSkeleton/* default */.ZP,QVirtualScroll: QVirtualScroll/* default */.Z,QPagination: QPagination/* default */.Z,QDialog: QDialog/* default */.Z,QUploader: QUploader/* default */.Z});
 
 
 /***/ })
 
 }]);
-//# sourceMappingURL=89.b9186e8d.js.map
+//# sourceMappingURL=488.24ca9a73.js.map

@@ -2600,10 +2600,12 @@ runtime_auto_import_default()(CreateNewBrandvue_type_script_lang_js, 'components
 /***/ 44755:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  "Z": () => (/* binding */ RenameFolderFile)
+  "default": () => (/* binding */ RenameFolderFile)
 });
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
@@ -4099,7 +4101,7 @@ var RenameFolderFile = __webpack_require__(44755);
   name: 'ImageLoader',
   emits: ['renamed', 'delete', 'update_avatar'],
   components: {
-    RenameFolderFile: RenameFolderFile/* default */.Z
+    RenameFolderFile: RenameFolderFile["default"]
   },
   data() {
     return {
@@ -6347,7 +6349,7 @@ const {
   mixins: [mixins/* RequestOptions_Mixin */.Tt, mixins/* FileUploader_Mixin */.GU, mixins/* Export_Task_Project_Mixin */.uZ, mixins/* Helpers_Mixin */.h2],
   components: {
     DynamicQuestions: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 208).then(__webpack_require__.bind(__webpack_require__, 8208))),
-    DynamicAnswers: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(569)]).then(__webpack_require__.bind(__webpack_require__, 61569)))
+    DynamicAnswers: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(590)]).then(__webpack_require__.bind(__webpack_require__, 95590)))
   },
   data() {
     return {
@@ -8245,4 +8247,4 @@ runtime_auto_import_default()(CustomDropdownvue_type_script_lang_js, 'components
 /***/ })
 
 }]);
-//# sourceMappingURL=chunk-common.1054ee44.js.map
+//# sourceMappingURL=chunk-common.39ef2250.js.map

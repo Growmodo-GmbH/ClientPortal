@@ -1365,7 +1365,7 @@ const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(DisplayStringvu
     InputWebsite: InputWebsite["default"],
     TextArea1: TextArea1["default"],
     DynamicButton: DynamicButton/* default */.Z,
-    RenameFolderFile: RenameFolderFile/* default */.Z,
+    RenameFolderFile: RenameFolderFile["default"],
     SelectFont: SelectFont/* default */.Z,
     DisplayString: DisplayString
   },
@@ -1896,4 +1896,4 @@ runtime_auto_import_default()(BrandOverviewvue_type_script_lang_js, 'components'
 /***/ })
 
 }]);
-//# sourceMappingURL=471.acaef36d.js.map
+//# sourceMappingURL=471.a436e291.js.map
