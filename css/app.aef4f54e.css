@@ -210,7 +210,7 @@
 */
 @font-face {
   font-family: "GrowmodoIconFont";
-  src: url(../fonts/GrowmodoIconFont.e4dd3cdd.woff2) format("woff2");
+  src: url(../fonts/GrowmodoIconFont.82783e4f.woff2) format("woff2");
 }
 
 [class^=icon-]:before,
@@ -1111,88 +1111,92 @@
   content: "";
 }
 
-.icon-tune:before {
+.icon-triangle-down:before {
   content: "";
 }
 
-.icon-type-01:before {
+.icon-tune:before {
   content: "";
 }
 
-.icon-type-02:before {
+.icon-type-01:before {
   content: "";
 }
 
-.icon-type-square:before {
+.icon-type-02:before {
   content: "";
 }
 
-.icon-underline-01:before {
+.icon-type-square:before {
   content: "";
 }
 
-.icon-upload-01:before {
+.icon-underline-01:before {
   content: "";
 }
 
-.icon-upload-04:before {
+.icon-upload-01:before {
   content: "";
 }
 
-.icon-upload-cloud-01:before {
+.icon-upload-04:before {
   content: "";
 }
 
-.icon-user-03:before {
+.icon-upload-cloud-01:before {
   content: "";
 }
 
-.icon-user-plus-01:before {
+.icon-user-03:before {
   content: "";
 }
 
-.icon-users-01:before {
+.icon-user-plus-01:before {
   content: "";
 }
 
-.icon-users-02:before {
+.icon-users-01:before {
   content: "";
 }
 
-.icon-users-plus:before {
+.icon-users-02:before {
   content: "";
 }
 
-.icon-video-recorder:before {
+.icon-users-plus:before {
   content: "";
 }
 
-.icon-wallet-02:before {
+.icon-video-recorder:before {
   content: "";
 }
 
-.icon-wifi-off:before {
+.icon-wallet-02:before {
   content: "";
 }
 
-.icon-workflow-setup:before {
+.icon-wifi-off:before {
   content: "";
 }
 
-.icon-x-circle:before {
+.icon-workflow-setup:before {
   content: "";
 }
 
-.icon-x-close:before {
+.icon-x-circle:before {
   content: "";
 }
 
-.icon-zoom-in:before {
+.icon-x-close:before {
   content: "";
 }
 
-.icon-zoom-out:before {
+.icon-zoom-in:before {
   content: "";
+}
+
+.icon-zoom-out:before {
+  content: "";
 }
 .bg-translucent {
   background-color: rgba(255, 255, 255, 0.3);
@@ -6225,4 +6229,4 @@ pre {
   border-radius: 50%;
 }
 
-/*# sourceMappingURL=app.37a66c77.css.map*/
+/*# sourceMappingURL=app.aef4f54e.css.map*/

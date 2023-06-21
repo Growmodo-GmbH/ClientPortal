@@ -687,66 +687,69 @@
 .icon-trash-01:before {
   content: "\f1dc";
 }
-.icon-tune:before {
+.icon-triangle-down:before {
   content: "\f1dd";
 }
-.icon-type-01:before {
+.icon-tune:before {
   content: "\f1de";
 }
-.icon-type-02:before {
+.icon-type-01:before {
   content: "\f1df";
 }
-.icon-type-square:before {
+.icon-type-02:before {
   content: "\f1e0";
 }
-.icon-underline-01:before {
+.icon-type-square:before {
   content: "\f1e1";
 }
-.icon-upload-01:before {
+.icon-underline-01:before {
   content: "\f1e2";
 }
-.icon-upload-04:before {
+.icon-upload-01:before {
   content: "\f1e3";
 }
-.icon-upload-cloud-01:before {
+.icon-upload-04:before {
   content: "\f1e4";
 }
-.icon-user-03:before {
+.icon-upload-cloud-01:before {
   content: "\f1e5";
 }
-.icon-user-plus-01:before {
+.icon-user-03:before {
   content: "\f1e6";
 }
-.icon-users-01:before {
+.icon-user-plus-01:before {
   content: "\f1e7";
 }
-.icon-users-02:before {
+.icon-users-01:before {
   content: "\f1e8";
 }
-.icon-users-plus:before {
+.icon-users-02:before {
   content: "\f1e9";
 }
-.icon-video-recorder:before {
+.icon-users-plus:before {
   content: "\f1ea";
 }
-.icon-wallet-02:before {
+.icon-video-recorder:before {
   content: "\f1eb";
 }
-.icon-wifi-off:before {
+.icon-wallet-02:before {
   content: "\f1ec";
 }
-.icon-workflow-setup:before {
+.icon-wifi-off:before {
   content: "\f1ed";
 }
-.icon-x-circle:before {
+.icon-workflow-setup:before {
   content: "\f1ee";
 }
-.icon-x-close:before {
+.icon-x-circle:before {
   content: "\f1ef";
 }
-.icon-zoom-in:before {
+.icon-x-close:before {
   content: "\f1f0";
 }
-.icon-zoom-out:before {
+.icon-zoom-in:before {
   content: "\f1f1";
+}
+.icon-zoom-out:before {
+  content: "\f1f2";
 }

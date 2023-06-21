@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[488],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[380],{
 
-/***/ 41488:
+/***/ 51380:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/FilesPage.vue?vue&type=template&id=629e33d2
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/FilesPage.vue?vue&type=template&id=b67771d6
 
 const _hoisted_1 = {
   class: "font-medium text-h5 text-primary-700"
@@ -147,10 +147,10 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     }), (0,vue_esm_bundler/* createElementVNode */._)("div", {
       class: (0,vue_esm_bundler/* normalizeClass */.C_)(["rounded q-my-lg", {
         ['cursor-wait']: _ctx.tableLoading,
-        ['cursor-not-allowed']: !_ctx.tableLoading && (!_ctx.route_folder_id || !_ctx.folder_id || _ctx.parentsPath.length <= 1)
+        ['cursor-not-allowed']: !_ctx.allowFileUpload
       }]),
       onClick: _cache[0] || (_cache[0] = (0,vue_esm_bundler/* withModifiers */.iM)(e => {
-        if (!_ctx.route_folder_id || !_ctx.folder_id || _ctx.parentsPath.length <= 1) {
+        if (!_ctx.allowFileUpload) {
           _ctx.$q.notify({
             icon: 'icon-alert-triangle',
             iconColor: 'negative',
@@ -169,7 +169,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       onFailed: _ctx.failedEvent,
       factory: _ctx.factoryFn,
       class: (0,vue_esm_bundler/* normalizeClass */.C_)({
-        ['cursor-not-allowed no-pointer-events']: _ctx.tableLoading || !_ctx.route_folder_id || !_ctx.folder_id || _ctx.parentsPath.length <= 1
+        ['cursor-not-allowed no-pointer-events']: !_ctx.allowFileUpload
       })
     }, null, 8, ["removedFile", "onAdded", "onUploaded", "onFailed", "factory", "class"])], 2), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card, {
       flat: "",
@@ -316,13 +316,14 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                 class: "hover-text-secondary"
               }, {
                 default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
-                  name: "icon-chevron-down",
-                  size: "xs"
+                  name: "icon-triangle-down",
+                  size: "xs",
+                  class: "q-pa-none"
                 }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_menu, {
                   "auto-close": ""
                 }, {
                   default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_list, null, {
-                    default: (0,vue_esm_bundler/* withCtx */.w5)(() => [!_ctx.tableLoading && _ctx.route_folder_id && _ctx.folder_id && _ctx.parentsPath.length > 1 ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_item, {
+                    default: (0,vue_esm_bundler/* withCtx */.w5)(() => [_ctx.allowCreateFolder ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_item, {
                       key: 0,
                       clickable: "",
                       class: "hover-text-secondary",
@@ -901,7 +902,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           class: "q-pr-sm",
           color: _ctx.tableLoading ? 'secondary' : 'negative',
           name: _ctx.tableLoading ? 'icon-download-cloud-01' : _ctx.searchQuery ? 'icon-filter-funnel-01' : icon
-        }, null, 8, ["color", "name"])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), (0,vue_esm_bundler/* createElementVNode */._)("span", _hoisted_22, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.searchQuery && !_ctx.tableLoading ? 'No files found.' : message), 1)]), _ctx.parentsPath.length > 1 && !_ctx.tableLoading && !_ctx.searchQuery ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_23, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
+        }, null, 8, ["color", "name"])) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), (0,vue_esm_bundler/* createElementVNode */._)("span", _hoisted_22, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.searchQuery && !_ctx.tableLoading ? 'No files found.' : message), 1)]), !_ctx.tableLoading ? ((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", _hoisted_23, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_btn, {
           "no-caps": "",
           unelevated: "",
           class: "text-body1 font-medium button-sm",
@@ -969,7 +970,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/FilesPage.vue?vue&type=template&id=629e33d2
+;// CONCATENATED MODULE: ./src/pages/FilesPage.vue?vue&type=template&id=b67771d6
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.unshift.js
 var es_array_unshift = __webpack_require__(86890);
@@ -1129,6 +1130,14 @@ const {
   },
   computed: {
     ...(0,pinia/* mapState */.rn)(user/* default */.Z, ['user', 'selectedOrg', 'selectedOrgFiles', 'selectedOrgUsers', 'selectedOrgBrands']),
+    allowFileUpload() {
+      console.warn('allowFileUpload', !this.tableLoading && (this.folder_id || this.parentsPath.length > 1 || this.ownerFilter), this.tableLoading, this.folder_id, this.parentsPath.length >= 1, this.ownerFilter);
+      return !this.tableLoading && (this.folder_id || this.parentsPath.length > 1 || this.ownerFilter);
+    },
+    allowCreateFolder() {
+      console.warn('allowCreateFolder', !this.tableLoading && (this.folder_id || this.parentsPath.length > 1 || this.ownerFilter), this.tableLoading, this.folder_id, this.parentsPath.length >= 1, this.ownerFilter);
+      return !this.tableLoading && (this.folder_id || this.parentsPath.length > 1 || this.ownerFilter);
+    },
     fieldnameMaxWidth() {
       return this.$q.screen.lt.sm ? 100 : this.$q.screen.lt.md ? 150 : this.$q.screen.lt.lg ? 225 : this.$q.screen.lt.xl ? 300 : 350;
     },
@@ -1263,7 +1272,7 @@ const {
           url: `${this.$config?.api?.baseURL}/file/organizations/${this.selectedOrg.id}`,
           formFields: [{
             name: 'parent_id',
-            value: this.folder_id
+            value: this.folderInfo.id
           }],
           headers: [{
             name: 'Authorization',
@@ -1603,4 +1612,4 @@ runtime_auto_import_default()(FilesPagevue_type_script_lang_js, 'components', {Q
 /***/ })
 
 }]);
-//# sourceMappingURL=488.24ca9a73.js.map
+//# sourceMappingURL=380.6fb6c109.js.map
