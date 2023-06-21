@@ -5885,7 +5885,7 @@ runtime_auto_import_default()(TextArea1vue_type_script_lang_js, 'components', {Q
 
 /***/ }),
 
-/***/ 51626:
+/***/ 17630:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 
@@ -5898,7 +5898,7 @@ __webpack_require__.d(__webpack_exports__, {
 var es_array_push = __webpack_require__(69665);
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Requests/TaskProjectOverview.vue?vue&type=template&id=f1fb46a8
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Requests/TaskProjectOverview.vue?vue&type=template&id=89bb76b8
 
 
 const _hoisted_1 = {
@@ -6250,8 +6250,10 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                 fileFactory: _ctx.factoryFnAutoUpload,
                 fileInitSlots: _ctx.uploads[`upload${data.question?.id}`],
                 fileThumbnail: "auto",
-                onChecked: val => _ctx.answer[data.question?.id].value.info = val,
-                checked: _ctx.answer[data.question?.id]?.value?.info,
+                onChecked: val => {
+                  if (_ctx.answer[data.question?.id]?.alternative_answer?.info) _ctx.answer[data.question?.id].alternative_answer.info = val;
+                },
+                checked: _ctx.answer[data.question?.id]?.alternative_answer?.info,
                 onFileAdded: files => _ctx.fileEvtAdded(files, data, true),
                 onFileUploaded: ({
                   files,
@@ -6292,7 +6294,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     onHide: _cache[5] || (_cache[5] = $event => _ctx.showLightBox = false)
   }, null, 8, ["visible", "imgs", "index"])], 64);
 }
-;// CONCATENATED MODULE: ./src/components/Requests/TaskProjectOverview.vue?vue&type=template&id=f1fb46a8
+;// CONCATENATED MODULE: ./src/components/Requests/TaskProjectOverview.vue?vue&type=template&id=89bb76b8
 
 // EXTERNAL MODULE: ./node_modules/pinia/dist/pinia.mjs + 1 modules
 var pinia = __webpack_require__(11872);
@@ -6509,7 +6511,7 @@ const {
           // Remove from value
           const ind = this.answer[data.question?.id]?.[alt ? 'alternative_answer' : 'value']?.uploads?.findIndex?.(a => a === e);
           if (ind !== -1) {
-            this.answer[data.question?.id].value.splice(ind, 1);
+            this.answer[data.question?.id]?.[alt ? 'alternative_answer' : 'value']?.splice(ind, 1);
           }
           // Remove from Temp
           const tmp_ind = this.answer[data.question?.id]?.temp_files?.findIndex?.(a => a === e);
@@ -8247,4 +8249,4 @@ runtime_auto_import_default()(CustomDropdownvue_type_script_lang_js, 'components
 /***/ })
 
 }]);
-//# sourceMappingURL=chunk-common.39ef2250.js.map
+//# sourceMappingURL=chunk-common.8d2b7898.js.map
