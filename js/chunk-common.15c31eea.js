@@ -5885,7 +5885,7 @@ runtime_auto_import_default()(TextArea1vue_type_script_lang_js, 'components', {Q
 
 /***/ }),
 
-/***/ 71534:
+/***/ 77077:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 
@@ -5898,7 +5898,7 @@ __webpack_require__.d(__webpack_exports__, {
 var es_array_push = __webpack_require__(69665);
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Requests/TaskProjectOverview.vue?vue&type=template&id=4dfe6a2c
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Requests/TaskProjectOverview.vue?vue&type=template&id=5ca327ea
 
 
 const _hoisted_1 = {
@@ -6296,7 +6296,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     onHide: _cache[5] || (_cache[5] = $event => _ctx.showLightBox = false)
   }, null, 8, ["visible", "imgs", "index"])], 64);
 }
-;// CONCATENATED MODULE: ./src/components/Requests/TaskProjectOverview.vue?vue&type=template&id=4dfe6a2c
+;// CONCATENATED MODULE: ./src/components/Requests/TaskProjectOverview.vue?vue&type=template&id=5ca327ea
 
 // EXTERNAL MODULE: ./node_modules/pinia/dist/pinia.mjs + 1 modules
 var pinia = __webpack_require__(11872);
@@ -6509,7 +6509,7 @@ const {
           // Remove from Temp
           const tmp_ind = this.answer[data.question?.id]?.temp_files?.uploads?.findIndex?.(a => a === e);
           if (tmp_ind !== -1) {
-            this.answer[data.question?.id].temp_files.uploads.splice(tmp_ind, 1);
+            this.answer[data.question?.id].temp_files.splice(tmp_ind, 1);
           }
         });
       } else if (data.question?.[alt ? 'alternative_type' : 'type'] === 'upload_multiple') {
@@ -8255,4 +8255,4 @@ runtime_auto_import_default()(CustomDropdownvue_type_script_lang_js, 'components
 /***/ })
 
 }]);
-//# sourceMappingURL=chunk-common.6066048c.js.map
+//# sourceMappingURL=chunk-common.15c31eea.js.map
