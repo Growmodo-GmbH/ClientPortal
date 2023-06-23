@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[380],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[798],{
 
-/***/ 51380:
+/***/ 54798:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/FilesPage.vue?vue&type=template&id=b67771d6
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/FilesPage.vue?vue&type=template&id=0381cbca
 
 const _hoisted_1 = {
   class: "font-medium text-h5 text-primary-700"
@@ -970,7 +970,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/FilesPage.vue?vue&type=template&id=b67771d6
+;// CONCATENATED MODULE: ./src/pages/FilesPage.vue?vue&type=template&id=0381cbca
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.unshift.js
 var es_array_unshift = __webpack_require__(86890);
@@ -1017,7 +1017,7 @@ const {
   name: 'FilesPage',
   components: {
     CardIconBox: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.resolve(/* import() */).then(__webpack_require__.bind(__webpack_require__, 16122))),
-    FileUploader: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64)]).then(__webpack_require__.bind(__webpack_require__, 38068))),
+    FileUploader: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64)]).then(__webpack_require__.bind(__webpack_require__, 64046))),
     RenameFolderFile: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 64).then(__webpack_require__.bind(__webpack_require__, 44755))),
     CreateFolder: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(64), __webpack_require__.e(711)]).then(__webpack_require__.bind(__webpack_require__, 6711)))
   },
@@ -1038,6 +1038,7 @@ const {
       visibleColumns: [],
       onRequestDelayed: null,
       orgFiles: [],
+      folderInfo: {},
       folderfileToRename: null,
       openRenameDialog: false,
       openCreateFolderDialog: false,
@@ -1131,12 +1132,10 @@ const {
   computed: {
     ...(0,pinia/* mapState */.rn)(user/* default */.Z, ['user', 'selectedOrg', 'selectedOrgFiles', 'selectedOrgUsers', 'selectedOrgBrands']),
     allowFileUpload() {
-      console.warn('allowFileUpload', !this.tableLoading && (this.folder_id || this.parentsPath.length > 1 || this.ownerFilter), this.tableLoading, this.folder_id, this.parentsPath.length >= 1, this.ownerFilter);
-      return !this.tableLoading && (this.folder_id || this.parentsPath.length > 1 || this.ownerFilter);
+      return !this.tableLoading && (this.folder_id || this.parentsPath.length > 1 || this.ownerFilter || this.folder_id == this.folderInfo?.id);
     },
     allowCreateFolder() {
-      console.warn('allowCreateFolder', !this.tableLoading && (this.folder_id || this.parentsPath.length > 1 || this.ownerFilter), this.tableLoading, this.folder_id, this.parentsPath.length >= 1, this.ownerFilter);
-      return !this.tableLoading && (this.folder_id || this.parentsPath.length > 1 || this.ownerFilter);
+      return !this.tableLoading && (this.folder_id || this.parentsPath.length > 1 || this.ownerFilter || this.folder_id == this.folderInfo?.id);
     },
     fieldnameMaxWidth() {
       return this.$q.screen.lt.sm ? 100 : this.$q.screen.lt.md ? 150 : this.$q.screen.lt.lg ? 225 : this.$q.screen.lt.xl ? 300 : 350;
@@ -1309,7 +1308,7 @@ const {
       if (indexToRename > -1) this.orgFiles[indexToRename] = fileInfo;
       if (this.folderfileToRename.folder) {
         // Folder and Parents
-        if (this.folderInfo.id === fileInfo.id) this.folderInfo = fileInfo;
+        if (this.folderInfo.id === fileInfo.id) this.folderInfo = fileInfo || {};
         const parent_indexToRename = this.parentsPath.findIndex(e => e.value === fileInfo.id);
         if (parent_indexToRename > -1) this.parentsPath[parent_indexToRename] = {
           label: fileInfo.name,
@@ -1463,13 +1462,13 @@ const {
           data
         } = response;
         // Current page
-        if (this.pagination.page != data.current_page) this.pagination.page = parseInt(data.current_page);
+        if (this.pagination.page != data.current_page && !isNaN(parseInt(data.current_page))) this.pagination.page = parseInt(data.current_page);
         // Per Page
-        if (this.pagination.rowsPerPage != data.per_page) this.pagination.rowsPerPage = parseInt(data.per_page);
+        if (this.pagination.rowsPerPage != data.per_page && !isNaN(parseInt(data.per_page))) this.pagination.rowsPerPage = parseInt(data.per_page);
         // Total Rows
-        if (this.pagination.rowsNumber != data.total) this.pagination.rowsNumber = parseInt(data.total);
+        if (this.pagination.rowsNumber != data.total && !isNaN(parseInt(data.total))) this.pagination.rowsNumber = parseInt(data.total);
         // Sort By
-        if (this.pagination.sortBy != sortBy) this.pagination.sortBy = sortBy;
+        if (this.pagination.sortBy != sortBy) this.pagination.sortBy = sortBy || this.pagination.sortBy;
         // Descending
         if (this.pagination.descending != descending) this.pagination.descending = descending;
       }
@@ -1612,4 +1611,4 @@ runtime_auto_import_default()(FilesPagevue_type_script_lang_js, 'components', {Q
 /***/ })
 
 }]);
-//# sourceMappingURL=380.6fb6c109.js.map
+//# sourceMappingURL=798.fb0b445e.js.map

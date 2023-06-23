@@ -1269,7 +1269,7 @@ var ColorPickerCard = __webpack_require__(46520);
 // EXTERNAL MODULE: ./src/components/Helpers/SelectBrandType.vue + 4 modules
 var SelectBrandType = __webpack_require__(9438);
 // EXTERNAL MODULE: ./src/components/Helpers/FilesUploader.vue + 4 modules
-var FilesUploader = __webpack_require__(38068);
+var FilesUploader = __webpack_require__(64046);
 // EXTERNAL MODULE: ./src/components/Helpers/ImageLoader.vue + 4 modules
 var ImageLoader = __webpack_require__(11905);
 // EXTERNAL MODULE: ./src/mixins/index.js + 7 modules
@@ -1896,4 +1896,4 @@ runtime_auto_import_default()(BrandOverviewvue_type_script_lang_js, 'components'
 /***/ })
 
 }]);
-//# sourceMappingURL=471.a436e291.js.map
+//# sourceMappingURL=471.0dc0e62e.js.map

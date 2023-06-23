@@ -35,7 +35,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 ;// CONCATENATED MODULE: ./src/pages/Brands/ProjectOverview.vue?vue&type=template&id=04327c86
 
 // EXTERNAL MODULE: ./src/components/Requests/TaskProjectOverview.vue + 4 modules
-var TaskProjectOverview = __webpack_require__(17630);
+var TaskProjectOverview = __webpack_require__(71534);
 ;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Brands/ProjectOverview.vue?vue&type=script&lang=js
 
 
@@ -93,4 +93,4 @@ runtime_auto_import_default()(ProjectOverviewvue_type_script_lang_js, 'component
 /***/ })
 
 }]);
-//# sourceMappingURL=42.6a9c3422.js.map
+//# sourceMappingURL=42.49907c01.js.map
