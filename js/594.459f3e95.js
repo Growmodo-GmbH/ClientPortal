@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[304],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[594],{
 
-/***/ 67304:
+/***/ 11594:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/FilesPage.vue?vue&type=template&id=2784f4aa
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/FilesPage.vue?vue&type=template&id=5e381010
 
 const _hoisted_1 = {
   class: "font-medium text-h5 text-primary-700"
@@ -970,7 +970,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/FilesPage.vue?vue&type=template&id=2784f4aa
+;// CONCATENATED MODULE: ./src/pages/FilesPage.vue?vue&type=template&id=5e381010
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.unshift.js
 var es_array_unshift = __webpack_require__(86890);
@@ -1133,10 +1133,10 @@ const {
   computed: {
     ...(0,pinia/* mapState */.rn)(user/* default */.Z, ['user', 'selectedOrg', 'selectedOrgFiles', 'selectedOrgUsers', 'selectedOrgBrands']),
     allowFileUpload() {
-      return this.validFolder && !this.tableLoading && (this.folder_id || this.parentsPath.length > 1 || this.ownerFilter || this.folder_id == this.folderInfo?.id);
+      return this.allowCreateFolder;
     },
     allowCreateFolder() {
-      return this.validFolder && !this.tableLoading && (this.folder_id || this.parentsPath.length > 1 || this.ownerFilter || this.folder_id == this.folderInfo?.id);
+      return this.validFolder && !this.tableLoading && (this.folder_id && this.parentsPath.length > 1 || this.parentsPath.length > 1 || this.ownerFilter);
     },
     fieldnameMaxWidth() {
       return this.$q.screen.lt.sm ? 100 : this.$q.screen.lt.md ? 150 : this.$q.screen.lt.lg ? 225 : this.$q.screen.lt.xl ? 300 : 350;
@@ -1615,4 +1615,4 @@ runtime_auto_import_default()(FilesPagevue_type_script_lang_js, 'components', {Q
 /***/ })
 
 }]);
-//# sourceMappingURL=304.21a20b96.js.map
+//# sourceMappingURL=594.459f3e95.js.map
