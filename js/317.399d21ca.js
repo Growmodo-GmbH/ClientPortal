@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[576],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[317],{
 
-/***/ 98576:
+/***/ 22317:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/FilesPage.vue?vue&type=template&id=3cf66658
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/FilesPage.vue?vue&type=template&id=38c1ff56
 
 const _hoisted_1 = {
   class: "font-medium text-h5 text-primary-700"
@@ -150,7 +150,19 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         ['cursor-not-allowed']: !_ctx.allowFileUpload
       }]),
       onClick: _cache[0] || (_cache[0] = (0,vue_esm_bundler/* withModifiers */.iM)(e => {
-        if (!_ctx.allowFileUpload) {
+        if (_ctx.tableLoading) {
+          _ctx.$q.notify({
+            icon: 'icon-alert-triangle',
+            iconColor: 'negative',
+            message: `Please wait to finish loading...`
+          });
+        } else if (!_ctx.validFolder) {
+          _ctx.$q.notify({
+            icon: 'icon-alert-triangle',
+            iconColor: 'negative',
+            message: `Selected folder is invalid!`
+          });
+        } else if (!_ctx.allowFileUpload) {
           _ctx.$q.notify({
             icon: 'icon-alert-triangle',
             iconColor: 'negative',
@@ -264,9 +276,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         },
         selection: "multiple",
         pagination: _ctx.pagination,
-        "onUpdate:pagination": _cache[13] || (_cache[13] = $event => _ctx.pagination = $event),
+        "onUpdate:pagination": _cache[14] || (_cache[14] = $event => _ctx.pagination = $event),
         selected: _ctx.selectedFiles,
-        "onUpdate:selected": _cache[14] || (_cache[14] = $event => _ctx.selectedFiles = $event),
+        "onUpdate:selected": _cache[15] || (_cache[15] = $event => _ctx.selectedFiles = $event),
         "visible-columns": _ctx.visibleColumns,
         "virtual-scroll": "",
         onRequest: _ctx.onRequest
@@ -346,7 +358,26 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                     })) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_separator), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item, {
                       clickable: "",
                       class: "hover-text-secondary",
-                      onClick: _cache[7] || (_cache[7] = () => {
+                      onClick: _cache[7] || (_cache[7] = $event => _ctx.copyToClipboard(`${_ctx.location.protocol}//${_ctx.location.host}${_ctx.$route.path}?folder_id=${_ctx.folderInfo.id}`, 'Url has been copied to clipboard.'))
+                    }, {
+                      default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, {
+                        side: "",
+                        class: "q-pr-sm"
+                      }, {
+                        default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+                          name: "icon-link-external-01",
+                          size: "xs"
+                        })]),
+                        _: 1
+                      }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, null, {
+                        default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)("Share")]),
+                        _: 1
+                      })]),
+                      _: 1
+                    }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item, {
+                      clickable: "",
+                      class: "hover-text-secondary",
+                      onClick: _cache[8] || (_cache[8] = () => {
                         _ctx.folderfileToRename = _ctx.folderInfo;
                         _ctx.openRenameDialog = true;
                       })
@@ -368,7 +399,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                     }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item, {
                       clickable: "",
                       class: "hover-text-secondary",
-                      onClick: _cache[8] || (_cache[8] = $event => _ctx.openURL(_ctx.folderInfo.drive_url))
+                      onClick: _cache[9] || (_cache[9] = $event => _ctx.openURL(_ctx.folderInfo.drive_url))
                     }, {
                       default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, {
                         side: "",
@@ -386,20 +417,24 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                       _: 1
                     }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_separator), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item, {
                       clickable: "",
-                      class: "hover-text-secondary",
-                      onClick: _cache[9] || (_cache[9] = $event => _ctx.copyToClipboard(`${_ctx.location.protocol}//${_ctx.location.host}${_ctx.$route.path}?folder_id=${_ctx.folderInfo.id}`, 'Url has been copied to clipboard.'))
+                      class: "text-negative hover-text-negative",
+                      onClick: _cache[10] || (_cache[10] = () => {
+                        _ctx.openDeleteDialog = true;
+                        _ctx.fileToDelete = _ctx.folderInfo;
+                      })
                     }, {
                       default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, {
                         side: "",
                         class: "q-pr-sm"
                       }, {
                         default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
-                          name: "icon-link-external-01",
-                          size: "xs"
+                          name: "icon-trash-01",
+                          size: "xs",
+                          color: "negative"
                         })]),
                         _: 1
                       }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_item_section, null, {
-                        default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)("Share")]),
+                        default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createTextVNode */.Uk)("Delete")]),
                         _: 1
                       })]),
                       _: 1
@@ -714,7 +749,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                       key: 3,
                       clickable: "",
                       class: "text-negative hover-text-negative",
-                      onClick: _cache[10] || (_cache[10] = () => {
+                      onClick: _cache[11] || (_cache[11] = () => {
                         _ctx.openMultiDeleteDialog = true;
                       })
                     }, {
@@ -832,7 +867,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           unelevated: "",
           "boundary-numbers": "",
           modelValue: _ctx.pagination.page,
-          "onUpdate:modelValue": _cache[11] || (_cache[11] = $event => _ctx.pagination.page = $event),
+          "onUpdate:modelValue": _cache[12] || (_cache[12] = $event => _ctx.pagination.page = $event),
           disable: _ctx.tableLoading,
           color: "transparent",
           "text-color": "primary-500",
@@ -865,7 +900,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           unelevated: "",
           "boundary-numbers": "",
           modelValue: _ctx.pagination.page,
-          "onUpdate:modelValue": _cache[12] || (_cache[12] = $event => _ctx.pagination.page = $event),
+          "onUpdate:modelValue": _cache[13] || (_cache[13] = $event => _ctx.pagination.page = $event),
           disable: _ctx.tableLoading,
           color: "transparent",
           "text-color": "primary-500",
@@ -921,7 +956,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       _: 1
     }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_dialog, {
       modelValue: _ctx.openMultiDeleteDialog,
-      "onUpdate:modelValue": _cache[15] || (_cache[15] = $event => _ctx.openMultiDeleteDialog = $event)
+      "onUpdate:modelValue": _cache[16] || (_cache[16] = $event => _ctx.openMultiDeleteDialog = $event)
     }, {
       default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_dynamic_dialog_confirmation, (0,vue_esm_bundler/* mergeProps */.dG)({
         ..._ctx.$root.messagesDialogs.confirmDelete,
@@ -932,32 +967,32 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       _: 1
     }, 8, ["modelValue"]), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_dialog, {
       modelValue: _ctx.openDeleteDialog,
-      "onUpdate:modelValue": _cache[17] || (_cache[17] = $event => _ctx.openDeleteDialog = $event)
+      "onUpdate:modelValue": _cache[18] || (_cache[18] = $event => _ctx.openDeleteDialog = $event)
     }, {
       default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_dynamic_dialog_confirmation, (0,vue_esm_bundler/* mergeProps */.dG)({
         ..._ctx.$root.messagesDialogs.confirmDelete,
         ..._ctx.conditionalDeleteProps(_ctx.fileToDelete)
       }, {
-        onOkay: _cache[16] || (_cache[16] = $event => _ctx.fileToDelete.folder && _ctx.fileToDelete.created_by_id === _ctx.user.id || !_ctx.fileToDelete.folder ? _ctx.deleteFilesLocally(_ctx.fileToDelete) : void 0)
+        onOkay: _cache[17] || (_cache[17] = $event => _ctx.fileToDelete.folder && _ctx.fileToDelete.created_by_id === _ctx.user.id || !_ctx.fileToDelete.folder ? _ctx.deleteFilesLocally(_ctx.fileToDelete) : void 0)
       }), null, 16)]),
       _: 1
     }, 8, ["modelValue"]), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_dialog, {
       modelValue: _ctx.openCreateFolderDialog,
-      "onUpdate:modelValue": _cache[19] || (_cache[19] = $event => _ctx.openCreateFolderDialog = $event)
+      "onUpdate:modelValue": _cache[20] || (_cache[20] = $event => _ctx.openCreateFolderDialog = $event)
     }, {
       default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_CreateFolder, {
         parent_id: _ctx.folderInfo.id,
-        onClose: _cache[18] || (_cache[18] = $event => _ctx.openCreateFolderDialog = false),
+        onClose: _cache[19] || (_cache[19] = $event => _ctx.openCreateFolderDialog = false),
         onSuccess: _ctx.createdNewFolder
       }, null, 8, ["parent_id", "onSuccess"])]),
       _: 1
     }, 8, ["modelValue"]), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_dialog, {
       modelValue: _ctx.openRenameDialog,
-      "onUpdate:modelValue": _cache[21] || (_cache[21] = $event => _ctx.openRenameDialog = $event)
+      "onUpdate:modelValue": _cache[22] || (_cache[22] = $event => _ctx.openRenameDialog = $event)
     }, {
       default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_RenameFolderFile, {
         rename: _ctx.folderfileToRename,
-        onClose: _cache[20] || (_cache[20] = $event => _ctx.openRenameDialog = false),
+        onClose: _cache[21] || (_cache[21] = $event => _ctx.openRenameDialog = false),
         onSuccess: _ctx.fileRenameUpdate
       }, null, 8, ["rename", "onSuccess"])]),
       _: 1
@@ -965,12 +1000,12 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       visible: _ctx.showLightBox,
       imgs: _ctx.lightboxImages,
       index: _ctx.lightboxIndex,
-      onHide: _cache[22] || (_cache[22] = $event => _ctx.showLightBox = false)
+      onHide: _cache[23] || (_cache[23] = $event => _ctx.showLightBox = false)
     }, null, 8, ["visible", "imgs", "index"])]),
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/FilesPage.vue?vue&type=template&id=3cf66658
+;// CONCATENATED MODULE: ./src/pages/FilesPage.vue?vue&type=template&id=38c1ff56
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.unshift.js
 var es_array_unshift = __webpack_require__(86890);
@@ -1615,4 +1650,4 @@ runtime_auto_import_default()(FilesPagevue_type_script_lang_js, 'components', {Q
 /***/ })
 
 }]);
-//# sourceMappingURL=576.8d833cbf.js.map
+//# sourceMappingURL=317.399d21ca.js.map

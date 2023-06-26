@@ -510,7 +510,7 @@ var vue_router = __webpack_require__(28339);
 ;// CONCATENATED MODULE: ./src/router/routes.js
 const routes = [{
   path: '/',
-  component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(614)]).then(__webpack_require__.bind(__webpack_require__, 85614)),
+  component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(446)]).then(__webpack_require__.bind(__webpack_require__, 48446)),
   children: [{
     path: '',
     component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(100)]).then(__webpack_require__.bind(__webpack_require__, 98239))
@@ -543,7 +543,7 @@ const routes = [{
     }]
   }, {
     path: 'files',
-    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(576)]).then(__webpack_require__.bind(__webpack_require__, 98576))
+    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(317)]).then(__webpack_require__.bind(__webpack_require__, 22317))
   }, {
     path: 'help',
     component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(775)]).then(__webpack_require__.bind(__webpack_require__, 43775))
@@ -552,10 +552,10 @@ const routes = [{
     component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(507)]).then(__webpack_require__.bind(__webpack_require__, 14507))
   }, {
     path: 'gift',
-    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(422)]).then(__webpack_require__.bind(__webpack_require__, 422))
+    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(905)]).then(__webpack_require__.bind(__webpack_require__, 67905))
   }, {
     path: 'book-a-call',
-    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(404)]).then(__webpack_require__.bind(__webpack_require__, 89404))
+    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(797)]).then(__webpack_require__.bind(__webpack_require__, 88797))
   }, {
     path: 'settings',
     children: [{
@@ -582,16 +582,16 @@ const routes = [{
   path: '/signup',
   children: [{
     path: '',
-    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(582)]).then(__webpack_require__.bind(__webpack_require__, 19582))
+    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(670)]).then(__webpack_require__.bind(__webpack_require__, 76670))
   }, {
     path: 'verify/:signup_token',
-    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(582)]).then(__webpack_require__.bind(__webpack_require__, 19582))
+    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(670)]).then(__webpack_require__.bind(__webpack_require__, 76670))
   }]
 }, {
   path: '/invitation',
   children: [{
     path: ':invite_token',
-    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(582)]).then(__webpack_require__.bind(__webpack_require__, 19582))
+    component: () => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(670)]).then(__webpack_require__.bind(__webpack_require__, 76670))
   }]
 }, {
   path: '/checkout',
@@ -5660,7 +5660,7 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.10.6","descript
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"23":"091ff72a","42":"b8f2e414","64":"15c31eea","71":"aac60537","100":"18987aed","141":"d351ad59","207":"a9210f75","208":"3c89e7f9","214":"d28c0448","287":"45103895","321":"3d4e324c","326":"09dac184","363":"08451009","404":"5889cf3e","405":"6ec6b2f9","422":"ab65ab44","423":"50fa7170","471":"0dc0e62e","474":"f0d398c0","507":"89a79670","539":"33f4b114","543":"886da393","563":"9951f409","576":"8d833cbf","582":"185918da","590":"31bb08cd","591":"56f49949","614":"18c3e9d9","620":"d0ab4b4c","639":"02b9e000","663":"aec58bcb","711":"4c416175","737":"aeba13f8","774":"1705cfb7","775":"55897a0b","815":"69b1787c","869":"c405d68d","895":"a3f6ff1f","932":"a906507a","935":"83807e4c","966":"58e255b1","990":"40dfcefb"}[chunkId] + ".js";
+/******/ 			return "js/" + (chunkId === 64 ? "chunk-common" : chunkId) + "." + {"23":"091ff72a","42":"b8f2e414","64":"15c31eea","71":"aac60537","100":"18987aed","141":"d351ad59","208":"9ea690b4","214":"d28c0448","287":"45103895","317":"399d21ca","321":"3d4e324c","326":"09dac184","363":"08451009","405":"6ec6b2f9","423":"50fa7170","446":"5dc8bd3c","449":"8bee5cc1","471":"0dc0e62e","474":"f0d398c0","507":"89a79670","539":"33f4b114","543":"886da393","563":"9951f409","590":"31bb08cd","591":"56f49949","620":"d0ab4b4c","639":"02b9e000","663":"aec58bcb","670":"18928296","711":"4c416175","737":"aeba13f8","775":"55897a0b","797":"a4cfde3e","815":"69b1787c","869":"c405d68d","895":"a3f6ff1f","905":"d87c0570","932":"a906507a","935":"83807e4c","941":"94ed637a","966":"58e255b1","990":"40dfcefb"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -5669,7 +5669,7 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.10.6","descript
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.miniCssF = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "css/" + chunkId + "." + {"23":"bf699673","71":"616a6cb8","100":"616a6cb8","207":"616a6cb8","471":"616a6cb8"}[chunkId] + ".css";
+/******/ 			return "css/" + chunkId + "." + {"23":"bf699673","71":"cd28e7f2","100":"cd28e7f2","449":"cd28e7f2","471":"cd28e7f2"}[chunkId] + ".css";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -5813,7 +5813,7 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.10.6","descript
 /******/ 		};
 /******/ 		
 /******/ 		__webpack_require__.f.miniCss = (chunkId, promises) => {
-/******/ 			var cssChunks = {"23":1,"71":1,"100":1,"207":1,"471":1};
+/******/ 			var cssChunks = {"23":1,"71":1,"100":1,"449":1,"471":1};
 /******/ 			if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 			else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 				promises.push(installedCssChunks[chunkId] = loadStylesheet(chunkId).then(() => {
@@ -5928,4 +5928,4 @@ module.exports = JSON.parse('{"name":"growmodo_hub","version":"0.10.6","descript
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.51ff62da.js.map
+//# sourceMappingURL=app.202a9bfc.js.map

@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[582],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[670],{
 
-/***/ 19582:
+/***/ 76670:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Misc/SignupPage.vue?vue&type=template&id=4adc26f0
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/Misc/SignupPage.vue?vue&type=template&id=2b1620d4
 
 const _hoisted_1 = {
   key: 0,
@@ -265,62 +265,62 @@ const _hoisted_71 = {
   class: "col-12 col-md-6"
 };
 const _hoisted_72 = {
-  class: "row items-center q-gutter-y-md"
+  class: "q-gutter-y-md"
 };
 const _hoisted_73 = {
-  class: "row items-center full-width"
+  class: "text-body1"
 };
-const _hoisted_74 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("span", {
-  class: "text-body1 q-pl-sm"
-}, " Unlimited Design Requests ", -1);
+const _hoisted_74 = {
+  class: "row no-wrap"
+};
 const _hoisted_75 = {
-  class: "row items-center full-width"
+  class: "text-body1"
 };
-const _hoisted_76 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("span", {
-  class: "text-body1 q-pl-sm"
-}, " Unlimited Development Requests ", -1);
+const _hoisted_76 = {
+  class: "row no-wrap"
+};
 const _hoisted_77 = {
-  class: "row items-center full-width"
+  class: "text-body1"
 };
-const _hoisted_78 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("span", {
-  class: "text-body1 q-pl-sm"
-}, " Unlimited Revisions ", -1);
+const _hoisted_78 = {
+  class: "row no-wrap"
+};
 const _hoisted_79 = {
-  class: "row items-center full-width"
+  class: "text-body1"
 };
-const _hoisted_80 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("span", {
-  class: "text-body1 q-pl-sm"
-}, " Unlimited Brands ", -1);
+const _hoisted_80 = {
+  class: "row no-wrap"
+};
 const _hoisted_81 = {
   class: "col-12 col-md-6"
 };
 const _hoisted_82 = {
-  class: "row items-center q-gutter-y-md"
+  class: "q-gutter-y-md"
 };
 const _hoisted_83 = {
-  class: "row items-center full-width"
+  class: "text-body1"
 };
-const _hoisted_84 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("span", {
-  class: "text-body1 q-pl-sm"
-}, " Dedicated Project Manager ", -1);
+const _hoisted_84 = {
+  class: "row no-wrap"
+};
 const _hoisted_85 = {
-  class: "row items-center full-width"
+  class: "text-body1"
 };
-const _hoisted_86 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("span", {
-  class: "text-body1 q-pl-sm"
-}, " Daily Updates & Progress Reports ", -1);
+const _hoisted_86 = {
+  class: "row no-wrap"
+};
 const _hoisted_87 = {
-  class: "row items-center full-width"
+  class: "text-body1"
 };
-const _hoisted_88 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("span", {
-  class: "text-body1 q-pl-sm"
-}, " Pause or Cancel Anytime ", -1);
+const _hoisted_88 = {
+  class: "row no-wrap"
+};
 const _hoisted_89 = {
-  class: "row items-center full-width"
+  class: "text-body1"
 };
-const _hoisted_90 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("span", {
-  class: "text-body1 q-pl-sm"
-}, " Upgrade or Downgrade Anytime ", -1);
+const _hoisted_90 = {
+  class: "row no-wrap"
+};
 const _hoisted_91 = {
   class: "text-h6"
 };
@@ -664,39 +664,47 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                     }, 1040, ["class"])]),
                     selected: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("span", _hoisted_70, (0,vue_esm_bundler/* toDisplayString */.zw)(_ctx.talentSelect?.label || 'Select Talents'), 1)]),
                     _: 1
-                  }, 8, ["options", "modelValue", "rules"])])])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_71, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_72, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_73, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+                  }, 8, ["options", "modelValue", "rules"])])])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_71, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_72, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_73, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_74, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
                     name: "icon-infinity",
                     size: "20px",
-                    color: "secondary"
-                  }), _hoisted_74]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_75, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+                    color: "secondary",
+                    class: "q-pr-sm q-pt-xs"
+                  }), (0,vue_esm_bundler/* createTextVNode */.Uk)(" Unlimited Design Requests ")])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_75, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_76, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
                     name: "icon-infinity",
                     size: "20px",
-                    color: "secondary"
-                  }), _hoisted_76]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_77, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+                    color: "secondary",
+                    class: "q-pr-sm q-pt-xs"
+                  }), (0,vue_esm_bundler/* createTextVNode */.Uk)(" Unlimited Development Requests ")])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_77, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_78, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
                     name: "icon-infinity",
                     size: "20px",
-                    color: "secondary"
-                  }), _hoisted_78]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_79, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+                    color: "secondary",
+                    class: "q-pr-sm q-pt-xs"
+                  }), (0,vue_esm_bundler/* createTextVNode */.Uk)(" Unlimited Revisions ")])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_79, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_80, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
                     name: "icon-infinity",
                     size: "20px",
-                    color: "secondary"
-                  }), _hoisted_80])])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_81, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_82, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_83, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+                    color: "secondary",
+                    class: "q-pr-sm q-pt-xs"
+                  }), (0,vue_esm_bundler/* createTextVNode */.Uk)(" Unlimited Brands ")])])])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_81, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_82, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_83, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_84, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
                     name: "icon-magic-wand-02",
                     size: "20px",
-                    color: "secondary"
-                  }), _hoisted_84]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_85, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+                    color: "secondary",
+                    class: "q-pr-sm q-pt-xs"
+                  }), (0,vue_esm_bundler/* createTextVNode */.Uk)(" Dedicated Project Manager ")])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_85, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_86, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
                     name: "icon-bar-chart-square-01",
                     size: "20px",
-                    color: "secondary"
-                  }), _hoisted_86]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_87, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+                    color: "secondary",
+                    class: "q-pr-sm q-pt-xs"
+                  }), (0,vue_esm_bundler/* createTextVNode */.Uk)(" Daily Updates & Progress Reports ")])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_87, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_88, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
                     name: "icon-pause-circle",
                     size: "20px",
-                    color: "secondary"
-                  }), _hoisted_88]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_89, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+                    color: "secondary",
+                    class: "q-pr-sm q-pt-xs"
+                  }), (0,vue_esm_bundler/* createTextVNode */.Uk)(" Pause or Cancel Anytime ")])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_89, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_90, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
                     name: "icon-arrow-circle-broken-up",
                     size: "20px",
-                    color: "secondary"
-                  }), _hoisted_90])])])]),
+                    color: "secondary",
+                    class: "q-pr-sm q-pt-xs"
+                  }), (0,vue_esm_bundler/* createTextVNode */.Uk)(" Upgrade or Downgrade Anytime ")])])])])]),
                   _: 1
                 }), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_separator), (0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
                   class: "full-width flex flex-center card-padding"
@@ -780,7 +788,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   })) : (0,vue_esm_bundler/* createCommentVNode */.kq)("", true);
 }
-;// CONCATENATED MODULE: ./src/pages/Misc/SignupPage.vue?vue&type=template&id=4adc26f0
+;// CONCATENATED MODULE: ./src/pages/Misc/SignupPage.vue?vue&type=template&id=2b1620d4
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.push.js
 var es_array_push = __webpack_require__(69665);
@@ -1293,4 +1301,4 @@ runtime_auto_import_default()(SignupPagevue_type_script_lang_js, 'components', {
 /***/ })
 
 }]);
-//# sourceMappingURL=582.185918da.js.map
+//# sourceMappingURL=670.18928296.js.map

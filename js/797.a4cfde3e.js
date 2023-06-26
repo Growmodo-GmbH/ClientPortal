@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[404],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[797],{
 
-/***/ 89404:
+/***/ 88797:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/BookACallPage.vue?vue&type=template&id=68eb28ce
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/BookACallPage.vue?vue&type=template&id=0c9cd48a
 
 const _hoisted_1 = {
   style: {
@@ -73,7 +73,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_1, [_hoisted_2, (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_3, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_4, [(0,vue_esm_bundler/* withDirectives */.wy)(((0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createBlock */.j4)(_component_q_card, {
       flat: "",
       bordered: "",
-      class: "card-quicklinks q-pa-lg hover-border-secondary bg-white rounded full-height slide-hover card-padding-md row"
+      class: "card-quicklinks q-pa-lg hover-border-secondary bg-white rounded full-height slide-hover card-padding-md row",
+      onClick: _cache[0] || (_cache[0] = $event => _ctx.openURL(_ctx.externalLinks?.support_call_link))
     }, {
       default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
         class: "text-left q-pa-none"
@@ -106,7 +107,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       flat: "",
       bordered: "",
       class: "card-quicklinks q-pa-lg hover-border-secondary bg-white rounded full-height slide-hover card-padding-md row",
-      onClick: _cache[0] || (_cache[0] = $event => _ctx.openURL(_ctx.externalLinks?.book_strategy_call_link))
+      onClick: _cache[1] || (_cache[1] = $event => _ctx.openURL(_ctx.externalLinks?.book_strategy_call_link))
     }, {
       default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_card_section, {
         class: "text-left q-pa-none"
@@ -139,7 +140,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/BookACallPage.vue?vue&type=template&id=68eb28ce
+;// CONCATENATED MODULE: ./src/pages/BookACallPage.vue?vue&type=template&id=0c9cd48a
 
 // EXTERNAL MODULE: ./src/components/Helpers/CardIconBox.vue + 4 modules
 var CardIconBox = __webpack_require__(16122);
@@ -218,4 +219,4 @@ runtime_auto_import_default()(BookACallPagevue_type_script_lang_js, 'components'
 /***/ })
 
 }]);
-//# sourceMappingURL=404.5889cf3e.js.map
+//# sourceMappingURL=797.a4cfde3e.js.map

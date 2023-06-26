@@ -265,7 +265,7 @@ var functions = __webpack_require__(1966);
   emits: ['answered', 'fileAdded', 'fileUploaded', 'fileRemoved', 'checked'],
   mixins: [mixins/* DynamicQuestions_Mixin */.r1],
   components: {
-    SelectBrand: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(207)]).then(__webpack_require__.bind(__webpack_require__, 40037))),
+    SelectBrand: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(64), __webpack_require__.e(449)]).then(__webpack_require__.bind(__webpack_require__, 74757))),
     SelectPlatforms: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => Promise.all(/* import() */[__webpack_require__.e(736), __webpack_require__.e(214)]).then(__webpack_require__.bind(__webpack_require__, 36214))),
     RadioSelect: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 423).then(__webpack_require__.bind(__webpack_require__, 98423))),
     CheckboxSelect: (0,vue_esm_bundler/* defineAsyncComponent */.RC)(() => __webpack_require__.e(/* import() */ 895).then(__webpack_require__.bind(__webpack_require__, 44895))),
@@ -383,4 +383,4 @@ runtime_auto_import_default()(DynamicQuestionsvue_type_script_lang_js, 'componen
 /***/ })
 
 }]);
-//# sourceMappingURL=208.3c89e7f9.js.map
+//# sourceMappingURL=208.9ea690b4.js.map

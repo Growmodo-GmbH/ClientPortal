@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[422],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[905],{
 
-/***/ 422:
+/***/ 67905:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/GiftPage.vue?vue&type=template&id=39fabe7e
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/pages/GiftPage.vue?vue&type=template&id=1390d777
 
 const _hoisted_1 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("div", {
   class: "text-h2 font-medium q-pb-md text-primary"
@@ -28,6 +28,7 @@ const _hoisted_3 = /*#__PURE__*/(0,vue_esm_bundler/* createElementVNode */._)("d
   class: "text-h6 font-medium padding-8t padding-5b text-primary-700"
 }, " Who do you want us to send a friendly email to? ", -1);
 const _hoisted_4 = {
+  ref: "referral_list",
   class: "scroll overflow-view",
   style: {
     "max-height": "275px"
@@ -133,7 +134,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                 "onUpdate:modelValue": $event => referr.email = $event,
                 placeholder: "Work Email"
               }, null, 8, ["modelValue", "onUpdate:modelValue"])])])])]);
-            }), 128))])]), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_11, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
+            }), 128))])], 512), (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_11, [(0,vue_esm_bundler/* createVNode */.Wm)(_component_q_icon, {
               name: "icon-plus",
               size: "sm",
               class: "cursor-pointer",
@@ -265,7 +266,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/pages/GiftPage.vue?vue&type=template&id=39fabe7e
+;// CONCATENATED MODULE: ./src/pages/GiftPage.vue?vue&type=template&id=1390d777
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.push.js
 var es_array_push = __webpack_require__(69665);
@@ -290,7 +291,10 @@ var es_array_push = __webpack_require__(69665);
   methods: {
     addReferral() {
       this.referrals.push({});
-      console.log('Add More Referral');
+      setTimeout(() => {
+        const el = this.$refs.referral_list || {};
+        el.scrollTop = el.scrollHeight;
+      }, 100);
     }
   }
 }));
@@ -341,4 +345,4 @@ runtime_auto_import_default()(GiftPagevue_type_script_lang_js, 'components', {QP
 /***/ })
 
 }]);
-//# sourceMappingURL=422.ab65ab44.js.map
+//# sourceMappingURL=905.d87c0570.js.map

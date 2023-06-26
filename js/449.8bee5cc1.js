@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[207],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[449],{
 
-/***/ 40037:
+/***/ 74757:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Brands/SelectBrand.vue?vue&type=template&id=32dd5dd8
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Brands/SelectBrand.vue?vue&type=template&id=4d3aa38d
 
 const _hoisted_1 = ["src", "alt"];
 const _hoisted_2 = {
@@ -184,7 +184,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   }, 8, ["dense", "onFilter", "modelValue", "options", "rules"]);
 }
-;// CONCATENATED MODULE: ./src/components/Brands/SelectBrand.vue?vue&type=template&id=32dd5dd8
+;// CONCATENATED MODULE: ./src/components/Brands/SelectBrand.vue?vue&type=template&id=4d3aa38d
 
 // EXTERNAL MODULE: ./src/components/Brands/CreateNewBrand.vue + 4 modules
 var CreateNewBrand = __webpack_require__(83957);
@@ -272,6 +272,7 @@ var functions = __webpack_require__(1966);
           const query_result = (0,functions.searchInObjectArray)(this.filteredBrandsOptions.slice(0, -1), val, ['brand_name', 'website']);
           this.filteredBrandsOptions = query_result.concat(newOpt);
         }
+        this.filteredBrandsOptions = this.filteredBrandsOptions.filter(e => !e.deleted_at);
       });
     }
   }
@@ -323,4 +324,4 @@ runtime_auto_import_default()(SelectBrandvue_type_script_lang_js, 'components', 
 /***/ })
 
 }]);
-//# sourceMappingURL=207.a9210f75.js.map
+//# sourceMappingURL=449.8bee5cc1.js.map

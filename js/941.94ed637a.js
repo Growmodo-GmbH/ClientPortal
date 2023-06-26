@@ -1,7 +1,7 @@
 "use strict";
-(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[774],{
+(globalThis["webpackChunkgrowmodo_hub"] = globalThis["webpackChunkgrowmodo_hub"] || []).push([[941],{
 
-/***/ 13774:
+/***/ 93941:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm-bundler.js + 6 modules
 var vue_esm_bundler = __webpack_require__(56646);
-;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Dialogs/UpgradeYourPlan.vue?vue&type=template&id=5b6a5f24
+;// CONCATENATED MODULE: ./node_modules/@quasar/app-webpack/lib/webpack/loader.js.transform-quasar-imports.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-2.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@quasar/app-webpack/lib/webpack/loader.vue.auto-import-quasar.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Dialogs/UpgradeYourPlan.vue?vue&type=template&id=38d465a6
 
 const _hoisted_1 = {
   class: "row q-col-gutter-md"
@@ -217,7 +217,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           class: "flex flex-center full-width full-inner",
           done: _ctx.formStep > 1
         }, {
-          default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_1, [_hoisted_2, (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_3, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_4, [((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(_ctx.subscription_Talents, item => {
+          default: (0,vue_esm_bundler/* withCtx */.w5)(() => [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_1, [_hoisted_2, (0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_3, [(0,vue_esm_bundler/* createElementVNode */._)("div", _hoisted_4, [((0,vue_esm_bundler/* openBlock */.wg)(true), (0,vue_esm_bundler/* createElementBlock */.iD)(vue_esm_bundler/* Fragment */.HY, null, (0,vue_esm_bundler/* renderList */.Ko)(_ctx.select_subscription_Talents, item => {
             return (0,vue_esm_bundler/* openBlock */.wg)(), (0,vue_esm_bundler/* createElementBlock */.iD)("div", {
               key: item,
               class: "col-6 col-sm-6 col-md-4"
@@ -402,7 +402,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   });
 }
-;// CONCATENATED MODULE: ./src/components/Dialogs/UpgradeYourPlan.vue?vue&type=template&id=5b6a5f24
+;// CONCATENATED MODULE: ./src/components/Dialogs/UpgradeYourPlan.vue?vue&type=template&id=38d465a6
 
 // EXTERNAL MODULE: ./src/assets/scripts/functions.js + 1 modules
 var functions = __webpack_require__(1966);
@@ -457,6 +457,9 @@ var date = __webpack_require__(54170);
   computed: {
     ...(0,pinia/* mapState */.rn)(user/* default */.Z, ['user', 'selectedOrg', 'selectedOrgIsMaintenance']),
     ...(0,pinia/* mapState */.rn)(growmodo/* default */.Z, ['maintenance', 'subscription', 'subscription_BillingTypes', 'subscription_Talents']),
+    select_subscription_Talents() {
+      return Object.values(this.subscription_Talents).filter(e => e?.value !== 0);
+    },
     subscription_billing_id() {
       return this.orgsubscription?.subscription_billing_id;
     },
@@ -610,4 +613,4 @@ runtime_auto_import_default()(UpgradeYourPlanvue_type_script_lang_js, 'component
 /***/ })
 
 }]);
-//# sourceMappingURL=774.1705cfb7.js.map
+//# sourceMappingURL=941.94ed637a.js.map
